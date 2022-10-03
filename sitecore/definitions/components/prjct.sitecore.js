@@ -4,7 +4,7 @@ import {
   CommonFieldTypes,
   SitecoreIcon,
   Manifest,
-} from '@sitecore-jss/sitecore-jss-manifest'
+} from '@sitecore-jss/sitecore-jss-dev-tools'
 
 export default function (manifest) {
   manifest.addComponent({
