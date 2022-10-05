@@ -40,7 +40,7 @@
   text-decoration: none;
 }
 
-.text01 {
+.text1 {
   font: normal 300px 24px/32px Roboto;
   color: rgba(34, 34, 34, 1);
   width: 748px;
@@ -49,88 +49,6 @@
   flex-grow: 0;
   align-self: stretch;
   text-align: left;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.text02 {
-  font: normal 300px 24px/32px Roboto;
-  color: rgba(34, 34, 34, 1);
-  width: 748px;
-  height: auto;
-  margin: 0 0 40px 0;
-  flex-grow: 0;
-  align-self: stretch;
-  text-align: left;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.text03 {
-  color: rgba(34, 34, 34, 1);
-  width: 748px;
-  height: auto;
-  flex-grow: 0;
-  align-self: stretch;
-  font-style: normal;
-  text-align: left;
-  font-weight: 300px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.text09 {
-  color: rgba(34, 34, 34, 1);
-  width: 748px;
-  height: auto;
-  flex-grow: 0;
-  align-self: stretch;
-  font-style: normal;
-  text-align: left;
-  font-weight: 500px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.text13 {
-  color: rgba(34, 34, 34, 1);
-  width: 748px;
-  height: auto;
-  flex-grow: 0;
-  align-self: stretch;
-  font-style: normal;
-  text-align: left;
-  font-weight: 300px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.text41 {
-  color: rgba(34, 34, 34, 1);
-  width: 748px;
-  height: auto;
-  flex-grow: 0;
-  align-self: stretch;
-  font-style: normal;
-  text-align: left;
-  font-weight: 500px;
-  font-stretch: normal;
-  text-decoration: none;
-}
-
-.text42 {
-  font-weight: bold;
-}
-
-.text45 {
-  color: rgba(34, 34, 34, 1);
-  width: 748px;
-  height: auto;
-  flex-grow: 0;
-  align-self: stretch;
-  font-style: normal;
-  text-align: left;
-  font-weight: 300px;
   font-stretch: normal;
   text-decoration: none;
 }
