@@ -21,7 +21,7 @@ export default function (manifest) {
       {
         name: 'text',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'iPhone 14 Pro',
+        standardValue: 'iPhone 14 Pro ',
       },
       {
         name: 'text1',
@@ -40,11 +40,6 @@ export default function (manifest) {
       {
         name: 'bgImage3',
         type: CommonFieldTypes.Image,
-      },
-      {
-        name: 'text3',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Learn more',
       },
       {
         name: 'bgImage4',

@@ -1,3 +1,19 @@
+.button-default {
+  display: flex;
+  font-size: 16px;
+  min-width: 30px;
+  min-height: 24px;
+  align-items: center;
+  font-family: SF Pro Display;
+  padding-top: 4px;
+  padding-left: 8px;
+  border-radius: 3px;
+  padding-right: 8px;
+  flex-direction: column;
+  padding-bottom: 4px;
+  justify-content: center;
+  background-color: #d9d9d9;
+}
 .container {
   width: 100%;
   height: 715px;
@@ -99,6 +115,8 @@
   border-color: transparent;
 }
 .container04 {
+  width: 224px;
+  height: 63px;
   display: flex;
   position: relative;
   flex-grow: 0;
@@ -110,21 +128,14 @@
   border-color: transparent;
   margin-right: 42px;
   margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 0);
 }
-.text3 {
-  color: rgba(41, 151, 255, 1);
-  width: 106px;
-  height: auto;
-  flex-grow: 0;
-  font-size: 20px;
-  align-self: auto;
-  font-style: normal;
-  text-align: left;
-  font-family: SF Pro Text;
-  font-weight: 500;
-  line-height: normal;
-  font-stretch: normal;
-  text-decoration: none;
+.button {
+  color: rgba(63, 103, 228, 1);
+  width: 156px;
+  height: 40px;
+  border-style: none;
+  background-color: rgba(217, 217, 217, 0);
 }
 .container05 {
   width: 16px;
@@ -171,7 +182,7 @@
   flex-shrink: 1;
   border-color: transparent;
 }
-.text4 {
+.text3 {
   color: rgba(41, 151, 255, 1);
   width: 91px;
   height: auto;
@@ -224,7 +235,7 @@
 }
 .image2 {
   width: 600px;
-  height: 461px;
+  height: 427px;
   position: relative;
   flex-grow: 0;
   box-sizing: border-box;

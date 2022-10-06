@@ -1,7 +1,12 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, Image } from 'kajoo-components/sitecore-nextjs'
+import {
+  Container,
+  Text,
+  Button,
+  Image,
+} from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -31,7 +36,10 @@ const NewFigmaComponent = (props) => {
               bgImage={props.fields.bgImage3}
               className={styles['container04']}
             >
-              <Text text={props.fields.text3} className={styles['text3']} />
+              <Button
+                text="Button"
+                className={` ${styles['button']} ${styles['new-figma-component-button-default']} `}
+              />
               <Container
                 bgImage={props.fields.bgImage4}
                 className={styles['container05']}
@@ -52,7 +60,7 @@ const NewFigmaComponent = (props) => {
               bgImage={props.fields.bgImage6}
               className={styles['container07']}
             >
-              <Text text={props.fields.text4} className={styles['text4']} />
+              <Text text={props.fields.text4} className={styles['text3']} />
               <Container
                 bgImage={props.fields.bgImage7}
                 className={styles['container08']}
