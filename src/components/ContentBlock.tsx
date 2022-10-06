@@ -1,24 +1,52 @@
-import { Text, RichText, Field, withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
-import { ComponentProps } from 'lib/component-props';
+/* eslint-disable */
+// @ts-nocheck
+import React from 'react'
+import { Container, Text, Image } from 'kajoo-components/sitecore-nextjs'
 
-type ContentBlockProps = ComponentProps & {
-  fields: {
-    heading: Field<string>;
-    content: Field<string>;
-  };
-};
+import PropTypes from 'prop-types'
 
-/**
- * A simple Content Block component, with a heading and rich text block.
- * This is the most basic building block of a content site, and the most basic
- * JSS component that's useful.
- */
-const ContentBlock = ({ fields }: ContentBlockProps): JSX.Element => (
-  <div className="contentBlock">
-    <Text tag="h2" className="contentTitle" field={fields.heading} />
+import styles from './ContentBlock.module.css'
 
-    <RichText className="contentDescription" field={fields.content} />
-  </div>
-);
+const ArticleBlog = (props) => {
+  return (
+    <Container className={styles['root']}>
+      <Text
+        text={props.heading}
+        tag="span"
+        className={` ${styles['text']} ${styles['article-blog-header-header-677']} `}
+      />
+      <Image
+        src={props.image_src}
+        alt={props.image_alt}
+        className={` ${styles['image']} ${styles['article-blog-image-default']} `}
+      />
+      <Text
+        text={props.text1}
+        tag="span"
+        className={` ${styles['text1']} ${styles['article-blog-text-test-12']} `}
+      />
+      <Text text={props.text} tag="span" className={styles['text2']} />
+      <Text text={props.text} tag="span" className={styles['text3']} />
+    </Container>
+  )
+}
 
-export default withDatasourceCheck()<ContentBlockProps>(ContentBlock);
+ArticleBlog.defaultProps = {
+  heading:
+    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
+  image_src: '/icons/default-imag.svg',
+  image_alt: '',
+  text1:
+    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
+  text: 'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
+}
+
+ArticleBlog.propTypes = {
+  heading: PropTypes.string,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
+  text1: PropTypes.string,
+  text: PropTypes.string,
+}
+
+export default ArticleBlog
