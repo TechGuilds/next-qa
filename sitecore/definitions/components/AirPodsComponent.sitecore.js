@@ -9,6 +9,7 @@ export default function (manifest) {
     name: 'AirPodsComponent',
     displayName: 'AirPodsComponent',
     icon: SitecoreIcon.DocumentTag,
+    placeholders: ['jss-main'],
     fields: [
       {
         name: 'bgImage',
