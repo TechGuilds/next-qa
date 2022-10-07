@@ -9,6 +9,7 @@ export default function (manifest) {
     name: 'DemoComp',
     displayName: 'DemoComp',
     icon: SitecoreIcon.DocumentTag,
+    placeholders: ['jss-main'],
     fields: [
       {
         name: 'text',
