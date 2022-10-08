@@ -35,7 +35,9 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
       <VisitorIdentification />
 
       {/* root placeholder for the app, which we add components to using route data */}
-      <div className="container-fluid">{route && <Placeholder name="jss-main" rendering={route} />}</div>
+      <div className="container-fluid">
+        {route && <Placeholder name="jss-main" rendering={route} />}
+      </div>
     </>
   );
 };
