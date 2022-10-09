@@ -66,6 +66,7 @@
 
 .container3 {
   padding: 0 565px;
+  width: 100%;
   display: flex;
   position: relative;
   flex-grow: 0;
@@ -100,4 +101,35 @@
   text-align: center;
   font-stretch: normal;
   text-decoration: none;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container1 {
+    width: 100%;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .container3 {
+    width: 100%;
+    display: flex;
+    padding: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: row;
+    padding-bottom: 0px;
+    justify-content: center;
+  }
 }

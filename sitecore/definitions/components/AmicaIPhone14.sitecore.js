@@ -9,7 +9,7 @@ export default function (manifest) {
     name: 'AmicaIPhone14',
     displayName: 'AmicaIPhone14',
     icon: SitecoreIcon.DocumentTag,
-    placeholders: ['jss-main'],
+    allowedPlaceholders: ['jss-main'],
     fields: [
       {
         name: 'bgImage',

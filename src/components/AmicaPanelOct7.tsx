@@ -9,7 +9,7 @@ import styles from './AmicaPanelOct7.module.css'
 
 const AmicaPanelOct7 = (props) => {
   return (
-    <Container>
+    <Container className={styles['main']}>
       <Container bgImage className={styles['container']}>
         <Container
           bgImage={props.fields.bgImage}
