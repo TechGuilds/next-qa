@@ -19,7 +19,7 @@ const DemoComp = (props) => {
       <Text
         text={props.fields.text}
         tag="span"
-        className={` ${styles['text']} ${styles['demo-comp-header-default']} `}
+        className={` ${styles['text']} ${styles['demo-comp-header-header-677']} `}
       />
       <Image
         src={props.fields.src}

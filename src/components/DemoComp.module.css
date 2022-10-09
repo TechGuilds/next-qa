@@ -31,9 +31,24 @@
   justify-content: center;
 }
 
-.header-default {
-  font: 2em Roboto;
-  color: rgba(167, 2, 52, 255);
+.header-header-677 {
+  font: bold larger Verdana;
+  background: rgba(255, 255, 255, 0);
+  color: orange;
+  width: 100px;
+  border: 1px dashed rgb(187, 187, 187);
+  height: 75px;
+  margin: unset unset unset unset;
+  display: flex;
+  min-width: 20px;
+  max-height: 100%;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 20px;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-user-drag: none;
 }
 
 .root {
