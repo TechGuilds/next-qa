@@ -19,17 +19,17 @@ const DemoComp = (props) => {
       <Text
         text={props.fields.text}
         tag="span"
-        className={` ${styles['text']} ${styles['demo-comp-header-header-677']} `}
+        className={` ${styles['text']} ${styles['header-header-677']} `}
       />
       <Image
         src={props.fields.src}
         alt={props.fields.alt}
-        className={` ${styles['image']} ${styles['demo-comp-image-default']} `}
+        className={` ${styles['image']} ${styles['image-default']} `}
       />
       <RichText value={props.fields.value} className={styles['richtext']} />
       <Link
         href={props.fields.href}
-        className={` ${styles['link']} ${styles['demo-comp-link-default']} `}
+        className={` ${styles['link']} ${styles['link-default']} `}
       />
     </Container>
   )
