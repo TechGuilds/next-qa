@@ -3,5 +3,12 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+.richtext {
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+  min-width: 100px;
 }
