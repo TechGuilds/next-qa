@@ -9,7 +9,7 @@ export default function (manifest) {
     name: 'AmicaBackToLife',
     displayName: 'AmicaBackToLife',
     icon: SitecoreIcon.DocumentTag,
-    placeholders: ['jss-main'],
+    allowedPlaceholders: ['jss-main'],
     fields: [
       {
         name: 'bgImage',
