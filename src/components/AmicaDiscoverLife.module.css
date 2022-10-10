@@ -1,6 +1,6 @@
 .container {
   padding: 0 176.25px;
-  width: 1410px;
+  width: 100%;
   display: flex;
   position: relative;
   flex-grow: 0;
@@ -13,7 +13,7 @@
 
 .container1 {
   padding: 32px 15px 12.796875px;
-  width: 1058px;
+  width: 100%;
   display: flex;
   position: relative;
   flex-grow: 0;
@@ -25,12 +25,13 @@
 }
 
 .container2 {
-  padding: 0 330.25px;
+  padding: 0px;
   margin: 0 0 48px;
   display: flex;
+  padding: 0px;
   position: relative;
   flex-grow: 0;
-  align-self: stretch;
+  align-self: center;
   box-sizing: border-box;
   align-items: flex-start;
   flex-shrink: 1;
@@ -51,7 +52,7 @@
 
 .container3 {
   padding: 0 68.75px;
-  width: 1027.5px;
+  width: 100%;
   display: flex;
   position: relative;
   flex-grow: 0;
@@ -66,7 +67,6 @@
   font: normal 400 16px/28.799999237060547px Open Sans;
   margin: 0 0 13px;
   color: rgba(101, 101, 103, 1);
-  width: 890px;
   height: auto;
   flex-grow: 0;
   align-self: stretch;
@@ -79,7 +79,6 @@
   font: normal 700 16px/28.799999237060547px Open Sans;
   margin: 0 0 13px;
   color: rgba(101, 101, 103, 1);
-  width: 890px;
   height: auto;
   flex-grow: 0;
   align-self: stretch;
@@ -92,7 +91,6 @@
   font: normal 400 16px/28.799999237060547px Open Sans;
   margin: 0 0 13px;
   color: rgba(101, 101, 103, 1);
-  width: 890px;
   height: auto;
   flex-grow: 0;
   align-self: stretch;
@@ -105,7 +103,6 @@
   font: normal 700 16px/28.799999237060547px Open Sans;
   margin: 0 0 13px;
   color: rgba(101, 101, 103, 1);
-  width: 890px;
   height: auto;
   flex-grow: 0;
   align-self: stretch;
@@ -118,7 +115,6 @@
   font: normal 700 16px/28.799999237060547px Open Sans;
   margin: 0 0 13px;
   color: rgba(101, 101, 103, 1);
-  width: 890px;
   height: auto;
   flex-grow: 0;
   align-self: stretch;
@@ -130,11 +126,54 @@
 .richtext3 {
   font: normal 700 16px/28.799999237060547px Open Sans;
   color: rgba(101, 101, 103, 1);
-  width: 890px;
   height: auto;
   flex-grow: 0;
   align-self: stretch;
   text-align: left;
   font-stretch: normal;
   text-decoration: none;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    padding-top: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    background-color: rgba(247, 247, 247, 1);
+  }
+
+  .container2 {
+    padding: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .text {
+    width: 100%;
+  }
+
+  .container3 {
+    padding: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+  }
 }
