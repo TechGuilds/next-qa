@@ -9,14 +9,7 @@ export default function (manifest) {
     name: 'Component',
     displayName: 'Component',
     icon: SitecoreIcon.DocumentTag,
-    placeholders: ['jss-main'],
-    fields: [
-      {
-        name: 'text',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue:
-          'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
-      },
-    ],
+    allowedPlaceholders: ['jss-main'],
+    fields: [],
   })
 }
