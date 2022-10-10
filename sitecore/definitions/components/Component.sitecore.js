@@ -9,6 +9,7 @@ export default function (manifest) {
     name: 'Component',
     displayName: 'Component',
     icon: SitecoreIcon.DocumentTag,
+    allowedPlaceholders: ['jss-main'],
     fields: [
       {
         name: 'bgImage1',

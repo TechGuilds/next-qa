@@ -9,6 +9,7 @@ export default function (manifest) {
     name: 'NewFigmaComponent',
     displayName: 'NewFigmaComponent',
     icon: SitecoreIcon.DocumentTag,
+    allowedPlaceholders: ['jss-main'],
     fields: [
       {
         name: 'bgImage',
