@@ -7,7 +7,7 @@ import PropTypes from 'prop-types'
 
 import styles from './AirPodsComponent.module.css'
 
-const AppleAirPodsComponent = (props) => {
+const AppleAirPodsComponent1 = (props) => {
   return (
     <Container>
       <Container bgImage className={styles['container']}>
@@ -71,7 +71,7 @@ const AppleAirPodsComponent = (props) => {
   )
 }
 
-AppleAirPodsComponent.defaultProps = {
+AppleAirPodsComponent1.defaultProps = {
   bgImage: '',
   bgImage1: '',
   text: 'iPhone 14 ',
@@ -96,7 +96,7 @@ AppleAirPodsComponent.defaultProps = {
   alt2: 'heroiphone14preorderc4g2wjzuugqelargetall2x128614802',
 }
 
-AppleAirPodsComponent.propTypes = {
+AppleAirPodsComponent1.propTypes = {
   bgImage: PropTypes.string,
   bgImage1: PropTypes.string,
   text: PropTypes.string,
@@ -121,4 +121,4 @@ AppleAirPodsComponent.propTypes = {
   alt2: PropTypes.string,
 }
 
-export default AppleAirPodsComponent
+export default AppleAirPodsComponent1
