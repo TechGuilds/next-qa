@@ -12,14 +12,6 @@ export default function (manifest) {
     allowedPlaceholders: ['jss-main'],
     fields: [
       {
-        name: 'bgImage',
-        type: CommonFieldTypes.Image,
-      },
-      {
-        name: 'bgImage1',
-        type: CommonFieldTypes.Image,
-      },
-      {
         name: 'text',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'iPhone 14 Pro',
@@ -35,25 +27,9 @@ export default function (manifest) {
         standardValue: 'Available starting 9:16',
       },
       {
-        name: 'bgImage2',
-        type: CommonFieldTypes.Image,
-      },
-      {
-        name: 'bgImage3',
-        type: CommonFieldTypes.Image,
-      },
-      {
         name: 'text4',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'Learn more',
-      },
-      {
-        name: 'bgImage4',
-        type: CommonFieldTypes.Image,
-      },
-      {
-        name: 'bgImage5',
-        type: CommonFieldTypes.Image,
       },
       {
         name: 'src',
@@ -67,21 +43,9 @@ export default function (manifest) {
         standardValue: 'arrowright128614779',
       },
       {
-        name: 'bgImage6',
-        type: CommonFieldTypes.Image,
-      },
-      {
         name: 'text5',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'Pre-order',
-      },
-      {
-        name: 'bgImage7',
-        type: CommonFieldTypes.Image,
-      },
-      {
-        name: 'bgImage8',
-        type: CommonFieldTypes.Image,
       },
       {
         name: 'src1',
@@ -105,10 +69,6 @@ export default function (manifest) {
         type: CommonFieldTypes.SingleLineText,
         standardValue:
           'heroiphone14propreordercc1jjc6hq7malargetall2x128614785',
-      },
-      {
-        name: 'bgImage9',
-        type: CommonFieldTypes.Image,
       },
     ],
   })

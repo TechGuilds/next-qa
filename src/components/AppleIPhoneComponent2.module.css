@@ -1,6 +1,13 @@
+.paragraph-default {
+  overflow: hidden;
+  font-size: 24px;
+  min-width: 30px;
+  font-family: SF Pro Text;
+  -webkit-user-drag: none;
+}
 .container {
   width: 1512px;
-  height: 774px;
+  height: 715px;
   display: flex;
   position: relative;
   flex-grow: 0;
@@ -245,8 +252,3 @@
   border-color: transparent;
 }
 
-@media(max-width: 1280px) {
-  .container {
-    width: 100%;
-  }
-}
