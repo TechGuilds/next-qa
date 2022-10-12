@@ -1,34 +1,34 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Button } from 'kajoo-components/sitecore-nextjs'
+import { Container, Link } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './Btn.module.css'
+import styles from './LinkComponent.module.css'
 
-const Btn = (props) => {
+const LinkComponent = (props) => {
   return (
     <Container className={styles['root']}>
       <Container
         className={` ${styles['container']} ${styles['container-default']} `}
       >
-        <Button
+        <Link
+          href={props.fields.href}
           text={props.fields.text}
-          link={props.fields.link}
-          className={styles['button-default']}
+          className={` ${styles['link']} ${styles['link-default']} `}
         />
       </Container>
     </Container>
   )
 }
 
-Btn.defaultProps = {
+LinkComponent.defaultProps = {
   fields: {},
 }
 
-Btn.propTypes = {
+LinkComponent.propTypes = {
   fields: PropTypes.object,
 }
 
-export default Btn
+export default LinkComponent
