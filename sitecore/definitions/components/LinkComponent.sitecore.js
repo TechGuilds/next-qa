@@ -14,12 +14,8 @@ export default function (manifest) {
       {
         name: 'href',
         type: CommonFieldTypes.GeneralLink,
-        standardValue: 'www.example.com',
-      },
-      {
-        name: 'text',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Link',
+        standardValue:
+          '<link linktype="external" url="http://www.example.com" anchor="" target="" />',
       },
     ],
   })
