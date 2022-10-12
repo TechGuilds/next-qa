@@ -15,7 +15,7 @@ const LinkComponent = (props) => {
       >
         <Link
           href={props.fields.href}
-          text="Link"
+          text={props.fields.text}
           className={` ${styles['link']} ${styles['link-default']} `}
         />
       </Container>
