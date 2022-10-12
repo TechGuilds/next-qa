@@ -1,0 +1,260 @@
+.container {
+  width: 100%;
+  display: flex;
+  padding: 0px;
+  position: relative;
+  flex-grow: 0;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 1;
+  padding-top: 0px;
+  border-color: transparent;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: row;
+  padding-bottom: 0px;
+  justify-content: center;
+  background-color: rgba(49, 49, 50, 1);
+}
+.image {
+  width: 14px;
+  height: 44px;
+  position: relative;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin-top: 0;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-left: 0;
+  border-color: transparent;
+  margin-right: 45px;
+  margin-bottom: 0;
+}
+.container1 {
+  display: flex;
+  position: relative;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin-top: 0;
+  align-items: flex-start;
+  flex-shrink: 1;
+  margin-left: 0;
+  border-color: transparent;
+  margin-right: 45px;
+  margin-bottom: 0;
+}
+.text {
+  color: rgba(245, 245, 247, 1);
+  height: auto;
+  flex-grow: 0;
+  font-size: 12px;
+  align-self: auto;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: 44px;
+  margin-left: 0;
+  font-stretch: normal;
+  margin-right: 44px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text01 {
+  color: rgba(245, 245, 247, 1);
+  height: auto;
+  flex-grow: 0;
+  font-size: 12px;
+  align-self: auto;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: 44px;
+  margin-left: 0;
+  font-stretch: normal;
+  margin-right: 44px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text02 {
+  color: rgba(245, 245, 247, 1);
+  height: auto;
+  flex-grow: 0;
+  font-size: 12px;
+  align-self: auto;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: 44px;
+  margin-left: 0;
+  font-stretch: normal;
+  margin-right: 44px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text03 {
+  color: rgba(245, 245, 247, 1);
+  height: auto;
+  flex-grow: 0;
+  font-size: 12px;
+  align-self: auto;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: 44px;
+  margin-left: 0;
+  font-stretch: normal;
+  margin-right: 44px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text04 {
+  color: rgba(245, 245, 247, 1);
+  height: auto;
+  flex-grow: 0;
+  font-size: 12px;
+  align-self: auto;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: 44px;
+  margin-left: 0;
+  font-stretch: normal;
+  margin-right: 44px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text05 {
+  color: rgba(245, 245, 247, 1);
+  height: auto;
+  flex-grow: 0;
+  font-size: 12px;
+  align-self: auto;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: 44px;
+  margin-left: 0;
+  font-stretch: normal;
+  margin-right: 44px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text06 {
+  color: rgba(245, 245, 247, 1);
+  height: auto;
+  flex-grow: 0;
+  font-size: 12px;
+  align-self: auto;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: 44px;
+  margin-left: 0;
+  font-stretch: normal;
+  margin-right: 44px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text07 {
+  color: rgba(245, 245, 247, 1);
+  height: auto;
+  flex-grow: 0;
+  font-size: 12px;
+  align-self: auto;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: 44px;
+  margin-left: 0;
+  font-stretch: normal;
+  margin-right: 44px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text08 {
+  color: rgba(245, 245, 247, 1);
+  height: auto;
+  flex-grow: 0;
+  font-size: 12px;
+  align-self: auto;
+  font-style: normal;
+  margin-top: 0;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: 44px;
+  margin-left: 0;
+  font-stretch: normal;
+  margin-right: 44px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text09 {
+  color: rgba(245, 245, 247, 1);
+  height: auto;
+  flex-grow: 0;
+  font-size: 12px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: SF Pro Text;
+  font-weight: 400;
+  line-height: 44px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.image1 {
+  width: 15px;
+  height: 44px;
+  position: relative;
+  flex-grow: 0;
+  box-sizing: border-box;
+  margin-top: 0;
+  object-fit: cover;
+  flex-shrink: 0;
+  margin-left: 0;
+  border-color: transparent;
+  margin-right: 45px;
+  margin-bottom: 0;
+}
+.container2 {
+  width: 13px;
+  height: 44px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.image2 {
+  top: 0px;
+  left: 0px;
+  width: 13px;
+  height: 44px;
+  position: absolute;
+  flex-grow: 0;
+  box-sizing: border-box;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+
