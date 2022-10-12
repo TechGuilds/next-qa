@@ -22,6 +22,16 @@ export default function (manifest) {
         standardValue: 'www.google.com',
         source: '/sitecore/media library',
       },
+      {
+        name: 'text1',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Button',
+      },
+      {
+        name: 'link1',
+        type: CommonFieldTypes.ItemLink,
+        source: '/sitecore/media library',
+      },
     ],
   })
 }

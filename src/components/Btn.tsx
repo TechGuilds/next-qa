@@ -19,6 +19,11 @@ const Btn = (props) => {
           className={styles['button-default']}
         />
       </Container>
+      <Button
+        text={props.fields.text1}
+        link={props.fields.link1}
+        className={styles['button-default']}
+      />
     </Container>
   )
 }
