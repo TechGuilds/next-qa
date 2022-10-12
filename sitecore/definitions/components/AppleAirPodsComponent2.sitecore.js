@@ -12,14 +12,6 @@ export default function (manifest) {
     allowedPlaceholders: ['jss-main'],
     fields: [
       {
-        name: 'bgImage',
-        type: CommonFieldTypes.Image,
-      },
-      {
-        name: 'bgImage1',
-        type: CommonFieldTypes.Image,
-      },
-      {
         name: 'text',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'iPhone 14 ',
@@ -28,10 +20,6 @@ export default function (manifest) {
         name: 'text1',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'Big and bigger.',
-      },
-      {
-        name: 'bgImage2',
-        type: CommonFieldTypes.Image,
       },
       {
         name: 'text2',
@@ -44,25 +32,9 @@ export default function (manifest) {
         standardValue: 'iPhone 14 Plus available starting 10.7',
       },
       {
-        name: 'bgImage3',
-        type: CommonFieldTypes.Image,
-      },
-      {
-        name: 'bgImage4',
-        type: CommonFieldTypes.Image,
-      },
-      {
         name: 'text4',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'Learn more',
-      },
-      {
-        name: 'bgImage5',
-        type: CommonFieldTypes.Image,
-      },
-      {
-        name: 'bgImage6',
-        type: CommonFieldTypes.Image,
       },
       {
         name: 'src',
@@ -76,21 +48,9 @@ export default function (manifest) {
         standardValue: 'arrowrightI128614798128614779',
       },
       {
-        name: 'bgImage7',
-        type: CommonFieldTypes.Image,
-      },
-      {
         name: 'text5',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'Pre-order',
-      },
-      {
-        name: 'bgImage8',
-        type: CommonFieldTypes.Image,
-      },
-      {
-        name: 'bgImage9',
-        type: CommonFieldTypes.Image,
       },
       {
         name: 'src1',

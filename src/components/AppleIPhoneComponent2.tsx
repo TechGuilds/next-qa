@@ -13,10 +13,7 @@ const AppleIPhoneComponent2 = (props) => {
       <Container bgImage className={styles['container']}>
         <Container bgImage className={styles['container01']}>
           <Container bgImage className={styles['container02']}>
-            <Text
-              text={props.fields.text}
-              className={` ${styles['text']} ${styles['paragraph-default']} `}
-            />
+            <Text text={props.fields.text} className={styles['text']} />
             <Text text={props.fields.text1} className={styles['text1']} />
           </Container>
           <Text text={props.fields.text2} className={styles['text2']} />
@@ -47,12 +44,6 @@ const AppleIPhoneComponent2 = (props) => {
             </Container>
           </Container>
         </Container>
-        <Image
-          src={props.fields.src2}
-          alt={props.fields.alt2}
-          className={styles['image2']}
-        />
-        <Container bgImage className={styles['container10']} />
       </Container>
     </Container>
   )

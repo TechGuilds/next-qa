@@ -1,16 +1,17 @@
 .container {
+  width: 100%;
   display: flex;
   position: relative;
   flex-grow: 0;
   box-sizing: border-box;
   align-items: center;
   flex-shrink: 1;
-  padding-top: 50px;
+  padding-top: 64px;
   border-color: transparent;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 200px;
+  padding-right: 200px;
   flex-direction: column;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   background-color: rgba(251, 251, 253, 1);
 }
 .container01 {
@@ -108,8 +109,7 @@
 }
 .text3 {
   color: rgba(134, 134, 139, 1);
-  width: 328px;
-  height: 48px;
+  height: auto;
   flex-grow: 0;
   font-size: 20px;
   align-self: auto;
@@ -265,3 +265,19 @@
   border-color: transparent;
 }
 
+@media(max-width: 1280px) {
+  .container {
+    padding-top: 64px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 0;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    padding-top: 64px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0;
+  }
+}
