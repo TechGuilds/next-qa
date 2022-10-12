@@ -30,16 +30,6 @@ export default function (manifest) {
         type: CommonFieldTypes.ItemLink,
         source: '/sitecore/media library',
       },
-      {
-        name: 'mode',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'widget',
-      },
-      {
-        name: 'buttonText',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Typeform',
-      },
     ],
   })
 }

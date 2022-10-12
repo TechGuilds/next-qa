@@ -10,7 +10,6 @@ import {
   Button,
   Textinput,
   Textarea,
-  TypeForm,
   Radiobutton,
   Dropdown,
   Checkbox,
@@ -64,12 +63,6 @@ const AllElements = (props) => {
               className={` ${styles['textarea']} ${styles['textarea-default']} `}
             />
           </Container>
-          <TypeForm
-            formId="Jgy4zwGT"
-            mode={props.fields.mode}
-            buttonText={props.fields.buttonText}
-            className={styles['type-form']}
-          />
           <Radiobutton
             className={` ${styles['radiobutton']} ${styles['radiobutton-default']} `}
           />
