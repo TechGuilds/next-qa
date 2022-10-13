@@ -14,7 +14,7 @@ export default function (manifest) {
       {
         name: 'text',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'LinkStaticHref',
+        standardValue: 'Button',
       },
     ],
   })
