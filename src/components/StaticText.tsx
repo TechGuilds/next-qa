@@ -9,47 +9,22 @@ import styles from './StaticText.module.css'
 
 const StaticText = (props) => {
   return (
-    <Container className={styles['root']}>
-   <ErrorBoundary param={props}>
-
+    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Link
-        href={props.fields.href}
+        href={props.fields.href3}
         className={` ${styles['link']} ${styles['link-link-style-2']} `}
       />
-      </ErrorBoundary>
     </Container>
   )
 }
-class ErrorBoundary extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { hasError: false };
-  }
 
-  static getDerivedStateFromError(error) {
-    // Update state so the next render will show the fallback UI.
-    return { hasError: true };
-  }
-
-  componentDidCatch(error, errorInfo) {
-    // You can also log the error to an error reporting service
-    console.log("StaticTextError",error, errorInfo,props?.param);
-  }
-
-  render() {
-    if (this.state.hasError) {
-      // You can render any custom fallback UI
-      return <h1>Something went wrong.</h1>;
-    }
-
-    return this.props.children; 
-  }
-}
 StaticText.defaultProps = {
+  rootClassName: '',
   fields: {},
 }
 
 StaticText.propTypes = {
+  rootClassName: PropTypes.string,
   fields: PropTypes.object,
 }
 

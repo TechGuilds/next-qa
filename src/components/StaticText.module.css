@@ -16,5 +16,6 @@
 }
 
 .link {
-  height: fit-content;
+  width: 270px;
+  height: 75px;
 }

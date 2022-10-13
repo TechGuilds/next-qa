@@ -12,10 +12,10 @@ export default function (manifest) {
     allowedPlaceholders: ['jss-main'],
     fields: [
       {
-        name: 'href',
+        name: 'href3',
         type: CommonFieldTypes.GeneralLink,
         standardValue:
-          "<link text='StaticText' linktype='external' url='www.google.com' anchor='' target=''/>",
+          "<link text='fdfdf' linktype='external' url='www.example.com' anchor='' target=''/>",
       },
     ],
   })
