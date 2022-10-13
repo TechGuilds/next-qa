@@ -16,7 +16,7 @@ const BgImageTest = (props) => {
         <Container className={styles['container1']}>
           <Container className={styles['container2']}>
             <Text
-              text={props.fields.text}
+              text="Heading"
               tag="h1"
               className={` ${styles['text']} ${styles['header-default']} `}
             />
@@ -31,11 +31,11 @@ const BgImageTest = (props) => {
 }
 
 BgImageTest.defaultProps = {
-  fields: {},
+  XAjoWKG5c2RVEsyillE_N: 'Heading',
 }
 
 BgImageTest.propTypes = {
-  fields: PropTypes.object,
+  XAjoWKG5c2RVEsyillE_N: PropTypes.string,
 }
 
 export default BgImageTest
