@@ -1,0 +1,18 @@
+.link-link-style {
+  background: rgba(167, 2, 52, 255);
+  color: rgba(255, 255, 255, 1);
+  width: 321px;
+  height: 24px;
+}
+
+.root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  width: 321px;
+  height: 96px;
+}
