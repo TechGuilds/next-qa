@@ -8,7 +8,6 @@ import PropTypes from 'prop-types'
 import styles from './StaticText.module.css'
 
 const StaticText = (props) => {
-  console.log("props",props)
   return (
     <Container className={styles['root']}>
       <Link
