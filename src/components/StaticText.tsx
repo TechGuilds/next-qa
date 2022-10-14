@@ -11,7 +11,8 @@ const StaticText = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Link
-        href={props.fields.href3}
+        href="www.example.com"
+        text="fdfdf"
         className={` ${styles['link']} ${styles['link-link-style-2']} `}
       />
     </Container>

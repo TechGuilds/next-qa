@@ -10,7 +10,7 @@ import styles from './StaticHref.module.css'
 const StaticHref = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Button link={props.fields.link} className={styles['button-default']} />
+      <Button text="Button" link="ww" className={styles['button-default']} />
     </Container>
   )
 }

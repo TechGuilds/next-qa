@@ -10,13 +10,6 @@ export default function (manifest) {
     displayName: 'StaticText',
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
-    fields: [
-      {
-        name: 'href3',
-        type: CommonFieldTypes.GeneralLink,
-        standardValue:
-          "<link text='fdfdf' linktype='external' url='www.example.com' anchor='' target=''/>",
-      },
-    ],
+    fields: [],
   })
 }
