@@ -12,6 +12,7 @@ const NewStaticLinkElementText = (props) => {
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Link
         text={props.fields.text1}
+        href="www.example.com"
         className={` ${styles['link']} ${styles['link-link-style-2']} `}
       />
     </Container>
