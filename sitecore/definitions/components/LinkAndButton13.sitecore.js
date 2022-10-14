@@ -6,16 +6,21 @@ import {
 
 export default function (manifest) {
   manifest.addComponent({
-    name: 'StaticText',
-    displayName: 'StaticText',
+    name: 'LinkAndButton13',
+    displayName: 'LinkAndButton13',
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     fields: [
       {
-        name: 'href3',
+        name: 'text',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Click Me!',
+      },
+      {
+        name: 'href',
         type: CommonFieldTypes.GeneralLink,
         standardValue:
-          "<link text='fdfdf' linktype='external' url='www.example.com' anchor='' target=''/>",
+          "<link text='Link Me' linktype='external' url='#' anchor='' target=''/>",
       },
     ],
   })

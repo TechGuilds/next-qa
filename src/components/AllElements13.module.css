@@ -1,0 +1,239 @@
+.checkbox-default {
+  border: 0px none rgb(187, 187, 187);
+  background: #FFFFFF00;
+  display: flex;
+  min-width: 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dropdown-default {
+  border: 0px none #666666;
+  font: 16px SF Pro Text;
+  background: #9e9e9ed9;
+  height: 40px;
+  display: flex;
+  min-width: 100px;
+  align-items: center;
+  border-radius: 3px;
+  justify-content: center;
+}
+
+.button-default {
+  font: 16px SF Pro Text;
+  background: #d9d9d9;
+  padding: 4px 8px;
+  display: flex;
+  min-width: 30px;
+  min-height: 24px;
+  align-items: center;
+  border-radius: 3px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link-default {
+  border: 0px none rgb(187, 187, 187);
+  font: 16px SF Pro Text;
+  background: #FFFFFF00;
+  width: 100px;
+  height: 75px;
+  display: flex;
+  overflow: hidden;
+  min-width: 30px;
+  align-self: flex-start;
+  max-height: 100%;
+  align-items: left;
+  padding-left: 5px;
+  border-radius: 3px;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-user-drag: none;
+}
+
+.radiobutton-default {
+  border: 0px none rgb(187, 187, 187);
+  background: #FFFFFF00;
+  width: 100px;
+  height: 75px;
+  display: flex;
+  min-width: 30px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.textarea-default {
+  border: 1px solid rgb(187, 187, 187);
+  font: 16px SF Pro Text;
+  background: #FFFFFF00;
+  width: 100px;
+  height: 75px;
+  min-width: 30px;
+  padding-left: 5px;
+}
+
+.textinput-default {
+  border: 1px solid rgb(187, 187, 187);
+  font: 16px SF Pro Text;
+  background: #FFFFFF00;
+  width: 100px;
+  height: 75px;
+  min-width: 30px;
+  align-items: left;
+  padding-left: 5px;
+}
+
+.video-default {
+  border: 0px none #666666;
+  background: #d9d9d9;
+  width: 100px;
+  height: 75px;
+  display: flex;
+  overflow: hidden;
+  min-width: 30px;
+  max-height: 100%;
+  align-items: center;
+  border-radius: 5px;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-user-drag: none;
+}
+
+.image-default {
+  background: #d9d9d9;
+  width: 100px;
+  height: 75px;
+  display: flex;
+  overflow: hidden;
+  min-width: 30px;
+  max-height: 100%;
+  align-items: center;
+  border-radius: 3px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-default {
+  display: flex;
+}
+
+.root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+  min-width: 100px;
+}
+
+.richtext {
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+  min-width: 100px;
+}
+
+.text1 {
+  height: fit-content;
+  min-width: 100px;
+}
+
+.image {
+  background: rgb(217, 217, 217);
+  width: 100px;
+  height: 100px;
+}
+
+.video {
+  width: 200px;
+  height: 115px;
+}
+
+.textinput {
+  height: fit-content;
+}
+
+.textarea {
+  height: fit-content;
+  min-width: 100px;
+}
+
+.radiobutton {
+  width: 30px;
+  height: 30px;
+}
+
+.link {
+  height: fit-content;
+}
+
+.dropdown {
+  width: 371px;
+  height: 33px;
+  min-width: 100px;
+}
+
+.checkbox {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 1280px) {
+  .container {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  .textinput {
+    width: 218px;
+    height: 36px;
+  }
+
+  .textarea {
+    width: 295px;
+    height: 39px;
+  }
+
+  .dropdown {
+    width: 452px;
+    height: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container2 {
+    align-self: flex-start;
+  }
+}
