@@ -9,7 +9,7 @@ import styles from './AppleAirPodPro3.module.css'
 
 const AppleAirPodPro3 = (props) => {
   return (
-    <Container>
+    <Container className={styles[props.rootClassName]}>
       <Container className={styles['container']}>
         <Container className={styles['container01']}>
           <Container className={styles['container02']}>
@@ -55,10 +55,12 @@ const AppleAirPodPro3 = (props) => {
 }
 
 AppleAirPodPro3.defaultProps = {
+  rootClassName: '',
   fields: {},
 }
 
 AppleAirPodPro3.propTypes = {
+  rootClassName: PropTypes.string,
   fields: PropTypes.object,
 }
 

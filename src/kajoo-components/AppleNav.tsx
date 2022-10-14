@@ -9,7 +9,7 @@ import styles from './AppleNav.module.css'
 
 const AppleNav = (props) => {
   return (
-    <Container className={styles[props.className]}>
+    <Container className={styles[props.rootClassName]}>
       <Container className={styles['container']}>
         <Image src={props.src} alt={props.alt} className={styles['image']} />
         <Container className={styles['container1']}>
@@ -38,7 +38,7 @@ const AppleNav = (props) => {
 }
 
 AppleNav.defaultProps = {
-  className: '',
+  rootClassName: '',
   src: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMTQnIGhlaWdodD0nNDQnIHZpZXdCb3g9JzAgMCAxNCA0NCcgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KPGcgY2xpcC1wYXRoPSd1cmwoI2NsaXAwXzEyODZfMTQ3MzYpJz4KPHBhdGggZD0nTTEzLjA3MjYgMTcuNTIxNEMxMi45Nzk2IDE3LjU5MzcgMTEuMzQ3OCAxOC41MTI5IDExLjM0NzggMjAuNTU3OEMxMS4zNDc4IDIyLjkyMjkgMTMuNDIzNyAyMy43NTk1IDEzLjQ4NTcgMjMuNzgwMUMxMy40NzU0IDIzLjgzMTcgMTMuMTU1MiAyNC45MjY1IDEyLjM5MDkgMjYuMDQxOUMxMS43MDkzIDI3LjAyMzEgMTAuOTk2NiAyOC4wMDQyIDkuOTEyMTcgMjguMDA0MkM4LjgyNzc3IDI4LjAwNDIgOC41NDg4NyAyNy4zNzQyIDcuMjk5MTcgMjcuMzc0MkM2LjA4MDQ3IDI3LjM3NDIgNS42NDY2NyAyOC4wMjQ5IDQuNjU1MTcgMjguMDI0OUMzLjY2MzY3IDI4LjAyNDkgMi45NzE2NyAyNy4xMTYgMi4xNzY0NyAyNi4wMDA2QzEuMjU3MjcgMjQuNjg4OSAwLjUxMzY3MiAyMi42NTQzIDAuNTEzNjcyIDIwLjcyM0MwLjUxMzY3MiAxNy42MjQ2IDIuNTI3NjcgMTUuOTgyNCA0LjUxMDU3IDE1Ljk4MjRDNS41NjQwNyAxNS45ODI0IDYuNDQxODcgMTYuNjc0NCA3LjEwMjg3IDE2LjY3NDRDNy43MzI4NyAxNi42NzQ0IDguNzE0MDcgMTUuOTQxMSA5LjkxMjA3IDE1Ljk0MTFDMTAuMzY2NiAxNS45NDEyIDExLjk5ODUgMTUuOTgyNiAxMy4wNzI2IDE3LjUyMTRaTTkuMzQ0MTcgMTQuNjI5NkM5LjgzOTg3IDE0LjA0MDkgMTAuMTkxMSAxMy4yMjUgMTAuMTkxMSAxMi40MDkxQzEwLjE5MTEgMTIuMjk1NSAxMC4xODA4IDEyLjE4MTkgMTAuMTYwMSAxMi4wODg5QzkuMzU0NDcgMTIuMTE5OSA4LjM5Mzk3IDEyLjYyNiA3LjgxNTU3IDEzLjI5NzNDNy4zNjExNyAxMy44MTM3IDYuOTM3NjcgMTQuNjI5NiA2LjkzNzY3IDE1LjQ1NTlDNi45Mzc2NyAxNS41Nzk4IDYuOTU4MzcgMTUuNzAzOCA2Ljk2ODY3IDE1Ljc0NTFDNy4wMjAyNyAxNS43NTU0IDcuMTAyOTcgMTUuNzY1OCA3LjE4NTU3IDE1Ljc2NThDNy45MDg1NyAxNS43NjU3IDguODE3MzcgMTUuMjgwMyA5LjM0NDE3IDE0LjYyOTZaJyBmaWxsPSd3aGl0ZScvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9J2NsaXAwXzEyODZfMTQ3MzYnPgo8cmVjdCB3aWR0aD0nMTQnIGhlaWdodD0nNDQnIGZpbGw9J3doaXRlJy8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg==',
   alt: 'globalnavappleimageb5er5ngrzxqqlarge128614736',
   text: 'Store',
@@ -58,7 +58,7 @@ AppleNav.defaultProps = {
 }
 
 AppleNav.propTypes = {
-  className: PropTypes.string,
+  rootClassName: PropTypes.string,
   src: PropTypes.string,
   alt: PropTypes.string,
   text: PropTypes.string,

@@ -9,7 +9,7 @@ import styles from './AppleIPhoneBlackBg.module.css'
 
 const AppleIPhoneBlackBg = (props) => {
   return (
-    <Container className={styles['root']}>
+    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container
         bgImage={props.fields.bgImage1}
         className={` ${styles['container']} ${styles['container-default']} `}
@@ -19,10 +19,12 @@ const AppleIPhoneBlackBg = (props) => {
 }
 
 AppleIPhoneBlackBg.defaultProps = {
+  rootClassName: '',
   fields: {},
 }
 
 AppleIPhoneBlackBg.propTypes = {
+  rootClassName: PropTypes.string,
   fields: PropTypes.object,
 }
 
