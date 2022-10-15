@@ -11,7 +11,8 @@ const Linkk = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Link
-        href={props.fields.href}
+        href="www.kajoooo.com"
+        text={props.fields.text}
         className={` ${styles['link']} ${styles['link-link-style']} `}
       />
     </Container>
