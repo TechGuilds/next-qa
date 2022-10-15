@@ -9,7 +9,7 @@ import styles from './AppleIPhoneWhite3.module.css'
 
 const AppleIPhoneWhite3 = (props) => {
   return (
-    <Container className={styles[props.rootClassName]}>
+    <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
         <Container className={styles['container01']}>
           <Container className={styles['container02']}>

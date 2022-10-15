@@ -1,5 +1,6 @@
 .main {
   width: 100%;
+  height: auto;
 }
 .container {
   width: 100%;
@@ -272,6 +273,9 @@
   }
 }
 @media(max-width: 640px) {
+  .main {
+    height: auto;
+  }
   .container {
     height: auto;
   }
