@@ -12,7 +12,7 @@ export default function (manifest) {
     allowedPlaceholders: ['jss-main'],
     fields: [
       {
-        name: 'text1545',
+        name: 'text',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'Link',
       },
