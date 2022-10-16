@@ -11,7 +11,8 @@ const MohTest = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Link
-        href={props.fields.href}
+        href="#Mohammed"
+        text={props.fields.text}
         className={` ${styles['link']} ${styles['link-link-style-2']} `}
       />
     </Container>
