@@ -33,7 +33,7 @@
         "bootstrap": "^4.3.1",
         "graphql": "~15.8.0",
         "graphql-tag": "^2.11.0",
-        "kajoo-components": "^0.0.73",
+        "kajoo-components": "latest",
         "next": "^12.2.4",
         "next-localization": "^0.10.0",
         "nprogress": "~0.2.0",
