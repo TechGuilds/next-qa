@@ -9,7 +9,12 @@ import styles from './CollectionOfLinks.module.css';
 
 const CollectionOfLinks = (props = {}) => {
   console.log('CollectionOfLinks', { props });
-  return <h1>CollectionOfLinks</h1>;
+  return (
+    <h1>
+      CollectionOfLinks
+      <pre>{JSON.stringify(props, null, 2)}</pre>
+    </h1>
+  );
 };
 
 const MyComp = (props) => {
