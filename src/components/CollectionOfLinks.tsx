@@ -1,34 +1,8 @@
-/* eslint-disable */
-// @ts-nocheck
-
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Container } from 'kajoo-components/sitecore-nextjs';
-import { FC } from 'react';
-import {
-  Link as SitecoreLink,
-  TextField,
-  LinkField,
-  LinkFieldValue,
-} from '@sitecore-jss/sitecore-jss-nextjs';
+import { Link, Button } from '../kajoo-lib';
 import styles from './CollectionOfLinks.module.css';
-
-interface ILink {
-  text?: TextField | string;
-  href: LinkField | LinkFieldValue | string; // ISitecoreLink['field'] | string;
-  className?: string;
-}
-
-const Link: FC<ILink> = (props) => {
-  const { href = '', text = '', ...rest } = props;
-  const textField = typeof text === 'string' ? { value: text } : text;
-  const field = typeof href === 'string' ? { value: { href, text: textField.value } } : href;
-
-  useEffect(() => {
-    console.log('link', { props, textField, field });
-  }, [props, textField, field]);
-
-  return <SitecoreLink field={field} {...rest} />;
-};
+import { LinkField, LinkFieldValue, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const CollectionOfLinks = (props: {
@@ -37,6 +11,7 @@ const CollectionOfLinks = (props: {
     href1: string | LinkField | LinkFieldValue;
     text1: string | TextField | undefined;
     href3: string | LinkField | LinkFieldValue;
+    text4: string | TextField;
   };
 }) => {
   return (
@@ -48,25 +23,42 @@ const CollectionOfLinks = (props: {
             className={` ${styles['link']} ${styles['link-link-style-2']} `}
           />
           <Link
-            href="#"
+            href="#static-url"
             text={props.fields.text1}
             className={` ${styles['link1']} ${styles['link-link-style']} `}
           />
           <Link
             href={props.fields.href3}
+            text="static text"
             className={` ${styles['link2']} ${styles['link-link-style-2']} `}
           />
         </Container>
         <Container className={` ${styles['container2']} ${styles['container-default']} `}>
-          {/* <Button
+          <Button
             text="Button"
             link="Linnk"
             className={` ${styles['button']} ${styles['button-button-364']} `}
-          />
+          >
+            button with static link, text, children
+          </Button>
+          <Button
+            text="Button"
+            link={props.fields.href3}
+            className={` ${styles['button']} ${styles['button-button-364']} `}
+          >
+            button with dynamic link, static text, children
+          </Button>
+          <Button
+            text={props.fields.text4}
+            link={props.fields.href3}
+            className={` ${styles['button']} ${styles['button-button-364']} `}
+          >
+            button with dynamic link, dynamic text and static children
+          </Button>
           <Button
             text={props.fields.text4}
             className={` ${styles['button1']} ${styles['button-button-540']} `}
-          /> */}
+          />
         </Container>
       </Container>
     </Container>
