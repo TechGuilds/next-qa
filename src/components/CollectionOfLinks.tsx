@@ -7,12 +7,16 @@ import PropTypes from 'prop-types';
 
 import styles from './CollectionOfLinks.module.css';
 
-const CollectionOfLinks = (props = {}) => {
+const CollectionOfLinks = (props) => {
+  const [propList, setPropList] = useState([props]);
   console.log('CollectionOfLinks', { props });
+  useEffect(() => {
+    setPropList([...propList, props]);
+  }, [props]);
   return (
     <h1>
       CollectionOfLinks
-      <pre>{JSON.stringify(props, null, 2)}</pre>
+      <pre>{JSON.stringify(propList, null, 2)}</pre>
     </h1>
   );
 };
