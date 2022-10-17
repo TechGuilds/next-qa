@@ -1,6 +1,6 @@
 /* eslint-disable */
 // @ts-nocheck
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Link, Button } from 'kajoo-components/sitecore-nextjs';
 
 import PropTypes from 'prop-types';
