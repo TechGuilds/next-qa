@@ -1,21 +1,25 @@
 /* eslint-disable */
 // @ts-nocheck
+
 import React, { useEffect } from 'react';
 import { Container } from 'kajoo-components/sitecore-nextjs';
 import { FC } from 'react';
-import { Link as SitecoreLink, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
+import {
+  Link as SitecoreLink,
+  TextField,
+  LinkField,
+  LinkFieldValue,
+} from '@sitecore-jss/sitecore-jss-nextjs';
 import styles from './CollectionOfLinks.module.css';
 
-type ISitecoreLink = typeof SitecoreLink['propTypes'];
-
-interface ILink extends Omit<ISitecoreLink, 'field'> {
+interface ILink {
   text?: TextField | string;
-  href: ISitecoreLink['field'] | string;
+  href: LinkField | LinkFieldValue | string; // ISitecoreLink['field'] | string;
   className?: string;
 }
 
 const Link: FC<ILink> = (props) => {
-  const { href = '', text = '' } = props;
+  const { href = '', text = '', ...rest } = props;
   const textField = typeof text === 'string' ? { value: text } : text;
   const field = typeof href === 'string' ? { value: { href, text: textField.value } } : href;
 
@@ -23,10 +27,18 @@ const Link: FC<ILink> = (props) => {
     console.log('link', { props, textField, field });
   }, [props, textField, field]);
 
-  return <div>hello link</div>;
+  return <SitecoreLink field={field} {...rest} />;
 };
 
-const CollectionOfLinks = (props) => {
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+const CollectionOfLinks = (props: {
+  rootClassName: string | number;
+  fields: {
+    href1: string | LinkField | LinkFieldValue;
+    text1: string | TextField | undefined;
+    href3: string | LinkField | LinkFieldValue;
+  };
+}) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
