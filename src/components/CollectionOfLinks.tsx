@@ -9,11 +9,7 @@ import styles from './CollectionOfLinks.module.css';
 
 const CollectionOfLinks = (props = {}) => {
   console.log('CollectionOfLinks', { props });
-  return (
-    <ErrorBoundary>
-      <MyComp {...props} />
-    </ErrorBoundary>
-  );
+  return <h1>CollectionOfLinks</h1>;
 };
 
 const MyComp = (props) => {
