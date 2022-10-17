@@ -1,45 +1,32 @@
 /* eslint-disable */
 // @ts-nocheck
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { Container } from 'kajoo-components/sitecore-nextjs';
+import { FC } from 'react';
 import { Link as SitecoreLink, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
 import styles from './CollectionOfLinks.module.css';
 
-interface ILink {
-  text?: TextField;
-  [key: string]: any;
+type ISitecoreLink = typeof SitecoreLink['propTypes'];
+
+interface ILink extends Omit<ISitecoreLink, 'field'> {
+  text?: TextField | string;
+  href: ISitecoreLink['field'] | string;
+  className?: string;
 }
 
-const Link: FC<any> = (props: ILink) => {
-  const { href = '', text = '', ...rest } = props;
+const Link: FC<ILink> = (props) => {
+  const { href = '', text = '' } = props;
   const textField = typeof text === 'string' ? { value: text } : text;
   const field = typeof href === 'string' ? { value: { href, text: textField.value } } : href;
 
   useEffect(() => {
     console.log('link', { props, textField, field });
-  }, [props, field, textField]);
+  }, [props, textField, field]);
 
   return <div>hello link</div>;
 };
-export default Link;
 
 const CollectionOfLinks = (props) => {
-  // if (!props.fields?.href1?.value?.href || !props.fields?.href3?.value?.href) {
-  //   return (
-  //     <div>
-  //       href missing {JSON.stringify({ href1: props.fields?.href1, href3: props.fields?.href3 })}
-  //     </div>
-  //   );
-  // }
-
-  // if (!props.fields?.text1?.value || !props.fields?.text4?.value) {
-  //   return (
-  //     <div>
-  //       text missing {JSON.stringify({ text1: props.fields?.text1, text4: props.fields?.text4 })}
-  //     </div>
-  //   );
-  // }
-
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
