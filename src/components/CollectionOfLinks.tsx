@@ -8,20 +8,22 @@ import PropTypes from 'prop-types';
 import styles from './CollectionOfLinks.module.css';
 
 const CollectionOfLinks = (props) => {
-  const [propList, setPropList] = useState([props]);
-  console.log('CollectionOfLinks', { props });
-  useEffect(() => {
-    setPropList([...propList, props]);
-  }, [props]);
-  return (
-    <h1>
-      CollectionOfLinks
-      <pre>{JSON.stringify(propList, null, 2)}</pre>
-    </h1>
-  );
-};
+  if (!props.fields?.href1?.value?.href || !props.fields?.href3?.value?.href) {
+    return (
+      <div>
+        href missing {JSON.stringify({ href1: props.fields?.href1, href3: props.fields?.href3 })}
+      </div>
+    );
+  }
 
-const MyComp = (props) => {
+  if (!props.fields?.text1?.value || !props.fields?.text4?.value) {
+    return (
+      <div>
+        text missing {JSON.stringify({ text1: props.fields?.text1, text4: props.fields?.text4 })}
+      </div>
+    );
+  }
+
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
@@ -55,32 +57,6 @@ const MyComp = (props) => {
     </Container>
   );
 };
-
-class ErrorBoundary extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { hasError: false };
-  }
-
-  static getDerivedStateFromError(error) {
-    // Update state so the next render will show the fallback UI.
-    return { hasError: true };
-  }
-
-  componentDidCatch(error, errorInfo) {
-    // You can also log the error to an error reporting service
-    console.log(error, errorInfo);
-  }
-
-  render() {
-    if (this.state.hasError) {
-      // You can render any custom fallback UI
-      return <h1>Something went wrong.</h1>;
-    }
-
-    return this.props.children;
-  }
-}
 
 CollectionOfLinks.defaultProps = {
   rootClassName: '',
