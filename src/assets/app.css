@@ -1,7 +1,8 @@
 a[target='_blank']:after {
   content: '\1F5D7'
 }
-
+body {
+  overflow-x: hidden}
 /*
   Hides Sitecore editor markup,
   if you run the app in connected mode while the Sitecore cookies
