@@ -1,11 +1,16 @@
 /* eslint-disable */
 // @ts-nocheck
 import React, { useState, useEffect } from 'react';
-import { Container, Link } from 'kajoo-components/sitecore-nextjs';
-import { Link as SitecoreLink } from '@sitecore-jss/sitecore-jss-nextjs';
+import { Container } from 'kajoo-components/sitecore-nextjs';
+import { Link as SitecoreLink, TextField } from '@sitecore-jss/sitecore-jss-nextjs';
 import styles from './CollectionOfLinks.module.css';
 
-const Link: FC<any> = (props) => {
+interface ILink {
+  text?: TextField;
+  [key: string]: any;
+}
+
+const Link: FC<any> = (props: ILink) => {
   const { href = '', text = '', ...rest } = props;
   const textField = typeof text === 'string' ? { value: text } : text;
   const field = typeof href === 'string' ? { value: { href, text: textField.value } } : href;
