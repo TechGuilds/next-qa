@@ -1,14 +1,22 @@
 a[target='_blank']:after {
-  content: '\1F5D7'
+  content: '\1F5D7';
 }
 body {
-  overflow-x: hidden}
+  overflow-x: hidden;
+}
+#__next {
+  height: 100vh;
+  overflow-x: hidden;
+}
 /*
   Hides Sitecore editor markup,
   if you run the app in connected mode while the Sitecore cookies
   are set to edit mode.
 */
-.scChromeData, .scpm { display: none !important; }
+.scChromeData,
+.scpm {
+  display: none !important;
+}
 
 /*
   Styles for default JSS error components
@@ -23,7 +31,7 @@ body {
   Style for default content block
 */
 .contentTitle {
-    font-size: 3.5rem;
-    font-weight: 300;
-    line-height: 1.2;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
