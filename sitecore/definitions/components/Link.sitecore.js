@@ -12,9 +12,9 @@ export default function (manifest) {
     allowedPlaceholders: ['jss-main'],
     fields: [
       {
-        name: 'href',
-        type: CommonFieldTypes.GeneralLink,
-        standardValue: 'www.example.com',
+        name: 'text',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Learn more',
       },
     ],
   })
