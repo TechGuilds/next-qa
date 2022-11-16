@@ -12,13 +12,13 @@ const AppComponent = (props) => {
     <Container className={styles[props.rootClassName]}>
       <Container className={styles['container']}>
         <Container className={styles['container1']}>
-          <Text text={props.text} className={styles['text']} />
+          <Text text={props.Header} className={styles['text']} />
         </Container>
         <Container className={styles['container2']}>
-          <Text text={props.text1} className={styles['text1']} />
+          <Text text={props.Desc} className={styles['text1']} />
         </Container>
         <Button className={styles['button']}>
-          <Text text={props.text2} className={styles['text2']} />
+          <Text text={props.time} className={styles['text2']} />
         </Button>
       </Container>
     </Container>
@@ -27,17 +27,16 @@ const AppComponent = (props) => {
 
 AppComponent.defaultProps = {
   rootClassName: '',
-  text: 'Thank you!',
-  text1:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
-  text2: 'Call to action',
+  Header: 'Thank you!',
+  Desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+  time: 'Call to action',
 }
 
 AppComponent.propTypes = {
   rootClassName: PropTypes.string,
-  text: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
+  Header: PropTypes.string,
+  Desc: PropTypes.string,
+  time: PropTypes.string,
 }
 
 export default AppComponent
