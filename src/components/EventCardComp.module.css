@@ -56,3 +56,10 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
+.text2 {
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+  min-width: 100px;
+}
