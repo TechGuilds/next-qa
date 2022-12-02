@@ -188,6 +188,16 @@
   flex-basis: 33%;
 }
 
+@media (max-width: 1024px) {
+  .image1 {
+    width: 243px;
+  }
+
+  .image2 {
+    width: 245px;
+  }
+}
+
 @media (max-width: 640px) {
   .container1 {
     max-width: 100%;
