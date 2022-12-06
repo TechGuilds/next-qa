@@ -1,0 +1,110 @@
+.banner-and-two-image-paragraph-default {
+  background: #FFFFFF00;
+  width: 100px;
+  border: 1px dashed rgb(187, 187, 187);
+  height: 75px;
+  display: flex;
+  overflow: hidden;
+  font-size: 0.8em;
+  min-width: 30px;
+  max-height: 100%;
+  align-items: left;
+  padding-left: 3px;
+  border-radius: 5px;
+  flex-direction: column;
+  -webkit-user-drag: none;
+}
+
+.banner-and-two-image-container-default {
+  background: #FFFFFF00;
+  width: 100px;
+  border: 1px dashed rgb(187, 187, 187);
+  height: 75px;
+  display: flex;
+  min-width: 30px;
+  border-radius: 3px;
+  flex-direction: row;
+}
+
+.banner-and-two-image-image-default {
+  background: #d9d9d9;
+  width: 100px;
+  border: 1px solid #666666;
+  height: 75px;
+  display: flex;
+  overflow: hidden;
+  min-width: 30px;
+  max-height: 100%;
+  align-items: center;
+  border-radius: 3px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-and-two-image-container {
+  width: 1040.920128px;
+  height: 560.6618472px;
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.banner-and-two-image-image {
+  width: 896.380992px;
+  height: 146.24647199999998px;
+  max-width: 100%;
+}
+
+.banner-and-two-image-container1 {
+  display: flex;
+  max-width: 100%;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.banner-and-two-image-image1 {
+  width: 405.9705600000001px;
+  height: 298.56340800000004px;
+  max-width: 100%;
+  flex-basis: 50%;
+}
+
+.banner-and-two-image-image2 {
+  width: 366.418944px;
+  height: 304.47316800000004px;
+  max-width: 100%;
+  flex-basis: 50%;
+}
+
+.banner-and-two-image-text {
+  width: 163.881216px;
+  height: 43.995312000000006px;
+  align-self: flex-end;
+}
+
+@media (max-width: 640px) {
+  .banner-and-two-image-image {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
+  .banner-and-two-image-container1 {
+    max-width: 100%;
+    flex-basis: auto;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .banner-and-two-image-image1 {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
+  .banner-and-two-image-image2 {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+}
