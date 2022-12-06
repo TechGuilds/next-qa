@@ -4,6 +4,8 @@ import { Container, Image, Text } from 'kajoo-components/sitecore-react'
 
 import PropTypes from 'prop-types'
 
+import AppComponent from '../Component/index'
+import Component1 from '../Component1/index'
 import './style.css'
 
 const BannerAndTwoImage = (props) => {
@@ -30,6 +32,11 @@ const BannerAndTwoImage = (props) => {
             />
           </Container>
         </Container>
+        <AppComponent
+          rootClassName="app-component-root-class-name"
+          className=""
+        />
+        <Component1 rootClassName="component1-root-class-name" className="" />
       </Container>
     </Container>
   )
