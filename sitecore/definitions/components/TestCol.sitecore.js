@@ -33,6 +33,10 @@ export default function (manifest) {
         standardValue: '/icons/default-imag.svg',
       },
       {
+        name: 'alt',
+        type: CommonFieldTypes.SingleLineText,
+      },
+      {
         name: 'text2',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'HEADER',

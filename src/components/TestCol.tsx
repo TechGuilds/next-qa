@@ -38,6 +38,7 @@ const TestCol = (props) => {
         >
           <Image
             src={props.fields.src1}
+            alt={props.fields.alt}
             className={` ${styles['image1']} ${styles['image-default']} `}
           />
           <Text
