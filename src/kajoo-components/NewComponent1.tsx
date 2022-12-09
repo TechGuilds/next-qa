@@ -5,9 +5,9 @@ import { Container, Image, Text } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './NewComponent.module.css'
+import styles from './NewComponent1.module.css'
 
-const NewComponent = (props) => {
+const NewComponent1 = (props) => {
   return (
     <Container className={styles[props.rootClassName]}>
       <Container className={styles['container']}>
@@ -40,7 +40,7 @@ const NewComponent = (props) => {
   )
 }
 
-NewComponent.defaultProps = {
+NewComponent1.defaultProps = {
   rootClassName: '',
   src: '/icons/default-imag.svg',
   text: 'HEADER',
@@ -48,7 +48,7 @@ NewComponent.defaultProps = {
   text1: 'HEADER',
 }
 
-NewComponent.propTypes = {
+NewComponent1.propTypes = {
   rootClassName: PropTypes.string,
   src: PropTypes.string,
   text: PropTypes.string,
@@ -56,4 +56,4 @@ NewComponent.propTypes = {
   text1: PropTypes.string,
 }
 
-export default NewComponent
+export default NewComponent1
