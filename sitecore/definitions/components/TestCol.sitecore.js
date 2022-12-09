@@ -28,9 +28,10 @@ export default function (manifest) {
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
       },
       {
-        name: 'src1',
+        name: 'src2',
         type: CommonFieldTypes.Image,
-        standardValue: '/icons/default-imag.svg',
+        standardValue:
+          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/TechGuilds%20Consulting%20Inc._60d5efadff0a5060c3aaa66d/components/GFA4wxCXu0LKOI5EYIVk3.png"}',
       },
       {
         name: 'alt',
@@ -67,12 +68,6 @@ export default function (manifest) {
         standardValue: 'HEADER',
       },
       {
-        name: 'text5',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue:
-          'dsdsdt amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
-      },
-      {
         name: 'text6',
         type: CommonFieldTypes.SingleLineText,
         standardValue:
@@ -83,6 +78,12 @@ export default function (manifest) {
         type: CommonFieldTypes.RichText,
         standardValue:
           '<p>dgfdgfdsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.</p>',
+      },
+      {
+        name: 'text5',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue:
+          'dsdsdt amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
       },
     ],
   })
