@@ -15,23 +15,23 @@ export default function (manifest) {
         name: 'src',
         type: CommonFieldTypes.Image,
         standardValue:
-          'https://www.reformcreditunions.com/wp-content/uploads/2021/07/ABA-logo.svg',
+          '{"image-do":"https://www.reformcreditunions.com/wp-content/uploads/2021/07/ABA-logo.svg"}',
       },
       {
-        name: 'alt',
+        name: 'alt3',
         type: CommonFieldTypes.SingleLineText,
       },
       {
         name: 'value',
         type: CommonFieldTypes.RichText,
         standardValue:
-          '<div style="display: flex; justify-content: center"><p>Copyright © 2022 American Bankers Association | </p><a style="color: #1c3c5a; text-decoration: underline;" href="/about/">About this Campaign</a>',
+          '<div style="display: block; align-items: center; margin: auto; text-align: center">Copyright © 2022 American Bankers Association | <a style="color: #1c3c5a; text-decoration: underline;" href="/about/">About this Campaign</a> </div>',
       },
       {
         name: 'src1',
         type: CommonFieldTypes.Image,
         standardValue:
-          'https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook2_colored_svg-128.png',
+          '{"image-do":"https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook2_colored_svg-128.png"}',
       },
       {
         name: 'alt1',
@@ -41,7 +41,7 @@ export default function (manifest) {
         name: 'src2',
         type: CommonFieldTypes.Image,
         standardValue:
-          'https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-128.png',
+          '{"image-do":"https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-128.png"}',
       },
       {
         name: 'alt2',

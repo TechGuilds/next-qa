@@ -44,7 +44,7 @@ const AbaHeader = (props) => {
             />
             <Link
               href={props.fields.href4}
-              className={styles['link-nav-link']}
+              className={` ${styles['link4']} ${styles['link-nav-link']} `}
             />
             <Link
               href={props.fields.href5}

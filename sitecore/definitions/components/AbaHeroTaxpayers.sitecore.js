@@ -26,7 +26,7 @@ export default function (manifest) {
         name: 'src',
         type: CommonFieldTypes.Image,
         standardValue:
-          'https://www.reformcreditunions.com/wp-content/uploads/2021/08/tax-icon2.svg',
+          '{"image-do":"https://www.reformcreditunions.com/wp-content/uploads/2021/08/tax-icon2.svg"}',
       },
       {
         name: 'alt',

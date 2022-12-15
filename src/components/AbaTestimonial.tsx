@@ -19,7 +19,7 @@ const AbaTestimonial = (props) => {
         >
           <Text
             text={props.fields.text1}
-            tag="span"
+            tag="h2"
             className={styles['text1']}
           />
           <Text

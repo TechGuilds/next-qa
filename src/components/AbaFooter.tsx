@@ -9,13 +9,13 @@ import styles from './AbaFooter.module.css'
 
 const AbaFooter = (props) => {
   return (
-    <Container className={styles[props.rootClassName]}>
+    <Container className={` ${styles[props.rootClassName]} ${styles['main']} `}>
       <Container
         className={` ${styles['container']} ${styles['container-default']} `}
       >
         <Image
           src={props.fields.src}
-          alt={props.fields.alt}
+          alt={props.fields.alt3}
           className={` ${styles['image']} ${styles['image-default']} `}
         />
         <RichText

@@ -15,7 +15,7 @@ export default function (manifest) {
         name: 'src',
         type: CommonFieldTypes.Image,
         standardValue:
-          'https://www.reformcreditunions.com/wp-content/uploads/2021/07/ReformCU_Logo_fix.png',
+          '{"image-do":"https://www.reformcreditunions.com/wp-content/uploads/2021/07/ReformCU_Logo_fix.png"}',
       },
       {
         name: 'alt',
@@ -67,7 +67,7 @@ export default function (manifest) {
         name: 'src2',
         type: CommonFieldTypes.Image,
         standardValue:
-          'https://cdn-icons-png.flaticon.com/128/3388/3388829.png',
+          '{"image-do":"https://cdn-icons-png.flaticon.com/128/3388/3388829.png"}',
       },
       {
         name: 'alt2',
