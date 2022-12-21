@@ -7,7 +7,7 @@ import PropTypes from 'prop-types'
 
 import styles from './JoshFigma.module.css'
 
-const NewFigmaComponent18 = (props) => {
+const JoshFigmaNew = (props) => {
   return (
     <Container className={styles[props.rootClassName]}>
       <Container className={styles['container']}>
@@ -46,14 +46,14 @@ const NewFigmaComponent18 = (props) => {
   )
 }
 
-NewFigmaComponent18.defaultProps = {
+JoshFigmaNew.defaultProps = {
   rootClassName: '',
   fields: {},
 }
 
-NewFigmaComponent18.propTypes = {
+JoshFigmaNew.propTypes = {
   rootClassName: PropTypes.string,
   fields: PropTypes.object,
 }
 
-export default NewFigmaComponent18
+export default JoshFigmaNew
