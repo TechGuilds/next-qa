@@ -25,11 +25,11 @@ const ProductCard = (props) => {
           className={` ${styles['container1']} ${styles['container-default']} `}
         >
           <Text
-            text={props.fields.text}
+            text={props.fields.text1}
             className={` ${styles['text']} ${styles['paragraph-default']} `}
           />
           <Text
-            text={props.fields.text1}
+            text={props.fields.text2}
             className={` ${styles['text1']} ${styles['paragraph-default']} `}
           />
           <Link
@@ -37,7 +37,7 @@ const ProductCard = (props) => {
             className={` ${styles['link']} ${styles['link-default']} `}
           />
           <Button
-            text={props.fields.text2}
+            text={props.fields.text1}
             className={` ${styles['button']} ${styles['button-default']} `}
           />
         </Container>
