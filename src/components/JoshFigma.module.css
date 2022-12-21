@@ -132,7 +132,8 @@
   border-color: transparent;
 }
 .container5 {
-  height: 558px;
+  width: 550px;
+  height: 543px;
   display: flex;
   overflow: hidden;
   position: relative;
@@ -170,13 +171,22 @@
   border-color: transparent;
 }
 .form {
-  width: 100%;
+  width: 1141px;
   border: 1px solid black;
+  height: 189px;
   display: flex;
   min-height: 200px;
 }
 @media(max-width: 1280px) {
   .container {
     box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.10196078568696976);
+  }
+  .container5 {
+    width: 550px;
+    height: 542px;
+  }
+  .form {
+    width: 1140px;
+    height: 189px;
   }
 }
