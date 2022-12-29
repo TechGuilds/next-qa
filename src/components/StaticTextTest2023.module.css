@@ -7,8 +7,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
 }
 
 .container {
@@ -20,16 +19,31 @@
   flex-direction: row;
 }
 
-.richtext {
+.text {
   height: fit-content;
   margin: 0px;
   padding: 0px;
   min-width: 100px;
 }
 
-.text {
+.container1 {
+  background: rgba(2, 59, 0, 0.55);
+  margin: 40px 0px 0px;
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text1 {
+  color: rgba(239, 210, 255, 1);
   height: fit-content;
-  margin: 0px;
-  padding: 0px;
+  font-size: 40px;
   min-width: 100px;
+  text-align: center;
+  font-weight: 700;
 }

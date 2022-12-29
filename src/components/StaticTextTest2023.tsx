@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, RichText, Text } from 'kajoo-components/sitecore-nextjs'
+import { Container, Text } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -13,15 +13,16 @@ const StaticTextTest2023 = (props) => {
       <Container
         className={` ${styles['container']} ${styles['container-default']} `}
       >
-        <RichText
-          value="&lt;p&gt;Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.&lt;/p&gt;"
-          className={styles['richtext']}
-        />
         <Text
           text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
           tag="span"
           className={styles['text']}
         />
+      </Container>
+      <Container
+        className={` ${styles['container1']} ${styles['container-default']} `}
+      >
+        <Text text="Heading" tag="h1" className={styles['text1']} />
       </Container>
     </Container>
   )
