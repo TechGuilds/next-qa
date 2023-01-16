@@ -1,7 +1,7 @@
 .image-default {
+  border: 0px none #666666;
   background: #d9d9d9;
   width: 100px;
-  border: 1px solid #666666;
   height: 75px;
   display: flex;
   overflow: hidden;

@@ -31,6 +31,17 @@
   justify-content: center;
 }
 
+.container-default {
+  border: 0px none rgb(187, 187, 187);
+  background: rgba(255, 255, 255, 0.05);
+  width: 100px;
+  height: 75px;
+  display: flex;
+  min-width: 30px;
+  border-radius: 3px;
+  flex-direction: row;
+}
+
 .paragraph-default {
   border: 0px none rgb(187, 187, 187);
   font: 1em Open Sans;
@@ -49,23 +60,19 @@
   -webkit-user-drag: none;
 }
 
-.container-default {
-  border: 0px none rgb(187, 187, 187);
-  background: rgba(255, 255, 255, 0.05);
-  width: 100px;
-  height: 75px;
-  display: flex;
-  min-width: 30px;
-  border-radius: 3px;
-  flex-direction: row;
-}
-
 .container {
   display: flex;
   max-width: 100%;
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.text {
+  width: 332.4943872px;
+  height: 77.63850648px;
+  max-width: 100%;
+  align-self: flex-start;
 }
 
 .container1 {
@@ -85,22 +92,21 @@
   justify-content: space-between;
 }
 
-.text {
-  width: 185.0909436px;
-  height: 56.25345216px;
-  max-width: 100%;
-  align-self: flex-start;
-}
-
 .image {
-  width: 303.2061516px;
-  height: 263.658736px;
+  width: 286.54202879999997px;
+  height: 287.17869599999995px;
   max-width: 100%;
 }
 
 .text1 {
-  width: 226.8457488px;
-  height: 90.80363999999996px;
+  width: 214.50239999999997px;
+  height: 55.048248px;
+  max-width: 100%;
+}
+
+.button {
+  width: 291.9234816px;
+  height: 123.32412000000001px;
   max-width: 100%;
 }
 
@@ -113,33 +119,25 @@
   justify-content: space-between;
 }
 
-.container4 {
-  display: flex;
+.image1 {
+  width: 327.78777599999995px;
+  height: 327.11623199999997px;
   max-width: 100%;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
 }
 
 .text2 {
-  width: 224.63405999999992px;
-  height: 58.3389446px;
+  width: 247.062528px;
+  height: 45.160415999999984px;
   max-width: 100%;
 }
 
-.image1 {
-  width: 278.95312799999994px;
-  height: 253.02140000000003px;
+.button1 {
+  width: 337.44614400000006px;
+  height: 128.60402400000004px;
   max-width: 100%;
 }
 
-.text3 {
-  width: 227.83698000000004px;
-  height: 83.29531199999998px;
-  max-width: 100%;
-}
-
-.container5 {
+.container4 {
   display: flex;
   max-width: 33%;
   flex-basis: 33%;
@@ -148,62 +146,30 @@
   justify-content: space-between;
 }
 
-.container6 {
-  display: flex;
-  max-width: 100%;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.text4 {
-  width: 213.471828px;
-  height: 48.1029028px;
-  max-width: 100%;
-}
-
 .image2 {
-  width: 243.06033599999998px;
-  height: 258.646459px;
+  width: 294.3083519999999px;
+  height: 331.5978px;
   max-width: 100%;
 }
 
-.text5 {
-  width: 211.516596px;
-  height: 89.311766px;
+.text3 {
+  width: 269.34796800000004px;
+  height: 43.1568px;
   max-width: 100%;
-}
-
-.container7 {
-  display: flex;
-  max-width: 100%;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.button {
-  width: 266.30829px;
-  height: 68.87368399999998px;
-  max-width: 100%;
-  flex-basis: 33%;
-}
-
-.button1 {
-  width: 277.49116799999996px;
-  height: 86.868708px;
-  max-width: 100%;
-  flex-basis: 33%;
 }
 
 .button2 {
-  width: 236.58753600000009px;
-  height: 94.22962399999999px;
+  width: 324.761472px;
+  height: 115.595424px;
   max-width: 100%;
-  flex-basis: 33%;
 }
 
 @media (max-width: 640px) {
+  .text {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
   .container1 {
     max-width: 100%;
     flex-basis: auto;
@@ -212,11 +178,6 @@
   }
 
   .container2 {
-    max-width: 100%;
-    flex-basis: auto;
-  }
-
-  .text {
     max-width: 100%;
     flex-basis: auto;
   }
@@ -231,17 +192,12 @@
     flex-basis: auto;
   }
 
+  .button {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
   .container3 {
-    max-width: 100%;
-    flex-basis: auto;
-  }
-
-  .container4 {
-    max-width: 100%;
-    flex-basis: auto;
-  }
-
-  .text2 {
     max-width: 100%;
     flex-basis: auto;
   }
@@ -251,22 +207,17 @@
     flex-basis: auto;
   }
 
-  .text3 {
+  .text2 {
     max-width: 100%;
     flex-basis: auto;
   }
 
-  .container5 {
+  .button1 {
     max-width: 100%;
     flex-basis: auto;
   }
 
-  .container6 {
-    max-width: 100%;
-    flex-basis: auto;
-  }
-
-  .text4 {
+  .container4 {
     max-width: 100%;
     flex-basis: auto;
   }
@@ -276,24 +227,7 @@
     flex-basis: auto;
   }
 
-  .text5 {
-    max-width: 100%;
-    flex-basis: auto;
-  }
-
-  .container7 {
-    max-width: 100%;
-    flex-basis: auto;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .button {
-    max-width: 100%;
-    flex-basis: auto;
-  }
-
-  .button1 {
+  .text3 {
     max-width: 100%;
     flex-basis: auto;
   }

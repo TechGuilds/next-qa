@@ -1,17 +1,25 @@
 .paragraph-default {
-  font: 0.8em Arial;
-  background: rgba(255, 255, 255, 1);
-  margin: 20px 10px;
-  color: rgba(70, 70, 70, 255);
+  border: 0px none rgb(187, 187, 187);
+  font: 1em Open Sans;
+  background: #FFFFFF00;
+  color: rgba(51, 49, 51, 255);
+  width: 100px;
+  height: 75px;
+  display: flex;
   overflow: hidden;
-  max-height: 100px;
-  border-style: solid;
+  min-width: 30px;
+  max-height: 100%;
+  align-items: left;
+  padding-left: 3px;
+  border-radius: 5px;
+  flex-direction: column;
+  -webkit-user-drag: none;
 }
 
 .image-default {
+  border: 0px none #666666;
   background: #d9d9d9;
   width: 100px;
-  border: 1px solid #666666;
   height: 75px;
   display: flex;
   overflow: hidden;
@@ -24,7 +32,14 @@
 }
 
 .container-default {
+  border: 0px none rgb(187, 187, 187);
+  background: rgba(255, 255, 255, 0.05);
+  width: 100px;
+  height: 75px;
   display: flex;
+  min-width: 30px;
+  border-radius: 3px;
+  flex-direction: row;
 }
 
 .container {
@@ -64,6 +79,12 @@
   max-width: 100%;
 }
 
+.text2 {
+  width: 116px;
+  height: 37px;
+  max-width: 100%;
+}
+
 .container2 {
   display: flex;
   max-width: 33%;
@@ -79,13 +100,19 @@
   max-width: 100%;
 }
 
-.text2 {
+.text3 {
   width: 204.668928px;
   height: 77.044608px;
   max-width: 100%;
 }
 
-.text3 {
+.text4 {
+  width: 130.741632px;
+  height: 30.164399999999986px;
+  max-width: 100%;
+}
+
+.text5 {
   width: 149.648256px;
   height: 41.781096000000005px;
   max-width: 100%;
@@ -101,21 +128,24 @@
 }
 
 .image2 {
-  width: 210.40243200000006px;
-  height: 335.93680800000004px;
+  width: 279px;
+  height: 286px;
   max-width: 100%;
 }
 
-.text4 {
-  width: 197.849088px;
-  height: 78.40475999999998px;
-  max-width: 100%;
-}
+@media (max-width: 1024px) {
+  .text2 {
+    width: 116px;
+    height: 37px;
+  }
 
-.text5 {
-  width: 130.741632px;
-  height: 30.164399999999986px;
-  max-width: 100%;
+  .image2 {
+    top: 2.2620000000000005px;
+    left: 631.068px;
+    width: 278px;
+    height: 285px;
+    position: absolute;
+  }
 }
 
 @media (max-width: 640px) {
@@ -144,6 +174,11 @@
     flex-basis: auto;
   }
 
+  .text2 {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
   .container2 {
     max-width: 100%;
     flex-basis: auto;
@@ -154,22 +189,7 @@
     flex-basis: auto;
   }
 
-  .text2 {
-    max-width: 100%;
-    flex-basis: auto;
-  }
-
   .text3 {
-    max-width: 100%;
-    flex-basis: auto;
-  }
-
-  .container3 {
-    max-width: 100%;
-    flex-basis: auto;
-  }
-
-  .image2 {
     max-width: 100%;
     flex-basis: auto;
   }
@@ -180,6 +200,16 @@
   }
 
   .text5 {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
+  .container3 {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
+  .image2 {
     max-width: 100%;
     flex-basis: auto;
   }
