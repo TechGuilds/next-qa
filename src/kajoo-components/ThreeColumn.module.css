@@ -1,23 +1,11 @@
 .paragraph-default {
-  border: 0px none rgb(187, 187, 187);
-  font: 1em Open Sans;
-  background: #FFFFFF00;
-  color: rgba(51, 49, 51, 255);
-  width: 100px;
-  height: 75px;
-  display: flex;
   overflow: hidden;
+  font-size: 0.8em;
   min-width: 30px;
-  max-height: 100%;
-  align-items: left;
-  padding-left: 3px;
-  border-radius: 5px;
-  flex-direction: column;
   -webkit-user-drag: none;
 }
 
 .image-default {
-  border: 0px none #666666;
   background: #d9d9d9;
   width: 100px;
   height: 75px;
@@ -32,14 +20,7 @@
 }
 
 .container-default {
-  border: 0px none rgb(187, 187, 187);
-  background: rgba(255, 255, 255, 0.05);
-  width: 100px;
-  height: 75px;
   display: flex;
-  min-width: 30px;
-  border-radius: 3px;
-  flex-direction: row;
 }
 
 .container {

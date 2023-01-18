@@ -35,6 +35,12 @@
   display: flex;
 }
 
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .container {
   display: flex;
   max-width: 100%;
@@ -44,6 +50,8 @@
 }
 
 .container1 {
+  width: 833px;
+  height: 568px;
   display: flex;
   max-width: 100%;
   align-items: flex-start;
@@ -75,8 +83,16 @@
 
 .text1 {
   width: 226.8457488px;
-  height: 90.80363999999996px;
+  height: 204px;
   max-width: 100%;
+  font-family: "Inconsolata";
+}
+
+.button {
+  width: 266.30829px;
+  height: 59px;
+  max-width: 100%;
+  flex-basis: 33%;
 }
 
 .container3 {
@@ -110,8 +126,9 @@
 
 .text3 {
   width: 227.83698000000004px;
-  height: 83.29531199999998px;
+  height: 121px;
   max-width: 100%;
+  font-family: "Teko";
 }
 
 .container5 {
@@ -145,8 +162,9 @@
 
 .text5 {
   width: 211.516596px;
-  height: 89.311766px;
+  height: 155px;
   max-width: 100%;
+  font-family: "Teko";
 }
 
 .container7 {
@@ -157,25 +175,34 @@
   justify-content: space-between;
 }
 
-.button {
-  width: 266.30829px;
-  height: 68.87368399999998px;
-  max-width: 100%;
-  flex-basis: 33%;
+@media (max-width: 1280px) {
+  .button {
+    width: 249px;
+    height: 60px;
+  }
+
+  .text3 {
+    height: 98px;
+  }
 }
 
-.button1 {
-  width: 277.49116799999996px;
-  height: 86.868708px;
-  max-width: 100%;
-  flex-basis: 33%;
-}
+@media (max-width: 1024px) {
+  .container1 {
+    width: 833px;
+    height: 568px;
+  }
 
-.button2 {
-  width: 236.58753600000009px;
-  height: 94.22962399999999px;
-  max-width: 100%;
-  flex-basis: 33%;
+  .text1 {
+    height: 204px;
+  }
+
+  .text3 {
+    height: 120px;
+  }
+
+  .text5 {
+    height: 154px;
+  }
 }
 
 @media (max-width: 640px) {
@@ -202,6 +229,11 @@
   }
 
   .text1 {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
+  .button {
     max-width: 100%;
     flex-basis: auto;
   }
@@ -261,20 +293,5 @@
     flex-basis: auto;
     align-items: center;
     flex-direction: column;
-  }
-
-  .button {
-    max-width: 100%;
-    flex-basis: auto;
-  }
-
-  .button1 {
-    max-width: 100%;
-    flex-basis: auto;
-  }
-
-  .button2 {
-    max-width: 100%;
-    flex-basis: auto;
   }
 }
