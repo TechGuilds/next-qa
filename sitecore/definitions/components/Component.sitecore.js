@@ -8,8 +8,15 @@ export default function (manifest) {
   manifest.addComponent({
     name: 'Component',
     displayName: 'Component',
+    contentResolver: '',
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
-    fields: [],
+    fields: [
+      {
+        name: 'items',
+        type: CommonFieldTypes.ContentList,
+        standardValue: '[{},{},{}]',
+      },
+    ],
   })
 }

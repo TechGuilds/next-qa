@@ -1,20 +1,27 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container } from 'kajoo-components/sitecore-nextjs'
+import { Container, Image } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import AbaHeader from './AbaHeader'
-import AbaHero from './AbaHero'
 import styles from './Component.module.css'
 
 const AppComponent = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
-        <AbaHeader rootClassName="root-class-name" />
-        <AbaHero rootClassName="root-class-name" />
+        {props.fields.items.map((item, index) => (
+          <Container key={index}>
+            <Container className={styles['container2']}>
+              <Image
+                src={item.heading}
+                alt={item.alt}
+                className={` ${styles['image']} ${styles['acece83e7e5d4e62c6a6c']} `}
+              />
+            </Container>
+          </Container>
+        ))}
       </Container>
     </Container>
   )
