@@ -20,7 +20,8 @@ export default function (manifest) {
       {
         name: 'src',
         type: CommonFieldTypes.Image,
-        standardValue: '/icons/default-imag.svg',
+        standardValue:
+          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/TechGuilds%20Consulting%20Inc._60d5efadff0a5060c3aaa66d/assets/K50aYnZJt1OD-mPaNn0q4.png"}',
       },
       {
         name: 'text1',
@@ -36,7 +37,8 @@ export default function (manifest) {
       {
         name: 'src1',
         type: CommonFieldTypes.Image,
-        standardValue: '/icons/default-imag.svg',
+        standardValue:
+          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/TechGuilds%20Consulting%20Inc._60d5efadff0a5060c3aaa66d/assets/2lbQsXQ2T4NSUpyjA7Eoc.png"}',
       },
       {
         name: 'text3',
@@ -52,7 +54,8 @@ export default function (manifest) {
       {
         name: 'src2',
         type: CommonFieldTypes.Image,
-        standardValue: '/icons/default-imag.svg',
+        standardValue:
+          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/TechGuilds%20Consulting%20Inc._60d5efadff0a5060c3aaa66d/assets/u6-PTQ8tTXfkkXEDE08jY1.png"}',
       },
       {
         name: 'text5',

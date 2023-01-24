@@ -188,6 +188,38 @@
   flex-basis: 33%;
 }
 
+@media (max-width: 1024px) {
+  .text1 {
+    height: 91px;
+    font-family: "Narrow";
+    border-color: rgba(139, 0, 77, 1);
+    border-style: dotted;
+    background-color: rgba(239, 210, 255, 1);
+  }
+
+  .text3 {
+    display: block;
+    font-family: "Montserrat Subrayada";
+  }
+
+  .text5 {
+    display: none;
+  }
+
+  .button {
+    border-style: dotted;
+    background-color: rgba(127, 0, 129, 1);
+  }
+
+  .button1 {
+    background-color: rgba(167, 2, 52, 1);
+  }
+
+  .button2 {
+    background-color: rgba(70, 70, 70, 1);
+  }
+}
+
 @media (max-width: 640px) {
   .container1 {
     max-width: 100%;
