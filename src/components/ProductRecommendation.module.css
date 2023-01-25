@@ -188,6 +188,16 @@
   flex-basis: 33%;
 }
 
+.root-class-name {
+  width: 1334px;
+}
+
+@media (max-width: 1280px) {
+  .root-class-name {
+    width: 1332px;
+  }
+}
+
 @media (max-width: 1024px) {
   .text1 {
     height: 91px;
