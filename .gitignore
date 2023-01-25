@@ -31,3 +31,6 @@ scjssconfig.json
 
 # vercel
 .vercel
+src/components/BlogList/index.js
+
+src/components/BlogList/style.css
