@@ -91,6 +91,16 @@ const ProductRecommendation = (props) => {
             text={props.fields.text8}
             className={` ${styles['button2']} ${styles['button-default']} `}
           />
+          <Text
+            text={props.fields.text9}
+            tag="h1"
+            className={styles['text6']}
+          />
+          <Text
+            text={props.fields.text10}
+            tag="span"
+            className={styles['text7']}
+          />
         </Container>
       </Container>
     </Container>

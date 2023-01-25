@@ -78,6 +78,17 @@ export default function (manifest) {
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'Button',
       },
+      {
+        name: 'text9',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Heading',
+      },
+      {
+        name: 'text10',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue:
+          'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
+      },
     ],
   })
 }
