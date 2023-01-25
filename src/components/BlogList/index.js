@@ -11,33 +11,35 @@ import PropTypes from 'prop-types'
 
 import './style.css'
 
-const AppComponent = (props) => {
+const RepeaterLocalComponent = (props) => {
   return (
-    <Container className={`component-root ${props.rootClassName} `}>
+    <Container
+      className={`repeater-local-component-root ${props.rootClassName} `}
+    >
       <Text
         text={props.fields.CollectionTitle}
         tag="span"
-        className="component-text"
+        className="repeater-local-component-text"
       />
-      <Container className="component-container">
+      <Container className="repeater-local-component-container">
         {props.fields.items.map((item, index) => (
           <Container key={index} className="">
-            <Container className="component-container2">
-              <Container className="component-container3">
+            <Container className="repeater-local-component-container2">
+              <Container className="repeater-local-component-container3">
                 <Image
                   src={item.Image}
                   alt={item.alt}
-                  className="component-image 61a41d4370946d97c938c466"
+                  className="repeater-local-component-image 61a41d4370946d97c938c466"
                 />
                 <RichText
                   value={item.Description}
-                  className="component-richtext"
+                  className="repeater-local-component-richtext"
                 />
               </Container>
               <Text
                 text={item.BlogTitle}
                 tag="h1"
-                className="component-text1"
+                className="repeater-local-component-text1"
               />
             </Container>
           </Container>
@@ -47,14 +49,14 @@ const AppComponent = (props) => {
   )
 }
 
-AppComponent.defaultProps = {
+RepeaterLocalComponent.defaultProps = {
   rootClassName: '',
   fields: {},
 }
 
-AppComponent.propTypes = {
+RepeaterLocalComponent.propTypes = {
   rootClassName: PropTypes.string,
   fields: PropTypes.object,
 }
 
-export default AppComponent
+export default RepeaterLocalComponent

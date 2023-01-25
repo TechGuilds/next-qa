@@ -1,18 +1,18 @@
-.component-root {
+.repeater-local-component-root {
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: row;
 }
 
-.component-text {
+.repeater-local-component-text {
   width: 254px;
   height: fit-content;
   margin: 0px;
   padding: 0px;
 }
 
-.component-container {
+.repeater-local-component-container {
   width: 100%;
   height: 309px;
   display: grid;
@@ -22,40 +22,40 @@
   grid-template-columns: repeat(3,1fr);
 }
 
-.component-container2 {
+.repeater-local-component-container2 {
   display: flex;
   min-height: 100%;
 }
 
-.component-container3 {
+.repeater-local-component-container3 {
   display: flex;
   flex-direction: column;
 }
 
-.component-image {
+.repeater-local-component-image {
   background: rgb(217, 217, 217);
   width: 100px;
   height: 100px;
 }
 
-.component-richtext {
+.repeater-local-component-richtext {
   height: fit-content;
   margin: 0px;
   padding: 0px;
   min-width: 100px;
 }
 
-.component-text1 {
+.repeater-local-component-text1 {
   height: fit-content;
   min-width: 100px;
 }
 
 @media (max-width: 1280px) {
-  .component-text {
+  .repeater-local-component-text {
     width: 254px;
   }
 
-  .component-container {
+  .repeater-local-component-container {
     height: 312px;
   }
 }
