@@ -21,15 +21,14 @@
   flex-direction: row;
 }
 
-.text {
-  width: 100px;
-  height: fit-content;
-  margin: 0px;
-  padding: 0px;
-}
-
 .image {
   background: rgb(217, 217, 217);
-  width: 100px;
+  width: 166px;
   height: 100px;
+}
+
+@media (max-width: 1024px) {
+  .image {
+    width: 166px;
+  }
 }

@@ -1,33 +1,32 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, Image } from 'kajoo-components/sitecore-nextjs'
+import { Container, Image } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './ContentBlock.module.css'
+import styles from './new-test-link.module.css'
 
-const TestRepeater = (props) => {
+const Repeat3Component3 = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Text text={props.fields.heading} tag="span" className={styles['text']} />
       <Image
-        src={props.fields.src1}
-        alt={props.fields.alt1}
+        src={props.fields.src}
+        alt={props.fields.alt}
         className={` ${styles['image']} ${styles['image-default']} `}
       />
     </Container>
   )
 }
 
-TestRepeater.defaultProps = {
+Repeat3Component3.defaultProps = {
   rootClassName: '',
   fields: {},
 }
 
-TestRepeater.propTypes = {
+Repeat3Component3.propTypes = {
   rootClassName: PropTypes.string,
   fields: PropTypes.object,
 }
 
-export default TestRepeater
+export default Repeat3Component3
