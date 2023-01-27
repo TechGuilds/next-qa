@@ -1,0 +1,135 @@
+.button-default {
+  border: 1px solid rgba(88, 122, 141, 255);
+  font: 0.9em Amiri;
+  background: rgba(255, 255, 255, 1);
+  color: rgba(88, 122, 141, 255);
+  width: 250px;
+  height: 75px;
+  display: flex;
+  max-width: unset;
+  min-width: 30px;
+  max-height: 47px;
+  align-items: center;
+  border-radius: 1px;
+  flex-direction: column;
+  justify-content: center;
+  -webkit-user-drag: none;
+}
+
+.paragraph-default {
+  border: 0px none rgb(187, 187, 187);
+  font: 1em Open Sans;
+  background: #FFFFFF00;
+  color: rgba(51, 49, 51, 255);
+  width: 100px;
+  height: 75px;
+  display: flex;
+  overflow: hidden;
+  min-width: 30px;
+  max-height: 100%;
+  align-items: left;
+  padding-left: 3px;
+  border-radius: 5px;
+  flex-direction: column;
+  -webkit-user-drag: none;
+}
+
+.container-default {
+  border: 0px none rgb(187, 187, 187);
+  background: rgba(255, 255, 255, 0.05);
+  width: 100px;
+  height: 75px;
+  display: flex;
+  min-width: 30px;
+  border-radius: 3px;
+  flex-direction: row;
+}
+
+.image-default {
+  border: 0px none #666666;
+  background: #d9d9d9;
+  width: 100px;
+  height: 75px;
+  display: flex;
+  overflow: hidden;
+  min-width: 30px;
+  max-height: 100%;
+  align-items: center;
+  border-radius: 3px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  max-width: 100%;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  width: 469.71935999999994px;
+  height: 453.62884459124683px;
+  max-width: 100%;
+  flex-basis: 50%;
+}
+
+.container1 {
+  display: flex;
+  max-width: 50%;
+  flex-basis: 50%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text {
+  width: 421.2275999999999px;
+  height: 101.79997060280759px;
+  max-width: 100%;
+}
+
+.text1 {
+  width: 369.03959999999984px;
+  height: 110.04463848059453px;
+  max-width: 100%;
+}
+
+.button {
+  width: 378.6035999999999px;
+  height: 113.25519933938892px;
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .image {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
+  .container1 {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
+  .text {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
+  .text1 {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
+  .button {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+}
