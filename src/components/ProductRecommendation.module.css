@@ -100,7 +100,7 @@
 
 .text1 {
   width: 226.8457488px;
-  height: 90.80363999999996px;
+  height: 175px;
   max-width: 100%;
 }
 
@@ -135,7 +135,7 @@
 
 .text3 {
   width: 227.83698000000004px;
-  height: 83.29531199999998px;
+  height: 212px;
   max-width: 100%;
 }
 
@@ -170,11 +170,12 @@
 
 .text5 {
   width: 211.516596px;
-  height: 89.311766px;
+  height: 182px;
   max-width: 100%;
 }
 
 .container7 {
+  width: 873px;
   height: 217px;
   display: flex;
   max-width: 100%;

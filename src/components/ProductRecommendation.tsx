@@ -23,11 +23,12 @@ const ProductRecommendation = (props) => {
             className={` ${styles['container2']} ${styles['container-default']} `}
           >
             <Text
-              text={props.fields.text}
+              text="HEADER"
               className={` ${styles['text']} ${styles['paragraph-default']} `}
             />
             <Image
-              src={props.fields.src}
+              src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/TechGuilds%20Consulting%20Inc._60d5efadff0a5060c3aaa66d/assets/K50aYnZJt1OD-mPaNn0q4.png"
+              alt={props.fields.text1}
               className={` ${styles['image']} ${styles['image-default']} `}
             />
             <Text
@@ -42,16 +43,16 @@ const ProductRecommendation = (props) => {
               className={` ${styles['container4']} ${styles['container-default']} `}
             >
               <Text
-                text={props.fields.text2}
+                text={props.fields.text1}
                 className={` ${styles['text2']} ${styles['paragraph-default']} `}
               />
               <Image
-                src={props.fields.src1}
+                src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/TechGuilds%20Consulting%20Inc._60d5efadff0a5060c3aaa66d/assets/2lbQsXQ2T4NSUpyjA7Eoc.png"
                 className={` ${styles['image1']} ${styles['image-default']} `}
               />
             </Container>
             <Text
-              text={props.fields.text3}
+              text={props.fields.text1}
               className={` ${styles['text3']} ${styles['paragraph-default']} `}
             />
           </Container>
@@ -62,16 +63,16 @@ const ProductRecommendation = (props) => {
               className={` ${styles['container6']} ${styles['container-default']} `}
             >
               <Text
-                text={props.fields.text4}
+                text={props.fields.text1}
                 className={` ${styles['text4']} ${styles['paragraph-default']} `}
               />
               <Image
-                src={props.fields.src2}
+                src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/TechGuilds%20Consulting%20Inc._60d5efadff0a5060c3aaa66d/assets/u6-PTQ8tTXfkkXEDE08jY1.png"
                 className={` ${styles['image2']} ${styles['image-default']} `}
               />
             </Container>
             <Text
-              text={props.fields.text5}
+              text={props.fields.text1}
               className={` ${styles['text5']} ${styles['paragraph-default']} `}
             />
           </Container>
@@ -80,24 +81,24 @@ const ProductRecommendation = (props) => {
           className={` ${styles['container7']} ${styles['container-default']} `}
         >
           <Button
-            text={props.fields.text6}
+            text={props.fields.text1}
             className={` ${styles['button']} ${styles['button-default']} `}
           />
           <Button
-            text={props.fields.text7}
+            text={props.fields.text1}
             className={` ${styles['button1']} ${styles['button-default']} `}
           />
           <Button
-            text={props.fields.text8}
+            text={props.fields.text1}
             className={` ${styles['button2']} ${styles['button-default']} `}
           />
           <Text
-            text={props.fields.text9}
+            text={props.fields.text1}
             tag="h1"
             className={styles['text6']}
           />
           <Text
-            text={props.fields.text10}
+            text={props.fields.text1}
             tag="span"
             className={styles['text7']}
           />
