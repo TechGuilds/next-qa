@@ -15,15 +15,15 @@ const ThreeColumnBindTest = (props) => {
           className={` ${styles['container1']} ${styles['container-default']} `}
         >
           <Image
-            src={props.fields.src}
+            src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/TechGuilds%20Consulting%20Inc._60d5efadff0a5060c3aaa66d/assets/zb0STgLdD7NmNp8K0G32f.png"
             className={` ${styles['image']} ${styles['image-default']} `}
           />
           <Text
-            text={props.fields.text}
+            text="HEADER"
             className={` ${styles['text']} ${styles['paragraph-default']} `}
           />
           <Text
-            text={props.fields.text1}
+            text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
             className={` ${styles['text1']} ${styles['paragraph-default']} `}
           />
         </Container>
@@ -31,15 +31,15 @@ const ThreeColumnBindTest = (props) => {
           className={` ${styles['container2']} ${styles['container-default']} `}
         >
           <Image
-            src={props.fields.src1}
+            src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/TechGuilds%20Consulting%20Inc._60d5efadff0a5060c3aaa66d/assets/NSrpw0hDZEw2WDyWwiBgB1.png"
             className={` ${styles['image1']} ${styles['image-default']} `}
           />
           <Text
-            text={props.fields.text2}
+            text="HEADER"
             className={` ${styles['text2']} ${styles['paragraph-default']} `}
           />
           <Text
-            text={props.fields.text3}
+            text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
             className={` ${styles['text3']} ${styles['paragraph-default']} `}
           />
         </Container>
@@ -47,15 +47,15 @@ const ThreeColumnBindTest = (props) => {
           className={` ${styles['container3']} ${styles['container-default']} `}
         >
           <Image
-            src={props.fields.src6}
+            src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/TechGuilds%20Consulting%20Inc._60d5efadff0a5060c3aaa66d/assets/Cpg0bGxG52wtUDpVIiLbv.png"
             className={` ${styles['image2']} ${styles['image-default']} `}
           />
           <Text
-            text={props.fields.text4}
+            text="HEADER"
             className={` ${styles['text4']} ${styles['paragraph-default']} `}
           />
           <Text
-            text={props.fields.text5}
+            text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
             className={` ${styles['text5']} ${styles['paragraph-default']} `}
           />
         </Container>
