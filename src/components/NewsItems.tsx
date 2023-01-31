@@ -23,6 +23,7 @@ const AppComponent = (props) => {
                   className={styles['text']}
                 />
                 <Container
+                  bgImage={item.fields.bgImage}
                   className={` ${styles['container4']} ${styles['a41d4370946d97c938c465']} `}
                 >
                   <Image
