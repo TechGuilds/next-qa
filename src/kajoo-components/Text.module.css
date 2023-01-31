@@ -1,0 +1,26 @@
+.paragraph-default {
+  font-size: 0.8em;
+  min-width: 30px;
+  overflow: hidden;
+  -webkit-user-drag: none;
+}
+.root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.text {
+  height: 55.048248px;
+  max-width: 100%;
+  width: 214.50239999999997px;
+}
+.root-class-name {
+  width: 214px;
+}
+@media(max-width: 640px) {
+  .text {
+    flex-basis: auto;
+    max-width: 100%;
+  }
+}

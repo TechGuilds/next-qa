@@ -1,19 +1,13 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import {
-  Container,
-  Image,
-  Text,
-  TypeForm,
-  RichText,
-} from 'kajoo-components/sitecore-nextjs'
+import { Container, Image, Text } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
 import styles from './TestCol.module.css'
 
-const TestCol = (props) => {
+const ThreeColumnBindTest = (props) => {
   return (
     <Container className={styles[props.rootClassName]}>
       <Container className={styles['container']}>
@@ -37,8 +31,7 @@ const TestCol = (props) => {
           className={` ${styles['container2']} ${styles['container-default']} `}
         >
           <Image
-            src={props.fields.src2}
-            alt={props.fields.alt}
+            src={props.fields.src1}
             className={` ${styles['image1']} ${styles['image-default']} `}
           />
           <Text
@@ -53,51 +46,32 @@ const TestCol = (props) => {
         <Container
           className={` ${styles['container3']} ${styles['container-default']} `}
         >
-          <TypeForm
-            formId={props.fields.formId}
-            mode={props.fields.mode}
-            buttonText={props.fields.buttonText}
+          <Image
+            src={props.fields.src6}
+            className={` ${styles['image2']} ${styles['image-default']} `}
           />
           <Text
             text={props.fields.text4}
             className={` ${styles['text4']} ${styles['paragraph-default']} `}
           />
-        </Container>
-        <Container className={styles['container4']}>
-          <Container
-            className={` ${styles['container5']} ${styles['container-default']} `}
-          >
-            <Text
-              text={props.fields.text6}
-              tag="span"
-              className={styles['text5']}
-            />
-            <RichText
-              value={props.fields.value}
-              className={styles['richtext']}
-            />
-          </Container>
-          <Container
-            className={` ${styles['container6']} ${styles['container-default']} `}
+          <Text
+            text={props.fields.text5}
+            className={` ${styles['text5']} ${styles['paragraph-default']} `}
           />
         </Container>
-        <Text
-          text={props.fields.text5}
-          className={` ${styles['text6']} ${styles['paragraph-default']} `}
-        />
       </Container>
     </Container>
   )
 }
 
-TestCol.defaultProps = {
+ThreeColumnBindTest.defaultProps = {
   rootClassName: '',
   fields: {},
 }
 
-TestCol.propTypes = {
+ThreeColumnBindTest.propTypes = {
   rootClassName: PropTypes.string,
   fields: PropTypes.object,
 }
 
-export default TestCol
+export default ThreeColumnBindTest

@@ -1,112 +1,86 @@
 .paragraph-default {
-  overflow: hidden;
   font-size: 0.8em;
-  min-width: 30px;
   -webkit-user-drag: none;
 }
-
-.image-default {
-  background: #d9d9d9;
-  width: 100px;
-  height: 75px;
-  display: flex;
-  overflow: hidden;
+.paragraph-default,.image-default {
   min-width: 30px;
-  max-height: 100%;
+  overflow: hidden;
+}
+.image-default {
   align-items: center;
+  background-color: #d9d9d9;
   border-radius: 3px;
   flex-direction: column;
+  height: 75px;
   justify-content: center;
+  max-height: 100%;
+  width: 100px;
 }
-
-.container-default {
+.image-default,.container-default {
   display: flex;
 }
-
 .container {
-  width: 305.03077499999995px;
-  height: 610.91989px;
-  display: flex;
-  max-width: 100%;
   align-items: center;
   flex-direction: column;
+  height: 610.91989px;
   justify-content: space-between;
+  width: 305.03077499999995px;
 }
-
+.container,.container1 {
+  display: flex;
+  max-width: 100%;
+}
 .container1 {
-  display: flex;
-  max-width: 100%;
   align-items: flex-start;
   flex-direction: row;
   justify-content: center;
 }
-
 .image {
-  width: 91.455525px;
   height: 169.94250000000002px;
+  width: 91.455525px;
+}
+.image,.text {
   max-width: 100%;
 }
-
 .text {
-  width: 85.29412500000001px;
-  height: 52.70020000000002px;
-  max-width: 100%;
   align-self: flex-end;
+  height: 52.70020000000002px;
+  width: 85.29412500000001px;
 }
-
 .container2 {
-  display: flex;
-  max-width: 100%;
   align-items: flex-start;
+  display: flex;
   flex-direction: row;
   justify-content: center;
+  max-width: 100%;
 }
-
 .image1 {
-  width: 102.8265px;
   height: 128.96729999999994px;
+  width: 102.8265px;
+}
+.image1,.text1 {
   max-width: 100%;
 }
-
 .text1 {
-  width: 86.71424999999999px;
-  height: 67.96789999999999px;
-  max-width: 100%;
   align-self: flex-end;
+  height: 67.96789999999999px;
+  width: 86.71424999999999px;
 }
-
-@media (max-width: 640px) {
+@media(max-width: 640px) {
   .container1 {
-    max-width: 100%;
-    flex-basis: auto;
     align-items: center;
     flex-direction: column;
   }
-
-  .image {
-    max-width: 100%;
+  .container1,.image,.text,.container2 {
     flex-basis: auto;
-  }
-
-  .text {
     max-width: 100%;
-    flex-basis: auto;
   }
-
   .container2 {
-    max-width: 100%;
-    flex-basis: auto;
     align-items: center;
     flex-direction: column;
   }
-
-  .image1 {
-    max-width: 100%;
+  .image1,.text1 {
     flex-basis: auto;
-  }
-
-  .text1 {
     max-width: 100%;
-    flex-basis: auto;
   }
 }

@@ -44,14 +44,19 @@
   max-width: 100%;
 }
 .text {
-  height: 35px;
+  height: 77.31806399999995px;
   width: 229.24799999999993px;
 }
 .text1 {
-  font-family: "Inconsolata";
-  height: 188px;
-  max-width: 100%;
+  height: 41.589936000000044px;
   width: 174.72384px;
+}
+.text1,.text2 {
+  max-width: 100%;
+}
+.text2 {
+  height: 37px;
+  width: 116px;
 }
 .container2 {
   align-items: center;
@@ -62,21 +67,25 @@
   max-width: 33%;
 }
 .image1 {
-  height: 302px;
-  width: 315px;
+  height: 285.858072px;
+  width: 308.70950400000004px;
 }
-.image1,.text2 {
+.image1,.text3 {
   max-width: 100%;
-}
-.text2 {
-  font-family: "Teko";
-  height: 36px;
-  width: 204.668928px;
 }
 .text3 {
-  font-family: "Inconsolata";
-  height: 205px;
+  height: 77.044608px;
+  width: 204.668928px;
+}
+.text4 {
+  height: 30.164399999999986px;
+  width: 130.741632px;
+}
+.text4,.text5 {
   max-width: 100%;
+}
+.text5 {
+  height: 41.781096000000005px;
   width: 149.648256px;
 }
 .container3 {
@@ -88,52 +97,21 @@
   max-width: 33%;
 }
 .image2 {
-  height: 291px;
-  width: 338px;
-}
-.image2,.text4 {
+  height: 286px;
   max-width: 100%;
+  width: 279px;
 }
-.text4 {
-  height: 37px;
-  width: 197.849088px;
-}
-.text5 {
-  font-family: "Teko";
-  height: 230px;
-  max-width: 100%;
-  width: 130.741632px;
-}
-.root-class-name {
-  height: 500px;
-  width: 1126px;
-}
-@media(max-width: 1280px) {
-  .text {
-    height: 34px;
-  }
-  .text1 {
-    height: 187px;
-  }
-  .image1 {
-    height: 300px;
-    width: 315px;
-  }
+@media(max-width: 1024px) {
   .text2 {
-    height: 36px;
-  }
-  .text3 {
-    height: 205px;
+    height: 37px;
+    width: 116px;
   }
   .image2 {
-    height: 290px;
-    width: 338px;
-  }
-  .text4 {
-    height: 36px;
-  }
-  .text5 {
-    height: 230px;
+    height: 285px;
+    left: 631.068px;
+    position: absolute;
+    top: 2.2620000000000005px;
+    width: 278px;
   }
 }
 @media(max-width: 640px) {
@@ -141,7 +119,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .container1,.image,.text,.text1,.container2,.image1,.text2,.text3,.container3,.image2,.text4,.text5 {
+  .container1,.image,.text,.text1,.text2,.container2,.image1,.text3,.text4,.text5,.container3,.image2 {
     flex-basis: auto;
     max-width: 100%;
   }

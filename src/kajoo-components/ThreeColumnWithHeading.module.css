@@ -39,42 +39,38 @@
   max-width: 100%;
   width: 332.4943872px;
 }
+.container1 {
+  align-items: flex-start;
+  flex-direction: row;
+  max-width: 100%;
+}
 .container1,.container2 {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
 }
 .container2 {
-  align-items: flex-start;
-  height: 501px;
-  justify-content: space-between;
-  max-width: 100%;
-  width: 859px;
-}
-.container3,.container4 {
   align-items: center;
-  display: flex;
   flex-basis: 33%;
   flex-direction: column;
-  justify-content: space-between;
   max-width: 33%;
 }
 .image {
-  height: 327.11623199999997px;
-  width: 327.78777599999995px;
+  height: 287.17869599999995px;
+  width: 286.54202879999997px;
 }
 .image,.text1 {
   max-width: 100%;
 }
 .text1 {
-  height: 45.160415999999984px;
-  width: 247.062528px;
+  height: 55.048248px;
+  width: 214.50239999999997px;
 }
 .button {
-  height: 128.60402400000004px;
+  height: 123.32412000000001px;
   max-width: 100%;
-  width: 337.44614400000006px;
+  width: 291.9234816px;
 }
-.container5 {
+.container3 {
   align-items: center;
   display: flex;
   flex-basis: 33%;
@@ -83,31 +79,55 @@
   max-width: 33%;
 }
 .image1 {
-  height: 331.5978px;
-  width: 294.3083519999999px;
+  height: 327.11623199999997px;
+  width: 327.78777599999995px;
 }
 .image1,.text2 {
   max-width: 100%;
 }
 .text2 {
+  height: 45.160415999999984px;
+  width: 247.062528px;
+}
+.button1 {
+  height: 128.60402400000004px;
+  max-width: 100%;
+  width: 337.44614400000006px;
+}
+.container4 {
+  align-items: center;
+  display: flex;
+  flex-basis: 33%;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 33%;
+}
+.image2 {
+  height: 331.5978px;
+  width: 294.3083519999999px;
+}
+.image2,.text3 {
+  max-width: 100%;
+}
+.text3 {
   height: 43.1568px;
   width: 269.34796800000004px;
 }
-.button1 {
+.button2 {
   height: 115.595424px;
   max-width: 100%;
   width: 324.761472px;
 }
 @media(max-width: 640px) {
-  .text,.container2 {
+  .text,.container1 {
     flex-basis: auto;
     max-width: 100%;
   }
-  .container2 {
+  .container1 {
     align-items: center;
     flex-direction: column;
   }
-  .container3,.container4,.image,.text1,.button,.container5,.image1,.text2,.button1 {
+  .container2,.image,.text1,.button,.container3,.image1,.text2,.button1,.container4,.image2,.text3,.button2 {
     flex-basis: auto;
     max-width: 100%;
   }

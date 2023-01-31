@@ -1,0 +1,43 @@
+.button-default {
+  font-size: 0.8em;
+  min-height: 24px;
+}
+.button-default,.image-default {
+  align-items: center;
+  background-color: #d9d9d9;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 30px;
+}
+.image-default {
+  height: 75px;
+  max-height: 100%;
+  overflow: hidden;
+  width: 100px;
+}
+.root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.image {
+  height: 287.17869599999995px;
+  width: 286.54202879999997px;
+}
+.image,.button {
+  max-width: 100%;
+}
+.button {
+  height: 123.32412000000001px;
+  width: 291.9234816px;
+}
+
+@media(max-width: 640px) {
+  .image,.button {
+    flex-basis: auto;
+    max-width: 100%;
+  }
+}

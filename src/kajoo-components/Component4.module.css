@@ -1,0 +1,55 @@
+.paragraph-default {
+  font-size: 0.8em;
+  min-width: 30px;
+  overflow: hidden;
+  -webkit-user-drag: none;
+}
+.button-default {
+  font-size: 0.8em;
+  min-height: 24px;
+}
+.button-default,.image-default {
+  align-items: center;
+  background-color: #d9d9d9;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 30px;
+}
+.image-default {
+  height: 75px;
+  max-height: 100%;
+  overflow: hidden;
+  width: 100px;
+}
+.root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.image {
+  height: 253.02140000000003px;
+  width: 278.95312799999994px;
+}
+.image,.button {
+  max-width: 100%;
+}
+.button {
+  flex-basis: 33%;
+  height: 86.868708px;
+  width: 277.49116799999996px;
+}
+.text {
+  height: 83.29531199999998px;
+  max-width: 100%;
+  width: 227.83698000000004px;
+}
+
+@media(max-width: 640px) {
+  .image,.button,.text {
+    flex-basis: auto;
+    max-width: 100%;
+  }
+}
