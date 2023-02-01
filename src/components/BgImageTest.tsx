@@ -1,28 +1,38 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text } from 'kajoo-components/sitecore-nextjs'
+import { Container, Image, Text } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
 import styles from './BgImageTest.module.css'
 
-const BgImageTest = (props) => {
+const BannerAndTwoImage = (props) => {
   return (
-    <Container className={styles['root']}>
-      <Container
-        className={` ${styles['container']} ${styles['container-default']} `}
-      >
+    <Container className={styles[props.rootClassName]}>
+      <Container className={styles['container']}>
+        <Image
+          src={props.fields.src}
+          className={` ${styles['image']} ${styles['image-default']} `}
+        />
         <Container className={styles['container1']}>
-          <Container className={styles['container2']}>
-            <Text
-              text="Heading"
-              tag="h1"
-              className={` ${styles['text']} ${styles['header-default']} `}
-            />
-          </Container>
           <Container
-            className={` ${styles['container3']} ${styles['container-default']} `}
+            className={` ${styles['container2']} ${styles['container-default']} `}
+          >
+            <Image
+              src={props.fields.src2}
+              className={` ${styles['image1']} ${styles['image-default']} `}
+            />
+            <Container>
+              <Image
+                src={props.fields.src1}
+                className={` ${styles['image2']} ${styles['image-default']} `}
+              />
+            </Container>
+          </Container>
+          <Text
+            text={props.fields.text}
+            className={` ${styles['text']} ${styles['paragraph-default']} `}
           />
         </Container>
       </Container>
@@ -30,12 +40,14 @@ const BgImageTest = (props) => {
   )
 }
 
-BgImageTest.defaultProps = {
-  XAjoWKG5c2RVEsyillE_N: 'Heading',
+BannerAndTwoImage.defaultProps = {
+  rootClassName: '',
+  fields: {},
 }
 
-BgImageTest.propTypes = {
-  XAjoWKG5c2RVEsyillE_N: PropTypes.string,
+BannerAndTwoImage.propTypes = {
+  rootClassName: PropTypes.string,
+  fields: PropTypes.object,
 }
 
-export default BgImageTest
+export default BannerAndTwoImage
