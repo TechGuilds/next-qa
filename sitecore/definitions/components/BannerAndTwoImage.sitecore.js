@@ -8,9 +8,9 @@ export default function (manifest) {
   manifest.addComponent({
     name: 'BannerAndTwoImage',
     displayName: 'BannerAndTwoImage',
-    contentResolver: '',
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
+    contentResolver: '',
     fields: [
       {
         name: 'src',

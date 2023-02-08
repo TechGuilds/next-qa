@@ -15,25 +15,23 @@ const BannerAndTwoImage = (props) => {
           src={props.fields.src}
           className={` ${styles['image']} ${styles['image-default']} `}
         />
-        <Container className={styles['container1']}>
-          <Container
-            className={` ${styles['container2']} ${styles['container-default']} `}
-          >
-            <Image
-              src={props.fields.src2}
-              className={` ${styles['image1']} ${styles['image-default']} `}
-            />
-            <Container>
-              <Image
-                src={props.fields.src1}
-                className={` ${styles['image2']} ${styles['image-default']} `}
-              />
-            </Container>
-          </Container>
-          <Text
-            text={props.fields.text}
-            className={` ${styles['text']} ${styles['paragraph-default']} `}
+        <Container
+          className={` ${styles['container1']} ${styles['container-default']} `}
+        >
+          <Image
+            src={props.fields.src2}
+            className={` ${styles['image1']} ${styles['image-default']} `}
           />
+          <Container>
+            <Image
+              src={props.fields.src1}
+              className={` ${styles['image2']} ${styles['image-default']} `}
+            />
+            <Text
+              text={props.fields.text}
+              className={` ${styles['text']} ${styles['paragraph-default']} `}
+            />
+          </Container>
         </Container>
       </Container>
     </Container>
