@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Image } from 'kajoo-components/sitecore-nextjs'
+import { Container, Image, Text } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -27,6 +27,7 @@ const NewComponent3 = (props) => {
         src={props.src2}
         className={` ${styles['image2']} ${styles['image-default']} `}
       />
+      <Text text={props.text} tag="span" className={styles['text']} />
     </Container>
   )
 }
@@ -36,6 +37,7 @@ NewComponent3.defaultProps = {
   src: '/icons/default-imag.svg',
   src1: '/icons/default-imag.svg',
   src2: '/icons/default-imag.svg',
+  text: 'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
 }
 
 NewComponent3.propTypes = {
@@ -43,6 +45,7 @@ NewComponent3.propTypes = {
   src: PropTypes.string,
   src1: PropTypes.string,
   src2: PropTypes.string,
+  text: PropTypes.string,
 }
 
 export default NewComponent3

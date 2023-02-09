@@ -45,6 +45,12 @@
   max-width: 100%;
   width: 65.54257499999996px;
 }
+.text {
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
+}
 @media(max-width: 1024px) {
   .image {
     height: 144px;
