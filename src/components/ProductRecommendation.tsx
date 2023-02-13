@@ -23,15 +23,15 @@ const ProductRecommendation = (props) => {
             className={` ${styles['container2']} ${styles['container-default']} `}
           >
             <Text
-              text={props.fields.text}
+              text="HEADER"
               className={` ${styles['text']} ${styles['paragraph-default']} `}
             />
             <Image
-              src={props.fields.src}
+              src="/icons/default-imag.svg"
               className={` ${styles['image']} ${styles['image-default']} `}
             />
             <Text
-              text={props.fields.text1}
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
               className={` ${styles['text1']} ${styles['paragraph-default']} `}
             />
           </Container>
@@ -42,16 +42,16 @@ const ProductRecommendation = (props) => {
               className={` ${styles['container4']} ${styles['container-default']} `}
             >
               <Text
-                text={props.fields.text2}
+                text="HEADER"
                 className={` ${styles['text2']} ${styles['paragraph-default']} `}
               />
               <Image
-                src={props.fields.src1}
+                src="/icons/default-imag.svg"
                 className={` ${styles['image1']} ${styles['image-default']} `}
               />
             </Container>
             <Text
-              text={props.fields.text3}
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
               className={` ${styles['text3']} ${styles['paragraph-default']} `}
             />
           </Container>
@@ -62,16 +62,16 @@ const ProductRecommendation = (props) => {
               className={` ${styles['container6']} ${styles['container-default']} `}
             >
               <Text
-                text={props.fields.text4}
+                text="HEADER"
                 className={` ${styles['text4']} ${styles['paragraph-default']} `}
               />
               <Image
-                src={props.fields.src2}
+                src="/icons/default-imag.svg"
                 className={` ${styles['image2']} ${styles['image-default']} `}
               />
             </Container>
             <Text
-              text={props.fields.text5}
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
               className={` ${styles['text5']} ${styles['paragraph-default']} `}
             />
           </Container>
@@ -80,15 +80,16 @@ const ProductRecommendation = (props) => {
           className={` ${styles['container7']} ${styles['container-default']} `}
         >
           <Button
-            text={props.fields.text6}
+            text="Button"
             className={` ${styles['button']} ${styles['button-default']} `}
           />
           <Button
-            text={props.fields.text7}
+            text="Button"
             className={` ${styles['button1']} ${styles['button-default']} `}
           />
           <Button
-            text={props.fields.text8}
+            text="Button"
+            link
             className={` ${styles['button2']} ${styles['button-default']} `}
           />
         </Container>

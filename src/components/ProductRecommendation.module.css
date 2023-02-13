@@ -36,6 +36,7 @@
 .container {
   align-items: center;
   flex-direction: column;
+  height: 586px;
 }
 .container,.container1 {
   display: flex;
