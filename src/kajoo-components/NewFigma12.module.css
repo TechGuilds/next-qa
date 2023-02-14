@@ -1,0 +1,16 @@
+.container {
+  align-items: center;
+  background-color: rgba(77, 73, 52, 0);
+  border: 2px solid rgba(18, 18, 18, 1);
+  border-radius: 8px;
+  box-sizing: content-box;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 522px;
+  justify-content: center;
+  opacity: 0.9;
+  padding: 13px 24px;
+  position: relative;
+  width: 294px;
+}
