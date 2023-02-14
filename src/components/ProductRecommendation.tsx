@@ -5,6 +5,7 @@ import {
   Container,
   Text,
   Image,
+  RichText,
   Button,
 } from 'kajoo-components/sitecore-nextjs'
 
@@ -23,16 +24,16 @@ const ProductRecommendation = (props) => {
             className={` ${styles['container2']} ${styles['container-default']} `}
           >
             <Text
-              text="HEADER"
+              text={props.fields.Title}
               className={` ${styles['text']} ${styles['paragraph-default']} `}
             />
             <Image
-              src="/icons/default-imag.svg"
+              src={props.fields.Image}
               className={` ${styles['image']} ${styles['image-default']} `}
             />
-            <Text
-              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
-              className={` ${styles['text1']} ${styles['paragraph-default']} `}
+            <RichText
+              value={props.fields.Description}
+              className={styles['richtext']}
             />
           </Container>
           <Container
@@ -42,17 +43,17 @@ const ProductRecommendation = (props) => {
               className={` ${styles['container4']} ${styles['container-default']} `}
             >
               <Text
-                text="HEADER"
-                className={` ${styles['text2']} ${styles['paragraph-default']} `}
+                text={props.fields.Title}
+                className={` ${styles['text1']} ${styles['paragraph-default']} `}
               />
               <Image
-                src="/icons/default-imag.svg"
+                src={props.fields.Image}
                 className={` ${styles['image1']} ${styles['image-default']} `}
               />
             </Container>
-            <Text
-              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
-              className={` ${styles['text3']} ${styles['paragraph-default']} `}
+            <RichText
+              value={props.fields.Description}
+              className={styles['richtext1']}
             />
           </Container>
           <Container
@@ -62,17 +63,17 @@ const ProductRecommendation = (props) => {
               className={` ${styles['container6']} ${styles['container-default']} `}
             >
               <Text
-                text="HEADER"
-                className={` ${styles['text4']} ${styles['paragraph-default']} `}
+                text={props.fields.Title}
+                className={` ${styles['text2']} ${styles['paragraph-default']} `}
               />
               <Image
-                src="/icons/default-imag.svg"
+                src={props.fields.Image}
                 className={` ${styles['image2']} ${styles['image-default']} `}
               />
             </Container>
-            <Text
-              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
-              className={` ${styles['text5']} ${styles['paragraph-default']} `}
+            <RichText
+              value={props.fields.Description}
+              className={styles['richtext2']}
             />
           </Container>
         </Container>
@@ -85,6 +86,7 @@ const ProductRecommendation = (props) => {
           />
           <Button
             text="Button"
+            link
             className={` ${styles['button1']} ${styles['button-default']} `}
           />
           <Button

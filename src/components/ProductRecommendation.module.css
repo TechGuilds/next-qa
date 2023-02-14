@@ -36,7 +36,6 @@
 .container {
   align-items: center;
   flex-direction: column;
-  height: 586px;
 }
 .container,.container1 {
   display: flex;
@@ -67,10 +66,12 @@
   height: 263.658736px;
   width: 303.2061516px;
 }
-.text1 {
-  height: 90.80363999999996px;
-  max-width: 100%;
-  width: 226.8457488px;
+.richtext {
+  height: fit-content;
+  margin: 0px;
+  min-width: 100px;
+  padding: 0px;
+  width: 245px;
 }
 .container3 {
   flex-basis: 33%;
@@ -82,23 +83,24 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.container4,.text2 {
+.container4,.text1 {
   max-width: 100%;
 }
-.text2 {
+.text1 {
   height: 58.3389446px;
   width: 224.63405999999992px;
 }
 .image1 {
   height: 253.02140000000003px;
+  max-width: 100%;
   width: 278.95312799999994px;
 }
-.image1,.text3 {
-  max-width: 100%;
-}
-.text3 {
-  height: 83.29531199999998px;
-  width: 227.83698000000004px;
+.richtext1 {
+  height: fit-content;
+  margin: 0px;
+  min-width: 100px;
+  padding: 0px;
+  width: 276px;
 }
 .container5 {
   flex-basis: 33%;
@@ -110,25 +112,24 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.container6 {
+.container6,.text2 {
   max-width: 100%;
-  width: 243px;
 }
-.text4 {
+.text2 {
   height: 48.1029028px;
   width: 213.471828px;
 }
-.text4,.image2 {
-  max-width: 100%;
-}
 .image2 {
   height: 258.646459px;
+  max-width: 100%;
   width: 243.06033599999998px;
 }
-.text5 {
-  height: 89.311766px;
-  max-width: 100%;
-  width: 211.516596px;
+.richtext2 {
+  height: fit-content;
+  margin: 0px;
+  min-width: 100px;
+  padding: 0px;
+  width: 261px;
 }
 .container7 {
   align-items: flex-start;
@@ -138,29 +139,24 @@
   max-width: 100%;
 }
 .button {
-  height: 68.87368399999998px;
-  width: 266.30829px;
-}
-.button,.button1 {
+  border: 1px solid #666666;
   flex-basis: 33%;
+  height: 70px;
   max-width: 100%;
+  width: 239px;
 }
 .button1 {
-  height: 86.868708px;
-  width: 277.49116799999996px;
+  width: 174px;
 }
 .button2 {
-  flex-basis: 33%;
-  height: 94.22962399999999px;
-  max-width: 100%;
-  width: 236.58753600000009px;
+  width: 206px;
 }
 @media(max-width: 640px) {
   .container1 {
     align-items: center;
     flex-direction: column;
   }
-  .container1,.container2,.text,.image,.text1,.container3,.container4,.text2,.image1,.text3,.container5,.container6,.text4,.image2,.text5,.container7 {
+  .container1,.container2,.text,.image,.container3,.container4,.text1,.image1,.container5,.container6,.text2,.image2,.container7 {
     flex-basis: auto;
     max-width: 100%;
   }
@@ -168,7 +164,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .button,.button1,.button2 {
+  .button {
     flex-basis: auto;
     max-width: 100%;
   }
