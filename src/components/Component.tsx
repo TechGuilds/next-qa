@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Image } from 'kajoo-components/sitecore-nextjs'
+import { Container, Text, Image } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -14,11 +14,20 @@ const AppComponent = (props) => {
         {props.fields.items.map((item, index) => (
           <Container key={index}>
             <Container className={styles['container2']}>
-              <Image
-                src={item.heading}
-                alt={item.alt}
-                className={` ${styles['image']} ${styles['acece83e7e5d4e62c6a6c']} `}
-              />
+              <Container
+                className={` ${styles['container3']} ${styles['acece83e7e5d4e62c6a6b']} `}
+              >
+                <Text
+                  text={item.fields.title}
+                  tag="span"
+                  className={styles['text']}
+                />
+                <Image
+                  src={item.fields.image}
+                  alt={item.fields.title}
+                  className={` ${styles['image']} ${styles['acece83e7e5d4e62c6a6c']} `}
+                />
+              </Container>
             </Container>
           </Container>
         ))}
