@@ -1,32 +1,28 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Link } from 'kajoo-components/sitecore-nextjs'
+import { Container, Text } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
 import styles from './MohTest.module.css'
 
-const MohTest = (props) => {
+const AppComponent = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Link
-        href="#Mohammed"
-        text={props.fields.text}
-        className={` ${styles['link']} ${styles['link-link-style-2']} `}
-      />
+      <Text text={props.fields.text} tag="span" className={styles['text']} />
     </Container>
   )
 }
 
-MohTest.defaultProps = {
+AppComponent.defaultProps = {
   rootClassName: '',
   fields: {},
 }
 
-MohTest.propTypes = {
+AppComponent.propTypes = {
   rootClassName: PropTypes.string,
   fields: PropTypes.object,
 }
 
-export default MohTest
+export default AppComponent
