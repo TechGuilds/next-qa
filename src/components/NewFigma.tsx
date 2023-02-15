@@ -1,34 +1,51 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, RichText } from 'kajoo-components/sitecore-nextjs'
+import { Container, Image, Text } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
 import styles from './NewFigma.module.css'
 
-const NewFigma = (props) => {
+const BannerAndTwoImage = (props) => {
   return (
     <Container className={styles[props.rootClassName]}>
-      <Container bgImage={props.fields.bgImage} className={styles['container']}>
-        <Container className={styles['container1']} />
-        <Container className={styles['container2']} />
-        <Text text={props.fields.text} className={styles['text']} />
-        <RichText value={props.fields.value1} className={styles['richtext']} />
-        <RichText value={props.fields.value} className={styles['richtext1']} />
+      <Container className={styles['container']}>
+        <Image
+          src={props.fields.bgImage}
+          className={` ${styles['image']} ${styles['image-default']} `}
+        />
+        <Container
+          className={` ${styles['container1']} ${styles['container-default']} `}
+        >
+          <Image
+            src={props.fields.bgImage}
+            className={` ${styles['image1']} ${styles['image-default']} `}
+          />
+          <Container>
+            <Image
+              src={props.fields.bgImage}
+              className={` ${styles['image2']} ${styles['image-default']} `}
+            />
+            <Text
+              text={props.fields.text}
+              className={` ${styles['text']} ${styles['paragraph-default']} `}
+            />
+          </Container>
+        </Container>
       </Container>
     </Container>
   )
 }
 
-NewFigma.defaultProps = {
+BannerAndTwoImage.defaultProps = {
   rootClassName: '',
   fields: {},
 }
 
-NewFigma.propTypes = {
+BannerAndTwoImage.propTypes = {
   rootClassName: PropTypes.string,
   fields: PropTypes.object,
 }
 
-export default NewFigma
+export default BannerAndTwoImage
