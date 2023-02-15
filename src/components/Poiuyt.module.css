@@ -73,6 +73,9 @@
   padding: 0px;
   width: 245px;
 }
+.button {
+  width: 260px;
+}
 .container3 {
   flex-basis: 33%;
   max-width: 33%;
@@ -102,6 +105,9 @@
   padding: 0px;
   width: 276px;
 }
+.button1 {
+  width: 255px;
+}
 .container5 {
   flex-basis: 33%;
   max-width: 33%;
@@ -130,6 +136,9 @@
   min-width: 100px;
   padding: 0px;
   width: 261px;
+}
+.button2 {
+  width: 237px;
 }
 .container7 {
   align-items: flex-start;

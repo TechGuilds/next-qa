@@ -35,6 +35,11 @@ const ProductRecommendation = (props) => {
               value="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
               className={styles['richtext']}
             />
+            <Button
+              text="Button"
+              link
+              className={` ${styles['button']} ${styles['button-default']} `}
+            />
           </Container>
           <Container
             className={` ${styles['container3']} ${styles['container-default']} `}
@@ -54,6 +59,11 @@ const ProductRecommendation = (props) => {
             <RichText
               value="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
               className={styles['richtext1']}
+            />
+            <Button
+              text="Button"
+              link
+              className={` ${styles['button1']} ${styles['button-default']} `}
             />
           </Container>
           <Container
@@ -75,15 +85,16 @@ const ProductRecommendation = (props) => {
               value="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
               className={styles['richtext2']}
             />
+            <Button
+              text="Button"
+              link
+              className={` ${styles['button2']} ${styles['button-default']} `}
+            />
           </Container>
         </Container>
         <Container
           className={` ${styles['container7']} ${styles['container-default']} `}
-        >
-          <Button text="Button" link className={styles['button-default']} />
-          <Button text="Button" link className={styles['button-default']} />
-          <Button text="Button" link className={styles['button-default']} />
-        </Container>
+        />
       </Container>
     </Container>
   )
