@@ -138,7 +138,7 @@
   max-width: 100%;
 }
 .button {
-  height: 68.87368399999998px;
+  height: 97px;
   width: 266.30829px;
 }
 .button,.button1 {
@@ -146,12 +146,12 @@
   max-width: 100%;
 }
 .button1 {
-  height: 86.868708px;
+  height: 99px;
   width: 277.49116799999996px;
 }
 .button2 {
   flex-basis: 33%;
-  height: 94.22962399999999px;
+  height: 99px;
   max-width: 100%;
   width: 236.58753600000009px;
 }

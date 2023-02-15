@@ -103,7 +103,7 @@
   margin: 0px;
   min-width: 100px;
   padding: 0px;
-  width: 276px;
+  width: 278px;
 }
 .button1 {
   height: 83px;
@@ -148,6 +148,11 @@
   flex-direction: row;
   justify-content: space-between;
   max-width: 100%;
+}
+@media(max-width: 1280px) {
+  .richtext1 {
+    width: 279px;
+  }
 }
 @media(max-width: 640px) {
   .container1 {
