@@ -80,15 +80,9 @@ const ProductRecommendation = (props) => {
         <Container
           className={` ${styles['container7']} ${styles['container-default']} `}
         >
-          <Button
-            className={` ${styles['button']} ${styles['button-default']} `}
-          />
-          <Button
-            className={` ${styles['button1']} ${styles['button-default']} `}
-          />
-          <Button
-            className={` ${styles['button2']} ${styles['button-default']} `}
-          />
+          <Button text="Button" link className={styles['button-default']} />
+          <Button text="Button" link className={styles['button-default']} />
+          <Button text="Button" link className={styles['button-default']} />
         </Container>
       </Container>
     </Container>
