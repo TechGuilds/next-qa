@@ -1,0 +1,27 @@
+.container-default {
+  display: flex;
+}
+
+.root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.richtext {
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+  min-width: 100px;
+}

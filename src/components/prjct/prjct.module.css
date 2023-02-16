@@ -1,0 +1,238 @@
+.course-module2581 {
+  background: rgba(244, 246, 246, 1);
+  display: flex;
+  padding: 80px;
+  position: relative;
+  flex-grow: 0;
+  align-self: stretch;
+  box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.10196078568696976);
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.frame191i258121715 {
+  width: 460px;
+  height: 320px;
+  margin: 0 0 64px 0;
+  display: flex;
+  position: relative;
+  flex-grow: 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+}
+
+.transparentimage-i258121716 {
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+
+.image {
+  width: auto;
+  height: auto;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  object-fit: cover;
+  flex-shrink: 1;
+  border-color: transparent;
+}
+
+.text-i258121717 {
+  display: flex;
+  padding: 116px;
+  position: relative;
+  flex-grow: 0;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  flex-direction: column;
+}
+
+.text {
+  font: normal bold 28px/36px Roboto;
+  color: rgba(34, 34, 34, 1);
+  width: 748px;
+  height: auto;
+  margin: 0 0 40px 0;
+  flex-grow: 0;
+  align-self: stretch;
+  text-align: left;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.text01 {
+  font: normal 300px 24px/32px Roboto;
+  color: rgba(34, 34, 34, 1);
+  width: 748px;
+  height: auto;
+  margin: 0 0 40px 0;
+  flex-grow: 0;
+  align-self: stretch;
+  text-align: left;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.text02 {
+  font: normal 300px 24px/32px Roboto;
+  color: rgba(34, 34, 34, 1);
+  width: 748px;
+  height: auto;
+  margin: 0 0 40px 0;
+  flex-grow: 0;
+  align-self: stretch;
+  text-align: left;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.text03 {
+  color: rgba(34, 34, 34, 1);
+  width: 748px;
+  height: auto;
+  flex-grow: 0;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  font-weight: 300px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.text09 {
+  color: rgba(34, 34, 34, 1);
+  width: 748px;
+  height: auto;
+  flex-grow: 0;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  font-weight: 500px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.text13 {
+  color: rgba(34, 34, 34, 1);
+  width: 748px;
+  height: auto;
+  flex-grow: 0;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  font-weight: 300px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.text41 {
+  color: rgba(34, 34, 34, 1);
+  width: 748px;
+  height: auto;
+  flex-grow: 0;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  font-weight: 500px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.text42 {
+  font-weight: bold;
+}
+
+.text45 {
+  color: rgba(34, 34, 34, 1);
+  width: 748px;
+  height: auto;
+  flex-grow: 0;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  font-weight: 300px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.button-i258121721 {
+  background: rgba(227, 72, 52, 1);
+  height: 64px;
+  margin: 0 0 40px 0;
+  display: flex;
+  padding: 24px 48px;
+  position: relative;
+  flex-grow: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10000000149011612);
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+}
+
+.text67 {
+  font: normal 700px 18px/18px Montserrat;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  flex-grow: 0;
+  align-self: auto;
+  text-align: center;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+.loadmore-i258121722 {
+  display: flex;
+  position: relative;
+  flex-grow: 0;
+  align-self: stretch;
+  box-sizing: border-box;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: flex-end;
+}
+
+.expandbutton-i258121723 {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  position: relative;
+  flex-grow: 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+
+.svg {
+  width: 64;
+  height: 64;
+  position: absolute;
+}
+
+.svg1 {
+  top: 24px;
+  left: 17px;
+  width: 18;
+  height: 18;
+  position: absolute;
+}
