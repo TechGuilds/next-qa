@@ -27,10 +27,6 @@ const ProductRecommendation909021 = (props) => {
               text="HEADER"
               className={` ${styles['text']} ${styles['paragraph-default']} `}
             />
-            <Image
-              src="/icons/default-imag.svg"
-              className={` ${styles['image']} ${styles['image-default']} `}
-            />
             <RichText
               value="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
               className={styles['richtext']}
@@ -50,10 +46,6 @@ const ProductRecommendation909021 = (props) => {
               <Text
                 text="HEADER"
                 className={` ${styles['text1']} ${styles['paragraph-default']} `}
-              />
-              <Image
-                src="/icons/default-imag.svg"
-                className={` ${styles['image1']} ${styles['image-default']} `}
               />
             </Container>
             <RichText
@@ -75,10 +67,6 @@ const ProductRecommendation909021 = (props) => {
               <Text
                 text="HEADER"
                 className={` ${styles['text2']} ${styles['paragraph-default']} `}
-              />
-              <Image
-                src="/icons/default-imag.svg"
-                className={` ${styles['image2']} ${styles['image-default']} `}
               />
             </Container>
             <RichText
