@@ -1,0 +1,127 @@
+.container {
+  align-items: flex-start;
+  background-color: rgba(25, 192, 115, 1);
+  border-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  height: 701px;
+  overflow: hidden;
+  position: relative;
+  width: 1246px;
+}
+.container1 {
+  flex-shrink: 0;
+  height: 317px;
+  left: 132px;
+  top: 250px;
+}
+.container1,.container2 {
+  align-items: flex-start;
+  border-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-grow: 0;
+  position: absolute;
+  width: 534px;
+}
+.container2 {
+  flex-direction: column;
+  flex-shrink: 1;
+  left: 0px;
+  top: 0px;
+}
+.text {
+  font-size: 70px;
+  font-style: italic;
+  line-height: normal;
+  margin: 0 0 32px;
+  width: 534px;
+}
+.text,.text1 {
+  align-self: auto;
+  color: rgba(255, 255, 255, 1);
+  flex-grow: 0;
+  font-family: ABeeZee;
+  font-stretch: normal;
+  font-weight: 400;
+  height: auto;
+  text-align: left;
+  text-decoration: none;
+}
+.text1 {
+  font-size: 16px;
+  font-style: normal;
+  line-height: 20px;
+  width: 441px;
+}
+.container3 {
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 1);
+  border-color: transparent;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  height: 58px;
+  left: 0px;
+  top: 259px;
+  width: 398px;
+}
+.container3,.text2 {
+  flex-grow: 0;
+  position: absolute;
+}
+.text2 {
+  align-self: auto;
+  color: rgba(145, 145, 145, 1);
+  font-family: ABeeZee;
+  font-size: 12px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 22px;
+  line-height: 20px;
+  text-align: left;
+  text-decoration: none;
+  top: 19px;
+}
+.button {
+  align-items: flex-start;
+  background-color: rgba(243, 186, 0, 1);
+  border-color: transparent;
+  border-radius: 0 10px 10px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 1;
+  height: 61px;
+  left: 286px;
+  padding: 19px 29px;
+  position: absolute;
+  top: 0px;
+  width: 112px;
+}
+.text3 {
+  align-self: auto;
+  color: rgba(255, 255, 255, 1);
+  flex-grow: 0;
+  font-family: ABeeZee;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  line-height: 20px;
+  text-align: left;
+  text-decoration: none;
+}
+.image {
+  height: 353px;
+  left: 749px;
+  position: absolute;
+  top: 160px;
+  width: 302px;
+}
