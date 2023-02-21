@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, Link } from 'kajoo-components/sitecore-nextjs'
+import { Container, Text, Button, Link } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -48,10 +48,16 @@ const ContentBlockswithLink221 = (props) => {
           </Container>
         </Container>
       </Container>
-      <Link
-        href={props.fields.href}
-        className={` ${styles['link']} ${styles['link-default']} `}
-      />
+      <Container className={styles['container15']}>
+        <Button
+          text={props.fields.text9}
+          className={` ${styles['button']} ${styles['button-default']} `}
+        />
+        <Link
+          href={props.fields.href}
+          className={` ${styles['link']} ${styles['link-default']} `}
+        />
+      </Container>
     </Container>
   )
 }

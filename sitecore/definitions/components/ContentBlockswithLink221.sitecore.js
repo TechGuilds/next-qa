@@ -57,6 +57,11 @@ export default function (manifest) {
           'Now that you have your action plan, your team can start chipping away at those issues. Or you can sign up for one of TechGuilds Super Care™ plans (Sitecore Managed Services previously) and get a team of Sitecore specialists tackle them for you.\r',
       },
       {
+        name: 'text9',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Button',
+      },
+      {
         name: 'href',
         type: CommonFieldTypes.GeneralLink,
         standardValue:
