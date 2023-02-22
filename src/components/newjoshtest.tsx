@@ -25,11 +25,7 @@ const ProductCardRepeater = (props) => {
                   src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/tEnV-LhahldOA5kmM2FZG.png"
                   className={` ${styles['image']} ${styles['acece83e7e5d4e62c6a6c']} `}
                 />
-                <Text
-                  text="Hello there I am test text"
-                  tag="span"
-                  className={styles['text1']}
-                />
+                <Text text="wrewrwerw" tag="span" className={styles['text1']} />
                 <RichText
                   value="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
                   className={styles['richtext']}
