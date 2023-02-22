@@ -37,4 +37,5 @@
 .richtext {
   height: fit-content;
   min-width: 100px;
+  width: 275px;
 }
