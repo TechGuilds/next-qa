@@ -24,6 +24,11 @@ const REpeattted = (props) => {
                 alt={item.fields.title}
                 className={` ${styles['image']} ${styles['acece83e7e5d4e62c6a6c']} `}
               />
+              <Text
+                text={item.fields.title}
+                tag="span"
+                className={styles['text1']}
+              />
             </Container>
           </Container>
         ))}
