@@ -23,7 +23,6 @@ const ProductCardRepeater = (props) => {
               <Container className={styles['container03']}>
                 <Image
                   src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/tEnV-LhahldOA5kmM2FZG.png"
-                  alt
                   className={` ${styles['image']} ${styles['acece83e7e5d4e62c6a6c']} `}
                 />
                 <Text
@@ -54,7 +53,6 @@ const ProductCardRepeater = (props) => {
                 <Container className={styles['container11']}>
                   <Image
                     src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/CRWGiE_dEU4wd5MPOnvWB.svg"
-                    alt="antdesignstarfilled104268"
                     className={styles['image1']}
                   />
                   <Text text={props.fields.Title} className={styles['text4']} />
@@ -71,7 +69,6 @@ const ProductCardRepeater = (props) => {
                   <Container className={styles['container16']}>
                     <Image
                       src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/GRIcH8XoRPM72-hmHKNYT.svg"
-                      alt="Group104278"
                       className={styles['image2']}
                     />
                   </Container>
