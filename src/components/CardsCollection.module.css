@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr) ;
+  height: fit-content;
+  min-height: 200px;
+  min-width: 500px;
+  position: relative;
+  width: 100%;
+}
+.container2 {
+  display: flex;
+  min-height: 100%;
+  parent-id: kMSbA9Z94FX3Xu2kYtkRe;
+}
+.text {
+  background-color: rgba(239, 210, 255, 1);
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
+}
+.image {
+  background-color: rgb(217, 217, 217);
+  height: 100px;
+  width: 100px;
+}
