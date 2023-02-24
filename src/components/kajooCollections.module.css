@@ -1,0 +1,44 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  height: 457px;
+  min-height: 200px;
+  min-width: 500px;
+  position: relative;
+  width: 100%;
+}
+.container2 {
+  display: flex;
+  min-height: 100%;
+  parent-id: Awz1tekCCmRuTL_f5ATsm;
+}
+.container3 {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  height: 170px;
+  justify-content: flex-start;
+  width: 340px;
+}
+.text {
+  height: fit-content;
+  min-width: 100px;
+}
+.image {
+  background-color: rgb(217, 217, 217);
+  height: 176px;
+  width: 182px;
+}
+.text1 {
+  height: 28px;
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
+}
