@@ -1,5 +1,9 @@
 /* eslint-disable */
 // @ts-nocheck
+/* eslint-disable */
+// @ts-nocheck
+/* eslint-disable */
+// @ts-nocheck
 import React from 'react'
 import {
   Container,
@@ -19,16 +23,30 @@ const ProductCardRepeater = (props) => {
         {props.fields.items.map((item, index) => (
           <Container key={index}>
             <Container className={styles['container2']}>
-              <Text text="Heading" tag="h1" className={styles['text']} />
+              <Text
+                text={item.fields.Title}
+                tag="h1"
+                className={styles['text']}
+              />
               <Container className={styles['container3']}>
                 <Image
-                  src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/tEnV-LhahldOA5kmM2FZG.png"
+                  src={item.fields.Image}
+                  alt
                   className={` ${styles['image']} ${styles['acece83e7e5d4e62c6a6c']} `}
                 />
-                <Text text="wrewrwerw" tag="span" className={styles['text1']} />
+                <Text text="asdsasa" tag="span" className={styles['text1']} />
+                <Text
+                  text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
+                  tag="span"
+                  className={styles['text2']}
+                />
                 <RichText
-                  value="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
+                  value={item.fields.Description}
                   className={styles['richtext']}
+                />
+                <RichText
+                  value="&lt;p&gt;Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.&lt;/p&gt;"
+                  className={styles['richtext1']}
                 />
               </Container>
             </Container>

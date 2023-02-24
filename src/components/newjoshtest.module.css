@@ -1,11 +1,11 @@
 .container {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  height: 285px;
+  height: 443px;
   min-height: 200px;
   min-width: 500px;
   position: relative;
-  width: 788px;
+  width: 809px;
 }
 .container2 {
   display: flex;
@@ -28,14 +28,25 @@
 }
 .text1 {
   height: 40px;
+  margin: 0px;
+  padding: 0px;
   width: 265px;
 }
-.text1,.richtext {
+.text2 {
+  width: 300px;
+}
+.text2,.richtext {
+  height: fit-content;
   margin: 0px;
   padding: 0px;
 }
 .richtext {
-  height: fit-content;
   min-width: 100px;
   width: 275px;
+}
+.richtext1 {
+  height: fit-content;
+  margin: 0px;
+  min-width: 100px;
+  padding: 0px;
 }
