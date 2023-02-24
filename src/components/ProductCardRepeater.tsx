@@ -2,6 +2,8 @@
 // @ts-nocheck
 /* eslint-disable */
 // @ts-nocheck
+/* eslint-disable */
+// @ts-nocheck
 import React from 'react'
 import {
   Container,
@@ -22,23 +24,23 @@ const ProductCardRepeater = (props) => {
           <Container key={index}>
             <Container className={styles['container2']}>
               <Text
-                text={item.fields.text1}
+                text={item.fields.Title}
                 tag="h1"
                 className={styles['text']}
               />
               <Container className={styles['container3']}>
                 <Image
-                  src={item.fields.src}
-                  alt={item.fields.alt}
+                  src={item.fields.Image}
+                  alt
                   className={` ${styles['image']} ${styles['acece83e7e5d4e62c6a6c']} `}
                 />
                 <Text
-                  text={item.fields.alt}
+                  text={item.fields.Title}
                   tag="span"
                   className={styles['text1']}
                 />
                 <RichText
-                  value={item.fields.text1}
+                  value={item.fields.Description}
                   className={styles['richtext']}
                 />
               </Container>

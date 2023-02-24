@@ -10,17 +10,17 @@ export default function (manifest) {
     displayName: 'ProductCardRepeaterItem',
     fields: [
       {
-        name: 'text1',
-        type: CommonFieldTypes.RichText,
+        name: 'Title',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'asdsasa',
       },
       {
-        name: 'src',
+        name: 'Image',
         type: CommonFieldTypes.Image,
       },
       {
-        name: 'alt',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'asdsasa',
+        name: 'Description',
+        type: CommonFieldTypes.RichText,
       },
     ],
   })
