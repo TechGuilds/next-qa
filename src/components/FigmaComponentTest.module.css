@@ -35,6 +35,7 @@
 .text {
   font-size: 70px;
   font-style: italic;
+  height: auto;
   line-height: normal;
   margin: 0 0 32px;
   width: 534px;
@@ -46,13 +47,13 @@
   font-family: ABeeZee;
   font-stretch: normal;
   font-weight: 400;
-  height: auto;
   text-align: left;
   text-decoration: none;
 }
 .text1 {
   font-size: 16px;
   font-style: normal;
+  height: 40px;
   line-height: 20px;
   width: 441px;
 }
@@ -124,4 +125,11 @@
   position: absolute;
   top: 160px;
   width: 302px;
+}
+
+@media(max-width: 1024px) {
+  .image {
+    left: 750px;
+    top: 160px;
+  }
 }

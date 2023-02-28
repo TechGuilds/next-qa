@@ -1,5 +1,11 @@
 /* eslint-disable */
 // @ts-nocheck
+/* eslint-disable */
+// @ts-nocheck
+/* eslint-disable */
+// @ts-nocheck
+/* eslint-disable */
+// @ts-nocheck
 import React from 'react'
 import {
   Container,
@@ -51,7 +57,7 @@ const Joshtest = (props) => {
               />
             </Container>
             <Text
-              text={props.fields.text3}
+              text={props.fields.text10}
               className={` ${styles['text3']} ${styles['paragraph-default']} `}
             />
           </Container>
@@ -71,7 +77,7 @@ const Joshtest = (props) => {
               />
             </Container>
             <Text
-              text={props.fields.text5}
+              text={props.fields.text9}
               className={` ${styles['text5']} ${styles['paragraph-default']} `}
             />
           </Container>

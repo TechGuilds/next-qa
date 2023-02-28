@@ -153,6 +153,28 @@
   max-width: 100%;
   width: 236.58753600000009px;
 }
+.root-class-name {
+  height: 657px;
+  width: 943px;
+}
+@media(max-width: 1280px) {
+  .root-class-name {
+    width: 1046px;
+  }
+}
+@media(max-width: 1024px) {
+  .button2 {
+    border: 1px solid #666666;
+  }
+  .root-class-name {
+    width: 1008px;
+  }
+}
+@media(max-width: 768px) {
+  .root-class-name {
+    width: 750px;
+  }
+}
 @media(max-width: 640px) {
   .container1 {
     align-items: center;
@@ -169,5 +191,8 @@
   .button,.button1,.button2 {
     flex-basis: auto;
     max-width: 100%;
+  }
+  .root-class-name {
+    width: 623px;
   }
 }

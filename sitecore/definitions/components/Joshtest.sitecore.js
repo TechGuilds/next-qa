@@ -39,7 +39,7 @@ export default function (manifest) {
         standardValue: '/icons/default-imag.svg',
       },
       {
-        name: 'text3',
+        name: 'text10',
         type: CommonFieldTypes.SingleLineText,
         standardValue:
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
@@ -55,7 +55,7 @@ export default function (manifest) {
         standardValue: '/icons/default-imag.svg',
       },
       {
-        name: 'text5',
+        name: 'text9',
         type: CommonFieldTypes.SingleLineText,
         standardValue:
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',

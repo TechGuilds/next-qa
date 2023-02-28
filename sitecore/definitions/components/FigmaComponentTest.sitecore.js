@@ -15,7 +15,7 @@ export default function (manifest) {
       {
         name: 'text',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Authentic local food in Tbay',
+        standardValue: 'jkjk',
       },
       {
         name: 'text1',
