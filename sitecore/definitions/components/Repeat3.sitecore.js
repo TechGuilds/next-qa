@@ -11,6 +11,13 @@ export default function (manifest) {
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '2F5C334E5615423C82819FC180191302',
-    fields: [],
+    fields: [
+      {
+        name: 'text6',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue:
+          'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
+      },
+    ],
   })
 }

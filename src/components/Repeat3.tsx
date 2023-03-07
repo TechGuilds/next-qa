@@ -6,6 +6,8 @@
 // @ts-nocheck
 /* eslint-disable */
 // @ts-nocheck
+/* eslint-disable */
+// @ts-nocheck
 import React from 'react'
 import { Container, Image, Text } from 'kajoo-components/sitecore-nextjs'
 
@@ -79,6 +81,7 @@ const Repeat3 = (props) => {
           </Container>
         ))}
       </Container>
+      <Text text={props.fields.text6} tag="span" className={styles['text6']} />
     </Container>
   )
 }

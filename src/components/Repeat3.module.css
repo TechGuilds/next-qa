@@ -39,6 +39,8 @@
 .container05 {
   display: flex;
   flex-direction: row;
+  height: 321px;
+  width: 339px;
 }
 .image {
   height: 155px;
@@ -115,6 +117,12 @@
   height: 41.589936000000044px;
   max-width: 100%;
   width: 174.72384px;
+}
+.text6 {
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
 }
 @media(max-width: 640px) {
   .container {
