@@ -105,7 +105,16 @@
   max-width: 100%;
   width: 130.741632px;
 }
-
+.root-class-name {
+  height: 531px;
+  width: 836px;
+}
+@media(max-width: 1280px) {
+  .root-class-name {
+    height: 536px;
+    width: 836px;
+  }
+}
 @media(max-width: 640px) {
   .container {
     align-items: center;
