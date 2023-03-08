@@ -74,12 +74,12 @@
 }
 .text2 {
   height: 77.044608px;
-  width: 204.668928px;
+  width: 303px;
 }
 .text3 {
-  height: 190px;
+  height: 88px;
   max-width: 100%;
-  width: 149.648256px;
+  width: 290px;
 }
 .container3 {
   align-items: center;
@@ -105,6 +105,7 @@
   max-width: 100%;
   width: 130.741632px;
 }
+
 @media(max-width: 640px) {
   .container {
     align-items: center;
