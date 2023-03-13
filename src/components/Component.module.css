@@ -1,7 +1,29 @@
+.paragraph-default {
+  align-items: left;
+  background-color: #FFFFFF00;
+  border: 1px dashed rgb(187, 187, 187);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8em;
+  height: 75px;
+  max-height: 100%;
+  min-width: 30px;
+  overflow: hidden;
+  padding-left: 3px;
+  -webkit-user-drag: none;
+  width: 100px;
+}
 .root {
   align-items: center;
   display: flex;
   flex-direction: row;
   height: 400px;
   width: 100%;
+}
+.text {
+  height: fit-content;
+  margin: 0px;
+  padding: 0px;
+  width: 100px;
 }
