@@ -1,5 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
+/* eslint-disable */
+// @ts-nocheck
 import React from 'react'
 import { Container, Text, Link } from 'kajoo-components/sitecore-nextjs'
 
