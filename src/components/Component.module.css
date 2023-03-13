@@ -5,27 +5,3 @@
   height: 400px;
   width: 100%;
 }
-.container {
-  display: grid;
-  grid-template-columns: repeat(3,1fr) ;
-  height: 254px;
-  min-height: 200px;
-  min-width: 500px;
-  position: relative;
-  width: 100%;
-}
-.container2 {
-  display: flex;
-  min-height: 100%;
-  parent-id: I4vmT841Aj1gkhdrTK378;
-}
-.image {
-  background-color: rgb(217, 217, 217);
-  height: 100px;
-  width: 100px;
-}
-@media(max-width: 1024px) {
-  .container {
-    height: 256px;
-  }
-}
