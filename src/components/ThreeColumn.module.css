@@ -37,139 +37,162 @@
   align-items: center;
   flex-direction: column;
 }
-.container,.container1 {
+.container,.container01 {
   display: flex;
   justify-content: space-between;
   max-width: 100%;
 }
-.container1 {
+.container01 {
   align-items: flex-start;
   flex-direction: row;
 }
-.container2,.container3 {
+.container02,.container03 {
   display: flex;
   flex-direction: column;
 }
-.container3 {
+.container03 {
   align-items: center;
   flex-basis: 33%;
-  height: 346px;
   justify-content: space-between;
   max-width: 33%;
-  width: 286px;
 }
 .text {
   align-self: flex-start;
   height: 56.25345216px;
-  width: 185.0909436px;
+  width: 254px;
 }
 .text,.image {
   max-width: 100%;
 }
 .image {
-  height: 124px;
-  width: 251px;
+  height: 257px;
+  width: 227px;
 }
 .text1 {
   height: 90.80363999999996px;
-  max-width: 100%;
-  width: 253px;
+  width: 202px;
 }
-.container4 {
+.text1,.button {
+  max-width: 100%;
+}
+.button {
+  border: 1px solid #666666;
+  flex-basis: 33%;
+  height: 80px;
+  width: 266.30829px;
+}
+.container04 {
+  display: flex;
+  flex-direction: column;
+}
+.image1 {
+  height: 258.646459px;
+  max-width: 100%;
+  width: 243.06033599999998px;
+}
+.container05 {
   flex-basis: 33%;
   max-width: 33%;
 }
-.container4,.container5 {
+.container05,.container06 {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.container5,.text2 {
+.container06,.text2 {
   max-width: 100%;
 }
 .text2 {
   height: 58.3389446px;
-  width: 224.63405999999992px;
+  width: 238px;
 }
 .text3 {
-  height: 48.1029028px;
-  width: 213.471828px;
-}
-.text3,.image1 {
-  max-width: 100%;
-}
-.image1 {
-  height: 273px;
-  width: 290px;
-}
-.text4 {
   height: 83.29531199999998px;
   max-width: 100%;
   width: 227.83698000000004px;
 }
-.container6 {
+.button1 {
+  flex-basis: 33%;
+  height: 83px;
+  max-width: 100%;
+  width: 258px;
+}
+.image2 {
+  height: 253.02140000000003px;
+  max-width: 100%;
+  width: 278.95312799999994px;
+}
+.container07 {
   flex-basis: 33%;
   max-width: 33%;
 }
-.container6,.container7 {
+.container07,.container08 {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.container7,.image2 {
+.container08,.text4 {
   max-width: 100%;
 }
-.image2 {
-  height: 258.646459px;
-  width: 243.06033599999998px;
+.text4 {
+  height: 48.1029028px;
+  width: 213.471828px;
 }
 .text5 {
   height: 89.311766px;
   max-width: 100%;
   width: 211.516596px;
 }
-.container8 {
+.button2 {
+  border: 1px solid #666666;
+  flex-basis: 33%;
+  height: 83px;
+  max-width: 100%;
+  width: 236.58753600000009px;
+}
+.container09 {
   align-items: flex-start;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   max-width: 100%;
 }
-.button {
-  height: 68.87368399999998px;
-  width: 266.30829px;
-}
-.button,.button1 {
-  flex-basis: 33%;
-  max-width: 100%;
-}
-.button1 {
-  height: 86.868708px;
-  width: 277.49116799999996px;
-}
-.button2 {
-  flex-basis: 33%;
-  height: 94.22962399999999px;
-  max-width: 100%;
-  width: 236.58753600000009px;
+
+@media(max-width: 1280px) {
+  .text {
+    width: 254px;
+  }
+  .image {
+    height: 257px;
+    width: 212px;
+  }
+  .text1 {
+    width: 209px;
+  }
+  .text2 {
+    width: 237px;
+  }
 }
 @media(max-width: 640px) {
-  .container1 {
+  .container01 {
     align-items: center;
     flex-direction: column;
   }
-  .container1,.container3,.text,.image,.text1,.container4,.container5,.text2,.text3,.image1,.text4,.container6,.container7,.image2,.text5,.container8 {
+  .container01,.container03,.text,.image,.text1,.button,.image1,.container05,.container06,.text2,.text3,.button1 {
     flex-basis: auto;
     max-width: 100%;
   }
-  .container8 {
+  .button1 {
+    height: 77px;
+  }
+  .image2,.container07,.container08,.text4,.text5,.button2,.container09 {
+    flex-basis: auto;
+    max-width: 100%;
+  }
+  .container09 {
     align-items: center;
     flex-direction: column;
-  }
-  .button,.button1,.button2 {
-    flex-basis: auto;
-    max-width: 100%;
   }
 }
