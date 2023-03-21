@@ -13,10 +13,19 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
+        name: 'src',
+        type: CommonFieldTypes.Image,
+        standardValue:
+          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/3dgA-kKAGbe6y-ffw7ERL.jpeg"}',
+      },
+      {
+        name: 'alt',
+        type: CommonFieldTypes.SingleLineText,
+      },
+      {
         name: 'text',
         type: CommonFieldTypes.SingleLineText,
-        standardValue:
-          'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
+        standardValue: 'Test \\',
       },
     ],
   })

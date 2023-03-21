@@ -1,25 +1,48 @@
 .paragraph-default {
-  align-items: left;
-  background-color: #FFFFFF00;
-  border: 1px dashed rgb(187, 187, 187);
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
+  background-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  color: rgba(70, 70, 70, 255);
+  font-family: Arial;
   font-size: 0.8em;
+  margin: 20px 10px;
+  max-height: 100px;
+  overflow: hidden;
+}
+.image-default {
+  align-items: center;
+  background-color: #d9d9d9;
+  border: 3px solid orangered;
+  border-radius: 3px;
+  flex-direction: column;
   height: 75px;
+  justify-content: center;
   max-height: 100%;
   min-width: 30px;
   overflow: hidden;
-  padding-left: 3px;
-  -webkit-user-drag: none;
   width: 100px;
 }
-.root {
-  align-items: center;
+.image-default,.container-default {
   display: flex;
+}
+.root {
   flex-direction: row;
   height: 400px;
+}
+.root,.container {
+  display: flex;
   width: 100%;
+}
+.container {
+  align-items: flex-end;
+  flex: 0 0 auto;
+  flex-direction: row;
+  height: 209px;
+}
+.image {
+  background-color: rgb(217, 217, 217);
+  border: 3px orangered;
+  height: 189px;
+  width: 278px;
 }
 .text {
   height: fit-content;
