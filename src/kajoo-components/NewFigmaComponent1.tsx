@@ -109,43 +109,45 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text } from 'kajoo-components/sitecore-nextjs'
+import { Container, Image, Text } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './Component.module.css'
+import styles from './NewFigmaComponent1.module.css'
 
-const AppComponent = (props) => {
+const NewFigmaComponent1 = (props) => {
   return (
-    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Container
-        className={` ${styles['container']} ${styles['container-default']} `}
-      >
-        <Text
-          text={props.text}
-          tag="span"
-          className={` ${styles['text']} ${styles['paragraph-default']} `}
-        />
-        <Text
-          text={props.text1}
-          tag="h1"
-          className={` ${styles['text1']} ${styles['header-default']} `}
-        />
+    <Container className={styles[props.rootClassName]}>
+      <Container className={styles['container']}>
+        <Container className={styles['container1']}>
+          <Image src={props.src} alt={props.alt} className={styles['image']} />
+        </Container>
+        <Container className={styles['container2']}>
+          <Text text={props.text} className={styles['text']} />
+          <Text text={props.text1} className={styles['text1']} />
+          <Text text={props.text2} className={styles['text2']} />
+        </Container>
       </Container>
     </Container>
   )
 }
 
-AppComponent.defaultProps = {
+NewFigmaComponent1.defaultProps = {
   rootClassName: '',
-  text: 'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
-  text1: 'Heading',
+  src: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/QUVFK5LODzbTJqfuMoUpl.png',
+  alt: '98c80de7cee9782322fdca55409bf6bcbusinessheadshotscorporateheadshotsimageI43997724399765',
+  text: 'Title',
+  text1: 'Full Name',
+  text2: 'Highlight lorem ipsum dolor sit amet',
 }
 
-AppComponent.propTypes = {
+NewFigmaComponent1.propTypes = {
   rootClassName: PropTypes.string,
+  src: PropTypes.string,
+  alt: PropTypes.string,
   text: PropTypes.string,
   text1: PropTypes.string,
+  text2: PropTypes.string,
 }
 
-export default AppComponent
+export default NewFigmaComponent1

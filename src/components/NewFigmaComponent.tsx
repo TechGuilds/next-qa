@@ -109,43 +109,67 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text } from 'kajoo-components/sitecore-nextjs'
+import {
+  Container,
+  Text,
+  RichText,
+  Image,
+} from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './Component.module.css'
+import styles from './NewFigmaComponent.module.css'
 
-const AppComponent = (props) => {
+const NewFigmaComponent = (props) => {
   return (
-    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Container
-        className={` ${styles['container']} ${styles['container-default']} `}
-      >
-        <Text
-          text={props.text}
-          tag="span"
-          className={` ${styles['text']} ${styles['paragraph-default']} `}
-        />
-        <Text
-          text={props.text1}
-          tag="h1"
-          className={` ${styles['text1']} ${styles['header-default']} `}
-        />
+    <Container className={styles[props.rootClassName]}>
+      <Container className={styles['container']}>
+        <Container className={styles['container01']}>
+          <Text text={props.fields.text} className={styles['text']} />
+          <RichText value={props.fields.value} className={styles['richtext']} />
+          <Container className={styles['container02']}>
+            <Container className={styles['container03']}>
+              <Image
+                src={props.fields.src}
+                alt={props.fields.alt}
+                className={styles['image']}
+              />
+            </Container>
+            <Container className={styles['container04']}>
+              <Text text={props.fields.text1} className={styles['text1']} />
+              <Container className={styles['container05']}>
+                <Text text={props.fields.text2} className={styles['text2']} />
+                <Text text={props.fields.text3} className={styles['text3']} />
+              </Container>
+            </Container>
+          </Container>
+        </Container>
+        <Container className={styles['container06']}>
+          <Container className={styles['container07']}>
+            <Container className={styles['container08']}>
+              <Container className={styles['container09']}>
+                <Image
+                  alt={props.fields.alt1}
+                  src={props.fields.src1}
+                  className={styles['image1']}
+                />
+              </Container>
+            </Container>
+          </Container>
+        </Container>
       </Container>
     </Container>
   )
 }
 
-AppComponent.defaultProps = {
+NewFigmaComponent.defaultProps = {
   rootClassName: '',
-  text: 'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
-  text1: 'Heading',
+  fields: {},
 }
 
-AppComponent.propTypes = {
+NewFigmaComponent.propTypes = {
   rootClassName: PropTypes.string,
-  text: PropTypes.string,
-  text1: PropTypes.string,
+  fields: PropTypes.object,
 }
 
-export default AppComponent
+export default NewFigmaComponent
