@@ -125,26 +125,32 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container } from 'kajoo-components/sitecore-nextjs'
+import { Container, Text } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './Component1.module.css'
+import styles from './Sd.module.css'
 
-const Component1 = (props) => {
+const Sd = (props) => {
   return (
-    <Container
-      className={` ${styles['root']} ${styles[props.rootClassName]} `}
-    />
+    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
+      <Text
+        text={props.fields.text}
+        tag="span"
+        className={styles['paragraph-default']}
+      />
+    </Container>
   )
 }
 
-Component1.defaultProps = {
+Sd.defaultProps = {
   rootClassName: '',
+  fields: {},
 }
 
-Component1.propTypes = {
+Sd.propTypes = {
   rootClassName: PropTypes.string,
+  fields: PropTypes.object,
 }
 
-export default Component1
+export default Sd
