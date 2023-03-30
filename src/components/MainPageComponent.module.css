@@ -1,0 +1,13 @@
+.root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 415px;
+  width: 100%;
+}
+@media(max-width: 1280px) {
+  .root {
+    display: flex;
+    height: 100%;
+  }
+}
