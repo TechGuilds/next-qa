@@ -35,7 +35,7 @@ const AppHeader = (props) => {
         <Text
           text={props.text1}
           tag="h1"
-          className={` ${styles['text1']} ${styles['header-default']} `}
+          className={` ${styles['text1']} ${styles['paragraph-default']} `}
         />
         <Button
           text={props.text2}

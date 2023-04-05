@@ -9,9 +9,9 @@ import styles from './Component.module.css'
 
 const AppComponent = (props) => {
   return (
-    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <form className={` ${styles['form']} ${styles['container-default']} `} />
-    </Container>
+    <Container
+      className={` ${styles['root']} ${styles[props.rootClassName]} `}
+    />
   )
 }
 
