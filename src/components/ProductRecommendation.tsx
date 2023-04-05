@@ -5,24 +5,20 @@ import {
   Container,
   Text,
   Image,
+  RichText,
   Button,
 } from 'kajoo-components/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import ThreeColumn from '../kajoo-components/ThreeColumn'
 import styles from './ProductRecommendation.module.css'
 
 const ProductRecommendation = (props) => {
   return (
-    <Container className={styles[props.rootClassName]}>
+    <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
-        <Container
-          className={` ${styles['container1']} ${styles['container-default']} `}
-        >
-          <Container
-            className={` ${styles['container2']} ${styles['container-default']} `}
-          >
+        <Container className={styles['container1']}>
+          <Container className={styles['container2']}>
             <Text
               text={props.fields.text}
               className={` ${styles['text']} ${styles['paragraph-default']} `}
@@ -36,35 +32,25 @@ const ProductRecommendation = (props) => {
               className={` ${styles['text1']} ${styles['paragraph-default']} `}
             />
           </Container>
-          <Container
-            className={` ${styles['container3']} ${styles['container-default']} `}
-          >
-            <Container
-              className={` ${styles['container4']} ${styles['container-default']} `}
-            >
-              <Text
-                text={props.fields.text2}
-                className={` ${styles['text2']} ${styles['paragraph-default']} `}
-              />
+          <Container className={styles['container3']}>
+            <Container className={styles['container4']}>
+              <RichText value={props.fields.value1} />
               <Image
-                src={props.fields.src1}
-                className={` ${styles['image1']} ${styles['image-default']} `}
+                src={props.fields.src4}
+                alt={props.fields.alt}
+                className={styles['image-default']}
               />
             </Container>
             <Text
               text={props.fields.text3}
-              className={` ${styles['text3']} ${styles['paragraph-default']} `}
+              className={` ${styles['text2']} ${styles['paragraph-default']} `}
             />
           </Container>
-          <Container
-            className={` ${styles['container5']} ${styles['container-default']} `}
-          >
-            <Container
-              className={` ${styles['container6']} ${styles['container-default']} `}
-            >
+          <Container className={styles['container5']}>
+            <Container className={styles['container6']}>
               <Text
                 text={props.fields.text4}
-                className={` ${styles['text4']} ${styles['paragraph-default']} `}
+                className={` ${styles['text3']} ${styles['paragraph-default']} `}
               />
               <Image
                 src={props.fields.src2}
@@ -73,13 +59,11 @@ const ProductRecommendation = (props) => {
             </Container>
             <Text
               text={props.fields.text5}
-              className={` ${styles['text5']} ${styles['paragraph-default']} `}
+              className={` ${styles['text4']} ${styles['paragraph-default']} `}
             />
           </Container>
         </Container>
-        <Container
-          className={` ${styles['container7']} ${styles['container-default']} `}
-        >
+        <Container className={styles['container7']}>
           <Button
             text={props.fields.text6}
             className={` ${styles['button']} ${styles['button-default']} `}
@@ -93,7 +77,6 @@ const ProductRecommendation = (props) => {
             className={` ${styles['button2']} ${styles['button-default']} `}
           />
         </Container>
-        <ThreeColumn rootClassName="root-class-name" />
       </Container>
     </Container>
   )

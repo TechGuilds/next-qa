@@ -29,14 +29,19 @@ export default function (manifest) {
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
       },
       {
-        name: 'text2',
-        type: CommonFieldTypes.SingleLineText,
+        name: 'value1',
+        type: CommonFieldTypes.RichText,
         standardValue: 'HEADER',
       },
       {
-        name: 'src1',
+        name: 'src4',
         type: CommonFieldTypes.Image,
-        standardValue: '/icons/default-imag.svg',
+        standardValue:
+          '{"image-do":"https://qa-app.kajoo.ca/icons/default-imag.svg"}',
+      },
+      {
+        name: 'alt',
+        type: CommonFieldTypes.SingleLineText,
       },
       {
         name: 'text3',

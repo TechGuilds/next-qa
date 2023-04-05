@@ -1,49 +1,44 @@
 .button-default {
-  border: 1px solid rgba(210, 69, 69, 1);
-  border-radius: 3px;
   font-size: 0.8em;
-  -webkit-user-drag: none;
+  min-height: 24px;
 }
 .button-default,.image-default {
   align-items: center;
   background-color: #d9d9d9;
+  border-radius: 3px;
   display: flex;
   flex-direction: column;
-  height: 75px;
   justify-content: center;
-  max-height: 100%;
   min-width: 30px;
-  width: 100px;
 }
 .image-default {
-  border: 1px solid #666666;
-  border-radius: 3px;
+  height: 75px;
+  max-height: 100%;
   overflow: hidden;
+  width: 100px;
 }
 .paragraph-default {
-  background-color: rgba(255, 255, 255, 1);
-  border-style: solid;
-  color: rgba(70, 70, 70, 255);
-  font-family: Arial;
   font-size: 0.8em;
-  margin: 20px 10px;
-  max-height: 100px;
+  min-width: 30px;
   overflow: hidden;
+  -webkit-user-drag: none;
 }
-.container-default {
-  display: flex;
+.main {
+  height: 100%;
+  width: 100%;
 }
-.container {
+.main,.container {
   align-items: center;
+  display: flex;
   flex-direction: column;
 }
 .container,.container1 {
-  display: flex;
   justify-content: space-between;
   max-width: 100%;
 }
 .container1 {
   align-items: flex-start;
+  display: flex;
   flex-direction: row;
 }
 .container2 {
@@ -85,17 +80,6 @@
   max-width: 100%;
 }
 .text2 {
-  height: 58.3389446px;
-  width: 224.63405999999992px;
-}
-.image1 {
-  height: 253.02140000000003px;
-  width: 278.95312799999994px;
-}
-.image1,.text3 {
-  max-width: 100%;
-}
-.text3 {
   height: 83.29531199999998px;
   width: 227.83698000000004px;
 }
@@ -109,10 +93,10 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.container6,.text4 {
+.container6,.text3 {
   max-width: 100%;
 }
-.text4 {
+.text3 {
   height: 48.1029028px;
   width: 213.471828px;
 }
@@ -120,10 +104,10 @@
   height: 258.646459px;
   width: 243.06033599999998px;
 }
-.image2,.text5 {
+.image2,.text4 {
   max-width: 100%;
 }
-.text5 {
+.text4 {
   height: 89.311766px;
   width: 211.516596px;
 }
@@ -157,7 +141,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .container1,.container2,.text,.image,.text1,.container3,.container4,.text2,.image1,.text3,.container5,.container6,.text4,.image2,.text5,.container7 {
+  .container1,.container2,.text,.image,.text1,.container3,.container4,.text2,.container5,.container6,.text3,.image2,.text4,.container7 {
     flex-basis: auto;
     max-width: 100%;
   }
