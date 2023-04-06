@@ -1,0 +1,115 @@
+.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 100%;
+}
+.container {
+  flex-shrink: 1;
+  height: 534px;
+  position: relative;
+}
+.container,.container1 {
+  align-items: flex-start;
+  border-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-grow: 0;
+  width: 1440px;
+}
+.container1 {
+  background-color: rgba(0, 124, 195, 1);
+  flex-direction: column;
+  flex-shrink: 0;
+  left: 0px;
+  padding: 96px 223px 112px;
+  position: absolute;
+  top: 0px;
+}
+.container2 {
+  align-items: flex-start;
+  align-self: stretch;
+  border-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0 0 16px;
+  position: relative;
+}
+.text {
+  align-self: auto;
+  color: rgba(255, 255, 255, 1);
+  flex-grow: 0;
+  font-family: Helvetica Neue LT Std;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  line-height: 26px;
+  text-align: left;
+  text-decoration: none;
+}
+.container3 {
+  align-items: flex-start;
+  align-self: stretch;
+  border-color: transparent;
+  box-sizing: border-box;
+  display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 0 0 32px;
+  position: relative;
+}
+.text1 {
+  align-self: auto;
+  color: rgba(255, 255, 255, 1);
+  flex-grow: 1;
+  font-family: Lyon Display;
+  font-size: 32px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  line-height: 40px;
+  margin: 0 136px 0 0;
+  text-align: left;
+  text-decoration: none;
+  width: 678px;
+}
+.image {
+  border-color: transparent;
+  height: 180px;
+  object-fit: cover;
+  width: 180px;
+}
+.image,.button {
+  box-sizing: border-box;
+  flex-grow: 0;
+  flex-shrink: 0;
+  position: relative;
+}
+.button {
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 2px;
+  display: flex;
+  height: 52px;
+  padding: 16px 24px 12px;
+}
+.text2 {
+  align-self: auto;
+  color: rgba(255, 255, 255, 1);
+  flex-grow: 0;
+  font-family: Helvetica Neue LT Std;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  line-height: 24px;
+  text-align: left;
+  text-decoration: none;
+}
