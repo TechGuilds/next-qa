@@ -10,9 +10,9 @@ import {
 
 import PropTypes from 'prop-types'
 
-import styles from './ProductRecommendation.module.css'
+import styles from './ProductRecommendation1.module.css'
 
-const ProductRecommendation = (props) => {
+const ProductRecommendation1 = (props) => {
   return (
     <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
@@ -83,7 +83,7 @@ const ProductRecommendation = (props) => {
   )
 }
 
-ProductRecommendation.defaultProps = {
+ProductRecommendation1.defaultProps = {
   rootClassName: '',
   text: 'HEADER',
   src: '/icons/default-imag.svg',
@@ -102,7 +102,7 @@ ProductRecommendation.defaultProps = {
   text8: 'Button',
 }
 
-ProductRecommendation.propTypes = {
+ProductRecommendation1.propTypes = {
   rootClassName: PropTypes.string,
   text: PropTypes.string,
   src: PropTypes.string,
@@ -118,4 +118,4 @@ ProductRecommendation.propTypes = {
   text8: PropTypes.string,
 }
 
-export default ProductRecommendation
+export default ProductRecommendation1
