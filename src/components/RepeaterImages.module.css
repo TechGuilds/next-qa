@@ -37,3 +37,13 @@
   justify-content: center;
   min-height: 100%;
 }
+.image {
+  height: 172px;
+  width: 203px;
+}
+@media(max-width: 1280px) {
+  .image {
+    height: 172px;
+    width: 203px;
+  }
+}

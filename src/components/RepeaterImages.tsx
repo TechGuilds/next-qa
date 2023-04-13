@@ -16,7 +16,7 @@ const RepeaterImages = (props) => {
             <Image
               src={item.fields.src}
               alt={item.fields.alt}
-              className={styles['image-default']}
+              className={` ${styles['image']} ${styles['image-default']} `}
             />
           </Container>
         ))}
