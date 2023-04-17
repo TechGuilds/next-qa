@@ -1,12 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import {
-  Container,
-  Text,
-  RichText,
-  Link,
-} from 'kajoo-components/sitecore-nextjs'
+import { Container, Text, RichText, Link } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
