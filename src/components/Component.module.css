@@ -1,34 +1,25 @@
 .header-default {
   color: #0C0C0C;
-  font-family: Arial;
   font-size: 30px;
   font-weight: normal;
+  min-width: 140px;
+  text-align: left;
+}
+.header-default,.paragraph-default {
+  font-family: Arial;
   height: fit-content;
   margin-bottom: 20px;
   margin-right: 20px;
   margin-top: 20px;
-  min-width: 140px;
-  text-align: left;
 }
-.image-default {
-  background-color: #d9d9d9;
-  border-color: #a0a0a0;
-  border-radius: 6px;
-  border-width: 1px;
-  flex-direction: column;
-  font-style: normal;
-  font-weight: bold;
-  height: 200px;
-  justify-content: center;
-  min-height: 200px;
-  min-width: 200px;
+.paragraph-default {
+  font-size: 14px;
+  min-width: 30px;
   overflow: hidden;
-}
-.image-default,.root {
-  align-items: center;
-  display: flex;
+  -webkit-user-drag: none;
 }
 .root {
+  display: flex;
   flex-direction: row;
   height: 400px;
   width: 100%;

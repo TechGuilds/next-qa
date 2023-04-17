@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Image, Text } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -13,13 +13,13 @@ const AppComponent = (props) => {
       <Container className={styles['container']}>
         {props.fields.items.map((item, index) => (
           <Container key={index} className={styles['container1']}>
-            <Image
-              src={item.fields.src}
-              alt={item.fields.alt}
-              className={styles['image-default']}
-            />
             <Text
               text={item.fields.text}
+              tag="span"
+              className={styles['paragraph-default']}
+            />
+            <Text
+              text={item.fields.text1}
               tag="h1"
               className={styles['header-default']}
             />
