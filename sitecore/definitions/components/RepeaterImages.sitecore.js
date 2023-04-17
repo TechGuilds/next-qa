@@ -10,7 +10,7 @@ export default function (manifest) {
     displayName: 'RepeaterImages',
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
-    contentResolver: '133F4392F27D4D7FBA2C24CE8F455A61',
+    contentResolver: '',
     fields: [],
   })
 }

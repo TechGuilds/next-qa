@@ -1,49 +1,7 @@
-.image-default {
-  align-items: center;
-  background-color: #d9d9d9;
-  border-color: #a0a0a0;
-  border-radius: 6px;
-  border-width: 1px;
-  flex-direction: column;
-  font-style: normal;
-  font-weight: bold;
-  height: 200px;
-  min-height: 200px;
-  min-width: 200px;
-  overflow: hidden;
-}
-.image-default,.root {
-  display: flex;
-  justify-content: center;
-}
 .root {
+  display: flex;
   flex-direction: row;
   height: 400px;
-  width: 100%;
-}
-.container {
-  display: grid;
-  grid-template-columns: repeat(3,1fr) ;
-  height: fit-content;
-  min-height: 200px;
-  min-width: 500px;
-  padding: 5px;
-  position: relative;
-  width: 100%;
-}
-.container1 {
-  display: flex;
-  flex-direction: row;
   justify-content: center;
-  min-height: 100%;
-}
-.image {
-  height: 172px;
-  width: 203px;
-}
-@media(max-width: 1280px) {
-  .image {
-    height: 172px;
-    width: 203px;
-  }
+  width: 100%;
 }
