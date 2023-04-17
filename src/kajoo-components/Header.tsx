@@ -43,6 +43,16 @@ const AppHeader = (props) => {
           className={` ${styles['button']} ${styles['button-default']} `}
         />
       </Container>
+      <Image
+        src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/Z8rCupC4gy_pFQoYxJCUv.png"
+        alt="Company Logo"
+        className={` ${styles['image1']} ${styles['image-default']} `}
+      />
+      <Image
+        src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/Z8rCupC4gy_pFQoYxJCUv.png"
+        alt="Company Logo"
+        className={` ${styles['image2']} ${styles['image-default']} `}
+      />
     </Container>
   )
 }

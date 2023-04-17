@@ -1,42 +1,26 @@
-.button-button-variant {
-  color: rgba(255, 255, 255, 1);
+.button-default {
+  font-size: 0.8em;
+  min-height: 24px;
 }
-.button-button-variant,.button-correct-button {
-  background-color: rgba(227, 72, 52, 1);
-}
-.button-button-variant,.button-correct-button,.button-button {
-  align-items: center;
-  border-color: transparent;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.10000000149011612);
-  box-sizing: border-box;
-  display: flex;
-  flex-grow: 0;
-  flex-shrink: 0;
-  height: 64px;
-  justify-content: center;
-  padding: 24px 48px;
-  position: relative;
-}
-.button-button {
-  background-color: rgba(255, 255, 255, 1);
-}
-.image-default {
+.button-default,.image-default {
   align-items: center;
   background-color: #d9d9d9;
   border-radius: 3px;
   display: flex;
   flex-direction: column;
-  height: 75px;
   justify-content: center;
-  max-height: 100%;
-  width: 100px;
-}
-.image-default,.paragraph-default {
   min-width: 30px;
+}
+.image-default {
+  height: 75px;
+  max-height: 100%;
   overflow: hidden;
+  width: 100px;
 }
 .paragraph-default {
   font-size: 0.8em;
+  min-width: 30px;
+  overflow: hidden;
   -webkit-user-drag: none;
 }
 .main {
@@ -152,8 +136,8 @@
   max-width: 100%;
 }
 .root-class-name {
-  height: 541px;
-  width: 1221px;
+  height: 156px;
+  width: 1026px;
 }
 @media(max-width: 1280px) {
   .main {
@@ -208,8 +192,8 @@
     width: 212px;
   }
   .root-class-name {
-    height: 566px;
-    width: 1202px;
+    height: 156px;
+    width: 1026px;
   }
 }
 @media(max-width: 640px) {

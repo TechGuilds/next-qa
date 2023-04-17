@@ -10,6 +10,7 @@ import {
 
 import PropTypes from 'prop-types'
 
+import ProductErrorComponent from './ProductErrorComponent'
 import styles from './ProductRecommendation.module.css'
 
 const ProductRecommendation = (props) => {
@@ -78,6 +79,7 @@ const ProductRecommendation = (props) => {
             className={` ${styles['button2']} ${styles['button-default']} `}
           />
         </Container>
+        <ProductErrorComponent rootClassName="root-class-name" />
       </Container>
     </Container>
   )

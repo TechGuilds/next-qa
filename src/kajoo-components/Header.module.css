@@ -68,6 +68,9 @@
   height: 55px;
   width: 136px;
 }
+.image1,.image2 {
+  width: 209px;
+}
 .root-class-name {
   height: 116px;
 }
@@ -103,6 +106,9 @@
     margin-right: 26px;
     position: relative;
     width: 136px;
+  }
+  .image1,.image2 {
+    width: 209px;
   }
   .root-class-name {
     height: 116px;

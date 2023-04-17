@@ -16,7 +16,7 @@ const ProductErrorComponent = (props) => {
   return (
     <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
-        <Container className={styles['container1']}>
+        <Container tabIndex={2} className={styles['container1']}>
           <Container className={styles['container2']}>
             <Text
               text="HEADER"
@@ -31,7 +31,7 @@ const ProductErrorComponent = (props) => {
               text={props.text1}
               className={` ${styles['text1']} ${styles['paragraph-default']} `}
             />
-            <Button text={props.text6} className={styles['button-button']} />
+            <Button text={props.text6} className={styles['button-default']} />
           </Container>
           <Container className={styles['container3']}>
             <Container className={styles['container4']}>
@@ -48,10 +48,7 @@ const ProductErrorComponent = (props) => {
               text={props.text3}
               className={` ${styles['text3']} ${styles['paragraph-default']} `}
             />
-            <Button
-              text={props.text7}
-              className={styles['button-correct-button']}
-            />
+            <Button text={props.text7} className={styles['button-default']} />
           </Container>
           <Container className={styles['container5']}>
             <Container className={styles['container6']}>
@@ -61,6 +58,7 @@ const ProductErrorComponent = (props) => {
               />
               <Image
                 src="https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/h4rdonl9G62rmAsjFYJII.png"
+                tabIndex={1}
                 className={` ${styles['image2']} ${styles['image-default']} `}
               />
             </Container>
@@ -68,10 +66,7 @@ const ProductErrorComponent = (props) => {
               text={props.text5}
               className={` ${styles['text5']} ${styles['paragraph-default']} `}
             />
-            <Button
-              text={props.text8}
-              className={styles['button-button-variant']}
-            />
+            <Button text={props.text8} className={styles['button-default']} />
           </Container>
         </Container>
         <Container className={styles['container7']} />

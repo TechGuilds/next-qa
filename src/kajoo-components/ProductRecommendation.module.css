@@ -1,51 +1,40 @@
 .button-default {
-  background-color: #eeeeee;
-  border-color: #a0a0a0;
-  border-radius: 3px;
-  border-width: 1px;
   font-size: 0.8em;
-  height: fit-content;
   min-height: 24px;
-  min-width: 130px;
-  padding: 10px 35px;
 }
 .button-default,.image-default {
   align-items: center;
+  background-color: #d9d9d9;
+  border-radius: 3px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  min-width: 30px;
 }
 .image-default {
-  background-color: #d9d9d9;
-  border-color: #a0a0a0;
-  border-radius: 6px;
-  border-width: 1px;
-  font-style: normal;
-  font-weight: bold;
-  height: 200px;
-  min-height: 200px;
-  min-width: 200px;
+  height: 75px;
+  max-height: 100%;
   overflow: hidden;
+  width: 100px;
 }
 .paragraph-default {
-  font-family: Arial;
-  font-size: 14px;
-  height: fit-content;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
+  font-size: 0.8em;
   min-width: 30px;
   overflow: hidden;
   -webkit-user-drag: none;
 }
 .main {
-  height: auto;
+  height: 400px;
   width: 100%;
 }
 .main,.container {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+.container {
+  height: 590px;
+  width: 1101px;
 }
 .container,.container1 {
   justify-content: space-between;
@@ -161,6 +150,17 @@
   height: 94.22962399999999px;
   max-width: 100%;
   width: 236.58753600000009px;
+}
+@media(max-width: 1280px) {
+  .main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    height: 589px;
+    width: 1101px;
+  }
 }
 @media(max-width: 640px) {
   .container1 {
