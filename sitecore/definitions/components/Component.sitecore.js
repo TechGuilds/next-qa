@@ -10,23 +10,7 @@ export default function (manifest) {
     displayName: 'Component',
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
-    contentResolver: '',
-    fields: [
-      {
-        name: 'src',
-        type: CommonFieldTypes.Image,
-        standardValue:
-          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/3dgA-kKAGbe6y-ffw7ERL.jpeg"}',
-      },
-      {
-        name: 'alt',
-        type: CommonFieldTypes.SingleLineText,
-      },
-      {
-        name: 'text',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Test \\',
-      },
-    ],
+    contentResolver: '133F4392F27D4D7FBA2C24CE8F455A61',
+    fields: [],
   })
 }
