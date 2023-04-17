@@ -1,42 +1,36 @@
-.header-default {
-  color: #0C0C0C;
-  font-size: 30px;
-  font-weight: normal;
-  min-width: 140px;
-  text-align: left;
+.paragraph-nurtest2 {
+  background-color: rgba(245, 166, 35, 1);
+  color: rgba(255, 0, 0, 1);
 }
-.header-default,.paragraph-default {
+.paragraph-nurtest2,.header-nurtest2 {
   font-family: Arial;
-  height: fit-content;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-}
-.paragraph-default {
   font-size: 14px;
+  height: fit-content;
   min-width: 30px;
   overflow: hidden;
   -webkit-user-drag: none;
 }
+.header-nurtest2 {
+  background-color: rgba(36, 14, 14, 1);
+  color: rgba(225, 255, 0, 1);
+}
 .root {
+  align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 400px;
   width: 100%;
 }
-.container {
-  display: grid;
-  grid-template-columns: repeat(3,1fr) ;
-  height: fit-content;
-  min-height: 200px;
-  min-width: 500px;
-  padding: 5px;
-  position: relative;
-  width: 100%;
+.richtext {
+  background-color: rgba(80, 227, 194, 1);
+  border-color: rgba(255, 255, 255, 1);
 }
-.container1 {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  min-height: 100%;
+.text {
+  background-color: rgba(245, 166, 35, 1);
+  border: 30px solid rgba(0, 63, 255, 1);
+  color: rgba(255, 0, 0, 1);
+}
+.text1 {
+  background-color: rgba(36, 14, 14, 1);
+  color: rgba(225, 255, 0, 1);
 }

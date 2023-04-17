@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
+import { Container, RichText, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -10,22 +10,18 @@ import styles from './Component.module.css'
 const AppComponent = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Container className={styles['container']}>
-        {props.fields.items.map((item, index) => (
-          <Container key={index} className={styles['container1']}>
-            <Text
-              text={item.fields.text}
-              tag="span"
-              className={styles['paragraph-default']}
-            />
-            <Text
-              text={item.fields.text1}
-              tag="h1"
-              className={styles['header-default']}
-            />
-          </Container>
-        ))}
-      </Container>
+      <RichText
+        value={props.fields.value}
+        className={` ${styles['richtext']} ${styles['header-nurtest2']} `}
+      />
+      <Text
+        text={props.fields.text}
+        className={` ${styles['text']} ${styles['paragraph-nurtest2']} `}
+      />
+      <Text
+        text={props.fields.text}
+        className={` ${styles['text1']} ${styles['header-nurtest2']} `}
+      />
     </Container>
   )
 }

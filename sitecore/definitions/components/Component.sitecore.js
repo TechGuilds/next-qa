@@ -11,6 +11,18 @@ export default function (manifest) {
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '',
-    fields: [],
+    fields: [
+      {
+        name: 'value',
+        type: CommonFieldTypes.RichText,
+        standardValue:
+          '<p>Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.</p>',
+      },
+      {
+        name: 'text',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Heading',
+      },
+    ],
   })
 }
