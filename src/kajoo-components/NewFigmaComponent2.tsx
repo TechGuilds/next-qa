@@ -11,9 +11,9 @@ import {
 
 import PropTypes from 'prop-types'
 
-import styles from './NewFigmaComponent1.module.css'
+import styles from './NewFigmaComponent2.module.css'
 
-const NewFigmaComponent1 = (props) => {
+const NewFigmaComponent2 = (props) => {
   return (
     <Container className={styles[props.rootClassName]}>
       <Container className={styles['container']}>
@@ -518,9 +518,9 @@ const NewFigmaComponent1 = (props) => {
   )
 }
 
-NewFigmaComponent1.defaultProps = {
+NewFigmaComponent2.defaultProps = {
   rootClassName: '',
-  src: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/d9MrMVldQ6oSdjwpnrKNV.svg',
+  src: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/Wx594d3-h5xXpT7vw27hA.svg',
   alt: 'globalnavappleimageb5er5ngrzxqqlarge14',
   text: 'Store',
   text1: 'Mac',
@@ -532,102 +532,102 @@ NewFigmaComponent1.defaultProps = {
   text7: 'Only on Apple',
   text8: 'Accessories',
   text9: 'Support',
-  src1: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/-IUqnaI3okPreb9vs_xxU.svg',
+  src1: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/LzaN8kIDIR2oNDTkqvx5n.svg',
   alt1: 'Group1118',
-  src2: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/EFda33-wZuYlnVHv3VUe3.svg',
+  src2: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/C76GZXFLOJsRN-StChiPf.svg',
   alt2: 'Group122',
   text10: 'iPhone 14 Pro',
   text11: 'Pro. Beyond.',
   text12: 'Available starting 9:16',
   text13: 'Learn more',
-  src3: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/j7e2IjUIINTKco_UpK6_L.svg',
+  src3: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/iQYWZT0SmgjhlrkSZ6EJr.svg',
   alt3: 'arrowright136',
   text14: 'Pre-order',
-  src4: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/KHA7fkkeCFOVA5dzmw5Co.svg',
+  src4: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/NTl-x8eH2JvdPf_qwWFgf.svg',
   alt4: 'arrowrightI141136',
-  src5: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/q5fwIhHtb17x6JqkV3qZ1.png',
+  src5: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/q2uPlTUcrGW7H7ByK0gUf.png',
   alt5: 'heroiphone14propreordercc1jjc6hq7malargetall2x142',
   text21: 'AirPods Pro',
   text22: 'Rebuilt from the sound up.',
   text23: 'Available starting 9.23',
   text24: 'Learn more',
-  src9: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/qISKkVEOuES1j4veWNm2r.svg',
+  src9: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/tYHKSnyfNd0osPSr_irdH.svg',
   alt9: 'arrowrightI168136',
   text25: 'Pre-order',
   src10:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/91uSQ6l3jVtCuAjAWx30M.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/0uyufAMOhp84pKqW3SpVY.svg',
   alt10: 'arrowrightI171136',
   src11:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/kAcBcc5r6ZFAbmGf6GZwN.png',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/FdsZDDQ04iw1Rf-om1TQd.png',
   alt11: 'heroairpodsproavailbro1v31acclylargetall2x172',
   src12:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/Z-M2jmhU5oGDIdUwLOAVo.png',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/PjlyY7WjVNwPuxEpPbU7N.png',
   alt12: 'promologoapplewatchseb85vr9ri02gilarge2x178',
   text26: 'A great deal to love',
   text27: 'Available starting 9.16',
   text28: 'Learn more',
   src13:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/9oMYK9Pj90yylwaDK0XQc.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/m_8UsrdNoHPz2Jl66gEBj.svg',
   alt13: 'arrowrightI184136',
   text29: 'Order now',
   src14:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/qlFOhd6TBQVEZWZTKBe5R.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/WooVQvCQtmkGWXZTtgmOt.svg',
   alt14: 'arrowrightI187136',
   src15:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/UHah0YWpxOLAwFFyA7KVd.png',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/FYTcRXf-x7Wa0zq2jW3F6.png',
   alt15: 'promoapplewatchseavaile5unstfyokaelarge2x188',
   src16:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/_sv2IF7WwgeT4YM4a-bQ-.png',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/asfCcb_1yserbFp3RARX4.png',
   alt16: 'promologofitnessplusiphonedpayetemakq6large2x193',
   text30: 'Fitness for everyone',
   text31: 'Now all you need is iPhone',
   text32: 'Learn more',
   src17:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/J6H-b5f06eUQuZKQ93hkV.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/JnwM97P-Nzn9FuiSQeJM6.svg',
   alt17: 'arrowrightI1100136',
   text33: 'Notify me',
   src18:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/4A-zM1lsssMJZgW-p7Q0d.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/ZrTQTQ6YX5QHXHNYdYMGL.svg',
   alt18: 'arrowrightI1103136',
   src19:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/nzIRpNgkpJWbjnpNLVKAN.png',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/8rti6liR1rthuCwhWqTB0.png',
   alt19: 'promoapplefitnessplusiphonebzeal882mv7mlarge2x1104',
   text34: 'Available later fall for all iPhone Users. 1',
   src20:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/3EFu3FqStbbuAy4GYGK6e.png',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/EpN1E3rHTJTaUH5sK6N9T.png',
   alt20: 'promologofitnessplusiphonedpayetemakq6large2x1111',
   text35: 'Fitness for everyone',
   text36: 'Now all you need is iPhone',
   text37: 'Learn more',
   src21:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/GUZ83tpz8Ll_FtzWqoh8H.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/Nzc4qvhOkxI8x93bJLDk5.svg',
   alt21: 'arrowrightI1118136',
   text38: 'Notify me',
   src22:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/REPYqW7WAZjY6ugfSkKls.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/pcqLGkPm3jIZQ7iHccXC4.svg',
   alt22: 'arrowrightI1121136',
   src23:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/8HRmbe4ycLAFnnfkWOYak.png',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/BVax_wh5WZdTZJDu3Ms5O.png',
   alt23: 'promoapplefitnessplusiphonebzeal882mv7mlarge2x1122',
   src24:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/WCVX2OBLbONO6L0Z0vfrL.png',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/h7VJrQjtjj__8-c05IpeM.png',
   alt24: 'logodcojfwkzna2qlarge2x1127',
   text39: 'Get up to 3% Daily Cash back',
   text40: 'with every purchase',
   text41: 'Learn more',
   src25:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/SMayr-ggOhkxSeYMwdjKN.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/0ugzcmjgwvEH6DE2WknYY.svg',
   alt25: 'arrowrightI1134136',
   text42: 'Apply now',
   src26:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/Kja9cll4EYcdfz9Cm5xE4.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/Q7PcaDRKxSMXF-eBMbh8I.svg',
   alt26: 'arrowrightI1137136',
   src27:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/AjXELgdy_KD8hayxFJeMC.png',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/qTT8gr34V4eRylh1WLUWV.png',
   alt27: 'card1138',
   alt28: 'Line11140',
   src28:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/NaUmfBLtiCBy4-dRMxs0_.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/CTP_oTMv3u-ucOu0AHR85.svg',
   text43: 'Shop and Learn',
   value:
     '<span style="color: rgba(66, 66, 69, 1); \nwidth: ; \nheight: auto; \nfont-weight: 400; \nfont-family: SF Pro Text; \ntext-align: left; \nline-height: 28px; \nfont-size: 12px; \nfont-style: normal; \nfont-stretch: normal; \nalign-self: auto; \nflex-grow: 0; \nposition: ; \ntext-decoration: none; \n"><span >Store</span><br /><span >Mac</span><br /><span >iPad</span><br /><span >iPhone</span><br /><span >Watch</span><br /><span >AirPods</span><br /><span >TV & Home</span><br /><span >AirTag</span><br /><span >Accessories</span><br /><span >Gift Cards</span></span>',
@@ -662,42 +662,42 @@ NewFigmaComponent1.defaultProps = {
     '<span style="color: rgba(66, 66, 69, 1); \nwidth: ; \nheight: auto; \nfont-weight: 400; \nfont-family: SF Pro Text; \ntext-align: left; \nline-height: 16px; \nfont-size: 10px; \nfont-style: normal; \nfont-stretch: normal; \nmargin-left: 0; \nmargin-right: 0; \nmargin-top: 0; \nmargin-bottom: 18px; \nalign-self: auto; \nflex-grow: 0; \nposition: ; \ntext-decoration: none; \n"><span style="color: rgba(66, 66, 69, 1); \nwidth: ; \nheight: auto; \nfont-weight: 400; \ntext-align: left; \nfont-style: normal; \nfont-stretch: normal; \nalign-self: auto; \nflex-grow: 0; \nposition: ; \ntext-decoration: none; \n">More ways to shop:</span><span style="color: rgba(0, 102, 204, 1); \nwidth: ; \nheight: auto; \nfont-weight: 400; \ntext-align: left; \nfont-style: normal; \nfont-stretch: normal; \nalign-self: auto; \nflex-grow: 0; \nposition: ; \ntext-decoration: none; \n"> Find an Apple Store</span><span style="color: rgba(66, 66, 69, 1); \nwidth: ; \nheight: auto; \nfont-weight: 400; \ntext-align: left; \nfont-style: normal; \nfont-stretch: normal; \nalign-self: auto; \nflex-grow: 0; \nposition: ; \ntext-decoration: none; \n"> or</span><span style="color: rgba(0, 102, 204, 1); \nwidth: ; \nheight: auto; \nfont-weight: 400; \ntext-align: left; \nfont-style: normal; \nfont-stretch: normal; \nalign-self: auto; \nflex-grow: 0; \nposition: ; \ntext-decoration: none; \n"> other retailer </span><span style="color: rgba(66, 66, 69, 1); \nwidth: ; \nheight: auto; \nfont-weight: 400; \ntext-align: left; \nfont-style: normal; \nfont-stretch: normal; \nalign-self: auto; \nflex-grow: 0; \nposition: ; \ntext-decoration: none; \n">near you. Or call 1-800-MY-APPLE.</span></span>',
   alt29: 'Line21186',
   src29:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/IkZdj3bHpW7SbUYojmnvN.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/1SnpUSg_cubvvTfpC6gSV.svg',
   text53: 'Privacy Policy',
   alt30: 'Line31190',
   src30:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/lrLWw4TeCM_ISCKs0rYY2.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/zLHfg-cRnWayQRMLxlLnH.svg',
   text54: 'Terms of Use',
   alt31: 'Line31193',
   src31:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/fXELKPQIY4Xd8zSCCiYP-.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/rDsziDl4SJAV5CElesjM_.svg',
   text55: 'Sales and Refunds',
   alt32: 'Line31196',
   src32:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/9b78FYwRxiH1sFQLwQMrK.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/sB9rs7nXqjNkVu2qXNzqz.svg',
   text56: 'Legal',
   alt33: 'Line31199',
   src33:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/d_RujtsSBKpGNDmIH680c.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/Ca8qplp-MOJfWxUKfsAO0.svg',
   text57: 'Site Map',
   alt34: 'Line31202',
   src34:
-    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/oR30HeI9y3lEDgeD2351R.svg',
+    'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/CzJ3cNI5L9Si1YhhTQ1uf.svg',
   text15: 'iPhone 14 ',
   text16: 'Big and bigger.',
   text17: 'iPhone 14 available starting 9.16',
   text18: 'iPhone 14 Plus available starting 10.7',
   text19: 'Learn more',
-  src6: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/5uwDrrxClGPrgMQ_Nh7hD.svg',
+  src6: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/hGxA9CQFQIYg8uWgAPz0D.svg',
   alt6: 'arrowrightI154136',
   text20: 'Pre-order',
-  src7: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/4x4dfeilE6aJUvJgfVuV2.svg',
+  src7: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/gsd2RxxEVR0CLGgAcBQjb.svg',
   alt7: 'arrowrightI157136',
-  src8: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/9VeY4GMXnAS1ONbi2lhkh.png',
+  src8: 'https://kajoo.nyc3.digitaloceanspaces.com/development/orgs/60d5efadff0a5060c3aaa66d/assets/B-HrWSEQ87gOZFcj4ikcD.png',
   alt8: 'heroiphone14preorderc4g2wjzuugqelargetall2x158',
 }
 
-NewFigmaComponent1.propTypes = {
+NewFigmaComponent2.propTypes = {
   rootClassName: PropTypes.string,
   src: PropTypes.string,
   alt: PropTypes.string,
@@ -840,4 +840,4 @@ NewFigmaComponent1.propTypes = {
   alt8: PropTypes.string,
 }
 
-export default NewFigmaComponent1
+export default NewFigmaComponent2
