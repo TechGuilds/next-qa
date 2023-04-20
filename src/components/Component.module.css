@@ -1,36 +1,7 @@
-.paragraph-nurtest2 {
-  background-color: rgba(245, 166, 35, 1);
-  color: rgba(255, 0, 0, 1);
-}
-.paragraph-nurtest2,.header-nurtest2 {
-  font-family: Arial;
-  font-size: 14px;
-  height: fit-content;
-  min-width: 30px;
-  overflow: hidden;
-  -webkit-user-drag: none;
-}
-.header-nurtest2 {
-  background-color: rgba(36, 14, 14, 1);
-  color: rgba(225, 255, 0, 1);
-}
 .root {
   align-items: center;
   display: flex;
   flex-direction: column;
   height: 400px;
   width: 100%;
-}
-.richtext {
-  background-color: rgba(80, 227, 194, 1);
-  border-color: rgba(255, 255, 255, 1);
-}
-.text {
-  background-color: rgba(245, 166, 35, 1);
-  border: 30px solid rgba(0, 63, 255, 1);
-  color: rgba(255, 0, 0, 1);
-}
-.text1 {
-  background-color: rgba(36, 14, 14, 1);
-  color: rgba(225, 255, 0, 1);
 }
