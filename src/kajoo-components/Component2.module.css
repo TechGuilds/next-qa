@@ -5,10 +5,3 @@
   height: 400px;
   width: 100%;
 }
-
-@media(max-width: 1024px) {
-  .root {
-    background-color: rgba(70, 70, 70, 1);
-    height: auto;
-  }
-}
