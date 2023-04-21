@@ -21,7 +21,7 @@ const ProductRecommendation = (props) => {
             />
             <Image
               src={props.fields.src}
-              className={` ${styles['image']} ${styles['image-default']} `}
+              className={styles['image-a-new-style']}
             />
             <Text
               text={props.fields.text1}
@@ -36,7 +36,7 @@ const ProductRecommendation = (props) => {
               />
               <Image
                 src={props.fields.src1}
-                className={` ${styles['image1']} ${styles['image-default']} `}
+                className={styles['image-hello-hi']}
               />
             </Container>
             <Text
@@ -52,7 +52,7 @@ const ProductRecommendation = (props) => {
               />
               <Image
                 src={props.fields.src2}
-                className={` ${styles['image2']} ${styles['image-default']} `}
+                className={styles['image-hello-hi']}
               />
             </Container>
             <Text
@@ -64,7 +64,7 @@ const ProductRecommendation = (props) => {
         <Container className={styles['container7']}>
           <Button
             text={props.fields.text6}
-            className={` ${styles['button']} ${styles['button-default']} `}
+            className={styles['button-sdasdad']}
           />
           <Button
             text={props.fields.text7}
