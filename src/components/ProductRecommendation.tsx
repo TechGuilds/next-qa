@@ -64,7 +64,7 @@ const ProductRecommendation = (props) => {
         <Container className={styles['container7']}>
           <Button
             text={props.fields.text6}
-            className={styles['button-sdasdad']}
+            className={styles['button-button406']}
           />
           <Button
             text={props.fields.text7}
@@ -72,7 +72,7 @@ const ProductRecommendation = (props) => {
           />
           <Button
             text={props.fields.text8}
-            className={` ${styles['button2']} ${styles['button-default']} `}
+            className={` ${styles['button2']} ${styles['button-sdasdad']} `}
           />
         </Container>
       </Container>
