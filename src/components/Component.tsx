@@ -15,6 +15,11 @@ const AppComponent = (props) => {
         tag="span"
         className={styles['paragraph-default']}
       />
+      <Text
+        text={props.fields.text1}
+        tag="h1"
+        className={styles['header-default']}
+      />
     </Container>
   )
 }

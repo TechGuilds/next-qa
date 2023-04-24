@@ -1,10 +1,19 @@
-.paragraph-default {
+.header-default {
+  color: #0C0C0C;
+  font-size: 30px;
+  font-weight: normal;
+  min-width: 140px;
+  text-align: left;
+}
+.header-default,.paragraph-default {
   font-family: Arial;
-  font-size: 14px;
   height: fit-content;
   margin-bottom: 20px;
   margin-right: 20px;
   margin-top: 20px;
+}
+.paragraph-default {
+  font-size: 14px;
   min-width: 30px;
   overflow: hidden;
   -webkit-user-drag: none;
