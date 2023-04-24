@@ -1,7 +1,29 @@
-.root {
+.image-default {
+  background-color: #d9d9d9;
+  border-color: #a0a0a0;
+  border-radius: 6px;
+  border-width: 1px;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: bold;
+  height: 200px;
+  justify-content: center;
+  min-height: 200px;
+  min-width: 200px;
+  overflow: hidden;
+}
+.image-default,.root {
   align-items: center;
   display: flex;
-  flex-direction: column;
+}
+.root {
+  flex-direction: row;
   height: 400px;
   width: 100%;
+}
+.image {
+  border-radius: unset;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
 }
