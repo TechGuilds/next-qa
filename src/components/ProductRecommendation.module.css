@@ -166,6 +166,7 @@
   height: 117px;
   width: 272px;
 }
+
 @media(max-width: 1024px) {
   .text1 {
     height: 80px;
