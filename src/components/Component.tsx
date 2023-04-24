@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, Button } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -12,10 +12,9 @@ const AppComponent = (props) => {
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Text
         text={props.fields.text}
-        tag="span"
-        className={styles['paragraph-default']}
+        tag="h1"
+        className={styles['header-default']}
       />
-      <Button link={props.fields.link} className={styles['button-default']} />
     </Container>
   )
 }

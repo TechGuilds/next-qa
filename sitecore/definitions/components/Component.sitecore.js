@@ -15,14 +15,7 @@ export default function (manifest) {
       {
         name: 'text',
         type: CommonFieldTypes.SingleLineText,
-        standardValue:
-          'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
-      },
-      {
-        name: 'link',
-        type: CommonFieldTypes.GeneralLink,
-        standardValue:
-          "<link text='Button' linktype='external' url='#' anchor='' target=''/>",
+        standardValue: 'Heading',
       },
     ],
   })
