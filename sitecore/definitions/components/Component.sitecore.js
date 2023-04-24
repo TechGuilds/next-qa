@@ -19,9 +19,10 @@ export default function (manifest) {
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
       },
       {
-        name: 'text1',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Heading',
+        name: 'link',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='Button' linktype='external' url='#' anchor='' target=''/>",
       },
     ],
   })

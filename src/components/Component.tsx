@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Text, Button } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -15,11 +15,7 @@ const AppComponent = (props) => {
         tag="span"
         className={styles['paragraph-default']}
       />
-      <Text
-        text={props.fields.text1}
-        tag="h1"
-        className={styles['header-default']}
-      />
+      <Button link={props.fields.link} className={styles['button-default']} />
     </Container>
   )
 }
