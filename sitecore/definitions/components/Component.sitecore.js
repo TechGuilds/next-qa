@@ -17,6 +17,17 @@ export default function (manifest) {
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'Heading',
       },
+      {
+        name: 'src',
+        type: CommonFieldTypes.Image,
+        standardValue:
+          '{"image-do":"https://qa-app.kajoo.ca/icons/default-imag.svg"}',
+      },
+      {
+        name: 'alt',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'default-kajoo-imag',
+      },
     ],
   })
 }
