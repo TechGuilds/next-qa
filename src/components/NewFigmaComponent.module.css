@@ -285,6 +285,7 @@
   display: flex;
   left: 16px;
   top: 312px;
+  width: 343px;
 }
 .button,.image09 {
   box-sizing: border-box;
@@ -292,7 +293,6 @@
   flex-shrink: 0;
   height: 52px;
   position: absolute;
-  width: 343px;
 }
 .image09 {
   background-color: rgba(0, 0, 0, 1);
@@ -301,6 +301,7 @@
   left: 0px;
   object-fit: cover;
   top: 0px;
+  width: 270px;
 }
 .text4 {
   align-self: auto;
@@ -318,4 +319,9 @@
   text-align: center;
   text-decoration: none;
   top: 19px;
+}
+@media(max-width: 1024px) {
+  .image09 {
+    width: 270px;
+  }
 }
