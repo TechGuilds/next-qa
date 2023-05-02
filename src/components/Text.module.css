@@ -1,0 +1,24 @@
+.richtext-default {
+  min-width: 30px;
+}
+.root {
+  align-items: center;
+  align-self: center;
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  height: unset;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px;
+  padding: 10px;
+  width: 100%;
+}
+.richtext {
+  height: fit-content;
+  margin: 0px;
+  min-width: 100px;
+  padding: 0px;
+}
+

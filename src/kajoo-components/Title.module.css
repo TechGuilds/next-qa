@@ -1,29 +1,26 @@
 .root {
-  width: 100%;
-  height: auto;
   display: flex;
-  align-self: flex-start;
   flex-direction: row;
+  height: auto;
   justify-content: flex-start;
+  width: 100%;
 }
-
-.text {
-  padding: 20px 50px 45px;
-  color: rgba(27, 75, 110, 1);
-  height: fit-content;
-  font-size: 4em;
-  min-width: 100px;
+.root,.text {
   align-self: flex-start;
-  text-align: left;
+}
+.text {
+  color: rgba(27, 75, 110, 1);
+  font-size: 4em;
   font-weight: 700;
+  height: fit-content;
+  min-width: 100px;
+  padding: 20px 50px 45px;
+  text-align: left;
 }
 
-@media (max-width: 1024px) {
+@media(max-width: 1024px) {
   .text {
     font-size: 42px;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 45px;
+    padding: 20px 40px 45px;
   }
 }

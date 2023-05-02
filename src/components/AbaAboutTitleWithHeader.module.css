@@ -1,0 +1,12 @@
+.root {
+  align-items: center;
+}
+.root,.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container {
+  background-color: rgba(229, 234, 234, 1);
+}
+

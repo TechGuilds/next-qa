@@ -6,8 +6,8 @@ import {
 
 export default function (manifest) {
   manifest.addComponent({
-    name: 'Component',
-    displayName: 'Component',
+    name: 'AbaHomeHeroWithHeader',
+    displayName: 'AbaHomeHeroWithHeader',
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '',
