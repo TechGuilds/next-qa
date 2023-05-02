@@ -5,18 +5,13 @@ import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import AbaHeader from './AbaHeader'
-import AbaHero from '../kajoo-components/AbaHero'
 import styles from './Component.module.css'
 
 const AppComponent = (props) => {
   return (
-    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Container className={styles['container']}>
-        <AbaHeader rootClassName="root-class-name" />
-        <AbaHero rootClassName="root-class-name" />
-      </Container>
-    </Container>
+    <Container
+      className={` ${styles['root']} ${styles[props.rootClassName]} `}
+    />
   )
 }
 

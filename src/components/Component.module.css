@@ -1,12 +1,8 @@
 .root {
   display: flex;
   flex-direction: row;
-  height: 100vh;
+  height: 400px;
   justify-content: center;
   width: 100%;
 }
-.container {
-  background-position: left top;
-  display: flex;
-  flex-direction: column;
-}
+
