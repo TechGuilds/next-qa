@@ -11,6 +11,12 @@ export default function (manifest) {
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '',
-    fields: [],
+    fields: [
+      {
+        name: 'components["tg-promo-banners-formatted"].response.tg_response[0].Product_ID',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'macbook-pro-14',
+      },
+    ],
   })
 }

@@ -1,8 +1,16 @@
+.paragraph-default {
+  font-family: Arial;
+  font-size: 14px;
+  height: fit-content;
+  min-width: 30px;
+  overflow: hidden;
+  -webkit-user-drag: none;
+}
 .root {
   display: flex;
   flex-direction: row;
   height: 400px;
-  justify-content: center;
   width: 100%;
 }
+
 

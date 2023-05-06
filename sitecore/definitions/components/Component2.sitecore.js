@@ -18,18 +18,6 @@ export default function (manifest) {
         standardValue:
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
       },
-      {
-        name: 'value',
-        type: CommonFieldTypes.RichText,
-        standardValue:
-          '<p>Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.</p>',
-      },
-      {
-        name: 'href',
-        type: CommonFieldTypes.GeneralLink,
-        standardValue:
-          "<link text='Link' linktype='external' url='#' anchor='' target=''/>",
-      },
     ],
   })
 }

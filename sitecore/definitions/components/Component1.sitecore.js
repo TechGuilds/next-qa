@@ -13,16 +13,9 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'value',
-        type: CommonFieldTypes.RichText,
-        standardValue:
-          '<p>Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.</p>',
-      },
-      {
-        name: 'text',
+        name: 'components["tg-promo-banners"].response[1].images[0]._metadata.uid',
         type: CommonFieldTypes.SingleLineText,
-        standardValue:
-          'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
+        standardValue: 'cs1b0ea12787740025',
       },
     ],
   })
