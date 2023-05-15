@@ -1,11 +1,12 @@
 .main {
   align-items: center;
   display: flex;
-  flex-direction: column;
   width: 100%;
 }
-.container {
+.main,.container {
   flex-direction: column;
+}
+.container {
   flex-shrink: 1;
 }
 .container,.container1 {
@@ -18,15 +19,15 @@
   position: relative;
 }
 .container1 {
-  border-radius: 8px;
-  flex-shrink: 0;
   height: 224px;
   margin: 0 0 24px;
   width: 395px;
 }
-.image {
+.container1,.image {
   border-radius: 8px;
   flex-shrink: 0;
+}
+.image {
   height: 259px;
   left: 0px;
   object-fit: cover;

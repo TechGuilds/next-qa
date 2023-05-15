@@ -98,8 +98,10 @@
 .header-default {
   color: #0C0C0C;
   font-size: 30px;
-  font-weight: normal;
   min-width: 140px;
+}
+.header-default,.link-default {
+  font-weight: normal;
   text-align: left;
 }
 .link-default {
@@ -110,11 +112,9 @@
   color: rgba(47, 0, 255, 1);
   display: flex;
   flex-direction: column;
-  font-weight: normal;
   justify-content: center;
   min-height: 75px;
   padding-left: 5px;
-  text-align: left;
   text-decoration: underline;
 }
 .link-default,.paragraph-default {

@@ -1,13 +1,14 @@
 .main {
   align-items: center;
   display: flex;
-  flex-direction: column;
   width: 100%;
+}
+.main,.container {
+  flex-direction: column;
 }
 .container {
   background-color: rgba(255, 255, 255, 1);
   border-color: transparent;
-  flex-direction: column;
   width: 376px;
 }
 .container,.container1 {
@@ -122,12 +123,11 @@
   font-weight: 500;
   height: auto;
   line-height: 120.00000476837158%;
-  margin: 0 0 16px;
   text-align: left;
   text-decoration: none;
   width: 328px;
 }
-.text03,.text04,.text05 {
+.text02,.text03,.text04,.text05 {
   margin: 0 0 16px;
 }
 .text03,.text04,.text05,.text06 {
