@@ -1,0 +1,145 @@
+.paragraph-default {
+  font-family: Arial;
+  font-size: 14px;
+  height: fit-content;
+  min-width: 30px;
+  overflow: hidden;
+  -webkit-user-drag: none;
+}
+.image-default {
+  background-color: #d9d9d9;
+  border-color: #a0a0a0;
+  border-radius: 6px;
+  border-width: 1px;
+  height: 200px;
+  justify-content: center;
+  min-height: 200px;
+  min-width: 200px;
+  overflow: hidden;
+}
+.image-default,.main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  width: 100%;
+}
+.container {
+  align-items: flex-start;
+  flex-direction: row;
+  height: 566.4000815999999px;
+  max-width: 100%;
+  width: 1064.4253056px;
+}
+.container,.container1 {
+  display: flex;
+  justify-content: center;
+}
+.container1 {
+  align-items: center;
+  flex-basis: 33%;
+  flex-direction: column;
+  max-width: 33%;
+}
+.text {
+  height: 44px;
+  width: 102px;
+}
+.text,.text1 {
+  max-width: 100%;
+}
+.text1 {
+  height: 113px;
+  width: 271px;
+}
+.container2 {
+  align-items: center;
+  display: flex;
+  flex-basis: 33%;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 33%;
+}
+.image1 {
+  height: 285.858072px;
+  width: 308.70950400000004px;
+}
+.image1,.text2 {
+  max-width: 100%;
+}
+.text2 {
+  height: 50px;
+  width: 204.668928px;
+}
+.text3 {
+  height: 135px;
+  max-width: 100%;
+  width: 201px;
+}
+.container3 {
+  align-items: center;
+  display: flex;
+  flex-basis: 33%;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 33%;
+}
+.image2 {
+  height: 290px;
+  width: 274px;
+}
+.image2,.text4 {
+  max-width: 100%;
+}
+.text4 {
+  height: 44px;
+  width: 197.849088px;
+}
+.text5 {
+  height: 109px;
+  max-width: 100%;
+  width: 188px;
+}
+@media(max-width: 1024px) {
+  .text {
+    height: 44px;
+    width: 102px;
+  }
+  .text1 {
+    background-color: rgba(248, 231, 28, 1);
+    border-color: rgba(208, 2, 27, 1);
+    border-style: none;
+    color: rgba(225, 26, 26, 1);
+    height: 112px;
+    width: 271px;
+  }
+  .text2 {
+    height: 49px;
+  }
+  .text3 {
+    height: 135px;
+    width: 201px;
+  }
+  .image2 {
+    height: 290px;
+    width: 273px;
+  }
+  .text4 {
+    height: 44px;
+  }
+  .text5 {
+    height: 109px;
+    width: 190px;
+  }
+}
+@media(max-width: 640px) {
+  .container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .container1,.text,.text1,.container2,.image1,.text2,.text3,.container3,.image2,.text4,.text5 {
+    flex-basis: auto;
+    max-width: 100%;
+  }
+}

@@ -5,9 +5,9 @@ import { Container, Text, Image } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './NewFigmaComponent1.module.css'
+import styles from './FigmaCompRealTime.module.css'
 
-const NewFigmaComponent1 = (props) => {
+const FigmaCompRealTime = (props) => {
   return (
     <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
@@ -46,10 +46,10 @@ const NewFigmaComponent1 = (props) => {
   )
 }
 
-NewFigmaComponent1.defaultProps = {
+FigmaCompRealTime.defaultProps = {
   rootClassName: '',
   text: 'All Articles',
-  src: 'https://kajoo.nyc3.digitaloceanspaces.com/containers/orgs/60d5efadff0a5060c3aaa66d/assets/I5sGJuF3Tuvhv1cv7S9E_.svg',
+  src: 'https://kajoo.nyc3.digitaloceanspaces.com/containers/orgs/60d5efadff0a5060c3aaa66d/assets/1WWD3nGi4iO8zpABbu9hS.svg',
   alt: 'GroupI15766632224587',
   text1: 'All Articles',
   text2: 'Learn More About',
@@ -63,10 +63,10 @@ NewFigmaComponent1.defaultProps = {
   text10: 'Celebration of Life',
   text11: 'Grief',
   alt1: 'Line11157666338',
-  src1: 'https://kajoo.nyc3.digitaloceanspaces.com/containers/orgs/60d5efadff0a5060c3aaa66d/assets/RENb3Yts5XSxk21dT4NRM.svg',
+  src1: 'https://kajoo.nyc3.digitaloceanspaces.com/containers/orgs/60d5efadff0a5060c3aaa66d/assets/r0JUnHD-6WC_og_dTNn61.svg',
 }
 
-NewFigmaComponent1.propTypes = {
+FigmaCompRealTime.propTypes = {
   rootClassName: PropTypes.string,
   text: PropTypes.string,
   src: PropTypes.string,
@@ -86,4 +86,4 @@ NewFigmaComponent1.propTypes = {
   src1: PropTypes.string,
 }
 
-export default NewFigmaComponent1
+export default FigmaCompRealTime

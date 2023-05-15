@@ -46,11 +46,11 @@
 .container2 {
   align-items: flex-start;
   display: flex;
-  height: 24px;
+  height: 27px;
   left: 327px;
   overflow: hidden;
   top: 39.000003814697266px;
-  width: 24px;
+  width: 26px;
 }
 .container2,.image {
   border-color: transparent;
@@ -60,11 +60,11 @@
   position: absolute;
 }
 .image {
-  height: 16px;
+  height: 6px;
   left: 6.720000267028809px;
   object-fit: cover;
   top: 9.600000381469727px;
-  width: 26px;
+  width: 10px;
 }
 .container3 {
   align-items: center;
@@ -201,19 +201,17 @@
   height: 1px;
   width: 375px;
 }
-@media(max-width: 640px) {
-  .text {
-    left: 24px;
-    top: 14px;
-  }
+@media(max-width: 1024px) {
   .container2 {
-    left: 295px;
-    top: 16px;
-  }
-  .image {
-    height: 17px;
-    left: 7.720000000000027px;
-    top: -18.400000000000006px;
+    height: 27px;
+    left: 309px;
+    top: 17px;
     width: 27px;
+  }
+}
+@media(max-width: 640px) {
+  .container2 {
+    left: 279px;
+    top: 18px;
   }
 }
