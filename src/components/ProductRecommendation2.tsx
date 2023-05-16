@@ -5,9 +5,9 @@ import { Container, Text, Image, Button } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './ProductRecommendation1.module.css'
+import styles from './ProductRecommendation2.module.css'
 
-const ProductRecommendation1 = (props) => {
+const ProductRecommendation2 = (props) => {
   return (
     <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
@@ -49,7 +49,7 @@ const ProductRecommendation1 = (props) => {
                 className={` ${styles['text4']} ${styles['paragraph-default']} `}
               />
               <Image
-                src={props.fields.src2}
+                src="/icons/default-imag.svg"
                 className={` ${styles['image2']} ${styles['image-default']} `}
               />
             </Container>
@@ -78,14 +78,14 @@ const ProductRecommendation1 = (props) => {
   )
 }
 
-ProductRecommendation1.defaultProps = {
+ProductRecommendation2.defaultProps = {
   rootClassName: '',
   fields: {},
 }
 
-ProductRecommendation1.propTypes = {
+ProductRecommendation2.propTypes = {
   rootClassName: PropTypes.string,
   fields: PropTypes.object,
 }
 
-export default ProductRecommendation1
+export default ProductRecommendation2
