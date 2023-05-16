@@ -13,20 +13,15 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'src',
-        type: CommonFieldTypes.Image,
-        standardValue:
-          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/containers/orgs/60d5efadff0a5060c3aaa66d/assets/bDxW9cPh9jOqF4PiNu35U.png"}',
-      },
-      {
-        name: 'alt',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'default-kajoo-imag',
-      },
-      {
         name: 'text',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'HEADER',
+      },
+      {
+        name: 'src',
+        type: CommonFieldTypes.Image,
+        standardValue:
+          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/qa/orgs/60d5efadff0a5060c3aaa66d/assets/SeQ5FMs5w4dcXl0uy3SG6.png"}',
       },
       {
         name: 'text1',
@@ -35,15 +30,15 @@ export default function (manifest) {
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
       },
       {
-        name: 'src1',
-        type: CommonFieldTypes.Image,
-        standardValue:
-          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/containers/orgs/60d5efadff0a5060c3aaa66d/assets/7TuhQQv711Pa7tZFMxTme.png"}',
-      },
-      {
         name: 'text2',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'HEADER',
+      },
+      {
+        name: 'src1',
+        type: CommonFieldTypes.Image,
+        standardValue:
+          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/qa/orgs/60d5efadff0a5060c3aaa66d/assets/bITBeOhKU9lrdzeAjBzMS.png"}',
       },
       {
         name: 'text3',
@@ -52,21 +47,36 @@ export default function (manifest) {
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
       },
       {
-        name: 'src2',
-        type: CommonFieldTypes.Image,
-        standardValue:
-          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/containers/orgs/60d5efadff0a5060c3aaa66d/assets/K36Bxk4BwlwY_0pw56cQ7.png"}',
-      },
-      {
         name: 'text4',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'HEADER',
+      },
+      {
+        name: 'src2',
+        type: CommonFieldTypes.Image,
+        standardValue:
+          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/qa/orgs/60d5efadff0a5060c3aaa66d/assets/E0vlwyAKf-2Sehp3yIl8H.png"}',
       },
       {
         name: 'text5',
         type: CommonFieldTypes.SingleLineText,
         standardValue:
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
+      },
+      {
+        name: 'text6',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Button',
+      },
+      {
+        name: 'text7',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Button',
+      },
+      {
+        name: 'text8',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Button',
       },
     ],
   })

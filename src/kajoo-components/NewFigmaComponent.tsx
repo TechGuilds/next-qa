@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Image, Text } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Text, Image } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -12,12 +12,35 @@ const NewFigmaComponent = (props) => {
     <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
         <Container className={styles['container1']}>
-          <Image src={props.src} alt={props.alt} className={styles['image']} />
-        </Container>
-        <Container className={styles['container2']}>
           <Text text={props.text} className={styles['text']} />
-          <Text text={props.text1} className={styles['text1']} />
+          <Container className={styles['container2']}>
+            <Image
+              src={props.src}
+              alt={props.alt}
+              className={styles['image']}
+            />
+          </Container>
         </Container>
+        <Container className={styles['container3']}>
+          <Container className={styles['container4']}>
+            <Text text={props.text1} className={styles['text01']} />
+            <Container className={styles['container5']}>
+              <Text text={props.text2} className={styles['text02']} />
+              <Text text={props.text3} className={styles['text03']} />
+              <Text text={props.text4} className={styles['text04']} />
+              <Text text={props.text5} className={styles['text05']} />
+              <Text text={props.text6} className={styles['text06']} />
+            </Container>
+            <Container className={styles['container6']}>
+              <Text text={props.text7} className={styles['text07']} />
+              <Text text={props.text8} className={styles['text08']} />
+              <Text text={props.text9} className={styles['text09']} />
+              <Text text={props.text10} className={styles['text10']} />
+              <Text text={props.text11} className={styles['text11']} />
+            </Container>
+          </Container>
+        </Container>
+        <Image alt={props.alt1} src={props.src1} className={styles['image1']} />
       </Container>
     </Container>
   )
@@ -25,19 +48,42 @@ const NewFigmaComponent = (props) => {
 
 NewFigmaComponent.defaultProps = {
   rootClassName: '',
-  src: 'https://kajoo.nyc3.digitaloceanspaces.com/containers/orgs/60d5efadff0a5060c3aaa66d/assets/-Hp-uRqF-bRDcY8eGmY3-.png',
-  alt: 'ScreenShot20210805at12012I875251974233458',
-  text: 'Funerals',
-  text1:
-    'Special Floral Tribute: Arbor Plants Over 20,000 Flowers to Remember Lives Lost to COVID-19',
+  text: 'All Articles',
+  src: 'https://kajoo.nyc3.digitaloceanspaces.com/qa/orgs/60d5efadff0a5060c3aaa66d/assets/HWSTQxP6W1la4CHoB9b-U.svg',
+  alt: 'GroupI15766632224587',
+  text1: 'All Articles',
+  text2: 'Learn More About',
+  text3: 'Funerals',
+  text4: 'Cremation',
+  text5: 'Cemetery',
+  text6: 'Planning Ahead',
+  text7: 'Helpful Tips',
+  text8: 'How To’s & Guides',
+  text9: 'Advice & Etiquette',
+  text10: 'Celebration of Life',
+  text11: 'Grief',
+  alt1: 'Line11157666338',
+  src1: 'https://kajoo.nyc3.digitaloceanspaces.com/qa/orgs/60d5efadff0a5060c3aaa66d/assets/sN7T1X-ctycncG45NP7P-.svg',
 }
 
 NewFigmaComponent.propTypes = {
   rootClassName: PropTypes.string,
+  text: PropTypes.string,
   src: PropTypes.string,
   alt: PropTypes.string,
-  text: PropTypes.string,
   text1: PropTypes.string,
+  text2: PropTypes.string,
+  text3: PropTypes.string,
+  text4: PropTypes.string,
+  text5: PropTypes.string,
+  text6: PropTypes.string,
+  text7: PropTypes.string,
+  text8: PropTypes.string,
+  text9: PropTypes.string,
+  text10: PropTypes.string,
+  text11: PropTypes.string,
+  alt1: PropTypes.string,
+  src1: PropTypes.string,
 }
 
 export default NewFigmaComponent
