@@ -13,9 +13,10 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'components["tg-promo-banners-formatted"].response.tg_response[0].Product_ID',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'macbook-pro-14',
+        name: 'value',
+        type: CommonFieldTypes.RichText,
+        standardValue:
+          '<p>Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.</p>',
       },
     ],
   })
