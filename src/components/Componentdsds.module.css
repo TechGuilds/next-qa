@@ -1,0 +1,25 @@
+.container-default {
+  background-color: #ffffff;
+  color: #a0a0a0;
+  display: flex;
+  flex: 0 0 auto;
+  height: 200px;
+  min-height: 200px;
+  min-width: 300px;
+  padding: 10px;
+  width: auto;
+}
+.root {
+  flex-direction: row;
+  height: 400px;
+}
+.root,.container {
+  display: flex;
+  width: 100%;
+}
+.container {
+  align-items: center;
+  flex: 0 0 auto;
+  height: 100px;
+  justify-content: flex-start;
+}
