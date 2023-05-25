@@ -1,25 +1,7 @@
-.container-default {
-  background-color: #ffffff;
-  color: #a0a0a0;
-  display: flex;
-  flex: 0 0 auto;
-  height: 200px;
-  min-height: 200px;
-  min-width: 300px;
-  padding: 10px;
-  width: auto;
-}
 .root {
   align-items: center;
-  flex-direction: row;
-  height: 400px;
-}
-.root,.container {
   display: flex;
+  flex-direction: column;
+  height: 400px;
   width: 100%;
-}
-.container {
-  flex: 0 0 auto;
-  flex-direction: row;
-  height: 100px;
 }
