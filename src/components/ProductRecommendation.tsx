@@ -9,19 +9,17 @@ import styles from './ProductRecommendation.module.css'
 
 const ProductRecommendation = (props) => {
   return (
-    <Container
-      className={` ${styles['root-new-style']} ${styles[props.rootClassName]} `}
-    >
+    <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
         <Container className={styles['container1']}>
           <Container className={styles['container2']}>
             <Text
               text={props.fields.text}
-              className={` ${styles['text']} ${styles['paragraph-new-style']} `}
+              className={` ${styles['text']} ${styles['paragraph-default']} `}
             />
             <Image
               src={props.fields.src}
-              className={styles['image-a-new-style']}
+              className={` ${styles['image']} ${styles['image-default']} `}
             />
             <Text
               text={props.fields.text1}
@@ -36,7 +34,7 @@ const ProductRecommendation = (props) => {
               />
               <Image
                 src={props.fields.src1}
-                className={styles['image-hello-hi']}
+                className={` ${styles['image1']} ${styles['image-default']} `}
               />
             </Container>
             <Text
@@ -52,7 +50,7 @@ const ProductRecommendation = (props) => {
               />
               <Image
                 src={props.fields.src2}
-                className={styles['image-hello-hi']}
+                className={` ${styles['image2']} ${styles['image-default']} `}
               />
             </Container>
             <Text
@@ -64,7 +62,7 @@ const ProductRecommendation = (props) => {
         <Container className={styles['container7']}>
           <Button
             text={props.fields.text6}
-            className={styles['button-button406']}
+            className={` ${styles['button']} ${styles['button-default']} `}
           />
           <Button
             text={props.fields.text7}
@@ -72,7 +70,7 @@ const ProductRecommendation = (props) => {
           />
           <Button
             text={props.fields.text8}
-            className={` ${styles['button2']} ${styles['button-sdasdad']} `}
+            className={` ${styles['button2']} ${styles['button-default']} `}
           />
         </Container>
       </Container>

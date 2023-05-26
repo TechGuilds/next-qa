@@ -20,8 +20,7 @@ export default function (manifest) {
       {
         name: 'src',
         type: CommonFieldTypes.Image,
-        standardValue:
-          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/qa/orgs/60d5efadff0a5060c3aaa66d/assets/zBFKh_BAfsC1P-zijRmLK.png"}',
+        standardValue: '/icons/default-imag.svg',
       },
       {
         name: 'text1',
@@ -37,8 +36,7 @@ export default function (manifest) {
       {
         name: 'src1',
         type: CommonFieldTypes.Image,
-        standardValue:
-          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/qa/orgs/60d5efadff0a5060c3aaa66d/assets/KJ_UShRICrh_hHpku_QVz.png"}',
+        standardValue: '/icons/default-imag.svg',
       },
       {
         name: 'text3',
@@ -54,8 +52,7 @@ export default function (manifest) {
       {
         name: 'src2',
         type: CommonFieldTypes.Image,
-        standardValue:
-          '{"image-do":"https://kajoo.nyc3.digitaloceanspaces.com/qa/orgs/60d5efadff0a5060c3aaa66d/assets/EBpPFyMX8VN9crlLOzLTM.png"}',
+        standardValue: '/icons/default-imag.svg',
       },
       {
         name: 'text5',

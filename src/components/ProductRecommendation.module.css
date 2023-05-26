@@ -1,58 +1,36 @@
-.button-sdasdad {
-  background-color: rgba(70, 70, 70, 1);
-  border: 10px dotted rgba(127, 0, 129, 1);
-  border-radius: 10px;
-  color: rgba(167, 2, 52, 1);
-  font-size: 15px;
-  height: 100px;
-  width: 100px;
-}
 .button-default {
   background-color: #eeeeee;
-}
-.button-default,.button-button406 {
-  align-items: center;
   border-color: #a0a0a0;
   border-radius: 3px;
   border-width: 1px;
-  display: flex;
-  flex-direction: column;
   font-size: 0.8em;
   height: fit-content;
-  justify-content: center;
   min-height: 24px;
   min-width: 130px;
   padding: 10px 35px;
 }
-.button-button406 {
-  background-color: rgba(127, 0, 129, 1);
-  color: rgba(70, 70, 70, 1);
-}
-.image-hello-hi {
+.button-default,.image-default {
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.image-default {
   background-color: #d9d9d9;
   border-color: #a0a0a0;
   border-radius: 6px;
   border-width: 1px;
-  display: flex;
-  flex-direction: column;
   font-style: normal;
   font-weight: bold;
-  height: 146.24647199999998px;
-  justify-content: center;
-  max-width: 100%;
+  height: 200px;
   min-height: 200px;
   min-width: 200px;
   overflow: hidden;
-  width: 896.380992px;
 }
 .paragraph-default {
-  height: fit-content;
-}
-
-.paragraph-default,.paragraph-new-style {
   font-family: Arial;
   font-size: 14px;
+  height: fit-content;
   margin-bottom: 20px;
   margin-right: 20px;
   margin-top: 20px;
@@ -60,18 +38,10 @@
   overflow: hidden;
   -webkit-user-drag: none;
 }
-
-.paragraph-new-style {
-  align-self: flex-start;
-  height: 56.25345216px;
-  max-width: 100%;
-  width: 185.0909436px;
-}
-.root-new-style {
-  height: auto;
+.main {
   width: 100%;
 }
-.root-new-style,.container {
+.main,.container {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -98,12 +68,17 @@
   height: 56.25345216px;
   width: 185.0909436px;
 }
-.text,.text1 {
+.text,.image {
   max-width: 100%;
 }
+.image {
+  height: 263.658736px;
+  width: 303.2061516px;
+}
 .text1 {
-  height: 81px;
-  width: 223px;
+  height: 90.80363999999996px;
+  max-width: 100%;
+  width: 226.8457488px;
 }
 .container3 {
   flex-basis: 33%;
@@ -122,10 +97,16 @@
   height: 58.3389446px;
   width: 224.63405999999992px;
 }
-.text3 {
-  height: 93px;
+.image1 {
+  height: 253.02140000000003px;
+  width: 278.95312799999994px;
+}
+.image1,.text3 {
   max-width: 100%;
-  width: 240px;
+}
+.text3 {
+  height: 83.29531199999998px;
+  width: 227.83698000000004px;
 }
 .container5 {
   flex-basis: 33%;
@@ -144,10 +125,16 @@
   height: 48.1029028px;
   width: 213.471828px;
 }
-.text5 {
-  height: 88px;
+.image2 {
+  height: 258.646459px;
+  width: 243.06033599999998px;
+}
+.image2,.text5 {
   max-width: 100%;
-  width: 266px;
+}
+.text5 {
+  height: 89.311766px;
+  width: 211.516596px;
 }
 .container7 {
   align-items: flex-start;
@@ -156,52 +143,30 @@
   justify-content: space-between;
   max-width: 100%;
 }
-.button1 {
+.button {
+  height: 68.87368399999998px;
+  width: 266.30829px;
+}
+.button,.button1 {
   flex-basis: 33%;
-  height: 92px;
   max-width: 100%;
+}
+.button1 {
+  height: 86.868708px;
   width: 277.49116799999996px;
 }
 .button2 {
-  height: 117px;
-  width: 272px;
-}
-
-@media(max-width: 1024px) {
-  .text1 {
-    height: 80px;
-    width: 223px;
-  }
-  .text3 {
-    height: 92px;
-    width: 240px;
-  }
-  .text4 {
-    height: auto;
-    width: auto;
-  }
-  .text5 {
-    height: 87px;
-    width: 265px;
-  }
-  .button1 {
-    border-width: 52px;
-    height: 93px;
-  }
-  .button2 {
-    background-color: rgba(70, 70, 70, 1);
-    border-right-width: 17px;
-    height: 118px;
-    position: relative;
-    width: 272px;
-  }
+  flex-basis: 33%;
+  height: 94.22962399999999px;
+  max-width: 100%;
+  width: 236.58753600000009px;
 }
 @media(max-width: 640px) {
   .container1 {
     align-items: center;
     flex-direction: column;
   }
-  .container1,.container2,.text,.text1,.container3,.container4,.text2,.text3,.container5,.container6,.text4,.text5,.container7 {
+  .container1,.container2,.text,.image,.text1,.container3,.container4,.text2,.image1,.text3,.container5,.container6,.text4,.image2,.text5,.container7 {
     flex-basis: auto;
     max-width: 100%;
   }
@@ -209,7 +174,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .button1 {
+  .button,.button1,.button2 {
     flex-basis: auto;
     max-width: 100%;
   }
