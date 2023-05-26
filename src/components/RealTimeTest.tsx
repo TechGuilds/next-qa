@@ -62,15 +62,15 @@ const RealTimeTest = (props) => {
         <Container className={styles['container7']}>
           <Button
             text={props.fields.text6}
-            className={` ${styles['button']} ${styles['button-default']} `}
+            className={` ${styles['button-default']} ${styles['button']} `}
           />
           <Button
             text={props.fields.text7}
-            className={` ${styles['button1']} ${styles['button-default']} `}
+            className={styles['button-default']}
           />
           <Button
             text={props.fields.text8}
-            className={` ${styles['button2']} ${styles['button-default']} `}
+            className={styles['button-default']}
           />
         </Container>
       </Container>

@@ -92,7 +92,7 @@ ProductRecommendation.defaultProps = {
   text6: 'Button',
   text7: 'c',
   text8: 'Button',
-  src2: 'https://qa-app.kajoo.ca/icons/default-imag.svg',
+  src2: 'https://kajoo.nyc3.digitaloceanspaces.com/qa/orgs/60d5efadff0a5060c3aaa66d/assets/EOtPepswDKSFM00UcFy72.png',
   alt1: '',
   src3: 'https://qa-app.kajoo.ca/icons/default-imag.svg',
   alt2: '',
