@@ -29,7 +29,7 @@ export default function (manifest) {
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
       },
       {
-        name: 'text2',
+        name: 'text3',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'HEADER',
       },
@@ -39,13 +39,13 @@ export default function (manifest) {
         standardValue: '/icons/default-imag.svg',
       },
       {
-        name: 'text3',
+        name: 'text2',
         type: CommonFieldTypes.SingleLineText,
         standardValue:
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
       },
       {
-        name: 'text4',
+        name: 'text5',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'HEADER',
       },
@@ -55,7 +55,7 @@ export default function (manifest) {
         standardValue: '/icons/default-imag.svg',
       },
       {
-        name: 'text5',
+        name: 'text4',
         type: CommonFieldTypes.SingleLineText,
         standardValue:
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',

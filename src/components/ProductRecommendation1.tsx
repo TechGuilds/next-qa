@@ -29,7 +29,7 @@ const ProductRecommendation1 = (props) => {
           <Container className={styles['container3']}>
             <Container className={styles['container4']}>
               <Text
-                text={props.fields.text2}
+                text={props.fields.text3}
                 className={` ${styles['text2']} ${styles['paragraph-default']} `}
               />
               <Image
@@ -38,14 +38,14 @@ const ProductRecommendation1 = (props) => {
               />
             </Container>
             <Text
-              text={props.fields.text3}
+              text={props.fields.text2}
               className={` ${styles['text3']} ${styles['paragraph-default']} `}
             />
           </Container>
           <Container className={styles['container5']}>
             <Container className={styles['container6']}>
               <Text
-                text={props.fields.text4}
+                text={props.fields.text5}
                 className={` ${styles['text4']} ${styles['paragraph-default']} `}
               />
               <Image
@@ -54,7 +54,7 @@ const ProductRecommendation1 = (props) => {
               />
             </Container>
             <Text
-              text={props.fields.text5}
+              text={props.fields.text4}
               className={` ${styles['text5']} ${styles['paragraph-default']} `}
             />
           </Container>

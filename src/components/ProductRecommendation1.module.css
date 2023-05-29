@@ -1,36 +1,37 @@
 .button-default {
-  background-color: rgba(214, 57, 1, 255);
-  border-style: none;
-  color: rgba(255, 255, 255, 1);
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  padding: 15px 30px;
-  text-align: center;
+  background-color: #eeeeee;
+  border-radius: 3px;
+  font-size: 0.8em;
+  height: fit-content;
+  min-height: 24px;
+  min-width: 130px;
+  padding: 10px 35px;
 }
 .button-default,.image-default {
   align-items: center;
-  border-radius: 3px;
+  border-color: #a0a0a0;
+  border-width: 1px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .image-default {
   background-color: #d9d9d9;
-  height: 75px;
-  max-height: 100%;
-  width: 100px;
-}
-.image-default,.paragraph-default {
-  min-width: 30px;
+  border-radius: 6px;
+  height: 200px;
+  min-height: 200px;
+  min-width: 200px;
   overflow: hidden;
 }
 .paragraph-default {
-  font-size: 0.8em;
+  font-family: Arial;
+  font-size: 14px;
+  height: fit-content;
+  min-width: 30px;
+  overflow: hidden;
   -webkit-user-drag: none;
 }
 .main {
-  height: 588px;
   width: 100%;
 }
 .main,.container {
@@ -152,12 +153,6 @@
   height: 94.22962399999999px;
   max-width: 100%;
   width: 236.58753600000009px;
-}
-@media(max-width: 1280px) {
-  .main {
-    display: flex;
-    height: 100%;
-  }
 }
 @media(max-width: 640px) {
   .container1 {
