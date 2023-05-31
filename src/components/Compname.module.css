@@ -177,15 +177,14 @@
 }
 .container10 {
   flex-shrink: 1;
+}
+.container10,.image1 {
   left: 0px;
   position: absolute;
   top: 0px;
 }
 .image1 {
   height: 16px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
   width: 16px;
 }
 .image1,.image2 {
