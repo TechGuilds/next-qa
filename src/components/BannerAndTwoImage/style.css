@@ -21,6 +21,7 @@
   overflow: hidden;
 }
 .banner-and-two-image-main {
+  height: 1082px;
   width: 100%;
 }
 .banner-and-two-image-main,.banner-and-two-image-container {
@@ -56,7 +57,7 @@
   flex-basis: 50%;
   height: 304.47316800000004px;
   max-width: 100%;
-  width: 366.418944px;
+  width: 386px;
 }
 .banner-and-two-image-text {
   align-self: flex-end;
@@ -64,6 +65,9 @@
   width: 163.881216px;
 }
 @media(max-width: 640px) {
+  .banner-and-two-image-main {
+    height: 1083px;
+  }
   .banner-and-two-image-image,.banner-and-two-image-container1 {
     flex-basis: auto;
     max-width: 100%;
@@ -75,5 +79,8 @@
   .banner-and-two-image-image1,.banner-and-two-image-image2 {
     flex-basis: auto;
     max-width: 100%;
+  }
+  .banner-and-two-image-image2 {
+    width: 384px;
   }
 }
