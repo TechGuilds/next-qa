@@ -18,10 +18,16 @@ export default function (manifest) {
         standardValue: 'Heading',
       },
       {
+        name: 'text1',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue:
+          'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
+      },
+      {
         name: 'src',
         type: CommonFieldTypes.Image,
         standardValue:
-          '{"image-do":"https://qa-app.kajoo.ca/icons/default-imag.svg"}',
+          '{"image-do":"https://app.kajoo.ai/icons/default-imag.svg"}',
       },
       {
         name: 'alt',

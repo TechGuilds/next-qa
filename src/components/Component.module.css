@@ -6,30 +6,43 @@
   border-width: 1px;
   display: flex;
   flex-direction: column;
-  font-style: normal;
-  font-weight: bold;
   height: 200px;
   justify-content: center;
   min-height: 200px;
   min-width: 200px;
   overflow: hidden;
 }
+.paragraph-default {
+  font-size: 14px;
+  min-width: 30px;
+  overflow: hidden;
+  -webkit-user-drag: none;
+}
+.paragraph-default,.header-default {
+  font-family: Arial;
+  height: fit-content;
+}
 .header-default {
   color: #0C0C0C;
-  font-family: Arial;
   font-size: 30px;
   font-weight: normal;
-  height: fit-content;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
   min-width: 140px;
   text-align: left;
 }
-.root {
+.component {
   align-items: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   height: 400px;
   width: 100%;
+}
+.image {
+  height: 378px;
+  width: 386px;
+}
+@media(max-width: 480px) {
+  .image {
+    height: 378px;
+    width: 386px;
+  }
 }

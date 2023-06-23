@@ -9,16 +9,23 @@ import styles from './Component.module.css'
 
 const AppComponent = (props) => {
   return (
-    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
+    <Container
+      className={` ${styles['component']} ${styles[props.rootClassName]} `}
+    >
       <Text
         text={props.fields.text}
         tag="h1"
         className={styles['header-default']}
       />
+      <Text
+        text={props.fields.text1}
+        tag="span"
+        className={styles['paragraph-default']}
+      />
       <Image
         src={props.fields.src}
         alt={props.fields.alt}
-        className={styles['image-default']}
+        className={` ${styles['image']} ${styles['image-default']} `}
       />
     </Container>
   )
