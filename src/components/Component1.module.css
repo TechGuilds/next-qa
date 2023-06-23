@@ -1,20 +1,27 @@
-.paragraph-default {
-  font-family: Arial;
-  font-size: 14px;
+.header-default {
+  background-color: rgba(126, 211, 33, 1);
+  color: #0C0C0C;
+  font-family: Monotype Corsiva;
+  font-size: 30px;
+  font-weight: normal;
   height: fit-content;
-  min-width: 30px;
-  overflow: hidden;
-  -webkit-user-drag: none;
+  min-width: 140px;
+  text-align: left;
 }
 .root {
+  align-items: flex-end;
   display: flex;
   flex-direction: row;
   height: 400px;
   width: 100%;
 }
-.text {
-  height: 198px;
-  width: 216px;
+@media(max-width: 1024px) {
+  .text {
+    background-color: rgba(155, 155, 155, 1);
+  }
 }
-
-
+@media(max-width: 768px) {
+  .text {
+    background-color: rgba(245, 166, 35, 1);
+  }
+}

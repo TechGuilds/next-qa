@@ -11,12 +11,9 @@ const Component1 = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Text
-        text={
-          props.fields.components['tg-promo-banners'].response[1].images[0]
-            ._metadata.uid
-        }
-        tag="span"
-        className={` ${styles['text']} ${styles['paragraph-default']} `}
+        text={props.fields.text}
+        tag="h1"
+        className={` ${styles['header-default']} ${styles['text']} `}
       />
     </Container>
   )

@@ -13,9 +13,9 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'components["tg-promo-banners"].response[1].images[0]._metadata.uid',
+        name: 'text',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'cs1b0ea12787740025',
+        standardValue: 'Heading',
       },
     ],
   })
