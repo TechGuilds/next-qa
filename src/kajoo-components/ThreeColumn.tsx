@@ -1,9 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
-/* eslint-disable */
-// @ts-nocheck
 import React from 'react'
-import { Container, Image, Text } from 'kajoo-components/sitecore-nextjs'
+import { Container, Image, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -11,53 +9,53 @@ import styles from './ThreeColumn.module.css'
 
 const ThreeColumn = (props) => {
   return (
-    <Container className={styles[props.rootClassName]}>
+    <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
-        <Container
-          className={` ${styles['container1']} ${styles['container-default']} `}
-        >
+        <Container className={styles['container1']}>
           <Image
             src={props.src}
             className={` ${styles['image']} ${styles['image-default']} `}
           />
           <Text
             text={props.text}
+            tag="span"
             className={` ${styles['text']} ${styles['paragraph-default']} `}
           />
           <Text
             text={props.text1}
+            tag="span"
             className={` ${styles['text1']} ${styles['paragraph-default']} `}
           />
         </Container>
-        <Container
-          className={` ${styles['container2']} ${styles['container-default']} `}
-        >
+        <Container className={styles['container2']}>
           <Image
             src={props.src1}
             className={` ${styles['image1']} ${styles['image-default']} `}
           />
           <Text
             text={props.text2}
+            tag="span"
             className={` ${styles['text2']} ${styles['paragraph-default']} `}
           />
           <Text
             text={props.text3}
+            tag="span"
             className={` ${styles['text3']} ${styles['paragraph-default']} `}
           />
         </Container>
-        <Container
-          className={` ${styles['container3']} ${styles['container-default']} `}
-        >
+        <Container className={styles['container3']}>
           <Image
             src={props.src2}
             className={` ${styles['image2']} ${styles['image-default']} `}
           />
           <Text
             text={props.text4}
+            tag="span"
             className={` ${styles['text4']} ${styles['paragraph-default']} `}
           />
           <Text
             text={props.text5}
+            tag="span"
             className={` ${styles['text5']} ${styles['paragraph-default']} `}
           />
         </Container>
