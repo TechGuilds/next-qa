@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, List, Button, Image } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Text, Image, Button } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -12,30 +12,60 @@ const ProductRecommendation = (props) => {
     <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
         <Container className={styles['container1']}>
-          <Text
-            text={props.text3}
-            tag="span"
-            className={styles['paragraph-default']}
-          />
-          <Text
-            text={props.text4}
-            tag="span"
-            className={styles['paragraph-default']}
-          />
-          <Text
-            text={props.text5}
-            tag="span"
-            className={styles['paragraph-default']}
-          />
-          <Text
-            text={props.text10}
-            tag="span"
-            className={styles['paragraph-default']}
-          />
-          <form className={styles['']} />
-          <List text={props.text11} className={styles['list-default']} />
+          <Container className={styles['container2']}>
+            <Text
+              text={props.text}
+              tag="span"
+              className={` ${styles['text']} ${styles['paragraph-default']} `}
+            />
+            <Image
+              src={props.src}
+              className={` ${styles['image']} ${styles['image-default']} `}
+            />
+            <Text
+              text={props.text1}
+              tag="span"
+              className={` ${styles['text1']} ${styles['header-header398']} `}
+            />
+          </Container>
+          <Container className={styles['container3']}>
+            <Container className={styles['container4']}>
+              <Text
+                text={props.text2}
+                tag="span"
+                className={` ${styles['text2']} ${styles['paragraph-default']} `}
+              />
+              <Image
+                src={props.src1}
+                className={` ${styles['image1']} ${styles['image-default']} `}
+              />
+            </Container>
+            <Text
+              text={props.text3}
+              tag="span"
+              className={` ${styles['text3']} ${styles['header-header935']} `}
+            />
+          </Container>
+          <Container className={styles['container5']}>
+            <Container className={styles['container6']}>
+              <Text
+                text={props.text4}
+                tag="span"
+                className={` ${styles['text4']} ${styles['paragraph-default']} `}
+              />
+              <Image
+                src={props.src2}
+                className={` ${styles['image2']} ${styles['image-default']} `}
+              />
+            </Container>
+            <Text
+              text={props.text5}
+              tag="span"
+              className={` ${styles['text5']} ${styles['label-default']} `}
+            />
+          </Container>
         </Container>
-        <Container className={styles['container2']}>
+        <Container className={styles['container7']}>
           <Button
             text={props.text6}
             className={` ${styles['button']} ${styles['button-default']} `}
@@ -50,79 +80,43 @@ const ProductRecommendation = (props) => {
           />
         </Container>
       </Container>
-      <Image
-        src={props.src2}
-        alt={props.alt1}
-        className={styles['image-default']}
-      />
-      <Image
-        src={props.src3}
-        alt={props.alt2}
-        className={styles['image-default']}
-      />
-      <Image
-        src={props.src4}
-        alt={props.alt3}
-        className={styles['image-default']}
-      />
     </Container>
   )
 }
 
 ProductRecommendation.defaultProps = {
-  DPuduHN_pvFbwPGjis4Nx: 'HEADER',
-  cgb38fv8XGXyNlF0UeFcA: '/icons/default-imag.svg',
-  'pxiaxx5q7NpJ-p8Tl8UHm':
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
-  xZ5RNtGlVpBFL2QvsiYPY:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
-  '8QNjguTI2npQ_-CbmupbL': 'https://qa-app.kajoo.ca/icons/default-imag.svg',
-  iccb1VnfNy8cnd5YYpK9D: '',
-  '9KGGKHQTFFxilVqOhp8o1': 'Heading',
   rootClassName: '',
+  text: 'HEADER',
+  src: '/icons/default-imag.svg',
+  text1:
+    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
+  text2: 'HEADER',
+  src1: '/icons/default-imag.svg',
   text3:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
-  text4:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
+    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
+  text4: 'HEADER',
+  src2: '/icons/default-imag.svg',
   text5:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
-  text10:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
-  text11: 'List Item',
+    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
   text6: 'Button',
-  text7: 'c',
+  text7: 'Button',
   text8: 'Button',
-  src2: 'https://kajoo.nyc3.digitaloceanspaces.com/qa/orgs/60d5efadff0a5060c3aaa66d/assets/EOtPepswDKSFM00UcFy72.png',
-  alt1: '',
-  src3: 'https://qa-app.kajoo.ca/icons/default-imag.svg',
-  alt2: '',
-  src4: 'https://qa-app.kajoo.ca/icons/default-imag.svg',
-  alt3: '',
 }
 
 ProductRecommendation.propTypes = {
-  DPuduHN_pvFbwPGjis4Nx: PropTypes.string,
-  cgb38fv8XGXyNlF0UeFcA: PropTypes.string,
-  'pxiaxx5q7NpJ-p8Tl8UHm': PropTypes.string,
-  xZ5RNtGlVpBFL2QvsiYPY: PropTypes.string,
-  '8QNjguTI2npQ_-CbmupbL': PropTypes.string,
-  iccb1VnfNy8cnd5YYpK9D: PropTypes.string,
-  '9KGGKHQTFFxilVqOhp8o1': PropTypes.string,
   rootClassName: PropTypes.string,
+  text: PropTypes.string,
+  src: PropTypes.string,
+  text1: PropTypes.string,
+  text2: PropTypes.string,
+  src1: PropTypes.string,
   text3: PropTypes.string,
   text4: PropTypes.string,
+  src2: PropTypes.string,
   text5: PropTypes.string,
-  text10: PropTypes.string,
-  text11: PropTypes.string,
   text6: PropTypes.string,
   text7: PropTypes.string,
   text8: PropTypes.string,
-  src2: PropTypes.string,
-  alt1: PropTypes.string,
-  src3: PropTypes.string,
-  alt2: PropTypes.string,
-  src4: PropTypes.string,
-  alt3: PropTypes.string,
 }
 
 export default ProductRecommendation

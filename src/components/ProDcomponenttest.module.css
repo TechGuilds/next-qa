@@ -1,0 +1,23 @@
+.component {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 562px;
+  justify-content: center;
+  width: 870px;
+}
+.component1 {
+  height: 748px;
+  width: 775px;
+}
+@media(max-width: 1024px) {
+  .component {
+    align-self: stretch;
+    display: flex;
+    width: 100%;
+  }
+  .component1 {
+    height: 748px;
+    width: 775px;
+  }
+}
