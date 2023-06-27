@@ -15,7 +15,24 @@ export default function (manifest) {
       {
         name: 'text',
         type: CommonFieldTypes.SingleLineText,
+        standardValue:
+          'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
+      },
+      {
+        name: 'text3',
+        type: CommonFieldTypes.SingleLineText,
         standardValue: 'Heading',
+      },
+      {
+        name: 'src',
+        type: CommonFieldTypes.Image,
+        standardValue:
+          '{"image-do":"https://hotfix.kajoo.ca/icons/default-imag.svg"}',
+      },
+      {
+        name: 'alt',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'default-kajoo-imag',
       },
       {
         name: 'text1',
@@ -24,15 +41,10 @@ export default function (manifest) {
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
       },
       {
-        name: 'src',
-        type: CommonFieldTypes.Image,
-        standardValue:
-          '{"image-do":"https://app.kajoo.ai/icons/default-imag.svg"}',
-      },
-      {
-        name: 'alt',
+        name: 'text2',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'default-kajoo-imag',
+        standardValue:
+          'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
       },
     ],
   })
