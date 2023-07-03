@@ -13,22 +13,22 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'src',
+        name: 'fields.src',
         type: CommonFieldTypes.Image,
         standardValue: '/icons/default-imag.svg',
       },
       {
-        name: 'src2',
+        name: 'fields.src1',
         type: CommonFieldTypes.Image,
         standardValue: '/icons/default-imag.svg',
       },
       {
-        name: 'src1',
+        name: 'fields.src2',
         type: CommonFieldTypes.Image,
         standardValue: '/icons/default-imag.svg',
       },
       {
-        name: 'text',
+        name: 'fields.text',
         type: CommonFieldTypes.SingleLineText,
         standardValue:
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',

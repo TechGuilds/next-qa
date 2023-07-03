@@ -5,24 +5,23 @@ import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import NewFigmaComponent from './NewFigmaComponent'
-import RealTestFigma from './RealTestFigma'
 import styles from './Component.module.css'
 
 const AppComponent = (props) => {
   return (
-    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <NewFigmaComponent rootClassName="root-class-name" />
-      <RealTestFigma rootClassName="root-class-name" />
-    </Container>
+    <Container
+      className={` ${styles['component']} ${styles[props.rootClassName]} `}
+    />
   )
 }
 
 AppComponent.defaultProps = {
+  fields: {},
   rootClassName: '',
 }
 
 AppComponent.propTypes = {
+  fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 

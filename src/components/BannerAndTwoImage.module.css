@@ -1,66 +1,52 @@
-.checkbox-default {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: fit-content;
-  justify-content: center;
-  min-height: 25px;
-  min-width: 25px;
-}
 .paragraph-default {
-  font-family: Arial;
-  font-size: 14px;
+  color: #0C0C0C;
+  font-family: SF Pro Text;
+  font-size: 32px;
+  font-weight: normal;
   height: fit-content;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  min-width: 30px;
-  overflow: hidden;
-  -webkit-user-drag: none;
+  margin-top: 30px;
+  min-width: 140px;
+  text-align: left;
 }
 .image-default {
-  height: 200px;
-}
-.image-default,.image-hello-hi {
-  align-items: center;
   background-color: #d9d9d9;
   border-color: #a0a0a0;
   border-radius: 6px;
   border-width: 1px;
-  display: flex;
-  flex-direction: column;
-  font-style: normal;
-  font-weight: bold;
+  height: 200px;
   justify-content: center;
   min-height: 200px;
   min-width: 200px;
   overflow: hidden;
 }
-.image-hello-hi {
-  height: 146.24647199999998px;
-  max-width: 100%;
-  width: 896.380992px;
-}
-.main {
-  width: 100%;
-}
-.main,.container {
+.image-default,.main {
   align-items: center;
   display: flex;
   flex-direction: column;
 }
-.container {
-  height: 560.6618472px;
-  width: 1040.920128px;
+.main {
+  width: 100%;
 }
-.container,.container1 {
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 560.6618472px;
   justify-content: center;
   max-width: 100%;
+  width: 1040.920128px;
+}
+.image {
+  height: 146.24647199999998px;
+  max-width: 100%;
+  width: 896.380992px;
 }
 .container1 {
   align-items: flex-start;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
 }
 .image1 {
   height: 298.56340800000004px;
@@ -80,11 +66,15 @@
   width: 163.881216px;
 }
 @media(max-width: 640px) {
+  .image,.container1 {
+    flex-basis: auto;
+    max-width: 100%;
+  }
   .container1 {
     align-items: center;
     flex-direction: column;
   }
-  .container1,.image1,.image2 {
+  .image1,.image2 {
     flex-basis: auto;
     max-width: 100%;
   }
