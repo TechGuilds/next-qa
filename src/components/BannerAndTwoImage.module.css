@@ -65,6 +65,7 @@
   height: 43.995312000000006px;
   width: 163.881216px;
 }
+
 @media(max-width: 640px) {
   .image,.container1 {
     flex-basis: auto;

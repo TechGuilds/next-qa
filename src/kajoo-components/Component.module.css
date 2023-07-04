@@ -1,7 +1,14 @@
 .component {
+  flex-direction: row;
+  height: 400px;
+}
+.component,.container {
   align-items: center;
   display: flex;
-  flex-direction: column;
-  height: 400px;
   width: 100%;
+}
+.container {
+  flex: 0 0 auto;
+  flex-direction: row;
+  height: 100px;
 }

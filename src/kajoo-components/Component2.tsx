@@ -10,16 +10,18 @@ import styles from './Component2.module.css'
 const Component2 = (props) => {
   return (
     <Container
-      className={` ${styles['root']} ${styles[props.rootClassName]} `}
+      className={` ${styles['component2']} ${styles[props.rootClassName]} `}
     />
   )
 }
 
 Component2.defaultProps = {
+  fields: {},
   rootClassName: '',
 }
 
 Component2.propTypes = {
+  fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 

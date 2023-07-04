@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Image } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -11,7 +11,11 @@ const AppComponent = (props) => {
   return (
     <Container
       className={` ${styles['component']} ${styles[props.rootClassName]} `}
-    />
+    >
+      <Container className={styles['container']}>
+        <Image src="/icons/default-imag.svg" alt="default-kajoo-imag" />
+      </Container>
+    </Container>
   )
 }
 

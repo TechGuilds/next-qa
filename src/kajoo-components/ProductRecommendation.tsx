@@ -14,68 +14,62 @@ const ProductRecommendation = (props) => {
         <Container className={styles['container1']}>
           <Container className={styles['container2']}>
             <Text
-              text={props.text}
-              tag="span"
+              text="HEADER"
               className={` ${styles['text']} ${styles['paragraph-default']} `}
             />
             <Image
-              src={props.src}
+              src="/icons/default-imag.svg"
               className={` ${styles['image']} ${styles['image-default']} `}
             />
             <Text
-              text={props.text1}
-              tag="span"
-              className={` ${styles['text1']} ${styles['header-header398']} `}
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
+              className={` ${styles['text1']} ${styles['paragraph-default']} `}
             />
           </Container>
           <Container className={styles['container3']}>
             <Container className={styles['container4']}>
               <Text
-                text={props.text2}
-                tag="span"
+                text="HEADER"
                 className={` ${styles['text2']} ${styles['paragraph-default']} `}
               />
               <Image
-                src={props.src1}
+                src="/icons/default-imag.svg"
                 className={` ${styles['image1']} ${styles['image-default']} `}
               />
             </Container>
             <Text
-              text={props.text3}
-              tag="span"
-              className={` ${styles['text3']} ${styles['header-header935']} `}
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
+              className={` ${styles['text3']} ${styles['paragraph-default']} `}
             />
           </Container>
           <Container className={styles['container5']}>
             <Container className={styles['container6']}>
               <Text
-                text={props.text4}
-                tag="span"
+                text="HEADER"
                 className={` ${styles['text4']} ${styles['paragraph-default']} `}
               />
               <Image
-                src={props.src2}
+                src="/icons/default-imag.svg"
                 className={` ${styles['image2']} ${styles['image-default']} `}
               />
             </Container>
             <Text
-              text={props.text5}
-              tag="span"
-              className={` ${styles['text5']} ${styles['label-default']} `}
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
+              className={` ${styles['text5']} ${styles['paragraph-default']} `}
             />
           </Container>
         </Container>
         <Container className={styles['container7']}>
           <Button
-            text={props.text6}
+            text="Button"
             className={` ${styles['button']} ${styles['button-default']} `}
           />
           <Button
-            text={props.text7}
+            text="Button"
             className={` ${styles['button1']} ${styles['button-default']} `}
           />
           <Button
-            text={props.text8}
+            text="Button"
             className={` ${styles['button2']} ${styles['button-default']} `}
           />
         </Container>
@@ -85,38 +79,13 @@ const ProductRecommendation = (props) => {
 }
 
 ProductRecommendation.defaultProps = {
+  fields: {},
   rootClassName: '',
-  text: 'HEADER',
-  src: '/icons/default-imag.svg',
-  text1:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
-  text2: 'HEADER',
-  src1: '/icons/default-imag.svg',
-  text3:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
-  text4: 'HEADER',
-  src2: '/icons/default-imag.svg',
-  text5:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
-  text6: 'Button',
-  text7: 'Button',
-  text8: 'Button',
 }
 
 ProductRecommendation.propTypes = {
+  fields: PropTypes.object,
   rootClassName: PropTypes.string,
-  text: PropTypes.string,
-  src: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
-  src1: PropTypes.string,
-  text3: PropTypes.string,
-  text4: PropTypes.string,
-  src2: PropTypes.string,
-  text5: PropTypes.string,
-  text6: PropTypes.string,
-  text7: PropTypes.string,
-  text8: PropTypes.string,
 }
 
 export default ProductRecommendation
