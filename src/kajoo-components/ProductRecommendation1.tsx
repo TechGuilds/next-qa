@@ -6,7 +6,8 @@ import {
   Text,
   Image,
   Button,
-} from 'kajoo-components/sitecore-nextjs'
+  RichText,
+} from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -15,107 +16,98 @@ import styles from './ProductRecommendation1.module.css'
 const ProductRecommendation1 = (props) => {
   return (
     <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
-      <Container className={styles['container']}>
-        <Container className={styles['container1']}>
-          <Container className={styles['container2']}>
+      <Container bgImage className={styles['container']}>
+        <Container bgImage className={styles['container1']}>
+          <Container bgImage className={styles['container2']}>
             <Text
-              text={props.text}
+              text="HEADER"
+              tag="span"
               className={` ${styles['text']} ${styles['paragraph-default']} `}
             />
             <Image
-              src={props.src}
+              src="/icons/default-imag.svg"
+              alt="default-kajoo-imag"
               className={` ${styles['image']} ${styles['image-default']} `}
             />
             <Text
-              text={props.text1}
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
+              tag="span"
               className={` ${styles['text1']} ${styles['paragraph-default']} `}
             />
           </Container>
-          <Container className={styles['container3']}>
-            <Container className={styles['container4']}>
+          <Container bgImage className={styles['container3']}>
+            <Container bgImage className={styles['container4']}>
               <Text
-                text={props.text2}
+                text="HEADER"
+                tag="span"
                 className={` ${styles['text2']} ${styles['paragraph-default']} `}
               />
               <Image
-                src={props.src1}
+                src="/icons/default-imag.svg"
+                alt="default-kajoo-imag"
                 className={` ${styles['image1']} ${styles['image-default']} `}
               />
             </Container>
             <Text
-              text={props.text3}
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
+              tag="span"
               className={` ${styles['text3']} ${styles['paragraph-default']} `}
             />
           </Container>
-          <Container className={styles['container5']}>
-            <Container className={styles['container6']}>
+          <Container bgImage className={styles['container5']}>
+            <Container bgImage className={styles['container6']}>
               <Text
-                text={props.text4}
+                text="HEADER"
+                tag="span"
                 className={` ${styles['text4']} ${styles['paragraph-default']} `}
               />
               <Image
-                src={props.src2}
+                src="/icons/default-imag.svg"
+                alt="default-kajoo-imag"
                 className={` ${styles['image2']} ${styles['image-default']} `}
               />
             </Container>
             <Text
-              text={props.text5}
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
+              tag="span"
               className={` ${styles['text5']} ${styles['paragraph-default']} `}
             />
           </Container>
         </Container>
-        <Container className={styles['container7']}>
+        <Container bgImage className={styles['container7']}>
           <Button
-            text={props.text6}
+            link="#"
+            text="Button"
             className={` ${styles['button']} ${styles['button-default']} `}
           />
           <Button
-            text={props.text7}
+            link="#"
+            text="Button"
             className={` ${styles['button1']} ${styles['button-default']} `}
           />
           <Button
-            text={props.text8}
+            link="#"
+            text="Button"
             className={` ${styles['button2']} ${styles['button-default']} `}
           />
         </Container>
       </Container>
+      <RichText
+        value="&lt;p&gt;Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.&lt;/p&gt;"
+        className={styles['richtext-default']}
+      />
     </Container>
   )
 }
 
 ProductRecommendation1.defaultProps = {
+  fields: {},
   rootClassName: '',
-  text: 'HEADER',
-  src: '/icons/default-imag.svg',
-  text1:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
-  text2: 'HEADER',
-  src1: '/icons/default-imag.svg',
-  text3:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
-  text4: 'HEADER',
-  src2: '/icons/default-imag.svg',
-  text5:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
-  text6: 'Button',
-  text7: 'Button',
-  text8: 'Button',
 }
 
 ProductRecommendation1.propTypes = {
+  fields: PropTypes.object,
   rootClassName: PropTypes.string,
-  text: PropTypes.string,
-  src: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
-  src1: PropTypes.string,
-  text3: PropTypes.string,
-  text4: PropTypes.string,
-  src2: PropTypes.string,
-  text5: PropTypes.string,
-  text6: PropTypes.string,
-  text7: PropTypes.string,
-  text8: PropTypes.string,
 }
 
 export default ProductRecommendation1

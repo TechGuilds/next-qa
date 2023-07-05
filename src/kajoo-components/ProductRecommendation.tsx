@@ -10,11 +10,12 @@ import styles from './ProductRecommendation.module.css'
 const ProductRecommendation = (props) => {
   return (
     <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
-      <Container className={styles['container']}>
-        <Container className={styles['container1']}>
-          <Container className={styles['container2']}>
+      <Container bgImage className={styles['container']}>
+        <Container bgImage className={styles['container1']}>
+          <Container bgImage className={styles['container2']}>
             <Text
               text="HEADER"
+              tag="span"
               className={` ${styles['text']} ${styles['paragraph-default']} `}
             />
             <Image
@@ -23,14 +24,25 @@ const ProductRecommendation = (props) => {
             />
             <Text
               text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
+              tag="span"
               className={` ${styles['text1']} ${styles['paragraph-default']} `}
             />
+            <Button
+              text="Button"
+              className={` ${styles['button']} ${styles['button-default']} `}
+            />
+            <Text
+              text="Heading"
+              tag="h1"
+              className={styles['header-default']}
+            />
           </Container>
-          <Container className={styles['container3']}>
-            <Container className={styles['container4']}>
+          <Container bgImage className={styles['container3']}>
+            <Container bgImage className={styles['container4']}>
               <Text
                 text="HEADER"
-                className={` ${styles['text2']} ${styles['paragraph-default']} `}
+                tag="span"
+                className={` ${styles['text3']} ${styles['paragraph-default']} `}
               />
               <Image
                 src="/icons/default-imag.svg"
@@ -39,40 +51,50 @@ const ProductRecommendation = (props) => {
             </Container>
             <Text
               text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
-              className={` ${styles['text3']} ${styles['paragraph-default']} `}
+              tag="span"
+              className={` ${styles['text4']} ${styles['paragraph-default']} `}
+            />
+            <Button
+              text="Button"
+              className={` ${styles['button1']} ${styles['button-default']} `}
+            />
+            <Text
+              text="Heading"
+              tag="h1"
+              className={styles['header-default']}
             />
           </Container>
-          <Container className={styles['container5']}>
-            <Container className={styles['container6']}>
+          <Container bgImage className={styles['container5']}>
+            <Container bgImage className={styles['container6']}>
               <Text
                 text="HEADER"
-                className={` ${styles['text4']} ${styles['paragraph-default']} `}
+                tag="span"
+                className={` ${styles['text6']} ${styles['paragraph-default']} `}
               />
               <Image
                 src="/icons/default-imag.svg"
                 className={` ${styles['image2']} ${styles['image-default']} `}
               />
             </Container>
+            <Container className={styles['container7']}>
+              <Text
+                text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
+                tag="span"
+                className={` ${styles['text7']} ${styles['paragraph-default']} `}
+              />
+            </Container>
+            <Button
+              text="Button"
+              className={` ${styles['button2']} ${styles['button-default']} `}
+            />
             <Text
-              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
-              className={` ${styles['text5']} ${styles['paragraph-default']} `}
+              text="Heading"
+              tag="h1"
+              className={styles['header-default']}
             />
           </Container>
         </Container>
-        <Container className={styles['container7']}>
-          <Button
-            text="Button"
-            className={` ${styles['button']} ${styles['button-default']} `}
-          />
-          <Button
-            text="Button"
-            className={` ${styles['button1']} ${styles['button-default']} `}
-          />
-          <Button
-            text="Button"
-            className={` ${styles['button2']} ${styles['button-default']} `}
-          />
-        </Container>
+        <Container bgImage className={styles['container8']} />
       </Container>
     </Container>
   )

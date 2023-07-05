@@ -1,29 +1,20 @@
 .paragraph-default {
+  color: rgba(255, 0, 212, 1);
   font-family: Arial;
-  font-size: 24px;
+  font-size: 34px;
   font-weight: bold;
   height: fit-content;
-  min-width: 130px;
+  line-height: 50px;
+  min-width: 30px;
   overflow: hidden;
+  text-align: center;
   -webkit-user-drag: none;
 }
-.image-default {
-  background-color: #d9d9d9;
-  border-color: #a0a0a0;
-  border-radius: 6px;
-  border-width: 1px;
-  height: 200px;
-  justify-content: center;
-  min-height: 200px;
-  min-width: 200px;
-  overflow: hidden;
-}
-.image-default,.main {
+.main {
   align-items: center;
   display: flex;
   flex-direction: column;
-}
-.main {
+  height: 826px;
   width: 100%;
 }
 .container {
@@ -43,21 +34,10 @@
   flex-direction: column;
   max-width: 33%;
 }
-.image {
-  height: 288.490896px;
-  width: 304.8771456px;
-}
-.image,.text {
-  max-width: 100%;
-}
 .text {
   height: 77.31806399999995px;
-  width: 229.24799999999993px;
-}
-.text1 {
-  height: 41.589936000000044px;
   max-width: 100%;
-  width: 174.72384px;
+  width: 229.24799999999993px;
 }
 .container2 {
   align-items: center;
@@ -67,21 +47,10 @@
   justify-content: center;
   max-width: 33%;
 }
-.image1 {
-  height: 285.858072px;
-  width: 308.70950400000004px;
-}
-.image1,.text2 {
-  max-width: 100%;
-}
-.text2 {
+.text1 {
   height: 77.044608px;
-  width: 204.668928px;
-}
-.text3 {
-  height: 41.781096000000005px;
   max-width: 100%;
-  width: 149.648256px;
+  width: 204.668928px;
 }
 .container3 {
   align-items: center;
@@ -91,29 +60,8 @@
   justify-content: center;
   max-width: 33%;
 }
-.image2 {
-  height: 335.93680800000004px;
-  width: 210.40243200000006px;
-}
-.image2,.text4 {
-  max-width: 100%;
-}
-.text4 {
+.text2 {
   height: 78.40475999999998px;
-  width: 197.849088px;
-}
-.text5 {
-  height: 30.164399999999986px;
   max-width: 100%;
-  width: 130.741632px;
-}
-@media(max-width: 640px) {
-  .container {
-    align-items: center;
-    flex-direction: column;
-  }
-  .container1,.image,.text,.text1,.container2,.image1,.text2,.text3,.container3,.image2,.text4,.text5 {
-    flex-basis: auto;
-    max-width: 100%;
-  }
+  width: 197.849088px;
 }
