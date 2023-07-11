@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, Image } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -9,36 +9,23 @@ import styles from './Component.module.css'
 
 const AppComponent = (props) => {
   return (
-    <Container
-      className={` ${styles['component']} ${styles[props.rootClassName]} `}
-    >
-      <Text
-        text={props.fields.text}
-        tag="h1"
-        className={styles['header-default']}
-      />
-      <Text
-        text={props.fields.text1}
-        tag="span"
-        className={styles['paragraph-default']}
-      />
-      <Image
-        src={props.fields.src}
-        alt={props.fields.alt}
-        className={` ${styles['image']} ${styles['image-default']} `}
-      />
+    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
+      <Text text={props.fields.text} className={styles['header-default']} />
     </Container>
   )
 }
 
 AppComponent.defaultProps = {
+  fields: {
+    text: 'Heading',
+    tag: 'h1',
+  },
   rootClassName: '',
-  fields: {},
 }
 
 AppComponent.propTypes = {
-  rootClassName: PropTypes.string,
   fields: PropTypes.object,
+  rootClassName: PropTypes.string,
 }
 
 export default AppComponent
