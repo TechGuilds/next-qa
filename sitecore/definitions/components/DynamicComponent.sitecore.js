@@ -13,47 +13,32 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'fields.text3',
+        name: 'fields.text',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'Heading',
       },
       {
-        name: 'fields.href1',
-        type: CommonFieldTypes.GeneralLink,
-        standardValue:
-          "<link text='undefined' linktype='external' url='#' anchor='' target=''/>",
-      },
-      {
-        name: 'fields.src1',
-        type: CommonFieldTypes.Image,
-        standardValue: '/icons/default-imag.svg',
-      },
-      {
-        name: 'fields.alt1',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'default-kajoo-imag',
-      },
-      {
-        name: 'fields.text5',
+        name: 'fields.text1',
         type: CommonFieldTypes.SingleLineText,
         standardValue:
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
       },
       {
-        name: 'fields.href',
+        name: 'fields.link',
         type: CommonFieldTypes.GeneralLink,
         standardValue:
           "<link text='undefined' linktype='external' url='#' anchor='' target=''/>",
       },
       {
-        name: 'fields.text6',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Heading',
+        name: 'fields.src',
+        type: CommonFieldTypes.Image,
+        standardValue:
+          '{"image-do":"https://app.kajoo.ai/icons/default-imag.svg"}',
       },
       {
-        name: 'fields.text4',
+        name: 'fields.alt',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Heading',
+        standardValue: 'default-kajoo-imag',
       },
     ],
   })
