@@ -5,8 +5,8 @@ import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import { Helmet } from 'react-helmet'
 
-import AppComponent from '../src/components/Component'
-import DynamicComponentWithDatasource from '../src/components/DynamicComponentWithDatasource'
+import Test2 from '../src/components/Test2'
+import Test1WithDatasource from '../src/components/Test1WithDatasource'
 import styles from './index.module.css'
 
 const Home = (props) => {
@@ -21,8 +21,8 @@ const Home = (props) => {
         <meta name="title" content />
         <link rel="canonical" href />
       </Helmet>
-      <AppComponent rootClassName="root-class-name" />
-      <DynamicComponentWithDatasource />
+      <Test2 rootClassName="root-class-name" />
+      <Test1WithDatasource />
     </Container>
   )
 }
