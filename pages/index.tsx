@@ -5,8 +5,8 @@ import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import { Helmet } from 'react-helmet'
 
-import Test5G from '../src/components/Test5G'
-import Test4GWithDatasource from '../src/components/Test4GWithDatasource'
+import Test5Gg from '../src/components/Test5Gg'
+import Test4GgWithDatasource from '../src/components/Test4GgWithDatasource'
 import styles from './index.module.css'
 
 const Home = (props) => {
@@ -21,8 +21,8 @@ const Home = (props) => {
         <meta name="title" content />
         <link rel="canonical" href />
       </Helmet>
-      <Test5G rootClassName="root-class-name" />
-      <Test4GWithDatasource />
+      <Test5Gg rootClassName="root-class-name" />
+      <Test4GgWithDatasource />
     </Container>
   )
 }
