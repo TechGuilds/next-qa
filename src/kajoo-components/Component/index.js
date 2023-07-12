@@ -11,10 +11,12 @@ const AppComponent = (props) => {
 }
 
 AppComponent.defaultProps = {
+  fields: {},
   rootClassName: '',
 }
 
 AppComponent.propTypes = {
+  fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 

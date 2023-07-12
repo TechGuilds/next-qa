@@ -1,37 +1,4 @@
-.product-recommendation-button-default {
-  background-color: #eeeeee;
-  border-radius: 3px;
-  font-size: 0.8em;
-  height: fit-content;
-  min-height: 24px;
-  min-width: 130px;
-  padding: 10px 35px;
-}
-.product-recommendation-button-default,.product-recommendation-image-default {
-  align-items: center;
-  border-color: #a0a0a0;
-  border-width: 1px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.product-recommendation-image-default {
-  background-color: #d9d9d9;
-  border-radius: 6px;
-  height: 200px;
-  min-height: 200px;
-  min-width: 200px;
-  overflow: hidden;
-}
-.product-recommendation-paragraph-default {
-  font-family: Arial;
-  font-size: 14px;
-  height: fit-content;
-  min-width: 30px;
-  overflow: hidden;
-  -webkit-user-drag: none;
-}
-.product-recommendation-main {
+.product-recommendation-root {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -44,14 +11,14 @@
   justify-content: space-between;
   max-width: 100%;
 }
-.product-recommendation-container1 {
+.product-recommendation-container01 {
   align-items: flex-start;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   max-width: 100%;
 }
-.product-recommendation-container2 {
+.product-recommendation-container02 {
   align-items: center;
   display: flex;
   flex-basis: 33%;
@@ -75,20 +42,45 @@
   max-width: 100%;
   width: 226.8457488px;
 }
-.product-recommendation-container3 {
+.product-recommendation-container03 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.product-recommendation-container04 {
+  display: flex;
+  flex-direction: column;
+}
+.product-recommendation-button {
+  flex-basis: 33%;
+  height: 68.87368399999998px;
+  max-width: 100%;
+  width: 266.30829px;
+}
+.product-recommendation-container05 {
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: row;
+  height: 100px;
+  justify-content: center;
+  width: 100%;
+}
+.product-recommendation-container06 {
   flex-basis: 33%;
   max-width: 33%;
 }
-.product-recommendation-container3,.product-recommendation-container4 {
+.product-recommendation-container06,.product-recommendation-container07 {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.product-recommendation-container4 {
+.product-recommendation-container07 {
   max-width: 100%;
 }
-.product-recommendation-text2 {
+.product-recommendation-text3 {
   height: 58.3389446px;
   max-width: 100%;
   width: 224.63405999999992px;
@@ -98,25 +90,31 @@
   max-width: 100%;
   width: 278.95312799999994px;
 }
-.product-recommendation-text3 {
+.product-recommendation-text4 {
   height: 83.29531199999998px;
   max-width: 100%;
   width: 227.83698000000004px;
 }
-.product-recommendation-container5 {
+.product-recommendation-button1 {
+  flex-basis: 33%;
+  height: 86.868708px;
+  max-width: 100%;
+  width: 277.49116799999996px;
+}
+.product-recommendation-container08 {
   flex-basis: 33%;
   max-width: 33%;
 }
-.product-recommendation-container5,.product-recommendation-container6 {
+.product-recommendation-container08,.product-recommendation-container09 {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.product-recommendation-container6 {
+.product-recommendation-container09 {
   max-width: 100%;
 }
-.product-recommendation-text4 {
+.product-recommendation-text5 {
   height: 48.1029028px;
   max-width: 100%;
   width: 213.471828px;
@@ -126,33 +124,53 @@
   max-width: 100%;
   width: 243.06033599999998px;
 }
-.product-recommendation-text5 {
+.product-recommendation-text6 {
   height: 89.311766px;
   max-width: 100%;
   width: 211.516596px;
-}
-.product-recommendation-container7 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 100%;
-}
-.product-recommendation-button {
-  flex-basis: 33%;
-  height: 68.87368399999998px;
-  max-width: 100%;
-  width: 266.30829px;
-}
-.product-recommendation-button1 {
-  flex-basis: 33%;
-  height: 86.868708px;
-  max-width: 100%;
-  width: 277.49116799999996px;
 }
 .product-recommendation-button2 {
   flex-basis: 33%;
   height: 94.22962399999999px;
   max-width: 100%;
   width: 236.58753600000009px;
+}
+@media(max-width: 1024px) {
+  .product-recommendation-button {
+    height: 24px;
+    width: 191px;
+  }
+  .product-recommendation-text2 {
+    height: 101px;
+    width: 220px;
+  }
+  .product-recommendation-text4 {
+    height: 100px;
+  }
+  .product-recommendation-button1 {
+    height: 61px;
+    width: 115px;
+  }
+  .product-recommendation-button2 {
+    height: 66px;
+    width: 69px;
+  }
+}
+@media(max-width: 640px) {
+  .product-recommendation-container01 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .product-recommendation-container01,.product-recommendation-container02,.product-recommendation-text,.product-recommendation-image,.product-recommendation-text1,.product-recommendation-container03 {
+    flex-basis: auto;
+    max-width: 100%;
+  }
+  .product-recommendation-container03 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .product-recommendation-button,.product-recommendation-container06,.product-recommendation-container07,.product-recommendation-text3,.product-recommendation-image1,.product-recommendation-text4,.product-recommendation-button1,.product-recommendation-container08,.product-recommendation-container09,.product-recommendation-text5,.product-recommendation-image2,.product-recommendation-text6,.product-recommendation-button2 {
+    flex-basis: auto;
+    max-width: 100%;
+  }
 }

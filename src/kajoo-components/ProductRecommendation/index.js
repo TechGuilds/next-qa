@@ -9,76 +9,91 @@ import './style.css'
 const ProductRecommendation = (props) => {
   return (
     <Container
-      className={`product-recommendation-main ${props.rootClassName} `}
+      className={`product-recommendation-root ${props.rootClassName} `}
     >
       <Container className="product-recommendation-container">
-        <Container className="product-recommendation-container1">
-          <Container className="product-recommendation-container2">
+        <Container className="product-recommendation-container01">
+          <Container className="product-recommendation-container02">
             <Text
-              text={props.text}
+              text="HEADER"
               tag="span"
-              className="product-recommendation-text product-recommendation-paragraph-default"
+              className="product-recommendation-text"
             />
             <Image
-              src={props.src}
-              className="product-recommendation-image product-recommendation-image-default"
+              src="/icons/default-imag.svg"
+              alt="default-kajoo-imag"
+              className="product-recommendation-image"
             />
             <Text
-              text={props.text1}
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
               tag="span"
-              className="product-recommendation-text1 product-recommendation-paragraph-default"
+              className="product-recommendation-text1"
             />
+            <Container className="product-recommendation-container03">
+              <Container className="product-recommendation-container04">
+                <Button
+                  link="#"
+                  text="Button"
+                  className="product-recommendation-button"
+                />
+                <Container className="product-recommendation-container05">
+                  <Text
+                    text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
+                    tag="span"
+                    className="product-recommendation-text2"
+                  />
+                </Container>
+              </Container>
+            </Container>
           </Container>
-          <Container className="product-recommendation-container3">
-            <Container className="product-recommendation-container4">
+          <Container className="product-recommendation-container06">
+            <Container className="product-recommendation-container07">
               <Text
-                text={props.text2}
+                text="HEADER"
                 tag="span"
-                className="product-recommendation-text2 product-recommendation-paragraph-default"
+                className="product-recommendation-text3"
               />
               <Image
-                src={props.src1}
-                className="product-recommendation-image1 product-recommendation-image-default"
+                src="/icons/default-imag.svg"
+                alt="default-kajoo-imag"
+                className="product-recommendation-image1"
               />
             </Container>
             <Text
-              text={props.text3}
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
               tag="span"
-              className="product-recommendation-text3 product-recommendation-paragraph-default"
+              className="product-recommendation-text4"
+            />
+            <Button
+              link="#"
+              text="Button"
+              className="product-recommendation-button1"
             />
           </Container>
-          <Container className="product-recommendation-container5">
-            <Container className="product-recommendation-container6">
+          <Container className="product-recommendation-container08">
+            <Container className="product-recommendation-container09">
               <Text
-                text={props.text4}
+                text="HEADER"
                 tag="span"
-                className="product-recommendation-text4 product-recommendation-paragraph-default"
+                className="product-recommendation-text5"
               />
               <Image
-                src={props.src2}
-                className="product-recommendation-image2 product-recommendation-image-default"
+                src="/icons/default-imag.svg"
+                alt="default-kajoo-imag"
+                className="product-recommendation-image2"
               />
             </Container>
             <Text
-              text={props.text5}
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
               tag="span"
-              className="product-recommendation-text5 product-recommendation-paragraph-default"
+              className="product-recommendation-text6"
+            />
+            <Button
+              link="#"
+              text="Button"
+              className="product-recommendation-button2"
             />
           </Container>
-        </Container>
-        <Container className="product-recommendation-container7">
-          <Button
-            text={props.text6}
-            className="product-recommendation-button product-recommendation-button-default"
-          />
-          <Button
-            text={props.text7}
-            className="product-recommendation-button1 product-recommendation-button-default"
-          />
-          <Button
-            text={props.text8}
-            className="product-recommendation-button2 product-recommendation-button-default"
-          />
         </Container>
       </Container>
     </Container>
@@ -86,38 +101,13 @@ const ProductRecommendation = (props) => {
 }
 
 ProductRecommendation.defaultProps = {
+  fields: {},
   rootClassName: '',
-  text: 'HEADER',
-  src: '/icons/default-imag.svg',
-  text1:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
-  text2: 'HEADER',
-  src1: '/icons/default-imag.svg',
-  text3:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
-  text4: 'HEADER',
-  src2: '/icons/default-imag.svg',
-  text5:
-    'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
-  text6: 'Button',
-  text7: 'Button',
-  text8: 'Button',
 }
 
 ProductRecommendation.propTypes = {
+  fields: PropTypes.object,
   rootClassName: PropTypes.string,
-  text: PropTypes.string,
-  src: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
-  src1: PropTypes.string,
-  text3: PropTypes.string,
-  text4: PropTypes.string,
-  src2: PropTypes.string,
-  text5: PropTypes.string,
-  text6: PropTypes.string,
-  text7: PropTypes.string,
-  text8: PropTypes.string,
 }
 
 export default ProductRecommendation
