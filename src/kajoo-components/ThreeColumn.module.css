@@ -1,16 +1,36 @@
-.paragraph-default {
-  font-family: Arial;
-  font-size: 14px;
-  height: fit-content;
-  min-width: 30px;
-  overflow: hidden;
-  -webkit-user-drag: none;
+.header-default {
+  font-size: 52px;
+  font-weight: bold;
 }
-.root {
+.header-default,.paragraph-default {
+  color: #0C0C0C;
+  font-family: SF Pro Text;
+  height: fit-content;
+  margin-top: 30px;
+  min-width: 140px;
+  text-align: left;
+}
+.paragraph-default {
+  font-size: 32px;
+  font-weight: normal;
+}
+.image-default {
+  background-color: #d9d9d9;
+  border-color: #a0a0a0;
+  border-radius: 6px;
+  border-width: 1px;
+  height: 200px;
+  justify-content: center;
+  min-height: 200px;
+  min-width: 200px;
+  overflow: hidden;
+}
+.image-default,.root {
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: 826px;
+}
+.root {
   width: 100%;
 }
 .container {
@@ -30,10 +50,21 @@
   flex-direction: column;
   max-width: 33%;
 }
-.text {
-  height: 77.31806399999995px;
+.image {
+  height: 288.490896px;
+  width: 304.8771456px;
+}
+.image,.button {
   max-width: 100%;
+}
+.button {
+  height: 77.31806399999995px;
   width: 229.24799999999993px;
+}
+.text {
+  height: 41.589936000000044px;
+  max-width: 100%;
+  width: 174.72384px;
 }
 .container2 {
   align-items: center;
@@ -43,10 +74,21 @@
   justify-content: center;
   max-width: 33%;
 }
+.image1 {
+  height: 285.858072px;
+  width: 308.70950400000004px;
+}
+.image1,.text1 {
+  max-width: 100%;
+}
 .text1 {
   height: 77.044608px;
-  max-width: 100%;
   width: 204.668928px;
+}
+.text2 {
+  height: 41.781096000000005px;
+  max-width: 100%;
+  width: 149.648256px;
 }
 .container3 {
   align-items: center;
@@ -56,8 +98,47 @@
   justify-content: center;
   max-width: 33%;
 }
-.text2 {
-  height: 78.40475999999998px;
+.image2 {
+  height: 335.93680800000004px;
+  width: 210.40243200000006px;
+}
+.image2,.text4 {
   max-width: 100%;
+}
+.text4 {
+  height: 78.40475999999998px;
   width: 197.849088px;
+}
+.text5 {
+  height: 30.164399999999986px;
+  max-width: 100%;
+  width: 130.741632px;
+}
+@media(max-width: 1280px) {
+  .container {
+    height: 1305px;
+    width: 1026px;
+  }
+  .container1 {
+    height: 712px;
+    width: 363px;
+  }
+  .container2 {
+    height: 688px;
+    width: 347px;
+  }
+  .container3 {
+    height: 643px;
+    width: 487px;
+  }
+}
+@media(max-width: 768px) {
+  .container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .container1,.image,.button,.text,.container2,.image1,.text1,.text2,.container3,.image2,.text4,.text5 {
+    flex-basis: auto;
+    max-width: 100%;
+  }
 }

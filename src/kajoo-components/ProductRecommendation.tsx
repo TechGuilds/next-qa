@@ -1,7 +1,13 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, Image, Button } from '@kajoo-ai/sitecore-nextjs'
+import {
+  Container,
+  Text,
+  Image,
+  Button,
+  Radiobutton,
+} from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -10,12 +16,11 @@ import styles from './ProductRecommendation.module.css'
 const ProductRecommendation = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Container bgImage className={styles['container']}>
-        <Container bgImage className={styles['container1']}>
-          <Container bgImage className={styles['container2']}>
+      <Container className={styles['container']}>
+        <Container className={styles['container1']}>
+          <Container className={styles['container2']}>
             <Text
               text="HEADER"
-              tag="span"
               className={` ${styles['text']} ${styles['paragraph-default']} `}
             />
             <Image
@@ -24,19 +29,13 @@ const ProductRecommendation = (props) => {
             />
             <Text
               text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
-              tag="span"
               className={` ${styles['text1']} ${styles['paragraph-default']} `}
             />
-            <Button
-              text="Button"
-              className={` ${styles['button']} ${styles['button-default']} `}
-            />
           </Container>
-          <Container bgImage className={styles['container3']}>
-            <Container bgImage className={styles['container4']}>
+          <Container className={styles['container3']}>
+            <Container className={styles['container4']}>
               <Text
                 text="HEADER"
-                tag="span"
                 className={` ${styles['text2']} ${styles['paragraph-default']} `}
               />
               <Image
@@ -46,19 +45,13 @@ const ProductRecommendation = (props) => {
             </Container>
             <Text
               text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
-              tag="span"
               className={` ${styles['text3']} ${styles['paragraph-default']} `}
             />
-            <Button
-              text="Button"
-              className={` ${styles['button1']} ${styles['button-default']} `}
-            />
           </Container>
-          <Container bgImage className={styles['container5']}>
-            <Container bgImage className={styles['container6']}>
+          <Container className={styles['container5']}>
+            <Container className={styles['container6']}>
               <Text
                 text="HEADER"
-                tag="span"
                 className={` ${styles['text4']} ${styles['paragraph-default']} `}
               />
               <Image
@@ -68,20 +61,28 @@ const ProductRecommendation = (props) => {
             </Container>
             <Text
               text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
-              tag="span"
-              className={` ${styles['text5']} ${styles['paragraph-default']} `}
-            />
-            <Button
-              text="Button"
-              className={` ${styles['button2']} ${styles['button-default']} `}
+              className={styles['label-default']}
             />
           </Container>
+          <Text text="Label" tag="label" className={styles['label-default']} />
+          <Button text="Button" link="#" className={styles['button-default']} />
+          <Radiobutton type="radio" className={styles['radiobutton-default']} />
         </Container>
-        <Text text="Heading" tag="h1" className={styles['header-default']} />
-        <Container bgImage className={styles['container7']} />
+        <Container className={styles['container7']}>
+          <Button
+            text="Button"
+            className={` ${styles['button1']} ${styles['button-default']} `}
+          />
+          <Button
+            text="Button"
+            className={` ${styles['button2']} ${styles['button-default']} `}
+          />
+          <Button
+            text="Button"
+            className={` ${styles['button3']} ${styles['button-default']} `}
+          />
+        </Container>
       </Container>
-      <Text text="Heading" tag="h1" className={styles['header-default']} />
-      <Text text="Heading" tag="h1" className={styles['header-default']} />
     </Container>
   )
 }

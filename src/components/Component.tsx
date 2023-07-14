@@ -1,25 +1,23 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
+import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
+import ProductRecommendation from '../kajoo-components/ProductRecommendation'
 import styles from './Component.module.css'
 
 const AppComponent = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Text text={props.fields.text} className={styles['header-default']} />
+      <ProductRecommendation rootClassName="root-class-name1" />
     </Container>
   )
 }
 
 AppComponent.defaultProps = {
-  fields: {
-    text: 'Heading',
-    tag: 'h1',
-  },
+  fields: {},
   rootClassName: '',
 }
 

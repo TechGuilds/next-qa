@@ -1,138 +1,119 @@
-.main {
+.root {
   align-items: center;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 .container {
-  background-color: rgba(255, 255, 255, 1);
-  border-color: transparent;
-  flex-direction: column;
-  width: 376px;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 952px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0 80px 0 136px;
 }
 .container,.container1 {
   align-items: flex-start;
+  border-color: transparent;
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   flex-grow: 0;
-  flex-shrink: 1;
-  overflow: hidden;
   position: relative;
 }
 .container1 {
-  border: 1px solid rgba(244, 244, 244, 1);
-  height: 57px;
-  padding: 15px 24px;
-  width: 375px;
-}
-.text {
-  align-self: auto;
-  color: rgba(0, 0, 0, 1);
-  flex-grow: 0;
-  font-family: Helvetica Neue;
-  font-size: 16px;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 24px;
-  line-height: 165.9999966621399%;
-  position: absolute;
-  text-align: left;
-  text-decoration: none;
-  top: 15px;
-  width: 287px;
+  flex-shrink: 1;
+  height: 359px;
+  width: 446px;
 }
 .container2 {
   align-items: flex-start;
-  display: flex;
-  height: 24px;
-  left: 327px;
-  overflow: hidden;
-  top: 39.000003814697266px;
-  width: 24px;
-}
-.container2,.image {
   border-color: transparent;
   box-sizing: border-box;
-  flex-grow: 0;
-  flex-shrink: 0;
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
+  position: relative;
 }
-.image {
-  height: 6px;
-  left: 6.720000267028809px;
-  object-fit: cover;
-  top: 9.600000381469727px;
-  width: 10px;
+.container2,.text {
+  flex-grow: 0;
+  margin: 0 0 40px;
+}
+.text {
+  align-self: auto;
+  color: rgba(87, 87, 87, 1);
+  font-family: Helvetica Neue;
+  font-size: 13px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  line-height: 120.00000476837158%;
+  text-align: left;
+  text-decoration: none;
+  width: 437px;
 }
 .container3 {
-  align-items: center;
-  justify-content: center;
-  padding: 32px 24px;
-}
-.container3,.container4 {
+  align-items: flex-start;
   border-color: transparent;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   flex-grow: 0;
   flex-shrink: 1;
-  overflow: hidden;
+  height: 196px;
   position: relative;
+  width: 443px;
+}
+.text1 {
+  color: rgba(79, 85, 42, 1);
+  font-family: P22 Mackinac Pro;
+  font-size: 40px;
+  font-weight: 500;
+  height: 58px;
+  line-height: 120.00000476837158%;
+  margin: 0 0 16px;
+  width: 384px;
+}
+.text1,.text2 {
+  align-self: auto;
+  flex-grow: 0;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  text-decoration: none;
+}
+.text2 {
+  color: rgba(87, 87, 87, 1);
+  font-family: Helvetica Neue;
+  font-size: 18px;
+  font-weight: 400;
+  height: auto;
+  line-height: 163.99999856948853%;
+  width: 437px;
 }
 .container4 {
   align-items: flex-start;
 }
-.text01 {
-  align-self: auto;
-  color: rgba(77, 73, 52, 1);
-  font-family: Helvetica Neue;
-  font-size: 16px;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: 500;
-  height: auto;
-  line-height: 165.9999966621399%;
-  text-align: left;
-  text-decoration: none;
-  width: 328px;
-}
-.text01,.container5 {
+.container4,.container5 {
+  border-color: transparent;
+  box-sizing: border-box;
+  display: flex;
   flex-grow: 0;
-  margin: 0 0 48px;
+  flex-shrink: 1;
+  position: relative;
 }
 .container5 {
-  align-items: flex-start;
-  border-color: transparent;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 1;
-  position: relative;
+  align-items: center;
+  background-color: rgba(77, 73, 52, 1);
+  border-radius: 100px;
+  justify-content: center;
+  margin: 0 16px 0 0;
+  padding: 13px 24px;
 }
-.text02 {
+.text3 {
   align-self: auto;
-  color: rgba(87, 87, 87, 1);
-  flex-grow: 0;
-  font-family: Helvetica Neue;
-  font-size: 13px;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: 500;
-  height: auto;
-  line-height: 120.00000476837158%;
-  margin: 0 0 16px;
-  text-align: left;
-  text-decoration: none;
-  width: 328px;
-}
-.text03,.text04,.text05 {
-  margin: 0 0 16px;
-}
-.text03,.text04,.text05,.text06 {
-  align-self: auto;
-  color: rgba(18, 18, 18, 1);
+  color: rgba(255, 255, 255, 1);
   flex-grow: 0;
   font-family: Helvetica Neue;
   font-size: 16px;
@@ -140,51 +121,25 @@
   font-style: normal;
   font-weight: 400;
   height: auto;
-  line-height: 165.9999966621399%;
-  text-align: left;
+  line-height: normal;
+  text-align: center;
   text-decoration: none;
-  width: 328px;
 }
 .container6 {
-  align-items: flex-start;
-  border-color: transparent;
+  align-items: center;
+  border: 1.5px solid rgba(77, 73, 52, 1);
+  border-radius: 100px;
   box-sizing: border-box;
   display: flex;
-  flex-direction: column;
   flex-grow: 0;
   flex-shrink: 1;
+  justify-content: center;
+  padding: 13px 24px;
   position: relative;
 }
-.text07 {
-  color: rgba(87, 87, 87, 1);
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 120.00000476837158%;
-}
-.text07,.text08 {
+.text4 {
   align-self: auto;
-  flex-grow: 0;
-  font-family: Helvetica Neue;
-  font-stretch: normal;
-  font-style: normal;
-  height: auto;
-  margin: 0 0 16px;
-  text-align: left;
-  text-decoration: none;
-  width: 328px;
-}
-.text08 {
-  color: rgba(18, 18, 18, 1);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 165.9999966621399%;
-}
-.text09,.text10 {
-  margin: 0 0 16px;
-}
-.text09,.text10,.text11 {
-  align-self: auto;
-  color: rgba(18, 18, 18, 1);
+  color: rgba(77, 73, 52, 1);
   flex-grow: 0;
   font-family: Helvetica Neue;
   font-size: 16px;
@@ -192,25 +147,21 @@
   font-style: normal;
   font-weight: 400;
   height: auto;
-  line-height: 165.9999966621399%;
-  text-align: left;
+  line-height: normal;
+  text-align: center;
   text-decoration: none;
-  width: 328px;
 }
-.image1 {
-  height: 1px;
-  width: 375px;
-}
-
 @media(max-width: 1280px) {
-  .container2 {
-    left: 322px;
-    top: 18px;
+  .container1 {
+    height: 358px;
+    width: 446px;
   }
-}
-@media(max-width: 1024px) {
-  .container2 {
-    left: 300px;
-    top: 21px;
+  .container3 {
+    height: 197px;
+    width: 444px;
+  }
+  .text1 {
+    height: 58px;
+    width: 383px;
   }
 }

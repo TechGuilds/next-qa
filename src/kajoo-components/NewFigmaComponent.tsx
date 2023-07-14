@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, Image } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -9,81 +9,54 @@ import styles from './NewFigmaComponent.module.css'
 
 const NewFigmaComponent = (props) => {
   return (
-    <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
+    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
         <Container className={styles['container1']}>
-          <Text text={props.text} className={styles['text']} />
           <Container className={styles['container2']}>
-            <Image
-              src={props.src}
-              alt={props.alt}
-              className={styles['image']}
+            <Text
+              tag="span"
+              text="How we can help"
+              className={styles['text']}
             />
+            <Container className={styles['container3']}>
+              <Text
+                tag="span"
+                text="Planning Ahead"
+                className={styles['text1']}
+              />
+              <Text
+                tag="span"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                className={styles['text2']}
+              />
+            </Container>
           </Container>
-        </Container>
-        <Container className={styles['container3']}>
           <Container className={styles['container4']}>
-            <Text text={props.text1} className={styles['text01']} />
             <Container className={styles['container5']}>
-              <Text text={props.text2} className={styles['text02']} />
-              <Text text={props.text3} className={styles['text03']} />
-              <Text text={props.text4} className={styles['text04']} />
-              <Text text={props.text5} className={styles['text05']} />
-              <Text text={props.text6} className={styles['text06']} />
+              <Text tag="span" text="Learn More" className={styles['text3']} />
             </Container>
             <Container className={styles['container6']}>
-              <Text text={props.text7} className={styles['text07']} />
-              <Text text={props.text8} className={styles['text08']} />
-              <Text text={props.text9} className={styles['text09']} />
-              <Text text={props.text10} className={styles['text10']} />
-              <Text text={props.text11} className={styles['text11']} />
+              <Text
+                tag="span"
+                text="Start Planning"
+                className={styles['text4']}
+              />
             </Container>
           </Container>
         </Container>
-        <Image alt={props.alt1} src={props.src1} className={styles['image1']} />
       </Container>
     </Container>
   )
 }
 
 NewFigmaComponent.defaultProps = {
+  fields: {},
   rootClassName: '',
-  text: 'All Articles',
-  src: 'https://kajoo.nyc3.digitaloceanspaces.com/qa/orgs/60d5efadff0a5060c3aaa66d/assets/HWSTQxP6W1la4CHoB9b-U.svg',
-  alt: 'GroupI15766632224587',
-  text1: 'All Articles',
-  text2: 'Learn More About',
-  text3: 'Funerals',
-  text4: 'Cremation',
-  text5: 'Cemetery',
-  text6: 'Planning Ahead',
-  text7: 'Helpful Tips',
-  text8: 'How To’s & Guides',
-  text9: 'Advice & Etiquette',
-  text10: 'Celebration of Life',
-  text11: 'Grief',
-  alt1: 'Line11157666338',
-  src1: 'https://kajoo.nyc3.digitaloceanspaces.com/qa/orgs/60d5efadff0a5060c3aaa66d/assets/sN7T1X-ctycncG45NP7P-.svg',
 }
 
 NewFigmaComponent.propTypes = {
+  fields: PropTypes.object,
   rootClassName: PropTypes.string,
-  text: PropTypes.string,
-  src: PropTypes.string,
-  alt: PropTypes.string,
-  text1: PropTypes.string,
-  text2: PropTypes.string,
-  text3: PropTypes.string,
-  text4: PropTypes.string,
-  text5: PropTypes.string,
-  text6: PropTypes.string,
-  text7: PropTypes.string,
-  text8: PropTypes.string,
-  text9: PropTypes.string,
-  text10: PropTypes.string,
-  text11: PropTypes.string,
-  alt1: PropTypes.string,
-  src1: PropTypes.string,
 }
 
 export default NewFigmaComponent
