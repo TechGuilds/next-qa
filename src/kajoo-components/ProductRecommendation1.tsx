@@ -15,7 +15,7 @@ import styles from './ProductRecommendation1.module.css'
 
 const ProductRecommendation1 = (props) => {
   return (
-    <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
+    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container bgImage className={styles['container']}>
         <Container bgImage className={styles['container1']}>
           <Container bgImage className={styles['container2']}>
@@ -94,7 +94,7 @@ const ProductRecommendation1 = (props) => {
       </Container>
       <RichText
         value="&lt;p&gt;Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.&lt;/p&gt;"
-        className={styles['richtext-default']}
+        className={` ${styles['richtext-default']} ${styles['richtext']} `}
       />
     </Container>
   )

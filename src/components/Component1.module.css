@@ -1,26 +1,8 @@
-.header-default {
-  color: #0C0C0C;
-  font-family: Arial;
-  font-size: 30px;
-  font-weight: normal;
-  height: fit-content;
-  min-width: 140px;
-  text-align: left;
-}
 .root {
   align-items: center;
   display: flex;
   flex-direction: row;
   height: 400px;
+  justify-content: center;
   width: 100%;
-}
-@media(max-width: 1280px) {
-  .text {
-    background-color: rgba(188, 43, 43, 1);
-  }
-}
-@media(max-width: 1024px) {
-  .text {
-    background-color: rgba(70, 70, 70, 1);
-  }
 }

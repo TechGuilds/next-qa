@@ -9,7 +9,7 @@ import styles from './ThreeColumn.module.css'
 
 const ThreeColumn = (props) => {
   return (
-    <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
+    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container bgImage className={styles['container']}>
         <Container bgImage className={styles['container1']}>
           <Text

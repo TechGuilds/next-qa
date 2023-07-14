@@ -9,7 +9,7 @@ import styles from './ProductRecommendation.module.css'
 
 const ProductRecommendation = (props) => {
   return (
-    <Container className={` ${styles['main']} ${styles[props.rootClassName]} `}>
+    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container bgImage className={styles['container']}>
         <Container bgImage className={styles['container1']}>
           <Container bgImage className={styles['container2']}>
@@ -31,18 +31,13 @@ const ProductRecommendation = (props) => {
               text="Button"
               className={` ${styles['button']} ${styles['button-default']} `}
             />
-            <Text
-              text="Heading"
-              tag="h1"
-              className={styles['header-default']}
-            />
           </Container>
           <Container bgImage className={styles['container3']}>
             <Container bgImage className={styles['container4']}>
               <Text
                 text="HEADER"
                 tag="span"
-                className={` ${styles['text3']} ${styles['paragraph-default']} `}
+                className={` ${styles['text2']} ${styles['paragraph-default']} `}
               />
               <Image
                 src="/icons/default-imag.svg"
@@ -52,16 +47,11 @@ const ProductRecommendation = (props) => {
             <Text
               text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
               tag="span"
-              className={` ${styles['text4']} ${styles['paragraph-default']} `}
+              className={` ${styles['text3']} ${styles['paragraph-default']} `}
             />
             <Button
               text="Button"
               className={` ${styles['button1']} ${styles['button-default']} `}
-            />
-            <Text
-              text="Heading"
-              tag="h1"
-              className={styles['header-default']}
             />
           </Container>
           <Container bgImage className={styles['container5']}>
@@ -69,33 +59,29 @@ const ProductRecommendation = (props) => {
               <Text
                 text="HEADER"
                 tag="span"
-                className={` ${styles['text6']} ${styles['paragraph-default']} `}
+                className={` ${styles['text4']} ${styles['paragraph-default']} `}
               />
               <Image
                 src="/icons/default-imag.svg"
                 className={` ${styles['image2']} ${styles['image-default']} `}
               />
             </Container>
-            <Container className={styles['container7']}>
-              <Text
-                text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
-                tag="span"
-                className={` ${styles['text7']} ${styles['paragraph-default']} `}
-              />
-            </Container>
+            <Text
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
+              tag="span"
+              className={` ${styles['text5']} ${styles['paragraph-default']} `}
+            />
             <Button
               text="Button"
               className={` ${styles['button2']} ${styles['button-default']} `}
             />
-            <Text
-              text="Heading"
-              tag="h1"
-              className={styles['header-default']}
-            />
           </Container>
         </Container>
-        <Container bgImage className={styles['container8']} />
+        <Text text="Heading" tag="h1" className={styles['header-default']} />
+        <Container bgImage className={styles['container7']} />
       </Container>
+      <Text text="Heading" tag="h1" className={styles['header-default']} />
+      <Text text="Heading" tag="h1" className={styles['header-default']} />
     </Container>
   )
 }

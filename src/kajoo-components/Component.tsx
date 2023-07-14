@@ -9,9 +9,7 @@ import styles from './Component.module.css'
 
 const AppComponent = (props) => {
   return (
-    <Container
-      className={` ${styles['component']} ${styles[props.rootClassName]} `}
-    >
+    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
         <Image
           src="/icons/default-imag.svg"
@@ -22,7 +20,7 @@ const AppComponent = (props) => {
         <Text
           text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
           tag="span"
-          className={styles['paragraph-default']}
+          className={` ${styles['paragraph-default']} ${styles['text']} `}
         />
       </Container>
       <Text text="Heading" tag="h1" className={styles['header-default']} />

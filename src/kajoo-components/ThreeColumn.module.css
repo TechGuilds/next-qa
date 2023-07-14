@@ -1,16 +1,12 @@
 .paragraph-default {
-  color: rgba(255, 0, 212, 1);
   font-family: Arial;
-  font-size: 34px;
-  font-weight: bold;
+  font-size: 14px;
   height: fit-content;
-  line-height: 50px;
   min-width: 30px;
   overflow: hidden;
-  text-align: center;
   -webkit-user-drag: none;
 }
-.main {
+.root {
   align-items: center;
   display: flex;
   flex-direction: column;
