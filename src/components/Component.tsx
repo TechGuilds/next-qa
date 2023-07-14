@@ -5,14 +5,13 @@ import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import ProductRecommendation from '../kajoo-components/ProductRecommendation'
 import styles from './Component.module.css'
 
 const AppComponent = (props) => {
   return (
-    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <ProductRecommendation rootClassName="root-class-name1" />
-    </Container>
+    <Container
+      className={` ${styles['root']} ${styles[props.rootClassName]} `}
+    />
   )
 }
 
