@@ -1,0 +1,20 @@
+.root {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  justify-content: center;
+  width: 100%;
+}
+@media(max-width: 1280px) {
+  .component {
+    height: 390px;
+    width: 1010px;
+  }
+}
+@media(max-width: 1024px) {
+  .component {
+    height: 689px;
+    width: 943px;
+  }
+}
