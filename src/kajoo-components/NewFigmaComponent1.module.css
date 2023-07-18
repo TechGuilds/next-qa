@@ -1,219 +1,176 @@
-.main {
+.root {
   align-items: center;
   display: flex;
+  flex-direction: column;
   width: 100%;
 }
-.main,.container {
-  flex-direction: column;
-}
 .container {
-  background-color: rgba(255, 255, 255, 1);
-  border-color: transparent;
-  width: 376px;
+  background-color: rgb(255, 255, 255);
+  height: 1060.69px;
+  padding: 64px 127.345px;
+  position: relative;
 }
 .container,.container1 {
-  align-items: flex-start;
   box-sizing: border-box;
+  color: rgb(33, 37, 41);
   display: flex;
-  flex-grow: 0;
-  flex-shrink: 1;
-  overflow: hidden;
-  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  justify-content: flex-end;
+  line-height: 24px;
+  text-align: left;
+  text-decoration-color: rgb(33, 37, 41);
 }
 .container1 {
-  border: 1px solid rgba(244, 244, 244, 1);
-  height: 57px;
-  padding: 15px 24px;
-  width: 375px;
+  height: 932.688px;
 }
-.text {
-  align-self: auto;
-  color: rgba(0, 0, 0, 1);
-  flex-grow: 0;
-  font-family: Helvetica Neue;
-  font-size: 16px;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 24px;
-  line-height: 165.9999966621399%;
-  position: absolute;
-  text-align: left;
-  text-decoration: none;
-  top: 15px;
-  width: 287px;
+.container1,.container2 {
+  align-items: flex-start;
+  flex-direction: column;
+  width: 843.013px;
 }
 .container2 {
-  align-items: flex-start;
+  color: rgb(0, 0, 0);
   display: flex;
-  height: 24px;
-  left: 327px;
-  overflow: hidden;
-  top: 39.000003814697266px;
-  width: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  height: 95.8375px;
+  line-height: 24px;
+  padding-bottom: 24px;
+  text-align: left;
+  text-decoration-color: rgb(0, 0, 0);
 }
-.container2,.image {
-  border-color: transparent;
+.container2,.richtext {
   box-sizing: border-box;
-  flex-grow: 0;
-  flex-shrink: 0;
-  position: absolute;
 }
-.image {
-  height: 16px;
-  left: 6.720000267028809px;
-  object-fit: cover;
-  top: 9.600000381469727px;
-  width: 26px;
+.richtext {
+  font-family: mencken-std-head, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  height: 43.8375px;
+  line-height: 43.84px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  overflow: hidden;
+  text-align: left;
+  width: 204.3px;
 }
 .container3 {
-  align-items: center;
-  justify-content: center;
-  padding: 32px 24px;
+  background-color: rgb(230, 230, 230);
+  height: 4px;
+  margin-block-start: 24px;
+  margin-top: 24px;
+  width: 80px;
 }
 .container3,.container4 {
-  border-color: transparent;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 0;
-  flex-shrink: 1;
-  overflow: hidden;
-  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  line-height: 24px;
+  text-align: left;
 }
 .container4 {
-  align-items: flex-start;
-}
-.text01 {
-  align-self: auto;
-  color: rgba(77, 73, 52, 1);
-  font-family: Helvetica Neue;
-  font-size: 16px;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: 500;
-  height: auto;
-  line-height: 165.9999966621399%;
-  text-align: left;
-  text-decoration: none;
-  width: 328px;
-}
-.text01,.container5 {
-  flex-grow: 0;
-  margin: 0 0 48px;
+  color: rgb(33, 37, 41);
+  height: 836.85px;
+  text-decoration-color: rgb(33, 37, 41);
+  width: 843.013px;
 }
 .container5 {
-  align-items: flex-start;
-  border-color: transparent;
+  height: 836.85px;
+  padding-bottom: 24px;
+}
+.container5,.container6 {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 1;
-  position: relative;
-}
-.text02 {
-  align-self: auto;
-  color: rgba(87, 87, 87, 1);
-  flex-grow: 0;
-  font-family: Helvetica Neue;
-  font-size: 13px;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: 500;
-  height: auto;
-  line-height: 120.00000476837158%;
+  color: rgb(76, 76, 76);
+  font-family: franklin-gothic-urw, sans-serif;
+  font-size: 18px;
+  line-height: 31.86px;
   text-align: left;
-  text-decoration: none;
-  width: 328px;
-}
-.text02,.text03,.text04,.text05 {
-  margin: 0 0 16px;
-}
-.text03,.text04,.text05,.text06 {
-  align-self: auto;
-  color: rgba(18, 18, 18, 1);
-  flex-grow: 0;
-  font-family: Helvetica Neue;
-  font-size: 16px;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  line-height: 165.9999966621399%;
-  text-align: left;
-  text-decoration: none;
-  width: 328px;
+  text-decoration-color: rgb(76, 76, 76);
+  width: 843.013px;
 }
 .container6 {
-  align-items: flex-start;
-  border-color: transparent;
+  height: 812.85px;
+}
+.container7 {
+  height: 812.85px;
+}
+.container7,.text01 {
   box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 0;
-  flex-shrink: 1;
-  position: relative;
-}
-.text07 {
-  color: rgba(87, 87, 87, 1);
-  font-size: 13px;
-  font-weight: 500;
-  line-height: 120.00000476837158%;
-}
-.text07,.text08 {
-  align-self: auto;
-  flex-grow: 0;
-  font-family: Helvetica Neue;
-  font-stretch: normal;
-  font-style: normal;
-  height: auto;
-  margin: 0 0 16px;
+  color: rgb(76, 76, 76);
+  font-family: franklin-gothic-urw, sans-serif;
+  font-size: 18px;
+  line-height: 31.86px;
   text-align: left;
-  text-decoration: none;
-  width: 328px;
+  text-decoration-color: rgb(76, 76, 76);
+  width: 843.013px;
 }
-.text08 {
-  color: rgba(18, 18, 18, 1);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 165.9999966621399%;
+.text01 {
+  display: block;
+  height: 16px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 16px;
 }
-.text09,.text10 {
-  margin: 0 0 16px;
+.text03,.text05,.text07 {
+  height: 79.7px;
 }
-.text09,.text10,.text11 {
-  align-self: auto;
-  color: rgba(18, 18, 18, 1);
-  flex-grow: 0;
-  font-family: Helvetica Neue;
-  font-size: 16px;
-  font-stretch: normal;
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  line-height: 165.9999966621399%;
+.text03,.text05,.text07,.text09 {
+  box-sizing: border-box;
+  color: rgb(76, 76, 76);
+  display: block;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-size: 18px;
+  line-height: 31.86px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 16px;
   text-align: left;
-  text-decoration: none;
-  width: 328px;
+  text-decoration-color: rgb(76, 76, 76);
+  width: 843.013px;
 }
-.image1 {
-  height: 1px;
-  width: 375px;
+.text09 {
+  height: 111.55px;
 }
-@media(max-width: 640px) {
-  .text {
-    left: 24px;
-    top: 14px;
-  }
-  .container2 {
-    left: 295px;
-    top: 16px;
-  }
-  .image {
-    height: 17px;
-    left: 7.720000000000027px;
-    top: -18.400000000000006px;
-    width: 27px;
-  }
+.text11 {
+  height: 79.7px;
+}
+.text11,.text13 {
+  box-sizing: border-box;
+  color: rgb(76, 76, 76);
+  display: block;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-size: 18px;
+  line-height: 31.86px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 16px;
+  text-align: left;
+  text-decoration-color: rgb(76, 76, 76);
+  width: 843.013px;
+}
+.text13 {
+  height: 143.4px;
+}
+.text15,.text17 {
+  box-sizing: border-box;
+  color: rgb(76, 76, 76);
+  display: block;
+  font-family: franklin-gothic-urw, sans-serif;
+  font-size: 18px;
+  height: 79.7px;
+  line-height: 31.86px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 16px;
+  text-align: left;
+  text-decoration-color: rgb(76, 76, 76);
+  width: 843.013px;
 }

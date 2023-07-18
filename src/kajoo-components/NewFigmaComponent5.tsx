@@ -5,9 +5,9 @@ import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './NewFigmaComponent3.module.css'
+import styles from './NewFigmaComponent5.module.css'
 
-const NewFigmaComponent3 = (props) => {
+const NewFigmaComponent5 = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
@@ -17,13 +17,12 @@ const NewFigmaComponent3 = (props) => {
           tag="li"
           className={styles['container01']}
         />
-        <Text text="\n\t" tag="span" />
         <Container
           text="Advisory Board, General Motors of Canada, 2006–present"
           tag="li"
           className={styles['container02']}
         />
-        <Text text="\n\t" tag="span" />
+        <Text text="\n\t" tag="span" className={styles['text01']} />
         <Container
           text="Tim Hortons, 2006–2014 (Lead Director)"
           tag="li"
@@ -137,14 +136,14 @@ const NewFigmaComponent3 = (props) => {
   )
 }
 
-NewFigmaComponent3.defaultProps = {
+NewFigmaComponent5.defaultProps = {
   fields: {},
   rootClassName: '',
 }
 
-NewFigmaComponent3.propTypes = {
+NewFigmaComponent5.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 
-export default NewFigmaComponent3
+export default NewFigmaComponent5
