@@ -11,7 +11,6 @@ const DynamicComponent = (props) => {
     <Container className={`dynamic-component-root ${props.rootClassName} `}>
       <Container className="dynamic-component-container">
         <Text text={props.fields.text} tag="span" />
-        <Text text={props.fields.text1} tag="h1" />
       </Container>
     </Container>
   )
@@ -20,7 +19,6 @@ const DynamicComponent = (props) => {
 DynamicComponent.defaultProps = {
   fields: {
     text: 'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
-    text1: 'Heading',
   },
   rootClassName: '',
 }

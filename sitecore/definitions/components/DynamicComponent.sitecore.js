@@ -18,11 +18,6 @@ export default function (manifest) {
         standardValue:
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
       },
-      {
-        name: 'fields.text1',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Heading',
-      },
     ],
   })
 }
