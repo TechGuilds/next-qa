@@ -1,6 +1,6 @@
 /* eslint-disable */
 import React from 'react'
-import { Container, RichText, Text } from '@kajoo-ai/sitecore-react'
+import { Container, Text } from '@kajoo-ai/sitecore-react'
 
 import PropTypes from 'prop-types'
 
@@ -9,9 +9,9 @@ import './style.css'
 const DynamicComponent = (props) => {
   return (
     <Container className={`dynamic-component-root ${props.rootClassName} `}>
-      <RichText value={props.fields.value} />
       <Container className="dynamic-component-container">
-        <Text text={props.fields.text} />
+        <Text text={props.fields.text} tag="span" />
+        <Text text={props.fields.text1} tag="h1" />
       </Container>
     </Container>
   )
@@ -19,10 +19,8 @@ const DynamicComponent = (props) => {
 
 DynamicComponent.defaultProps = {
   fields: {
-    value:
-      '<p>Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.</p>',
     text: 'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
-    tag: 'span',
+    text1: 'Heading',
   },
   rootClassName: '',
 }
