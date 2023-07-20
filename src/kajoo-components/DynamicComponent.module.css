@@ -1,6 +1,19 @@
+.header-default {
+  background-color: rgba(126, 211, 33, 1);
+  color: #0C0C0C;
+  font-family: Monotype Corsiva;
+  font-size: 30px;
+  font-weight: normal;
+  height: fit-content;
+  min-width: 140px;
+  text-align: left;
+}
 .root {
   display: flex;
   flex-direction: row;
   height: 400px;
   width: 100%;
 }
+
+
+

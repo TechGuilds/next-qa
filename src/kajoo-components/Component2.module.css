@@ -1,7 +1,6 @@
-.component2 {
-  align-items: center;
+.root {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 400px;
   width: 100%;
 }
