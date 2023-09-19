@@ -5,14 +5,14 @@ import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import { Helmet } from 'react-helmet'
 
-import DynamicTesting from '../src/components/DynamicTesting'
+import DynamicTesting1 from '../src/components/DynamicTesting1'
 import styles from './page.module.css'
 
-const PageTest = (props) => {
+const PageTest1 = (props) => {
   return (
     <Container className={styles['root']}>
       <Helmet>
-        <title>Page test</title>
+        <title>Page test1</title>
         <meta property="og:description" content />
         <meta property="og:image" content />
         <meta property="og:title" content />
@@ -20,9 +20,9 @@ const PageTest = (props) => {
         <meta name="title" content />
         <link rel="canonical" href />
       </Helmet>
-      <DynamicTesting rootClassName="root-class-name" />
+      <DynamicTesting1 rootClassName="root-class-name" />
     </Container>
   )
 }
 
-export default PageTest
+export default PageTest1
