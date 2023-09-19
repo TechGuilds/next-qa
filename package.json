@@ -1,5 +1,5 @@
 {
-  "name": "my-test-project-123",
+  "name": "new-project-sep-15-15-30-15",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -9,8 +9,7 @@
     "react-router-dom": "^5.2.0",
     "@kajoo-ai/sitecore-react": "latest",
     "react-helmet": "^6.1.0",
-    "prop-types": "15.7.2",
-    "@kajoo-ai/sitecore-nextjs": "latest"
+    "prop-types": "15.7.2"
   },
   "scripts": {
     "start": "craco start",
