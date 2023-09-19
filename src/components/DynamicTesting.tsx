@@ -5,9 +5,9 @@ import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './Component.module.css'
+import styles from './DynamicTesting.module.css'
 
-const AppComponent = (props) => {
+const DynamicTesting = (props) => {
   return (
     <Container
       className={` ${styles['root']} ${styles[props.rootClassName]} `}
@@ -15,14 +15,14 @@ const AppComponent = (props) => {
   )
 }
 
-AppComponent.defaultProps = {
+DynamicTesting.defaultProps = {
   fields: {},
   rootClassName: '',
 }
 
-AppComponent.propTypes = {
+DynamicTesting.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 
-export default AppComponent
+export default DynamicTesting

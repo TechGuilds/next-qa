@@ -7,8 +7,8 @@ import { Helmet } from 'react-helmet'
 
 import styles from './page.module.css'
 
-const Page = (props) => {
+const PageTest = (props) => {
   return <Container className={styles['root']} />
 }
 
-export default Page
+export default PageTest
