@@ -5,14 +5,13 @@ import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import DynamicComponent from '../kajoo-components/DynamicComponent'
 import styles from './Component1.module.css'
 
 const Component1 = (props) => {
   return (
-    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <DynamicComponent rootClassName="root-class-name" />
-    </Container>
+    <Container
+      className={` ${styles['root']} ${styles[props.rootClassName]} `}
+    />
   )
 }
 
