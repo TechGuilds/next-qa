@@ -1,83 +1,98 @@
-.paragraph-default {
-  font-family: Arial;
-  font-size: 14px;
-  height: fit-content;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-top: 20px;
-  min-width: 30px;
-  overflow: hidden;
-  -webkit-user-drag: none;
-}
 .image-default {
+  align-items: center;
   background-color: #d9d9d9;
   border-color: #a0a0a0;
   border-radius: 6px;
   border-width: 1px;
-  font-style: normal;
-  font-weight: bold;
+  display: flex;
+  flex-direction: column;
   height: 200px;
   justify-content: center;
   min-height: 200px;
   min-width: 200px;
   overflow: hidden;
 }
-.image-default,.main {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
+.paragraph-default {
+  font-family: Arial;
+  font-size: 14px;
+  height: fit-content;
+  min-width: 30px;
+  overflow: hidden;
+  -webkit-user-drag: none;
 }
-.main {
+.root {
   width: 100%;
 }
-.container {
+.root,.container {
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+.container {
   height: 560.6618472px;
-  justify-content: center;
-  max-width: 100%;
   width: 1040.920128px;
 }
-.image {
-  height: 146.24647199999998px;
+.container,.container1 {
+  justify-content: center;
   max-width: 100%;
-  width: 896.380992px;
 }
 .container1 {
   align-items: flex-start;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  max-width: 100%;
 }
-.image1 {
-  height: 298.56340800000004px;
-  width: 405.9705600000001px;
+.container2 {
+  display: flex;
+  flex-direction: column;
 }
-.image1,.image2 {
+.container3 {
   flex-basis: 50%;
-  max-width: 100%;
-}
-.image2 {
   height: 304.47316800000004px;
+  max-width: 100%;
   width: 366.418944px;
+}
+.container4 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 .text {
   align-self: flex-end;
   height: 43.995312000000006px;
   width: 163.881216px;
 }
-@media(max-width: 640px) {
-  .image,.container1 {
-    flex-basis: auto;
-    max-width: 100%;
+.image {
+  height: 146.24647199999998px;
+  width: 896.380992px;
+}
+.image,.image1 {
+  max-width: 100%;
+}
+.image1 {
+  flex-basis: 50%;
+  height: 298.56340800000004px;
+  width: 405.9705600000001px;
+}
+@media(max-width: 991px) {
+  .root {
+    height: 466px;
+    width: 931px;
   }
+  .container {
+    height: 422px;
+    width: 767px;
+  }
+  .container4 {
+    height: 224px;
+    width: 801px;
+  }
+}
+@media(max-width: 576px) {
   .container1 {
     align-items: center;
     flex-direction: column;
   }
-  .image1,.image2 {
+  .container1,.container3,.image,.image1 {
     flex-basis: auto;
     max-width: 100%;
   }

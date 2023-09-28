@@ -1,13 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import {
-  Container,
-  Text,
-  Image,
-  Button,
-  RichText,
-} from '@kajoo-ai/sitecore-nextjs'
+import { Container, Text, Image, Button } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -16,9 +10,9 @@ import styles from './ProductRecommendation1.module.css'
 const ProductRecommendation1 = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Container bgImage className={styles['container']}>
-        <Container bgImage className={styles['container1']}>
-          <Container bgImage className={styles['container2']}>
+      <Container className={styles['container']}>
+        <Container className={styles['container1']}>
+          <Container className={styles['container2']}>
             <Text
               text="HEADER"
               tag="span"
@@ -35,8 +29,8 @@ const ProductRecommendation1 = (props) => {
               className={` ${styles['text1']} ${styles['paragraph-default']} `}
             />
           </Container>
-          <Container bgImage className={styles['container3']}>
-            <Container bgImage className={styles['container4']}>
+          <Container className={styles['container3']}>
+            <Container className={styles['container4']}>
               <Text
                 text="HEADER"
                 tag="span"
@@ -54,8 +48,8 @@ const ProductRecommendation1 = (props) => {
               className={` ${styles['text3']} ${styles['paragraph-default']} `}
             />
           </Container>
-          <Container bgImage className={styles['container5']}>
-            <Container bgImage className={styles['container6']}>
+          <Container className={styles['container5']}>
+            <Container className={styles['container6']}>
               <Text
                 text="HEADER"
                 tag="span"
@@ -74,7 +68,7 @@ const ProductRecommendation1 = (props) => {
             />
           </Container>
         </Container>
-        <Container bgImage className={styles['container7']}>
+        <Container className={styles['container7']}>
           <Button
             link="#"
             text="Button"
@@ -92,10 +86,6 @@ const ProductRecommendation1 = (props) => {
           />
         </Container>
       </Container>
-      <RichText
-        value="&lt;p&gt;Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.&lt;/p&gt;"
-        className={` ${styles['richtext-default']} ${styles['richtext']} `}
-      />
     </Container>
   )
 }

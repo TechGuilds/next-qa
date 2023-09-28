@@ -1,57 +1,37 @@
-.radiobutton-default {
-  min-height: 25px;
-  min-width: 25px;
-}
-.radiobutton-default,.button-default {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: fit-content;
-  justify-content: center;
-}
 .button-default {
   background-color: #eeeeee;
   border-color: #a0a0a0;
   border-radius: 3px;
   border-width: 1px;
   font-size: 0.8em;
+  height: fit-content;
   min-height: 24px;
   min-width: 130px;
   padding: 10px 35px;
 }
-.label-default {
-  color: #0C0C0C;
-  font-family: SF Pro Text;
-  font-size: 52px;
-  font-weight: bold;
-  height: fit-content;
-  margin-top: 30px;
-  min-width: 140px;
-  text-align: left;
+.button-default,.image-default {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .image-default {
-  align-items: center;
   background-color: #d9d9d9;
   border-color: #a0a0a0;
   border-radius: 6px;
   border-width: 1px;
-  display: flex;
-  flex-direction: column;
   height: 200px;
-  justify-content: center;
   min-height: 200px;
   min-width: 200px;
   overflow: hidden;
 }
 .paragraph-default {
-  color: #0C0C0C;
-  font-family: SF Pro Text;
-  font-size: 32px;
-  font-weight: normal;
+  font-family: Arial;
+  font-size: 14px;
   height: fit-content;
-  margin-top: 30px;
-  min-width: 140px;
-  text-align: left;
+  min-width: 30px;
+  overflow: hidden;
+  -webkit-user-drag: none;
 }
 .root {
   width: 100%;
@@ -142,8 +122,14 @@
 }
 .image2 {
   height: 258.646459px;
-  max-width: 100%;
   width: 243.06033599999998px;
+}
+.image2,.text5 {
+  max-width: 100%;
+}
+.text5 {
+  height: 89.311766px;
+  width: 211.516596px;
 }
 .container7 {
   align-items: flex-start;
@@ -152,25 +138,39 @@
   justify-content: space-between;
   max-width: 100%;
 }
-.button1 {
+.button {
   height: 68.87368399999998px;
   width: 266.30829px;
 }
-.button1,.button2 {
+.button,.button1 {
   flex-basis: 33%;
   max-width: 100%;
 }
-.button2 {
+.button1 {
   height: 86.868708px;
   width: 277.49116799999996px;
 }
-.button3 {
+.button2 {
   flex-basis: 33%;
   height: 94.22962399999999px;
   max-width: 100%;
   width: 236.58753600000009px;
 }
-.root-class-name {
-  height: 815px;
+@media(max-width: 576px) {
+  .container1 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .container1,.container2,.text,.image,.text1,.container3,.container4,.text2,.image1,.text3,.container5,.container6,.text4,.image2,.text5,.container7 {
+    flex-basis: auto;
+    max-width: 100%;
+  }
+  .container7 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .button,.button1,.button2 {
+    flex-basis: auto;
+    max-width: 100%;
+  }
 }
-
