@@ -1,5 +1,6 @@
 /* eslint-disable */
-// @ts-nocheck
+// @ts-nocheck 
+import { KajooLayoutFactory } from 'lib/kajoo-layout-factory';
 import React from 'react'
 import { Container } from '@kajoo-ai/sitecore-nextjs'
 
