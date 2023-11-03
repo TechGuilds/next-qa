@@ -8,13 +8,13 @@ import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import { Helmet } from 'react-helmet'
 
-import styles from './mypage.module.css'
+import styles from './amica2.module.css'
 
-const MyPage = (props) => {
+const Amica2 = (props) => {
   return (
-    <Container className={styles['root']}>
+    <Container tag="body" className={styles['root']}>
       <Helmet>
-        <title>my page</title>
+        <title>amica2</title>
         <meta property="og:description" content />
         <meta property="og:image" content />
         <meta property="og:title" content />
@@ -22,11 +22,16 @@ const MyPage = (props) => {
         <meta name="title" content />
         <link rel="canonical" href />
       </Helmet>
-      <Placeholder name rendering={props.layoutData.sitecore.route} />
+      <Container tag="div" className={styles['container']}>
+        <Placeholder
+          name="kajoo-main"
+          rendering={props.layoutData.sitecore.route}
+        />
+      </Container>
     </Container>
   )
 }
 
-export default MyPage
+export default Amica2
 
-KajooLayoutFactory.registerLayout("MyPage", MyPage)
+KajooLayoutFactory.registerLayout("Amica2", Amica2)
