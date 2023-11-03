@@ -1,0 +1,1647 @@
+.root {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  display: block;
+  position: relative;
+  z-index: 4;
+}
+.root:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container {
+  background-attachment: initial;
+  background-clip: initial;
+  background-color: rgb(116, 117, 119);
+  background-image: initial;
+  background-origin: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-size: initial;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  font-size: 14px;
+  padding: 40px 0px;
+}
+.container:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container1 {
+  align-items: center;
+  -webkit-box-align: center;
+  -webkit-box-pack: justify;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 0px auto;
+  max-width: 1365px;
+  padding: 0px 30px;
+}
+.container1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container2 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  min-width: 250px;
+  padding-right: 20px;
+}
+.container2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: rgb(238, 238, 238);
+  display: block;
+  font-family: Amiri, serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-block-end: 0.83em;
+  margin-block-start: 0.83em;
+  margin-bottom: 20px;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  margin-top: 0px;
+  opacity: 0.5;
+}
+.html-element:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element01 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  line-height: 1.5;
+  margin: 0px 0px 0.8em;
+  margin-block-end: 1em;
+  margin-block-start: 1em;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+}
+.html-element01:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element02 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.html-element02:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element03 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.html-element03:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element04 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.html-element04:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element05 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 7px;
+}
+.html-element05:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container3 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+}
+.container3:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element06 {
+  background-attachment: initial;
+  background-clip: initial;
+  background-color: rgb(118, 118, 121);
+  background-image: initial;
+  background-origin: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-size: initial;
+  border: 1px solid rgb(248, 249, 250);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-image-slice: initial;
+  border-image-source: initial;
+  border-image-width: initial;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 20px;
+  min-width: 180px;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition-delay: 0s, 0s, 0s, 0s, 0s;
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+  transition-property: color, background-color, border-color, box-shadow, -webkit-box-shadow;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space-collapse: collapse;
+}
+.html-element06:hover {
+  background-color: rgb(248, 249, 250);
+  color: rgb(88, 122, 141) !important;
+}
+.html-element06:focus {
+  -webkit-box-shadow: 0 0 0 .2rem rgba(88,122,141,.25);
+  box-shadow: rgba(88, 122, 141, 0.25) 0px 0px 0px 0.2rem;
+  outline-color: initial;
+  outline-style: initial;
+  outline-width: 0px;
+}
+.html-element06:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element07 {
+  background-attachment: initial;
+  background-clip: initial;
+  background-color: rgb(118, 118, 121);
+  background-image: initial;
+  background-origin: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-size: initial;
+  border: 1px solid rgb(248, 249, 250);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-image-slice: initial;
+  border-image-source: initial;
+  border-image-width: initial;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 20px;
+  min-width: 180px;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition-delay: 0s, 0s, 0s, 0s, 0s;
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+  transition-property: color, background-color, border-color, box-shadow, -webkit-box-shadow;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space-collapse: collapse;
+}
+.html-element07:hover {
+  background-color: rgb(248, 249, 250);
+  color: rgb(88, 122, 141) !important;
+}
+.html-element07:focus {
+  -webkit-box-shadow: 0 0 0 .2rem rgba(88,122,141,.25);
+  box-shadow: rgba(88, 122, 141, 0.25) 0px 0px 0px 0.2rem;
+  outline-color: initial;
+  outline-style: initial;
+  outline-width: 0px;
+}
+.html-element07:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element08 {
+  border: none;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-image-slice: initial;
+  border-image-source: initial;
+  border-image-width: initial;
+  border-right: 1px solid rgb(0, 0, 0);
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  display: block;
+  height: 126px;
+  margin: 0px 40px;
+  margin-block-end: 0.5em;
+  margin-block-start: 0.5em;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  opacity: 0.14;
+  overflow-x: visible;
+  overflow-y: visible;
+  padding: 0px;
+  unicode-bidi: isolate;
+  width: 0px;
+}
+.html-element08:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element09 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  list-style-image: initial;
+  list-style-position: initial;
+  list-style-type: none;
+  margin: 0px;
+  margin-block-end: 1em;
+  margin-block-start: 1em;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  padding: 0px;
+  padding-inline-start: 40px;
+  text-transform: uppercase;
+}
+.html-element09:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element10 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: list-item;
+  padding: 5px;
+  text-align: -webkit-match-parent;
+  width: 50%;
+}
+.html-element10:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element11 {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+}
+.html-element11:hover {
+  text-decoration-line: underline;
+}
+.html-element11:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element12 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: list-item;
+  padding: 5px;
+  text-align: -webkit-match-parent;
+  width: 50%;
+}
+.html-element12:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element13 {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+}
+.html-element13:hover {
+  text-decoration-line: underline;
+}
+.html-element13:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element14 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: list-item;
+  padding: 5px;
+  text-align: -webkit-match-parent;
+  width: 50%;
+}
+.html-element14:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element15 {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+}
+.html-element15:hover {
+  text-decoration-line: underline;
+}
+.html-element15:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element16 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: list-item;
+  padding: 5px;
+  text-align: -webkit-match-parent;
+  width: 50%;
+}
+.html-element16:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element17 {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+}
+.html-element17:hover {
+  text-decoration-line: underline;
+}
+.html-element17:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element18 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: list-item;
+  padding: 5px;
+  text-align: -webkit-match-parent;
+  width: 50%;
+}
+.html-element18:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element19 {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+}
+.html-element19:hover {
+  text-decoration-line: underline;
+}
+.html-element19:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element20 {
+  border: none;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-image-slice: initial;
+  border-image-source: initial;
+  border-image-width: initial;
+  border-right: 1px solid rgb(0, 0, 0);
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  display: block;
+  height: 126px;
+  margin: 0px 40px;
+  margin-block-end: 0.5em;
+  margin-block-start: 0.5em;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  opacity: 0.14;
+  overflow-x: visible;
+  overflow-y: visible;
+  padding: 0px;
+  unicode-bidi: isolate;
+  width: 0px;
+}
+.html-element20:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container4 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  text-wrap: nowrap;
+  white-space-collapse: collapse;
+}
+.container4:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element21 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: rgb(238, 238, 238);
+  display: block;
+  font-family: Amiri, serif;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-block-end: 0.83em;
+  margin-block-start: 0.83em;
+  margin-bottom: 20px;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  margin-top: 0px;
+  opacity: 0.5;
+}
+.html-element21:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container5 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.container5:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container6 {
+  -webkit-box-flex: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  -ms-flex: 0 0 100%;
+  flex-basis: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  max-width: 100%;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  text-align: center !important;
+  width: 100%;
+}
+.container6:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element22 {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+}
+.html-element22:hover {
+  text-decoration-line: underline;
+}
+.html-element22:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.image {
+  aspect-ratio: auto 25 / 25;
+  border-style: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 25px;
+  overflow-clip-margin: content-box;
+  overflow-x: clip;
+  overflow-y: clip;
+  vertical-align: middle;
+  width: 25px;
+}
+.image:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element23 {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  margin-left: 20px;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+}
+.html-element23:hover {
+  text-decoration-line: underline;
+}
+.html-element23:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.image1 {
+  aspect-ratio: auto 25 / 25;
+  border-style: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 25px;
+  overflow-clip-margin: content-box;
+  overflow-x: clip;
+  overflow-y: clip;
+  vertical-align: middle;
+  width: 25px;
+}
+.image1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element24 {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  margin-left: 20px;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+}
+.html-element24:hover {
+  text-decoration-line: underline;
+}
+.html-element24:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.image2 {
+  aspect-ratio: auto 25 / 25;
+  border-style: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 25px;
+  overflow-clip-margin: content-box;
+  overflow-x: clip;
+  overflow-y: clip;
+  vertical-align: middle;
+  width: 25px;
+}
+.image2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element25 {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  margin-left: 20px;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+}
+.html-element25:hover {
+  text-decoration-line: underline;
+}
+.html-element25:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.image3 {
+  aspect-ratio: auto 25 / 25;
+  border-style: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 25px;
+  overflow-clip-margin: content-box;
+  overflow-x: clip;
+  overflow-y: clip;
+  vertical-align: middle;
+  width: 25px;
+}
+.image3:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element26 {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  margin-left: 20px;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+}
+.html-element26:hover {
+  text-decoration-line: underline;
+}
+.html-element26:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.image4 {
+  aspect-ratio: auto 25 / 25;
+  border-style: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 25px;
+  overflow-clip-margin: content-box;
+  overflow-x: clip;
+  overflow-y: clip;
+  vertical-align: middle;
+  width: 25px;
+}
+.image4:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container7 {
+  background-attachment: initial;
+  background-clip: initial;
+  background-color: rgb(108, 109, 112);
+  background-image: initial;
+  background-origin: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-size: initial;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  font-size: 12px;
+  padding: 10px 0px;
+}
+.container7:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container8 {
+  align-items: center;
+  -webkit-box-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  -ms-flex-align: center;
+  margin: 0px auto;
+  max-width: 1365px;
+  padding: 0px 30px;
+}
+.container8:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element27 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  list-style-image: initial;
+  list-style-position: initial;
+  list-style-type: none;
+  margin: 0px;
+  margin-block-end: 1em;
+  margin-block-start: 1em;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  padding: 10px 0px;
+  padding-inline-start: 40px;
+  text-align: center;
+}
+.html-element27:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element28 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px 0px;
+  text-align: -webkit-match-parent;
+}
+.html-element28:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element29 {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+}
+.html-element29:hover {
+  text-decoration-line: underline;
+}
+.html-element29:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element30 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px 0px;
+  text-align: -webkit-match-parent;
+}
+.html-element30:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element31 {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+}
+.html-element31:hover {
+  text-decoration-line: underline;
+}
+.html-element31:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element32 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 5px 0px;
+  text-align: -webkit-match-parent;
+}
+.html-element32:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element33 {
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: inherit;
+  cursor: pointer;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+}
+.html-element33:hover {
+  text-decoration-line: underline;
+}
+.html-element33:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element34 {
+  -webkit-box-flex: 1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  flex-grow: 1;
+  -ms-flex-positive: 1;
+  line-height: 1.8;
+  margin: 0px;
+  margin-block-end: 1em;
+  margin-block-start: 1em;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  padding: 10px 0px;
+  text-align: right;
+}
+.html-element34:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+
+@media(max-width: 1599px) {
+  .root {
+    color: rgb(255, 255, 255);
+    position: relative;
+    z-index: 4;
+  }
+  .root,.container {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+  }
+  .container {
+    background-attachment: initial;
+    background-clip: initial;
+    background-color: rgb(116, 117, 119);
+    background-image: initial;
+    background-origin: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-size: initial;
+    font-size: 14px;
+    padding: 40px 0px;
+  }
+  .container1 {
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    -ms-flex-align: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 0px auto;
+    max-width: 1365px;
+    padding: 0px 30px;
+  }
+  .container2 {
+    min-width: 250px;
+    padding-right: 20px;
+  }
+  .container2,.html-element {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+  }
+  .html-element {
+    color: rgb(238, 238, 238);
+    font-family: Amiri, serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-block-end: 0.83em;
+    margin-block-start: 0.83em;
+    margin-bottom: 20px;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+    margin-top: 0px;
+    opacity: 0.5;
+  }
+  .html-element01 {
+    display: block;
+    line-height: 1.5;
+    margin: 0px 0px 0.8em;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+  }
+  .html-element01,.html-element02,.html-element03,.html-element04,.html-element05 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .html-element05 {
+    display: inline-block;
+    margin-top: 7px;
+  }
+  .container3 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+  }
+  .html-element06,.html-element07 {
+    background-attachment: initial;
+    background-clip: initial;
+    background-color: rgb(118, 118, 121);
+    background-image: initial;
+    background-origin: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-size: initial;
+    border: 1px solid rgb(248, 249, 250);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-image-slice: initial;
+    border-image-source: initial;
+    border-image-width: initial;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: inherit;
+    cursor: pointer;
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 20px;
+    min-width: 180px;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition-delay: 0s, 0s, 0s, 0s, 0s;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-property: color, background-color, border-color, box-shadow, -webkit-box-shadow;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space-collapse: collapse;
+  }
+  .html-element08 {
+    border: none;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-image-slice: initial;
+    border-image-source: initial;
+    border-image-width: initial;
+    border-right: 1px solid rgb(0, 0, 0);
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    display: block;
+    height: 126px;
+    margin: 0px 40px;
+    margin-block-end: 0.5em;
+    margin-block-start: 0.5em;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+    opacity: 0.14;
+    overflow-x: visible;
+    overflow-y: visible;
+    unicode-bidi: isolate;
+    width: 0px;
+  }
+  .html-element08,.html-element09 {
+    padding: 0px;
+  }
+  .html-element09 {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style-image: initial;
+    list-style-position: initial;
+    list-style-type: none;
+    margin: 0px;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    padding-inline-start: 40px;
+    text-transform: uppercase;
+  }
+  .html-element09,.html-element10 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .html-element10 {
+    display: list-item;
+    padding: 5px;
+    text-align: -webkit-match-parent;
+    width: 50%;
+  }
+  .html-element11 {
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+  }
+  .html-element11,.html-element12 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .html-element12 {
+    display: list-item;
+    padding: 5px;
+    text-align: -webkit-match-parent;
+    width: 50%;
+  }
+  .html-element13 {
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+  }
+  .html-element13,.html-element14 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .html-element14 {
+    display: list-item;
+    padding: 5px;
+    text-align: -webkit-match-parent;
+    width: 50%;
+  }
+  .html-element15 {
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+  }
+  .html-element15,.html-element16 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .html-element16 {
+    display: list-item;
+    padding: 5px;
+    text-align: -webkit-match-parent;
+    width: 50%;
+  }
+  .html-element17 {
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+  }
+  .html-element17,.html-element18 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .html-element18 {
+    display: list-item;
+    padding: 5px;
+    text-align: -webkit-match-parent;
+    width: 50%;
+  }
+  .html-element19 {
+    background-color: transparent;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: inherit;
+    cursor: pointer;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+  }
+  .html-element20 {
+    border: none;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-image-slice: initial;
+    border-image-source: initial;
+    border-image-width: initial;
+    border-right: 1px solid rgb(0, 0, 0);
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    display: block;
+    height: 126px;
+    margin: 0px 40px;
+    margin-block-end: 0.5em;
+    margin-block-start: 0.5em;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+    opacity: 0.14;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding: 0px;
+    unicode-bidi: isolate;
+    width: 0px;
+  }
+  .container4 {
+    text-wrap: nowrap;
+    white-space-collapse: collapse;
+  }
+  .container4,.html-element21 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+  }
+  .html-element21 {
+    color: rgb(238, 238, 238);
+    font-family: Amiri, serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-block-end: 0.83em;
+    margin-block-start: 0.83em;
+    margin-bottom: 20px;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+    margin-top: 0px;
+    opacity: 0.5;
+  }
+  .container5 {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .container5,.container6 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .container6 {
+    -webkit-box-flex: 0;
+    display: block;
+    -ms-flex: 0 0 100%;
+    flex-basis: 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: 100%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    text-align: center !important;
+    width: 100%;
+  }
+  .html-element22 {
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+  }
+  .html-element22,.image {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .image {
+    aspect-ratio: auto 25 / 25;
+    border-style: none;
+    height: 25px;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    vertical-align: middle;
+    width: 25px;
+  }
+  .html-element23 {
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+  }
+  .html-element23,.image1 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .image1 {
+    aspect-ratio: auto 25 / 25;
+    border-style: none;
+    height: 25px;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    vertical-align: middle;
+    width: 25px;
+  }
+  .html-element24 {
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+  }
+  .html-element24,.image2 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .image2 {
+    aspect-ratio: auto 25 / 25;
+    border-style: none;
+    height: 25px;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    vertical-align: middle;
+    width: 25px;
+  }
+  .html-element25 {
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+  }
+  .html-element25,.image3 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .image3 {
+    aspect-ratio: auto 25 / 25;
+    border-style: none;
+    height: 25px;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    vertical-align: middle;
+    width: 25px;
+  }
+  .html-element26 {
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+  }
+  .html-element26,.image4 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .image4 {
+    aspect-ratio: auto 25 / 25;
+    border-style: none;
+    height: 25px;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    vertical-align: middle;
+    width: 25px;
+  }
+  .container7 {
+    background-attachment: initial;
+    background-clip: initial;
+    background-color: rgb(108, 109, 112);
+    background-image: initial;
+    background-origin: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-size: initial;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    font-size: 12px;
+    padding: 10px 0px;
+  }
+  .container8 {
+    align-items: center;
+    -webkit-box-align: center;
+    display: flex;
+    -ms-flex-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1365px;
+    padding: 0px 30px;
+  }
+  .container8,.html-element27 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .html-element27 {
+    display: block;
+    list-style-image: initial;
+    list-style-position: initial;
+    list-style-type: none;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 10px 0px;
+    padding-inline-start: 40px;
+    text-align: center;
+  }
+  .html-element28 {
+    display: inline-block;
+    padding: 5px 0px;
+    text-align: -webkit-match-parent;
+  }
+  .html-element28,.html-element29 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .html-element29 {
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+  }
+  .html-element30 {
+    display: inline-block;
+    padding: 5px 0px;
+    text-align: -webkit-match-parent;
+  }
+  .html-element30,.html-element31 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .html-element31 {
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+  }
+  .html-element32 {
+    display: inline-block;
+    padding: 5px 0px;
+    text-align: -webkit-match-parent;
+  }
+  .html-element32,.html-element33 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .html-element33 {
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+  }
+  .html-element34 {
+    -webkit-box-flex: 1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    flex-grow: 1;
+    -ms-flex-positive: 1;
+    line-height: 1.8;
+    margin: 0px;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    padding: 10px 0px;
+    text-align: right;
+  }
+}
+@media(max-width: 1300px) {
+  .html-element08,.html-element20 {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+}
+@media(max-width: 1150px) {
+  .html-element08,.html-element20 {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+@media(max-width: 1068px) {
+  .container {
+    text-align: center;
+  }
+  .container1 {
+    display: block;
+  }
+  .container2 {
+    margin-bottom: 40px;
+    min-width: 160px;
+    padding-right: 0px;
+  }
+  .html-element06,.html-element07 {
+    display: inline-block;
+  }
+  .html-element08 {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    height: 0px;
+    margin: 40px 0px;
+    width: 100%;
+  }
+  .html-element09 {
+    display: block;
+  }
+  .html-element10,.html-element12,.html-element14,.html-element16,.html-element18 {
+    padding: 10px 0px;
+    width: auto;
+  }
+  .html-element20 {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    height: 0px;
+    margin: 40px 0px;
+    width: 100%;
+  }
+}
+@media(max-width: 575px) {
+  .container8 {
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .html-element34 {
+    text-align: left;
+  }
+}

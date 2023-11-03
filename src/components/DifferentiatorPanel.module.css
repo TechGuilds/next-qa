@@ -1,0 +1,368 @@
+.root {
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://amica.kajoo.ca/?kajooRender=%22true%22");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  -webkit-box-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  -ms-flex-align: center;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  z-index: 4;
+}
+.root:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container {
+  align-items: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  -webkit-box-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: flex;
+  -ms-flex-align: center;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  z-index: 4;
+}
+.container:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container1 {
+  -webkit-box-flex: 1;
+  -webkit-box-pack: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  flex-basis: 0px;
+  flex-grow: 1;
+  -ms-flex-pack: center;
+  -ms-flex-positive: 1;
+  -ms-flex-preferred-size: 0;
+  justify-content: center;
+  padding: 20px;
+}
+.container1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: rgb(118, 118, 121);
+  display: block;
+  font-family: amiriregular, serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: auto auto 20px;
+  margin-block-end: 0.83em;
+  margin-block-start: 0.83em;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+  max-width: 440px;
+}
+.html-element:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container2 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  line-height: 1.4;
+  margin: auto auto 60px;
+  max-width: 440px;
+}
+.container2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.html-element1 {
+  background-attachment: initial;
+  background-clip: initial;
+  background-color: rgb(88, 122, 141);
+  background-image: initial;
+  background-origin: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-repeat-x: initial;
+  background-repeat-y: initial;
+  background-size: initial;
+  border: 1px solid rgb(88, 122, 141);
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  border-image-slice: initial;
+  border-image-source: initial;
+  border-image-width: initial;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: rgb(248, 249, 250);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  min-width: 250px;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration-color: initial;
+  text-decoration-line: none;
+  -webkit-text-decoration-skip: objects;
+  text-decoration-style: initial;
+  text-decoration-thickness: initial;
+  text-transform: uppercase;
+  text-wrap: nowrap;
+  -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+  transition-delay: 0s, 0s, 0s, 0s, 0s;
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+  transition-property: color, background-color, border-color, box-shadow, -webkit-box-shadow;
+  transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space-collapse: collapse;
+}
+.html-element1:hover {
+  background-color: rgb(248, 249, 250);
+  color: rgb(88, 122, 141);
+}
+.html-element1:focus {
+  -webkit-box-shadow: 0 0 0 .2rem rgba(88,122,141,.25);
+  box-shadow: rgba(88, 122, 141, 0.25) 0px 0px 0px 0.2rem;
+  outline-color: initial;
+  outline-style: initial;
+  outline-width: 0px;
+}
+.html-element1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-offset: 1px;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container3 {
+  -webkit-box-flex: 1;
+  -webkit-box-pack: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  flex-basis: 0px;
+  flex-grow: 1;
+  -ms-flex-pack: center;
+  -ms-flex-positive: 1;
+  -ms-flex-preferred-size: 0;
+  justify-content: center;
+  max-width: 80%;
+  padding: 20px;
+}
+.container3:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.image {
+  aspect-ratio: auto 760 / 546;
+  border-style: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto;
+  overflow-clip-margin: content-box;
+  overflow-x: clip;
+  overflow-y: clip;
+  vertical-align: middle;
+  width: 90%;
+}
+.image:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+
+@media(max-width: 1599px) {
+  .root {
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://amica.kajoo.ca/?kajooRender=%22true%22");
+  }
+  .root,.container {
+    align-items: center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    -webkit-box-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    -ms-flex-align: center;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    z-index: 4;
+  }
+  .container {
+    width: 100%;
+  }
+  .container1 {
+    -webkit-box-flex: 1;
+    -webkit-box-pack: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 0px;
+    flex-grow: 1;
+    -ms-flex-pack: center;
+    -ms-flex-positive: 1;
+    -ms-flex-preferred-size: 0;
+    justify-content: center;
+    padding: 20px;
+  }
+  .html-element {
+    color: rgb(118, 118, 121);
+    font-family: amiriregular, serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: auto auto 20px;
+    margin-block-end: 0.83em;
+    margin-block-start: 0.83em;
+    margin-inline-end: auto;
+    margin-inline-start: auto;
+  }
+  .html-element,.container2 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    max-width: 440px;
+  }
+  .container2 {
+    line-height: 1.4;
+    margin: auto auto 60px;
+  }
+  .html-element1 {
+    background-attachment: initial;
+    background-clip: initial;
+    background-color: rgb(88, 122, 141);
+    background-image: initial;
+    background-origin: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-size: initial;
+    border: 1px solid rgb(88, 122, 141);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-image-slice: initial;
+    border-image-source: initial;
+    border-image-width: initial;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    color: rgb(248, 249, 250);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    min-width: 250px;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration-color: initial;
+    text-decoration-line: none;
+    -webkit-text-decoration-skip: objects;
+    text-decoration-style: initial;
+    text-decoration-thickness: initial;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition-delay: 0s, 0s, 0s, 0s, 0s;
+    transition-duration: 0.15s, 0.15s, 0.15s, 0.15s, 0.15s;
+    transition-property: color, background-color, border-color, box-shadow, -webkit-box-shadow;
+    transition-timing-function: ease-in-out, ease-in-out, ease-in-out, ease-in-out, ease-in-out;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    white-space-collapse: collapse;
+  }
+  .html-element1,.container3 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .container3 {
+    -webkit-box-flex: 1;
+    -webkit-box-pack: center;
+    display: block;
+    flex-basis: 0px;
+    flex-grow: 1;
+    -ms-flex-pack: center;
+    -ms-flex-positive: 1;
+    -ms-flex-preferred-size: 0;
+    justify-content: center;
+    max-width: 80%;
+    padding: 20px;
+  }
+  .image {
+    aspect-ratio: auto 760 / 546;
+    border-style: none;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: auto;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    vertical-align: middle;
+    width: 90%;
+  }
+}
+@media(max-width: 768px) {
+  .root {
+    background-image: none;
+    border: initial none;
+    border-color: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-image-slice: initial;
+    border-image-source: initial;
+    border-image-width: initial;
+    display: block;
+    min-height: 0px;
+  }
+  .container {
+    display: block;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+  .html-element,.container2 {
+    max-width: none;
+  }
+  .container3 {
+    max-width: 100%;
+  }
+  .image {
+    width: 100%;
+  }
+}

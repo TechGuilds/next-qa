@@ -4,10 +4,10 @@ import { KajooLayoutFactory } from 'lib/kajoo-layout-factory';
 
 import React from 'react'
 import { Container } from '@kajoo-ai/sitecore-nextjs'
-import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import { Helmet } from 'react-helmet'
 
+import MyFirstComp from '../components/MyFirstComp'
 import styles from './mypage.module.css'
 
 const MyPage = (props) => {
@@ -22,7 +22,7 @@ const MyPage = (props) => {
         <meta name="title" content />
         <link rel="canonical" href />
       </Helmet>
-      <Placeholder name rendering={props.layoutData.sitecore.route} />
+      <MyFirstComp rootClassName="root-class-name" />
     </Container>
   )
 }
