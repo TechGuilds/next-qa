@@ -1,2 +1,2 @@
 import './home';
-import './TypeScripttoZodSchema';
+import './mypage';
