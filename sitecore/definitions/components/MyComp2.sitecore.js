@@ -6,11 +6,17 @@ import {
 
 export default function (manifest) {
   manifest.addComponent({
-    name: 'Component',
-    displayName: 'Component',
+    name: 'MyComp2',
+    displayName: 'MyComp2',
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '',
-    fields: [],
+    fields: [
+      {
+        name: 'text',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Heading',
+      },
+    ],
   })
 }
