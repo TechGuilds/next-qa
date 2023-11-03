@@ -13,25 +13,30 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'fields.src',
+        name: 'src',
         type: CommonFieldTypes.Image,
         standardValue: '/icons/default-imag.svg',
       },
       {
-        name: 'fields.src1',
-        type: CommonFieldTypes.Image,
-        standardValue: '/icons/default-imag.svg',
+        name: 'alt',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'default-kajoo-imag',
       },
       {
-        name: 'fields.src2',
-        type: CommonFieldTypes.Image,
-        standardValue: '/icons/default-imag.svg',
-      },
-      {
-        name: 'fields.text',
+        name: 'text',
         type: CommonFieldTypes.SingleLineText,
         standardValue:
           'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air.',
+      },
+      {
+        name: 'src1',
+        type: CommonFieldTypes.Image,
+        standardValue: '/icons/default-imag.svg',
+      },
+      {
+        name: 'alt1',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'default-kajoo-imag',
       },
     ],
   })
