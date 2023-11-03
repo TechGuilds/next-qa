@@ -1,8 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, Image } from '@kajoo-ai/sitecore-nextjs'
-import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
+import { Container, Image, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -12,28 +11,24 @@ const BannerAndTwoImage = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
+        <Image
+          src="/icons/default-imag.svg"
+          alt="default-kajoo-imag"
+          className={` ${styles['image']} ${styles['image-default']} `}
+        />
         <Container className={styles['container1']}>
-          <Container className={styles['container2']}>
-            <Container className={` ${styles['container3']} ${styles['']} `} />
-            <Container className={styles['container4']}>
-              <Text
-                text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
-                tag="span"
-                className={` ${styles['text']} ${styles['paragraph-default']} `}
-              />
-              <Image
-                src="/icons/default-imag.svg"
-                alt="default-kajoo-imag"
-                className={` ${styles['image']} ${styles['image-default']} `}
-              />
-            </Container>
-            <Image
-              src="/icons/default-imag.svg"
-              alt="default-kajoo-imag"
-              className={` ${styles['image1']} ${styles['image-default']} `}
+          <Container className={` ${styles['container2']} ${styles['']} `}>
+            <Text
+              text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late. Betty fast plant ollie regular footed method air."
+              tag="span"
+              className={` ${styles['text']} ${styles['paragraph-default']} `}
             />
-            <Placeholder name="Placeholder" rendering />
           </Container>
+          <Image
+            src="/icons/default-imag.svg"
+            alt="default-kajoo-imag"
+            className={` ${styles['image1']} ${styles['image-default']} `}
+          />
         </Container>
       </Container>
     </Container>
