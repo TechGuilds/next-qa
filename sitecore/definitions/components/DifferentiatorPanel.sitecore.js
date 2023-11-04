@@ -9,7 +9,7 @@ export default function (manifest) {
     name: 'DifferentiatorPanel',
     displayName: 'DifferentiatorPanel',
     icon: SitecoreIcon.DocumentTag,
-    allowedPlaceholders: ['jss-main'],
+    allowedPlaceholders: ['jss-main', 'kajoo-main'],
     contentResolver: '',
     fields: [
       {

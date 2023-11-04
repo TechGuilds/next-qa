@@ -1,3 +1,2 @@
 import './home';
-import './mypage';
-import './amica2';
+import './Page1';

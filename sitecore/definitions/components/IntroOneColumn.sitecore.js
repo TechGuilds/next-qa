@@ -9,7 +9,7 @@ export default function (manifest) {
     name: 'IntroOneColumn',
     displayName: 'IntroOneColumn',
     icon: SitecoreIcon.DocumentTag,
-    allowedPlaceholders: ['jss-main'],
+    allowedPlaceholders: ['jss-main', 'kajoo-main'],
     contentResolver: '',
     fields: [
       {

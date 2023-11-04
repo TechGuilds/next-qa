@@ -1,0 +1,37 @@
+displayName: Page 1
+template: Page1
+placeholders:
+  kajoo-main:
+    - componentName: MainNavigation
+      displayName: MainNavigation
+      fields: {}
+    - componentName: HeroBanner
+      displayName: HeroBanner
+      fields: {}
+    - componentName: IntroOneColumn
+      displayName: Intro One Column
+      fields: {}
+    - componentName: DifferentiatorPanel
+      displayName: Differentiator Panel
+      fields: {}
+    - componentName: IntroOneColumn
+      displayName: Intro One Column
+      fields: {}
+    - componentName: ReverseDifferentiatorPanel
+      displayName: Reverse Differentiator Panel
+      fields: {}
+    - componentName: BackgroundDifferentiatorPanel
+      displayName: Background Differentiator Panel
+      fields: {}
+    - componentName: ReverseDifferentiatorPanel
+      displayName: Reverse Differentiator Panel
+      fields: {}
+    - componentName: BackgroundDifferentiatorPanel
+      displayName: Background Differentiator Panel
+      fields: {}
+    - componentName: ReverseDifferentiatorPanel
+      displayName: Reverse Differentiator Panel
+      fields: {}
+    - componentName: CorporateFooter
+      displayName: CorporateFooter
+      fields: {}

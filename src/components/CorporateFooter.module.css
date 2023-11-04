@@ -290,6 +290,9 @@
 }
 .html-element08 {
   border: none;
+  border-bottom-color: initial;
+  border-bottom-style: none;
+  border-bottom-width: initial;
   border-image-outset: initial;
   border-image-repeat: initial;
   border-image-slice: initial;
@@ -512,6 +515,9 @@
 }
 .html-element20 {
   border: none;
+  border-bottom-color: initial;
+  border-bottom-style: none;
+  border-bottom-width: initial;
   border-image-outset: initial;
   border-image-repeat: initial;
   border-image-slice: initial;
@@ -1121,6 +1127,9 @@
   }
   .html-element08 {
     border: none;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
     border-image-outset: initial;
     border-image-repeat: initial;
     border-image-slice: initial;
@@ -1264,6 +1273,9 @@
   }
   .html-element20 {
     border: none;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
     border-image-outset: initial;
     border-image-repeat: initial;
     border-image-slice: initial;

@@ -9,7 +9,7 @@ export default function (manifest) {
     name: 'ReverseDifferentiatorPanel',
     displayName: 'ReverseDifferentiatorPanel',
     icon: SitecoreIcon.DocumentTag,
-    allowedPlaceholders: ['jss-main'],
+    allowedPlaceholders: ['jss-main', 'kajoo-main'],
     contentResolver: '',
     fields: [
       {

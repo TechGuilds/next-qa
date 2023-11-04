@@ -18,7 +18,7 @@ const SearchBox = (props) => {
       <input
         name="__RequestVerificationToken"
         type="hidden"
-        value="iR-ZXrzu0Vq3zSfusgq8TJ30YyNu0s5PbL-zorzCBmJJQtUDHSwqzYSyC8HmG7i5bxiWrKiSAqljijVniglaOk7qcLrDzKTBmzUOt9nRzKs1"
+        value="eYUHIEFnQ1hyCOIlGuXEX1M_-Ox0S-rG_Tn-1FEzXL4iVf9KYwwkrrRbW27-p88VcMkRPC8bhReIlGE-IBQ4DlJwUjMT5bisgUgcKPoj9xg1"
         className={styles['html-element']}
       />
       <input
