@@ -1,7 +1,8 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Image, Text, RichText } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Image, Link, RichText } from '@kajoo-ai/sitecore-nextjs'
+import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -39,23 +40,23 @@ const HeroBanner = (props) => {
       </picture>
       <Container tag="div" className={styles['container']} />
       <Container tag="div" className={styles['container1']}>
-        <a
-          aria-label="Find A Residence"
-          href="/find-a-residence"
-          onclick="location.href='/Amica/CTA/CTAClick/CallToActionClick?itemId=751A1BFE3776428585B675F8C0C4D291'"
-          className={styles['html-element4']}
-        >
-          <Text tag="span" text={props.fields.text} />
-        </a>
+        <Placeholder className={styles['sitecore-placeholder']} />
       </Container>
-      <a
-        href="#"
+      <Link
+        tag="a"
+        href={props.fields.href}
         aria-hidden="true"
         aria-label="Scroll down"
-        className={styles['html-element5']}
+        className={styles['link']}
       >
-        <RichText value={props.fields.value} />
-      </a>
+        <RichText
+          tag="svg"
+          width="41"
+          height="21"
+          xmlns="http://www.w3.org/2000/svg"
+          className={styles['richtext']}
+        />
+      </Link>
     </Container>
   )
 }
@@ -63,9 +64,9 @@ const HeroBanner = (props) => {
 HeroBanner.defaultProps = {
   fields: {
     src: 'https://amica.kajoo.ca/-/media/5980ce8a38934b0fb03bd863311025b4.ashx?db=web&la=en&vs=1&ts=20230913t1600563576',
-    text: 'Find A Residence',
-    value:
-      '<svg width="41" height="21" xmlns="http://www.w3.org/2000/svg"><path d="M40.094 0L20.5 19.222.906 0 0 .889 20.5 21 41 .889z"></path></svg>',
+    name: '/main/herobanner-cta',
+    href: '#',
+    text: '',
   },
   rootClassName: '',
 }

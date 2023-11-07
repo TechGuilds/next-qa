@@ -38,44 +38,45 @@ export default function (manifest) {
         standardValue: '(416) 487-2020',
       },
       {
-        name: 'text5',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Book a Tour',
+        name: 'href',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='https://www.amica.ca/amica-difference/about-amica' anchor='' target=''/>",
       },
       {
-        name: 'text6',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Get In Touch',
+        name: 'href1',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='https://www.amica.ca/careers' anchor='' target=''/>",
       },
       {
-        name: 'text7',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'ABOUT AMICA',
+        name: 'href2',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='https://www.amica.ca/healthcare-professionals' anchor='' target=''/>",
       },
       {
-        name: 'text8',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'CAREERS',
+        name: 'href3',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='https://www.amica.ca/helping-hands-charity' anchor='' target=''/>",
       },
       {
-        name: 'text9',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'HEALTHCARE PROFESSIONALS',
+        name: 'href4',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='https://www.amica.ca/press' anchor='' target=''/>",
       },
       {
         name: 'text10',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'HELPING HANDS CHARITY',
-      },
-      {
-        name: 'text11',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Press',
-      },
-      {
-        name: 'text12',
-        type: CommonFieldTypes.SingleLineText,
         standardValue: 'Follow Us',
+      },
+      {
+        name: 'href5',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='https://www.facebook.com/AmicaSeniorLifestyles/' anchor='' target=''/>",
       },
       {
         name: 'src',
@@ -89,6 +90,12 @@ export default function (manifest) {
         standardValue: 'Facebook',
       },
       {
+        name: 'href6',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='https://www.linkedin.com/company/amica-senior-lifestyles/' anchor='' target=''/>",
+      },
+      {
         name: 'src1',
         type: CommonFieldTypes.Image,
         standardValue:
@@ -98,6 +105,12 @@ export default function (manifest) {
         name: 'alt1',
         type: CommonFieldTypes.SingleLineText,
         standardValue: 'Linkedin',
+      },
+      {
+        name: 'href7',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='https://www.instagram.com/amicaseniorlifestyles/' anchor='' target=''/>",
       },
       {
         name: 'src2',
@@ -110,6 +123,12 @@ export default function (manifest) {
         type: CommonFieldTypes.SingleLineText,
       },
       {
+        name: 'href8',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='https://www.youtube.com/channel/UCXyqMibqd9ppUjdR_OzH2AQ/featured' anchor='' target=''/>",
+      },
+      {
         name: 'src3',
         type: CommonFieldTypes.Image,
         standardValue:
@@ -118,6 +137,12 @@ export default function (manifest) {
       {
         name: 'alt3',
         type: CommonFieldTypes.SingleLineText,
+      },
+      {
+        name: 'href9',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='https://www.pinterest.ca/AmicaSeniorLifestyles/_created/' anchor='' target=''/>",
       },
       {
         name: 'src4',
@@ -130,22 +155,25 @@ export default function (manifest) {
         type: CommonFieldTypes.SingleLineText,
       },
       {
-        name: 'text13',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Accessibility Policy',
+        name: 'href10',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='https://www.amica.ca/accessibility-policy' anchor='' target=''/>",
       },
       {
-        name: 'text14',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Privacy Policy',
+        name: 'href11',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='https://www.amica.ca/privacy-policy' anchor='' target=''/>",
       },
       {
-        name: 'text15',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Terms of Use',
+        name: 'href12',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='https://www.amica.ca/terms-of-use' anchor='' target=''/>",
       },
       {
-        name: 'text16',
+        name: 'text19',
         type: CommonFieldTypes.SingleLineText,
         standardValue:
           '\n                © Amica Senior Lifestyles 2023\n            ',

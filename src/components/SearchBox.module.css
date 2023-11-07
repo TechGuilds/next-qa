@@ -46,7 +46,7 @@
   outline-style: auto;
   outline-width: 1px;
 }
-.html-element01 {
+.html-element1 {
   appearance: none;
   background-color: initial;
   border: initial;
@@ -77,7 +77,7 @@
   word-spacing: normal;
   writing-mode: horizontal-tb !important;
 }
-.html-element01:focus-visible {
+.html-element1:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-offset: 0px;
   outline-style: auto;
@@ -94,7 +94,7 @@
   outline-style: auto;
   outline-width: 1px;
 }
-.html-element02 {
+.html-element2 {
   align-items: flex-start;
   -webkit-appearance: button;
   appearance: button;
@@ -144,20 +144,36 @@
   transition-timing-function: ease-in-out;
   word-spacing: normal;
 }
-.html-element02:hover {
+.html-element2:hover {
   opacity: 0.24;
 }
-.html-element02:focus {
+.html-element2:focus {
   -webkit-box-shadow: 0 0 0 4px rgba(88,122,141,.25);
   box-shadow: rgba(88, 122, 141, 0.25) 0px 0px 0px 4px;
   outline-color: initial;
   outline-style: initial;
   outline-width: 0px;
 }
-.html-element02:focus-visible {
+.html-element2:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 1px;
+}
+.richtext {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  fill: currentcolor;
+  height: 25;
+  overflow-clip-margin: content-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 25;
+}
+.richtext:focus {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 5px;
 }
 .container1 {
   align-items: center;
@@ -205,7 +221,7 @@
   outline-style: auto;
   outline-width: 1px;
 }
-.html-element03 {
+.html-element3 {
   align-items: flex-start;
   -webkit-appearance: button;
   appearance: button;
@@ -258,20 +274,36 @@
   transition-timing-function: ease-in-out;
   word-spacing: normal;
 }
-.html-element03:hover {
+.html-element3:hover {
   opacity: 0.24;
 }
-.html-element03:focus {
+.html-element3:focus {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 5px;
 }
-.html-element03:focus-visible {
+.html-element3:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 1px;
 }
-.html-element04 {
+.richtext1 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  fill: currentcolor;
+  height: 42px;
+  overflow-clip-margin: content-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 42px;
+}
+.richtext1:focus {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 5px;
+}
+.text {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   cursor: default;
@@ -283,7 +315,7 @@
   margin-bottom: 1em;
   text-transform: uppercase;
 }
-.html-element04:focus-visible {
+.text:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 1px;
@@ -307,7 +339,7 @@
   outline-style: auto;
   outline-width: 1px;
 }
-.html-element05 {
+.html-element4 {
   appearance: auto;
   background-clip: padding-box;
   background-color: transparent;
@@ -356,7 +388,7 @@
   word-spacing: normal;
   writing-mode: horizontal-tb !important;
 }
-.html-element05:focus {
+.html-element4:focus {
   -webkit-box-shadow: 0 0 0 0 rgba(88,122,141,.25);
   box-shadow: rgba(88, 122, 141, 0.25) 0px 0px 0px 0px;
   outline-color: initial;
@@ -364,17 +396,17 @@
   outline-width: 0px;
   z-index: 3;
 }
-.html-element05:focus-visible {
+.html-element4:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-offset: 0px;
   outline-style: auto;
   outline-width: 1px;
 }
-.html-element06 {
+.html-element5 {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-.html-element06:focus-visible {
+.html-element5:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 1px;
@@ -390,7 +422,7 @@
   outline-style: auto;
   outline-width: 1px;
 }
-.html-element07 {
+.html-element6 {
   align-items: flex-start;
   -webkit-appearance: button;
   appearance: button;
@@ -451,13 +483,13 @@
   word-spacing: normal;
   z-index: 2;
 }
-.html-element07:hover {
+.html-element6:hover {
   text-decoration-color: initial;
   text-decoration-line: none;
   text-decoration-style: initial;
   text-decoration-thickness: initial;
 }
-.html-element07:focus {
+.html-element6:focus {
   -webkit-box-shadow: 0 0 0 .2rem rgba(88,122,141,.25);
   box-shadow: rgba(88, 122, 141, 0.25) 0px 0px 0px 0.2rem;
   outline-color: initial;
@@ -468,12 +500,31 @@
   text-decoration-style: initial;
   text-decoration-thickness: initial;
 }
-.html-element07:focus-visible {
+.html-element6:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 1px;
 }
-.html-element08 {
+.richtext2 {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  fill: currentcolor;
+  height: 25;
+  margin-right: 0.5em;
+  margin-top: -0.1em;
+  overflow-clip-margin: content-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  vertical-align: middle;
+  width: 25;
+}
+.richtext2:focus {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 5px;
+}
+.html-element7 {
   appearance: none;
   background-color: initial;
   border: initial;
@@ -504,13 +555,13 @@
   word-spacing: normal;
   writing-mode: horizontal-tb !important;
 }
-.html-element08:focus-visible {
+.html-element7:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-offset: 0px;
   outline-style: auto;
   outline-width: 1px;
 }
-.html-element09 {
+.html-element8 {
   align-items: flex-start;
   -webkit-appearance: button;
   appearance: button;
@@ -568,7 +619,7 @@
   white-space-collapse: collapse;
   word-spacing: normal;
 }
-.html-element09:hover {
+.html-element8:hover {
   background-color: rgb(88, 122, 141);
   color: rgb(255, 255, 255);
   text-decoration-color: initial;
@@ -576,7 +627,7 @@
   text-decoration-style: initial;
   text-decoration-thickness: initial;
 }
-.html-element09:focus {
+.html-element8:focus {
   -webkit-box-shadow: 0 0 0 .2rem rgba(88,122,141,.5);
   box-shadow: rgba(88, 122, 141, 0.5) 0px 0px 0px 0.2rem;
   outline-color: initial;
@@ -587,7 +638,7 @@
   text-decoration-style: initial;
   text-decoration-thickness: initial;
 }
-.html-element09:focus-visible {
+.html-element8:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 1px;
@@ -599,7 +650,7 @@
     display: block;
     margin-top: 0em;
   }
-  .html-element,.html-element01 {
+  .html-element,.html-element1 {
     appearance: none;
     background-color: initial;
     border: initial;
@@ -628,7 +679,7 @@
     word-spacing: normal;
     writing-mode: horizontal-tb !important;
   }
-  .html-element,.html-element01,.container {
+  .html-element,.html-element1,.container {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
@@ -636,7 +687,7 @@
     display: block;
     padding: 30px 15px 10px;
   }
-  .html-element02 {
+  .html-element2 {
     align-items: flex-start;
     -webkit-appearance: button;
     appearance: button;
@@ -686,6 +737,19 @@
     transition-timing-function: ease-in-out;
     word-spacing: normal;
   }
+  .richtext {
+    display: inline-block;
+    fill: currentcolor;
+    height: 25;
+    overflow-clip-margin: content-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 25;
+  }
+  .richtext,.container1 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
   .container1 {
     align-items: center;
     background-attachment: initial;
@@ -720,9 +784,7 @@
     top: 0px;
     z-index: 1050;
   }
-  .container1,.html-element03 {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+  .container1,.html-element3 {
     padding-bottom: 0px;
     padding-top: 0px;
     text-align: center;
@@ -732,7 +794,7 @@
     transition-property: all;
     transition-timing-function: ease-in-out;
   }
-  .html-element03 {
+  .html-element3 {
     align-items: flex-start;
     -webkit-appearance: button;
     appearance: button;
@@ -759,7 +821,6 @@
     border-top-right-radius: 0px;
     color: inherit;
     cursor: pointer;
-    display: inline-block;
     font-family: inherit;
     font-size: inherit;
     letter-spacing: normal;
@@ -778,7 +839,22 @@
     top: 15px;
     word-spacing: normal;
   }
-  .html-element04 {
+  .html-element3,.richtext1 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+  }
+  .richtext1 {
+    fill: currentcolor;
+    height: 42px;
+    overflow-clip-margin: content-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 42px;
+  }
+  .text {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     cursor: default;
     display: inline-block;
     font-family: Amiri, serif;
@@ -787,10 +863,6 @@
     line-height: 1.2;
     margin-bottom: 1em;
     text-transform: uppercase;
-  }
-  .html-element04,.container2 {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
   }
   .container2 {
     align-items: stretch;
@@ -804,12 +876,14 @@
     max-width: 450px;
     width: 100%;
   }
-  .container2,.html-element05 {
+  .container2,.html-element4 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     margin-left: 0px;
     margin-right: 0px;
     position: relative;
   }
-  .html-element05 {
+  .html-element4 {
     appearance: auto;
     background-clip: padding-box;
     background-color: transparent;
@@ -856,7 +930,7 @@
     word-spacing: normal;
     writing-mode: horizontal-tb !important;
   }
-  .html-element05,.html-element06,.container3 {
+  .html-element5,.container3 {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
@@ -864,7 +938,7 @@
     display: flex;
     margin-left: -1px;
   }
-  .html-element07 {
+  .html-element6 {
     align-items: flex-start;
     -webkit-appearance: button;
     appearance: button;
@@ -891,14 +965,21 @@
     border-top-right-radius: 0px;
     color: inherit;
     cursor: pointer;
-    display: inline-block;
+    font-family: inherit;
     font-size: 0.875rem;
     font-weight: 400;
+    letter-spacing: normal;
     line-height: 1.5;
+    margin: 0px;
     min-width: 0px;
+    overflow-x: visible;
+    overflow-y: visible;
     padding: 0.75rem;
     position: relative;
     text-align: center;
+    text-indent: 0px;
+    text-rendering: auto;
+    text-shadow: none;
     text-transform: uppercase;
     text-wrap: nowrap;
     -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
@@ -910,24 +991,27 @@
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-    vertical-align: middle;
     white-space-collapse: collapse;
+    word-spacing: normal;
     z-index: 2;
   }
-  .html-element07,.html-element08 {
+  .html-element6,.richtext2 {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    font-family: inherit;
-    letter-spacing: normal;
-    margin: 0px;
-    overflow-x: visible;
-    overflow-y: visible;
-    text-indent: 0px;
-    text-rendering: auto;
-    text-shadow: none;
-    word-spacing: normal;
+    display: inline-block;
+    vertical-align: middle;
   }
-  .html-element08 {
+  .richtext2 {
+    fill: currentcolor;
+    height: 25;
+    margin-right: 0.5em;
+    margin-top: -0.1em;
+    overflow-clip-margin: content-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 25;
+  }
+  .html-element7 {
     appearance: none;
     background-color: initial;
     border: initial;
@@ -947,7 +1031,20 @@
     text-transform: none;
     writing-mode: horizontal-tb !important;
   }
-  .html-element09 {
+  .html-element7,.html-element8 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: inherit;
+    letter-spacing: normal;
+    margin: 0px;
+    overflow-x: visible;
+    overflow-y: visible;
+    text-indent: 0px;
+    text-rendering: auto;
+    text-shadow: none;
+    word-spacing: normal;
+  }
+  .html-element8 {
     align-items: flex-start;
     -webkit-appearance: button;
     appearance: button;
@@ -971,25 +1068,15 @@
     border-image-width: initial;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
     color: rgb(88, 122, 141);
     cursor: pointer;
     display: inline-block;
-    font-family: inherit;
     font-size: 0.875rem;
     font-weight: 400;
-    letter-spacing: normal;
     line-height: 1.5;
-    margin: 0px;
     min-width: 250px;
-    overflow-x: visible;
-    overflow-y: visible;
     padding: 0.75rem;
     text-align: center;
-    text-indent: 0px;
-    text-rendering: auto;
-    text-shadow: none;
     text-transform: uppercase;
     text-wrap: nowrap;
     -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
@@ -1003,21 +1090,20 @@
     user-select: none;
     vertical-align: middle;
     white-space-collapse: collapse;
-    word-spacing: normal;
   }
 }
 @media(max-width: 1199px) {
   .container {
     padding: unset;
   }
-  .html-element02 {
+  .html-element2 {
     left: auto;
     padding-top: 5px;
     position: absolute;
     right: 75px;
     top: 50px;
   }
-  .html-element02,.html-element03 {
+  .html-element2,.html-element3 {
     -webkit-transition: unset;
     transition-delay: unset;
     transition-duration: unset;
@@ -1026,7 +1112,7 @@
   }
 }
 @media(max-width: 575px) {
-  .html-element02 {
+  .html-element2 {
     top: 30px;
   }
 }

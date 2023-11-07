@@ -18,15 +18,10 @@ export default function (manifest) {
         standardValue: 'Webinars for seniors',
       },
       {
-        name: 'value',
-        type: CommonFieldTypes.RichText,
-        standardValue:
-          '<div data-kajoo-element-type="rich-text">\nGet expert&nbsp;tips and ideas for better sleep, enhanced memory, managing stress, downsizing and more in our new online workshops.\n</div>',
-      },
-      {
         name: 'text1',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Watch Now',
+        standardValue:
+          '\nGet expert tips and ideas for better sleep, enhanced memory, managing stress, downsizing and more in our new online workshops.\n',
       },
       {
         name: 'src',

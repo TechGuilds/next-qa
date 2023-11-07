@@ -1,7 +1,8 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, RichText, Image } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Text, Image } from '@kajoo-ai/sitecore-nextjs'
+import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -18,22 +19,19 @@ const BackgroundDifferentiatorPanel = (props) => {
     >
       <Container tag="div" className={styles['container']}>
         <Container tag="div" className={styles['container1']}>
-          <h2 className={styles['html-element']}>
-            <Text tag="span" text={props.fields.text} />
-          </h2>
+          <Text tag="h2" text={props.fields.text} className={styles['text']} />
           <Container tag="div" className={styles['container2']}>
-            <RichText value={props.fields.value} />
+            <Container
+              tag="div"
+              data-kajoo-element-type="rich-text"
+              className={styles['container3']}
+            >
+              <Text tag="span" text={props.fields.text1} />
+            </Container>
           </Container>
-          <a
-            aria-label="Watch Now"
-            href="https://www.amica.ca/webinars"
-            onclick="location.href='/Amica/CTA/CTAClick/CallToActionClick?itemId=158084143B994ED6A92B184B0E829637'"
-            className={styles['html-element1']}
-          >
-            <Text tag="span" text={props.fields.text1} />
-          </a>
+          <Placeholder className={styles['sitecore-placeholder']} />
         </Container>
-        <Container tag="div" className={styles['container3']} />
+        <Container tag="div" className={styles['container4']} />
         <Image
           tag="img"
           src={props.fields.src}
@@ -48,9 +46,9 @@ const BackgroundDifferentiatorPanel = (props) => {
 BackgroundDifferentiatorPanel.defaultProps = {
   fields: {
     text: 'Webinars for seniors',
-    value:
-      '<div data-kajoo-element-type="rich-text">\nGet expert&nbsp;tips and ideas for better sleep, enhanced memory, managing stress, downsizing and more in our new online workshops.\n</div>',
-    text1: 'Watch Now',
+    text1:
+      '\nGet expert tips and ideas for better sleep, enhanced memory, managing stress, downsizing and more in our new online workshops.\n',
+    name: '/main/phCTA-{C9075793-9240-458E-B224-6B457A050037}-0',
     src: 'https://amica.kajoo.ca/-/media/310bbf8c62b247f49ee51e2d1f068582.ashx?db=master&la=en&vs=1&ts=20230913t1633522702',
     alt: 'Webinars for seniors',
   },

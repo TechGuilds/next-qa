@@ -13,6 +13,12 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
+        name: 'href',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='/' anchor='' target=''/>",
+      },
+      {
         name: 'src',
         type: CommonFieldTypes.Image,
         standardValue:
@@ -24,29 +30,38 @@ export default function (manifest) {
         standardValue: 'Amica',
       },
       {
-        name: 'text',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Amica Conversations',
-      },
-      {
         name: 'text1',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Amica Difference',
       },
       {
-        name: 'text2',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Find a Residence',
+        name: 'href1',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='/amica-conversations' anchor='' target=''/>",
       },
       {
-        name: 'text3',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Tools & Resources',
+        name: 'href2',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='/amica-difference' anchor='' target=''/>",
       },
       {
-        name: 'text4',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Book a Tour',
+        name: 'href3',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='/find-a-residence' anchor='' target=''/>",
+      },
+      {
+        name: 'href4',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='/tools-and-resources' anchor='' target=''/>",
+      },
+      {
+        name: 'href5',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='undefined' linktype='external' url='/book-a-visit' anchor='' target=''/>",
       },
     ],
   })

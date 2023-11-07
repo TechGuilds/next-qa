@@ -1,7 +1,8 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, RichText, Image } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Text, Image } from '@kajoo-ai/sitecore-nextjs'
+import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -18,28 +19,25 @@ const ReverseDifferentiatorPanel = (props) => {
     >
       <Container tag="div" className={styles['container']}>
         <Container tag="div" className={styles['container1']}>
-          <h2 className={styles['html-element']}>
-            <Text tag="span" text={props.fields.text} />
-          </h2>
+          <Text tag="h2" text={props.fields.text} className={styles['text']} />
           <Container tag="div" className={styles['container2']}>
-            <RichText value={props.fields.value} />
+            <Container
+              tag="div"
+              data-kajoo-element-type="richtext"
+              className={styles['container3']}
+            >
+              <Text tag="span" text={props.fields.text1} />
+            </Container>
           </Container>
-          <a
-            aria-label="Lend A Helping Hand"
-            href="https://www.amica.ca/helping-hands-charity"
-            onclick="location.href='/Amica/CTA/CTAClick/CallToActionClick?itemId=BD6DEED5CE164E73A3F2ED14D179F8F5'"
-            className={styles['html-element1']}
-          >
-            <Text tag="span" text={props.fields.text1} />
-          </a>
+          <Placeholder className={styles['sitecore-placeholder']} />
         </Container>
-        <Container tag="div" className={styles['container3']}>
+        <Container tag="div" className={styles['container4']}>
           <Image
             tag="img"
             src={props.fields.src}
             alt={props.fields.alt}
             width="760"
-            height="546"
+            height="507"
             className={styles['image']}
           />
         </Container>
@@ -50,12 +48,12 @@ const ReverseDifferentiatorPanel = (props) => {
 
 ReverseDifferentiatorPanel.defaultProps = {
   fields: {
-    text: 'Giving back to the community',
-    value:
-      '<div data-kajoo-element-type="rich-text">\n<span>Through Amica Helping Hands, our registered Canadian charity, residents have the opportunity to volunteer with us in support of seniors in need.</span>\n</div>',
-    text1: 'Lend A Helping Hand',
-    src: 'https://amica.kajoo.ca/-/media/amica/differentiator_panel_desktop-760x546_helphands_new.jpg?h=546&la=en&w=760&hash=A35A07140ACE7DD6339C32015308EF32390C19E0',
-    alt: 'hands',
+    text: 'Personalizing your care, prioritizing your wellness',
+    text1:
+      ' Care that is considerate, respectful and personalized to your wishes and schedule — that’s what you can expect from our highly trained professional wellness teams. We get to know your needs and routines to provide exceptional, experienced support based on your preferences in the privacy of your suite. And if your needs or preferences change, so will our care.',
+    name: '/main/phCTA-{11C3536F-EFC0-4B1F-A0F1-116F2E11B4F3}-0',
+    src: 'https://amica.kajoo.ca/-/media/amica/differentiator_panel_desktop-amica_dressing_cam2_0143.jpg?h=507&la=en&w=760&hash=16A696C3C375CA7B0D34FFA9439116756A477AD9',
+    alt: 'Dressing',
   },
   rootClassName: '',
 }

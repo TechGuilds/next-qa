@@ -1,7 +1,8 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, Image } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Text, Link, Image } from '@kajoo-ai/sitecore-nextjs'
+import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -16,98 +17,81 @@ const CorporateFooter = (props) => {
       <Container tag="div" className={styles['container']}>
         <Container tag="div" className={styles['container1']}>
           <Container tag="div" className={styles['container2']}>
-            <h2 className={styles['html-element']}>
-              <Text tag="span" text={props.fields.text} />
-            </h2>
-            <p className={styles['html-element01']}>
+            <Text
+              tag="h2"
+              text={props.fields.text}
+              className={styles['text']}
+            />
+            <p className={styles['html-element']}>
               <Text tag="span" text={props.fields.text1} />
-              <br className={styles['html-element02']} />
+              <br className={styles['html-element01']} />
               <Text tag="span" text={props.fields.text2} />
-              <br className={styles['html-element03']} />
+              <br className={styles['html-element02']} />
               <Text tag="span" text={props.fields.text3} />
-              <br className={styles['html-element04']} />
-              <span className={styles['html-element05']}>
-                <Text tag="span" text={props.fields.text4} />
-              </span>
+              <br className={styles['html-element03']} />
+              <Text
+                tag="span"
+                text={props.fields.text4}
+                className={styles['text4']}
+              />
             </p>
           </Container>
           <Container tag="div" className={styles['container3']}>
-            <a
-              aria-label="Book a Tour"
-              href="https://www.amica.ca/book-a-visit"
-              onclick="location.href='/Amica/CTA/CTAClick/CallToActionClick?itemId=B0A15FB413C74C45AACA10CEC578BE4E'"
-              className={styles['html-element06']}
-            >
-              <Text tag="span" text={props.fields.text5} />
-            </a>
-            <a
-              aria-label="Get In Touch"
-              href="https://www.amica.ca/get-in-touch"
-              onclick="location.href='/Amica/CTA/CTAClick/CallToActionClick?itemId=71B40F001FEA4F95B084C923967C339E'"
-              className={styles['html-element07']}
-            >
-              <Text tag="span" text={props.fields.text6} />
-            </a>
+            <Placeholder className={styles['sitecore-placeholder']} />
+            <Placeholder className={styles['sitecore-placeholder1']} />
           </Container>
-          <hr className={styles['html-element08']} />
-          <ul className={styles['html-element09']}>
+          <hr className={styles['html-element04']} />
+          <ul className={styles['html-element05']}>
+            <li className={styles['html-element06']}>
+              <Link
+                tag="a"
+                href={props.fields.href}
+                className={styles['link']}
+              />
+            </li>
+            <li className={styles['html-element07']}>
+              <Link
+                tag="a"
+                href={props.fields.href1}
+                className={styles['link01']}
+              />
+            </li>
+            <li className={styles['html-element08']}>
+              <Link
+                tag="a"
+                href={props.fields.href2}
+                className={styles['link02']}
+              />
+            </li>
+            <li className={styles['html-element09']}>
+              <Link
+                tag="a"
+                href={props.fields.href3}
+                className={styles['link03']}
+              />
+            </li>
             <li className={styles['html-element10']}>
-              <a
-                href="https://www.amica.ca/amica-difference/about-amica"
-                target
-                className={styles['html-element11']}
-              >
-                <Text tag="span" text={props.fields.text7} />
-              </a>
-            </li>
-            <li className={styles['html-element12']}>
-              <a
-                href="https://www.amica.ca/careers"
-                target
-                className={styles['html-element13']}
-              >
-                <Text tag="span" text={props.fields.text8} />
-              </a>
-            </li>
-            <li className={styles['html-element14']}>
-              <a
-                href="https://www.amica.ca/healthcare-professionals"
-                target
-                className={styles['html-element15']}
-              >
-                <Text tag="span" text={props.fields.text9} />
-              </a>
-            </li>
-            <li className={styles['html-element16']}>
-              <a
-                href="https://www.amica.ca/helping-hands-charity"
-                target
-                className={styles['html-element17']}
-              >
-                <Text tag="span" text={props.fields.text10} />
-              </a>
-            </li>
-            <li className={styles['html-element18']}>
-              <a
-                href="https://www.amica.ca/press"
-                target
-                className={styles['html-element19']}
-              >
-                <Text tag="span" text={props.fields.text11} />
-              </a>
+              <Link
+                tag="a"
+                href={props.fields.href4}
+                className={styles['link04']}
+              />
             </li>
           </ul>
-          <hr className={styles['html-element20']} />
+          <hr className={styles['html-element11']} />
           <Container tag="div" className={styles['container4']}>
-            <h2 className={styles['html-element21']}>
-              <Text tag="span" text={props.fields.text12} />
-            </h2>
+            <Text
+              tag="h2"
+              text={props.fields.text10}
+              className={styles['text5']}
+            />
             <Container tag="div" className={styles['container5']}>
               <Container tag="div" className={styles['container6']}>
-                <a
+                <Link
+                  tag="a"
                   id="facebook"
-                  href="https://www.facebook.com/AmicaSeniorLifestyles/"
-                  className={styles['html-element22']}
+                  href={props.fields.href5}
+                  className={styles['link05']}
                 >
                   <Image
                     tag="img"
@@ -117,11 +101,12 @@ const CorporateFooter = (props) => {
                     width="25"
                     className={styles['image']}
                   />
-                </a>
-                <a
+                </Link>
+                <Link
+                  tag="a"
                   id="linkedin"
-                  href="https://www.linkedin.com/company/amica-senior-lifestyles/"
-                  className={styles['html-element23']}
+                  href={props.fields.href6}
+                  className={styles['link06']}
                 >
                   <Image
                     tag="img"
@@ -131,11 +116,12 @@ const CorporateFooter = (props) => {
                     width="25"
                     className={styles['image1']}
                   />
-                </a>
-                <a
+                </Link>
+                <Link
+                  tag="a"
                   id="instagram"
-                  href="https://www.instagram.com/amicaseniorlifestyles/"
-                  className={styles['html-element24']}
+                  href={props.fields.href7}
+                  className={styles['link07']}
                 >
                   <Image
                     tag="img"
@@ -145,11 +131,12 @@ const CorporateFooter = (props) => {
                     width="25"
                     className={styles['image2']}
                   />
-                </a>
-                <a
+                </Link>
+                <Link
+                  tag="a"
                   id="youtube"
-                  href="https://www.youtube.com/channel/UCXyqMibqd9ppUjdR_OzH2AQ/featured"
-                  className={styles['html-element25']}
+                  href={props.fields.href8}
+                  className={styles['link08']}
                 >
                   <Image
                     tag="img"
@@ -159,11 +146,12 @@ const CorporateFooter = (props) => {
                     width="25"
                     className={styles['image3']}
                   />
-                </a>
-                <a
+                </Link>
+                <Link
+                  tag="a"
                   id="pinterest"
-                  href="https://www.pinterest.ca/AmicaSeniorLifestyles/_created/"
-                  className={styles['html-element26']}
+                  href={props.fields.href9}
+                  className={styles['link09']}
                 >
                   <Image
                     tag="img"
@@ -173,7 +161,7 @@ const CorporateFooter = (props) => {
                     width="25"
                     className={styles['image4']}
                   />
-                </a>
+                </Link>
               </Container>
             </Container>
           </Container>
@@ -181,38 +169,34 @@ const CorporateFooter = (props) => {
       </Container>
       <Container tag="div" className={styles['container7']}>
         <Container tag="div" className={styles['container8']}>
-          <ul className={styles['html-element27']}>
-            <li className={styles['html-element28']}>
-              <a
-                href="https://www.amica.ca/accessibility-policy"
-                target
-                className={styles['html-element29']}
-              >
-                <Text tag="span" text={props.fields.text13} />
-              </a>
+          <ul className={styles['html-element12']}>
+            <li className={styles['html-element13']}>
+              <Link
+                tag="a"
+                href={props.fields.href10}
+                className={styles['link10']}
+              />
             </li>
-            <li className={styles['html-element30']}>
-              <a
-                href="https://www.amica.ca/privacy-policy"
-                target
-                className={styles['html-element31']}
-              >
-                <Text tag="span" text={props.fields.text14} />
-              </a>
+            <li className={styles['html-element14']}>
+              <Link
+                tag="a"
+                href={props.fields.href11}
+                className={styles['link11']}
+              />
             </li>
-            <li className={styles['html-element32']}>
-              <a
-                href="https://www.amica.ca/terms-of-use"
-                target
-                className={styles['html-element33']}
-              >
-                <Text tag="span" text={props.fields.text15} />
-              </a>
+            <li className={styles['html-element15']}>
+              <Link
+                tag="a"
+                href={props.fields.href12}
+                className={styles['link12']}
+              />
             </li>
           </ul>
-          <p className={styles['html-element34']}>
-            <Text tag="span" text={props.fields.text16} />
-          </p>
+          <Text
+            tag="p"
+            text={props.fields.text19}
+            className={styles['text6']}
+          />
         </Container>
       </Container>
     </Container>
@@ -226,28 +210,46 @@ CorporateFooter.defaultProps = {
     text2: 'Toronto, ON',
     text3: 'M5H 3R3',
     text4: '(416) 487-2020',
-    text5: 'Book a Tour',
-    text6: 'Get In Touch',
-    text7: 'ABOUT AMICA',
-    text8: 'CAREERS',
-    text9: 'HEALTHCARE PROFESSIONALS',
-    text10: 'HELPING HANDS CHARITY',
-    text11: 'Press',
-    text12: 'Follow Us',
+    name: '/main/phCTA-{BD945FD4-9BAA-4BD9-AC81-DC1C0177D725}-0',
+    name1: '/main/phCTA-{BD945FD4-9BAA-4BD9-AC81-DC1C0177D725}-0',
+    href: 'https://www.amica.ca/amica-difference/about-amica',
+    text5: 'ABOUT AMICA',
+    href1: 'https://www.amica.ca/careers',
+    text6: 'CAREERS',
+    href2: 'https://www.amica.ca/healthcare-professionals',
+    text7: 'HEALTHCARE PROFESSIONALS',
+    href3: 'https://www.amica.ca/helping-hands-charity',
+    text8: 'HELPING HANDS CHARITY',
+    href4: 'https://www.amica.ca/press',
+    text9: 'Press',
+    text10: 'Follow Us',
+    href5: 'https://www.facebook.com/AmicaSeniorLifestyles/',
+    text11: '',
     src: 'https://amica.kajoo.ca/-/media/0fe2da91a6404d78a74157f83698153d.ashx?db=master&la=en&vs=1&ts=20230913t1702387148',
     alt: 'Facebook',
+    href6: 'https://www.linkedin.com/company/amica-senior-lifestyles/',
+    text12: '',
     src1: 'https://amica.kajoo.ca/-/media/fc0355ac817a480abbdd1a19798ca014.ashx?db=master&la=en&vs=1&ts=20230913t1703039351',
     alt1: 'Linkedin',
+    href7: 'https://www.instagram.com/amicaseniorlifestyles/',
+    text13: '',
     src2: 'https://amica.kajoo.ca/-/media/238879b709704f11967b188051ede7dc.ashx?db=master&la=en&vs=1&ts=20230914t1526065887',
     alt2: '',
+    href8: 'https://www.youtube.com/channel/UCXyqMibqd9ppUjdR_OzH2AQ/featured',
+    text14: '',
     src3: 'https://amica.kajoo.ca/-/media/e65c3eb0cec049608077fb9cc5b809d2.ashx?db=master&la=en&vs=1&ts=20230914t1525056366',
     alt3: '',
+    href9: 'https://www.pinterest.ca/AmicaSeniorLifestyles/_created/',
+    text15: '',
     src4: 'https://amica.kajoo.ca/-/media/9b8d29469aa7491487debf4b4b3973ca.ashx?db=master&la=en&vs=1&ts=20230914t1526337959',
     alt4: '',
-    text13: 'Accessibility Policy',
-    text14: 'Privacy Policy',
-    text15: 'Terms of Use',
-    text16: '\n                © Amica Senior Lifestyles 2023\n            ',
+    href10: 'https://www.amica.ca/accessibility-policy',
+    text16: 'Accessibility Policy',
+    href11: 'https://www.amica.ca/privacy-policy',
+    text17: 'Privacy Policy',
+    href12: 'https://www.amica.ca/terms-of-use',
+    text18: 'Terms of Use',
+    text19: '\n                © Amica Senior Lifestyles 2023\n            ',
   },
   rootClassName: '',
 }
