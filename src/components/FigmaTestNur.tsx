@@ -11,103 +11,72 @@ const FigmaTestNur = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
-        <Image
-          src={props.fields.src}
-          alt={props.fields.alt}
-          className={styles['image']}
-        />
-        <Container className={styles['container01']}>
-          <Container tag="span" className={styles['container02']}>
-            <Text text={props.fields.text} className={styles['text']} />
-          </Container>
-          <Container tag="span" className={styles['container03']}>
-            <Text text={props.fields.text1} className={styles['text01']} />
-          </Container>
-          <Container tag="span" className={styles['container04']}>
-            <Text text={props.fields.text2} className={styles['text02']} />
-          </Container>
-          <Container tag="span" className={styles['container05']}>
-            <Text text={props.fields.text3} className={styles['text03']} />
-          </Container>
-        </Container>
-        <Image
-          alt={props.fields.alt1}
-          src={props.fields.src1}
-          className={styles['image1']}
-        />
-        <Container className={styles['container06']}>
-          <Container className={styles['container07']}>
-            <Container tag="span" className={styles['container08']}>
-              <Text text={props.fields.text4} className={styles['text04']} />
+        <Container
+          bgImage={props.fields.bgImage}
+          className={styles['container01']}
+        >
+          <Container className={styles['container02']}>
+            <Container className={styles['container03']}>
+              <Image
+                src={props.fields.src}
+                alt={props.fields.alt}
+                className={styles['image']}
+              />
+              <Text
+                text={props.fields.text}
+                tag="span"
+                className={styles['text']}
+              />
             </Container>
-            <Container tag="span" className={styles['container09']}>
-              <Text text={props.fields.text5} className={styles['text05']} />
-              <Text text={props.fields.text6} className={styles['text06']} />
-              <Text text={props.fields.text7} className={styles['text07']} />
-              <Text text={props.fields.text8} className={styles['text08']} />
-              <Text text={props.fields.text9} className={styles['text09']} />
-              <Text tag="br" />
-              <Text text={props.fields.text10} className={styles['text11']} />
-            </Container>
-          </Container>
-          <Container className={styles['container10']}>
-            <Container tag="span" className={styles['container11']}>
-              <Text text={props.fields.text11} className={styles['text12']} />
-            </Container>
-            <Container tag="span" className={styles['container12']}>
-              <Text text={props.fields.text12} className={styles['text13']} />
-              <Text tag="br" />
-              <Text text={props.fields.text13} className={styles['text15']} />
-              <Text tag="br" />
-              <Text text={props.fields.text14} className={styles['text17']} />
-            </Container>
-          </Container>
-          <Container className={styles['container13']}>
-            <Container className={styles['container14']}>
-              <Container tag="span" className={styles['container15']}>
-                <Text text={props.fields.text15} className={styles['text18']} />
+            <Container className={styles['container04']}>
+              <Container className={styles['container05']}>
+                <Container className={styles['container06']}>
+                  <Text
+                    text={props.fields.text1}
+                    tag="span"
+                    className={styles['text1']}
+                  />
+                  <Image
+                    src={props.fields.src1}
+                    alt={props.fields.alt1}
+                    className={styles['image1']}
+                  />
+                </Container>
+                <Text
+                  text={props.fields.text2}
+                  tag="span"
+                  className={styles['text2']}
+                />
               </Container>
-              <Container tag="span" className={styles['container16']}>
-                <Text text={props.fields.text16} className={styles['text19']} />
+              <Container className={styles['container07']}>
+                <Container className={styles['container08']}>
+                  <Text
+                    text={props.fields.text3}
+                    tag="span"
+                    className={styles['text3']}
+                  />
+                  <Image
+                    src={props.fields.src2}
+                    alt={props.fields.alt2}
+                    className={styles['image2']}
+                  />
+                </Container>
+                <Text
+                  text={props.fields.text4}
+                  tag="span"
+                  className={styles['text4']}
+                />
               </Container>
             </Container>
-            <Container className={styles['container17']}>
-              <Container tag="span" className={styles['container18']}>
-                <Text text={props.fields.text17} className={styles['text20']} />
-              </Container>
-              <Container tag="span" className={styles['container19']}>
-                <Text text={props.fields.text18} className={styles['text21']} />
+            <Container className={styles['container09']}>
+              <Container className={styles['container10']}>
+                <Text
+                  text={props.fields.text5}
+                  tag="span"
+                  className={styles['text5']}
+                />
               </Container>
             </Container>
-          </Container>
-        </Container>
-        <Image
-          src={props.fields.src2}
-          alt={props.fields.alt2}
-          className={styles['image2']}
-        />
-        <Container className={styles['container20']}>
-          <Container tag="span" className={styles['container21']}>
-            <Text text={props.fields.text19} className={styles['text22']} />
-          </Container>
-        </Container>
-        <Container className={styles['container22']}>
-          <Container tag="span" className={styles['container23']}>
-            <Text text={props.fields.text20} className={styles['text23']} />
-          </Container>
-        </Container>
-        <Container className={styles['container24']}>
-          <Container tag="span" className={styles['container25']}>
-            <Text text={props.fields.text21} className={styles['text24']} />
-          </Container>
-          <Container tag="span" className={styles['container26']}>
-            <Text text={props.fields.text22} className={styles['text25']} />
-          </Container>
-          <Container tag="span" className={styles['container27']}>
-            <Text text={props.fields.text23} className={styles['text26']} />
-          </Container>
-          <Container tag="span" className={styles['container28']}>
-            <Text text={props.fields.text24} className={styles['text27']} />
           </Container>
         </Container>
       </Container>
@@ -117,37 +86,22 @@ const FigmaTestNur = (props) => {
 
 FigmaTestNur.defaultProps = {
   fields: {
-    src: 'https://kajoo.nyc3.digitaloceanspaces.com/containers/orgs/60d5efadff0a5060c3aaa66d/assets/1wv00E_eDQzOhq5_uoijr.svg',
-    alt: 'Rectangle97I12095913712',
-    text: 'Accessibility',
-    text1: 'Terms',
-    text2: 'Privacy',
-    text3: 'Feedback',
-    alt1: 'Vector16I12095913718',
-    src1: 'https://kajoo.nyc3.digitaloceanspaces.com/containers/orgs/60d5efadff0a5060c3aaa66d/assets/iudPk9eB4aezSrunJFoTn.svg',
-    text4: 'Care',
-    text5: 'Independant Living',
-    text6: 'Assisted Living',
-    text7: 'Memory Care',
-    text8: 'Life at Amica',
-    text9: 'Health & Safety',
-    text10: 'Healthcare Professionals',
-    text11: 'About',
-    text12: 'Diversity, equality & Inclusion',
-    text13: 'Leadership Team',
-    text14: 'Helping Hands Charity',
-    text15: 'Careers',
-    text16: 'Volunteers',
-    text17: 'Resources',
-    text18: 'Webinars',
-    src2: 'https://kajoo.nyc3.digitaloceanspaces.com/containers/orgs/60d5efadff0a5060c3aaa66d/assets/3p7t22WcIqO8PY5TDXDeK.png',
-    alt2: '2AmicaSLCorpLogoPMSntefy01I12095913733',
-    text19: 'Find a residence',
-    text20: 'Book a tour',
-    text21: 'Contact',
-    text22: 'Press',
-    text23: 'Partnerships',
-    text24: 'Blog',
+    bgImage:
+      'https://kajoo.nyc3.digitaloceanspaces.com/containers/orgs/60d5efadff0a5060c3aaa66d/assets/vS0_Q1Jl1sHax6fYn9kuq.jpeg',
+    src: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nNTIwJyBoZWlnaHQ9JzEnIHZpZXdCb3g9JzAgMCA1MjAgMScgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KPGxpbmUgeTE9JzAuNScgeDI9JzUyMCcgeTI9JzAuNScgc3Ryb2tlPScjQTBBOUFFJy8+Cjwvc3ZnPgo=',
+    alt: 'borderlineI2219',
+    text: 'Environmental and Safety Lorem Ipsum',
+    text1: 'Water Safety',
+    src1: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMTInIGhlaWdodD0nMTInIHZpZXdCb3g9JzAgMCAxMiAxMicgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KPGcgY2xpcC1wYXRoPSd1cmwoI2NsaXAwXzI4NTg3XzI3NiknPgo8cGF0aCBkPSdNMyAxMkgwTDMgNkwwIDBIM0w2IDZMMyAxMlonIGZpbGw9JyNCRUQ3M0QnLz4KPHBhdGggZD0nTTkgMTJINkw5IDZMNiAwSDlMMTIgNkw5IDEyWicgZmlsbD0nI0JFRDczRCcvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9J2NsaXAwXzI4NTg3XzI3Nic+CjxyZWN0IHdpZHRoPScxMicgaGVpZ2h0PScxMicgZmlsbD0nd2hpdGUnLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K',
+    alt1: 'NWMOchevronI2219',
+    text2:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id purus mauris nunc aliquam odio sem consectetur tempor.',
+    text3: 'Environmental Safety',
+    src2: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMTInIGhlaWdodD0nMTInIHZpZXdCb3g9JzAgMCAxMiAxMicgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KPGcgY2xpcC1wYXRoPSd1cmwoI2NsaXAwXzI4NTg3XzI4MyknPgo8cGF0aCBkPSdNMyAxMkgwTDMgNkwwIDBIM0w2IDZMMyAxMlonIGZpbGw9JyNCRUQ3M0QnLz4KPHBhdGggZD0nTTkgMTJINkw5IDZMNiAwSDlMMTIgNkw5IDEyWicgZmlsbD0nI0JFRDczRCcvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9J2NsaXAwXzI4NTg3XzI4Myc+CjxyZWN0IHdpZHRoPScxMicgaGVpZ2h0PScxMicgZmlsbD0nd2hpdGUnLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K',
+    alt2: 'NWMOchevronI2219',
+    text4:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id purus mauris nunc aliquam odio sem consectetur tempor.',
+    text5: 'Learn more',
   },
   rootClassName: '',
 }

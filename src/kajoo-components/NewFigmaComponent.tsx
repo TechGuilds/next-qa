@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Image, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -11,21 +11,98 @@ const NewFigmaComponent = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
-        <Container
-          text="He has a wealth of experience advising the government on Indigenous matters, including major energy projects. Interviewees characterise him as ‘very, very knowledgeable and open to discussion.’"
-          className={styles['container1']}
-        />
-        <Container className={styles['container2']}>
-          <Text text="—" tag="span" />
-          <Text text="Chambers Global" className={styles['text1']} />
-          <Text text=", 2021" tag="span" />
-        </Container>
-        <Container className={styles['container-default']}>
-          <svg viewBox="0 0 38 29" className={styles['icon']} />
-          <path
-            d="M37.5281 22.7741C37.5281 18.3923 34.9564 16.7779 31.8002 16.7779C29.2285 16.7779 27.0074 17.5851 25.254 18.5076C24.7864 17.2391 24.6695 15.7401 24.6695 14.587C24.6695 8.24481 29.696 4.78545 36.3591 3.28639C37.0605 3.17108 37.2943 3.05577 37.1774 2.24858L36.8267 0.634214C36.7098 -0.0576567 36.2422 -0.0576566 35.5409 0.0576539C27.8257 1.55671 20.4612 6.05388 20.4612 15.6248C20.4612 23.3507 25.1371 29.001 31.3326 29.001C35.424 29.001 37.5281 26.9254 37.5281 22.7741ZM17.5388 22.7741C17.5388 18.3923 14.9671 16.7779 11.8109 16.7779C9.35605 16.7779 6.90123 17.4698 5.26468 18.5076C4.79709 17.2391 4.6802 15.7401 4.6802 14.587C4.6802 8.24481 9.70674 4.78545 16.3698 3.28639C17.0712 3.17108 17.305 3.05577 17.1881 2.24858L16.8374 0.634214C16.7205 -0.0576567 16.2529 -0.0576566 15.5516 0.0576539C7.8364 1.55671 0.471924 6.05388 0.471924 15.6248C0.471924 23.3507 5.14778 29.001 11.3433 29.001C15.4347 29.001 17.5388 26.9254 17.5388 22.7741Z"
-            className={styles['path']}
-          />
+        <Container className={styles['container01']}>
+          <Container className={styles['container02']}>
+            <Image
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIkAAACJCAYAAAAYJBvJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAK8SURBVHgB7d3NbRRBEIbhXkwk3LiRAJJNCHCGVOBAHKSCCAFx4AYpkMGCLZUl411/+zMzOz3zPFIH0NKrOla11pHrtx8+vvn3GpO6ap24DWSz2X5qm3b94uWr9vvn92+NSXQRyX0gRSiTmn0kjwIpQpnMrCPZG0gRyiRmG0kMpAhldLOM5OBAilBGNbtIjg6kCGU0s4rk5ECKUEYxm0jODqQIZXCziGSwQIpQBnXxSAYPpAhlMBeNZLRAilAGcbFIRg+kCOVsF4lkskCKUM4yeSSTB1KEcrJJI7lYIEUoJ5kskosHUoRytEkimU0gRShHGT2S2QVShHKwUSOZbSBFKAcZLZLZB1KEEo0SSTeBFKE8afBIugukCGWvQSPpNpAilJ0Gi6T7QIpQHhkkksUEUoTywNmRLC6QIpR7Z0Wy2ECKUO6cHMniAylCOS2S1QRSVh7K0ZGsLpCy4lCOimS1gZSVhnJwJKsPpKwwlIMiEch/VhZKjEQge6wolCcjEUiwklD2RiKQA60glJ2RCORICw/lUSQCOdGCQ3kQiUDOtNBQ7iMRyEAWGMpdJAIZ2MJCuRLISBYUyubrrz/b1pGbLz9aR7bt8+tnrXPdf4DxiYRIJEQiIRIJkUiIREIkEiKREImESCREIiESCZFIiERCJBIikRCJhEgkRCIhEgmRSIhEQiQSIpEQiYRIJEQiIRIJkUiIREIkEiKREImESCREIiESCZFIiERCJBIikRCJhEgkRCIhEgmRSIhEQiQSoueNEW03N+/ed3V0aoetSUIkEiKREImESCREIiESCZFIiERCJBIikRCJhEgkRCIhEgmRSIhEQiQSIpEQiYRIJEQiIRIJkUiIREIkEiKREImESCREIiESCZFIiERCJBIikRCJhEgkRCIhEgmRSIhEQiQSotu14b2vtZ6xTVuCv3HfOxkeS7JQAAAAAElFTkSuQmCC"
+              alt="imagecontainer2219"
+              className={styles['image']}
+            />
+            <Container className={styles['container03']}>
+              <Text
+                text="Selecting a Site"
+                tag="span"
+                className={styles['text']}
+              />
+              <Container className={styles['container04']}>
+                <Text text="Overview" tag="span" className={styles['text01']} />
+                <Image
+                  src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMTInIGhlaWdodD0nMTInIHZpZXdCb3g9JzAgMCAxMiAxMicgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KPGcgY2xpcC1wYXRoPSd1cmwoI2NsaXAwXzI4NTg2Xzg3NiknPgo8cGF0aCBkPSdNMyAxMkgwTDMgNkwwIDBIM0w2IDZMMyAxMlonIGZpbGw9JyNCRUQ3M0QnLz4KPHBhdGggZD0nTTkgMTJINkw5IDZMNiAwSDlMMTIgNkw5IDEyWicgZmlsbD0nI0JFRDczRCcvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9J2NsaXAwXzI4NTg2Xzg3Nic+CjxyZWN0IHdpZHRoPScxMicgaGVpZ2h0PScxMicgZmlsbD0nd2hpdGUnLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K"
+                  alt="NWMOchevronI2219"
+                  className={styles['image1']}
+                />
+              </Container>
+            </Container>
+          </Container>
+          <Container className={styles['container05']}>
+            <Image
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMScgaGVpZ2h0PScyNjMnIHZpZXdCb3g9JzAgMCAxIDI2MycgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KPGxpbmUgeDE9JzAuNScgeDI9JzAuNScgeTI9JzI2Mycgc3Ryb2tlPScjQTBBOUFFJy8+Cjwvc3ZnPgo="
+              alt="borderline2219"
+              className={styles['image2']}
+            />
+            <Container className={styles['container06']}>
+              <Text
+                text="How We Got Here"
+                tag="span"
+                className={styles['text02']}
+              />
+              <Text
+                text="Other Sites Considered"
+                tag="span"
+                className={styles['text03']}
+              />
+            </Container>
+          </Container>
+          <Container className={styles['container07']}>
+            <Image
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMScgaGVpZ2h0PScyNjMnIHZpZXdCb3g9JzAgMCAxIDI2MycgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KPGxpbmUgeDE9JzAuNScgeTE9JzIuMjU0NDVlLTA4JyB4Mj0nMC40OTk5ODknIHkyPScyNjMnIHN0cm9rZT0nI0NGRDRENicvPgo8L3N2Zz4K"
+              alt="borderline2219"
+              className={styles['image3']}
+            />
+            <Container className={styles['container08']}>
+              <Text
+                text="Ignace and WLON Area"
+                tag="span"
+                className={styles['text04']}
+              />
+              <Text
+                text="South Bruce and SON Area"
+                tag="span"
+                className={styles['text05']}
+              />
+            </Container>
+          </Container>
+          <Container className={styles['container09']}>
+            <Image
+              src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMScgaGVpZ2h0PScyNjMnIHZpZXdCb3g9JzAgMCAxIDI2MycgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz4KPGxpbmUgeDE9JzAuNScgeTE9JzIuMjU0NDVlLTA4JyB4Mj0nMC40OTk5ODknIHkyPScyNjMnIHN0cm9rZT0nI0NGRDRENicvPgo8L3N2Zz4K"
+              alt="borderline2219"
+              className={styles['image4']}
+            />
+            <Container className={styles['container10']}>
+              <Container className={styles['container11']}>
+                <Text
+                  text="Conmmunity and National Benefits"
+                  tag="span"
+                  className={styles['text06']}
+                />
+                <Text
+                  text="Community Wellbeing Framework"
+                  tag="span"
+                  className={styles['text07']}
+                />
+                <Text
+                  text="Corporate Funding for the Community"
+                  tag="span"
+                  className={styles['text08']}
+                />
+                <Text
+                  text="Economics"
+                  tag="span"
+                  className={styles['text09']}
+                />
+              </Container>
+            </Container>
+          </Container>
         </Container>
       </Container>
     </Container>
