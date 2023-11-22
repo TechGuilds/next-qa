@@ -1,0 +1,203 @@
+.new-figma-component-root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.new-figma-component-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  height: auto;
+  width: 1200px;
+}
+.new-figma-component-image {
+  height: 580px;
+  width: 1200px;
+}
+.new-figma-component-container01 {
+  align-items: flex-start;
+  display: flex;
+  flex-shrink: 0;
+  gap: 160px;
+  justify-content: space-between;
+  width: 1200px;
+}
+.new-figma-component-text {
+  color: rgba(65, 83, 93, 1);
+  font-family: Helvetica Neue LT Std;
+  font-size: 44px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700px;
+  height: auto;
+  line-height: 52px;
+  text-align: left;
+  width: 251px;
+}
+.new-figma-component-container02 {
+  gap: 40px;
+}
+.new-figma-component-container02,.new-figma-component-container03,.new-figma-component-container04 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.new-figma-component-container04 {
+  gap: 16px;
+}
+.new-figma-component-text01 {
+  align-self: stretch;
+  color: rgba(65, 83, 93, 1);
+  font-family: Helvetica Neue LT Std;
+  font-size: 32px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 300px;
+  height: auto;
+  line-height: 40px;
+  text-align: left;
+}
+.new-figma-component-container05 {
+  align-items: flex-start;
+  display: flex;
+  flex-shrink: 0;
+  gap: 32px;
+  padding: 0 0 24px;
+  width: 584px;
+}
+.new-figma-component-container06 {
+  font-family: Helvetica Neue LT Std;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400px;
+}
+.new-figma-component-container06,.new-figma-component-text02,.new-figma-component-text03,.new-figma-component-text04 {
+  color: rgba(0, 124, 195, 1);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: auto;
+  line-height: 26px;
+  text-align: left;
+}
+.new-figma-component-container07,.new-figma-component-text05,.new-figma-component-text06,.new-figma-component-text07,.new-figma-component-text08,.new-figma-component-text09,.new-figma-component-text10 {
+  color: rgba(65, 83, 93, 1);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: Regular;
+  font-weight: 400;
+  height: auto;
+  line-height: 26px;
+  text-align: left;
+  text-decoration: none;
+}
+.new-figma-component-container08 {
+  align-items: center;
+  background-color: rgba(0, 124, 195, 1);
+  border-radius: 2px;
+  display: flex;
+  flex-shrink: 0;
+  height: 52px;
+  padding: 16px 24px 12px;
+}
+.new-figma-component-text11 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Helvetica Neue LT Std;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700px;
+  height: auto;
+  line-height: 24px;
+  text-align: left;
+}
+.new-figma-component-image1 {
+  height: 1px;
+  width: 789px;
+}
+.new-figma-component-container09,.new-figma-component-container10 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+.new-figma-component-container10 {
+  gap: 16px;
+}
+.new-figma-component-text12 {
+  align-self: stretch;
+  color: rgba(65, 83, 93, 1);
+  font-family: Helvetica Neue LT Std;
+  font-size: 32px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 300px;
+  height: auto;
+  line-height: 40px;
+  text-align: left;
+}
+.new-figma-component-container11 {
+  align-items: flex-start;
+  display: flex;
+  flex-shrink: 0;
+  gap: 32px;
+  padding: 0 0 24px;
+  width: 584px;
+}
+.new-figma-component-container12 {
+  font-family: Helvetica Neue LT Std;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400px;
+}
+.new-figma-component-container12,.new-figma-component-text13,.new-figma-component-text14,.new-figma-component-text15,.new-figma-component-text16 {
+  color: rgba(0, 124, 195, 1);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: auto;
+  line-height: 26px;
+  text-align: left;
+}
+.new-figma-component-container13,.new-figma-component-text17,.new-figma-component-text18,.new-figma-component-text19,.new-figma-component-text20,.new-figma-component-text21,.new-figma-component-text22 {
+  color: rgba(65, 83, 93, 1);
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-stretch: normal;
+  font-style: Regular;
+  font-weight: 400;
+  height: auto;
+  line-height: 26px;
+  text-align: left;
+  text-decoration: none;
+}
+.new-figma-component-container14 {
+  align-items: center;
+  background-color: rgba(0, 124, 195, 1);
+  border-radius: 2px;
+  display: flex;
+  flex-shrink: 0;
+  height: 52px;
+  padding: 16px 24px 12px;
+}
+.new-figma-component-text23 {
+  color: rgba(255, 255, 255, 1);
+  font-family: Helvetica Neue LT Std;
+  font-size: 16px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 700px;
+  height: auto;
+  line-height: 24px;
+  text-align: left;
+}
