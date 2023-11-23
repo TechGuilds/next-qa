@@ -1,7 +1,51 @@
+.paragraph-default {
+  background-color: rgba(144, 29, 29, 1);
+  color: rgba(255, 255, 255, 1);
+  font-family: Arial;
+  font-size: 14px;
+  height: fit-content;
+  min-width: 30px;
+  overflow: hidden;
+  -webkit-user-drag: none;
+}
+.button-default {
+  align-items: center;
+  background-color: #eeeeee;
+  border-color: #a0a0a0;
+  border-radius: 3px;
+  border-width: 1px;
+  font-size: 0.8em;
+  min-height: 24px;
+  min-width: 130px;
+  padding: 10px 35px;
+}
+.button-default,.link-default {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: center;
+}
+.link-default {
+  align-items: left;
+  background-color: #FFFFFF00;
+  border: 0px rgb(187, 187, 187);
+  border-radius: 3px;
+  color: rgba(47, 0, 255, 1);
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: normal;
+  min-height: 75px;
+  min-width: 30px;
+  overflow: hidden;
+  padding-left: 5px;
+  text-align: left;
+  text-decoration: underline;
+  -webkit-user-drag: none;
+}
 .root {
   align-items: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 400px;
   width: 100%;
 }
