@@ -5,9 +5,9 @@ import { Container, Image, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './BannerAndTwoImage.module.css'
+import styles from './BannerAndTwoImage1.module.css'
 
-const BannerAndTwoImage = (props) => {
+const BannerAndTwoImage1 = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
@@ -37,14 +37,14 @@ const BannerAndTwoImage = (props) => {
   )
 }
 
-BannerAndTwoImage.defaultProps = {
+BannerAndTwoImage1.defaultProps = {
   fields: {},
   rootClassName: '',
 }
 
-BannerAndTwoImage.propTypes = {
+BannerAndTwoImage1.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 
-export default BannerAndTwoImage
+export default BannerAndTwoImage1
