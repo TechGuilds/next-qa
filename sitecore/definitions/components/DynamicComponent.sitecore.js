@@ -13,25 +13,13 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'href',
-        type: CommonFieldTypes.GeneralLink,
-        standardValue:
-          "<link text='undefined' linktype='external' url='#' anchor='' target=''/>",
-      },
-      {
         name: 'link',
         type: CommonFieldTypes.GeneralLink,
         standardValue:
           "<link text='undefined' linktype='external' url='#' anchor='' target=''/>",
       },
       {
-        name: 'text2',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue:
-          'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
-      },
-      {
-        name: 'link1',
+        name: 'href',
         type: CommonFieldTypes.GeneralLink,
         standardValue:
           "<link text='undefined' linktype='external' url='#' anchor='' target=''/>",
