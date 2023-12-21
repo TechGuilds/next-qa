@@ -4,34 +4,144 @@ placeholders:
   kajoo-main:
     - componentName: MainNavigation
       displayName: MainNavigation
-      fields: {}
+      fields:
+        Make Non-Sticky: "True"
     - componentName: HeroBanner
       displayName: HeroBanner
-      fields: {}
+      fields:
+        Subtitle: ""
+        Headline: ""
+        ImageLink: -/media/5980ce8a38934b0fb03bd863311025b4.ashx?db=web&la=en&vs=1&ts=20230913t1600563576
+        Hat Title: ""
+        Hide on Mobile: "True"
+        Type: "{486C6302-09AF-4E15-84FF-E487FBAF1EBB}"
+        FullImageLink: https://amica.kajoo.ca/-/media/5980ce8a38934b0fb03bd863311025b4.ashx?db=web&la=en&vs=1&ts=20230913t1600563576
     - componentName: IntroOneColumn
       displayName: Intro One Column
-      fields: {}
+      fields:
+        Title: At Amica, every day is yours to spend exactly as you wish
+        Copy: >-
+          <div data-kajoo-element-type='rich-text'>
+
+          Amica offers an exceptional senior living experience unlike any other. Every residence offers elegant and purposeful designs, premium amenities, unparalleled care that evolves as you do and a lifestyle that leaves you in full control. At Amica, you&rsquo;ll never have to move again. And you&rsquo;ll never want to.
+
+          </div>
     - componentName: DifferentiatorPanel
       displayName: Differentiator Panel
-      fields: {}
+      fields:
+        Description: >-
+          <div data-kajoo-element-type='rich-text'>
+
+          <p>Will I be in charge of my day? Can I eat what, and when, I want? &nbsp;Will I have to move if I need extra care? Moving to senior living is a big decision. If you&rsquo;re not asking questions like these, maybe you should be. Ask us. You&rsquo;ll get the straightforward answers you&rsquo;re looking for.</p>
+
+          <p>You have questions. Here are others to consider.</p>
+
+          </div>
+        Show Image In Mobile Mode: "True"
+        ImageLink: ""
+        Title: It’s time for some straight answers.
+        FullImageLink: https://amica.kajoo.ca/-/media/4c16c8cbd5324bb5966cfb9816cd95cd.ashx?db=master&la=en&vs=1&ts=20230921t1710069356
     - componentName: IntroOneColumn
       displayName: Intro One Column
-      fields: {}
+      fields:
+        Title: Discover life at Amica
+        Copy: >-
+          <div data-kajoo-element-type='rich-text'>
+
+          <p>Life at Amica starts with beautifully designed retirement residences in Canada&rsquo;s best neighbourhoods where seniors are empowered to live with freedom, optimism and peace of mind. Amica is the choice of modern seniors who want more out of life.</p>
+
+          <p><strong>Inspiring lifestyle, amenities and dining</strong><br />
+
+          <strong></strong>Every residence provides a vibrant lifestyle with a wide selection of convenient amenities and services where you can pursue your passions and discover new ones. Well-appointed fitness centres help you meet your physical goals. Craft kitchens let you express your creative side or watch chef demonstrations. Relax and connect in our libraries, home theatres and computer lounges.</p>
+
+          <p>Our Red Seal chefs prepare a delicious daily selection of fresh, seasonal, dietitian-approved dishes to suit your appetite. Enjoy your meals in a choice of settings, including elegant, fully licensed dining rooms, self-serve bistros and outdoor patios.</p>
+
+          <p><strong>Comprehensive wellness and safety programs</strong><br />
+
+          Amica residents stay engaged at extensive daily recreational activities designed to bring people together using the most effective safety protocols in the senior living industry. Every day, you&rsquo;ll have the opportunity to socialize, learn, and enjoy life in an unparalleled selection of interesting programs, from live music and arts workshops to volunteering opportunities, family events and themed parties.</p>
+
+          <p><strong>Experiences tailored to you</strong><br />
+
+          You can keep your favourite routines and you don&rsquo;t have to fit into a schedule at Amica: we adapt to yours. You&rsquo;re in charge of all aspects of your day, from deciding what to order for lunch to choosing which activities or excursions you&rsquo;d like to join. We&rsquo;re here to do whatever we can to make you and your family feel at home.</p>
+
+          <p><strong>The best care</strong><br />
+
+          With nurses in every residence, our clinical expertise sets us apart. We&rsquo;re known for providing attentive, comprehensive personalized care that adapts with you. As your needs change, so does our care. At Amica, you will always have the support you need to live your life fully without having to worry about moving again.</p>
+
+          </div>
     - componentName: ReverseDifferentiatorPanel
       displayName: Reverse Differentiator Panel
-      fields: {}
+      fields:
+        Description: <div data-kajoo-element-type="richtext"> Care that is considerate,
+          respectful and personalized to your wishes and schedule — that’s what
+          you can expect from our highly trained professional wellness teams. We
+          get to know your needs and routines to provide exceptional,
+          experienced support based on your preferences in the privacy of your
+          suite. And if your needs or preferences change, so will our
+          care.</div>
+        Style: "{863976E7-1B40-470C-85A0-CB04A6CE64F3}"
+        Show Image In Mobile Mode: "True"
+        Additional Styles: ""
+        ImageLink: ""
+        Title: Personalizing your care, prioritizing your wellness
+        FullImageLink: https://amica.kajoo.ca/-/media/b9b98f8ed989403892e1e0ab46175d7a.ashx?db=master&la=en&vs=1&ts=20230921t1709450876
     - componentName: BackgroundDifferentiatorPanel
       displayName: Background Differentiator Panel
-      fields: {}
+      fields:
+        Description: >-
+          <div data-kajoo-element-type='rich-text'>
+
+          Get expert&nbsp;tips and ideas for better sleep, enhanced memory, managing stress, downsizing and more in our new online workshops.
+
+          </div>
+        Show Image In Mobile Mode: "True"
+        ImageLink: -/media/310bbf8c62b247f49ee51e2d1f068582.ashx?db=master&la=en&vs=1&ts=20230913t1633522702
+        Title: Webinars for seniors
+        FullImageLink: https://amica.kajoo.ca/-/media/310bbf8c62b247f49ee51e2d1f068582.ashx?db=master&la=en&vs=1&ts=20230913t1633522702
     - componentName: ReverseDifferentiatorPanel
       displayName: Reverse Differentiator Panel
-      fields: {}
+      fields:
+        Description: >-
+          <div data-kajoo-element-type='rich-text'>
+
+          <span>Through Amica Helping Hands, our registered Canadian charity, residents have the opportunity to volunteer with us in support of seniors in need.</span>
+
+          </div>
+        Style: "{863976E7-1B40-470C-85A0-CB04A6CE64F3}"
+        Show Image In Mobile Mode: "True"
+        Additional Styles: ""
+        ImageLink: ""
+        Title: Giving back to the community
+        FullImageLink: https://amica.kajoo.ca/-/media/57a8d631f6ea4015aff508bf26a744b4.ashx?db=master&la=en&vs=1&ts=20230921t1710549427
     - componentName: BackgroundDifferentiatorPanel
       displayName: Background Differentiator Panel
-      fields: {}
+      fields:
+        Description: >-
+          <div data-kajoo-element-type='rich-text'>
+
+          Welcome to Amica Conversations, where you can hear from residents and experts to stay informed and connected with helpful articles, tools and resources.
+
+          <br />
+
+          </div>
+        ImageLink: -/media/8f482a0b3d7741448a382f9c789c493e.ashx?db=master&la=en&vs=1&ts=20230913t1603091509
+        Title: Stories, articles and advice
+        FullImageLink: https://amica.kajoo.ca/-/media/8f482a0b3d7741448a382f9c789c493e.ashx?db=master&la=en&vs=1&ts=20230913t1603091509
     - componentName: ReverseDifferentiatorPanel
       displayName: Reverse Differentiator Panel
-      fields: {}
+      fields:
+        Description: >-
+          <div data-kajoo-element-type='rich-text'>
+
+          <p>Check out what&rsquo;s going on at our residences across Canada, from the point of view of residents, team members, families and visitors. Plus, see what&rsquo;s new in our #smilesforseniors campaign, bringing people together to help combat feelings of isolation while physically distancing.</p>
+
+          </div>
+        Style: "{863976E7-1B40-470C-85A0-CB04A6CE64F3}"
+        Show Image In Mobile Mode: "True"
+        Additional Styles: ""
+        ImageLink: ""
+        Title: Our residences on social media
+        FullImageLink: https://amica.kajoo.ca/-/media/d681dd856caa4444bb6496102d77a7a5.ashx?db=master&la=en&vs=1&ts=20230921t1710298571
     - componentName: CorporateFooter
       displayName: CorporateFooter
       fields: {}

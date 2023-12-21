@@ -1,0 +1,301 @@
+.root {
+  display: flex;
+  z-index: 4;
+  position: relative;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+  -ms-flex-align: center;
+  padding-bottom: 40px;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  background-image: url("https://amica.kajoo.ca/?kajooRender=%22true%22");
+  -webkit-box-align: center;
+  -webkit-box-sizing: border-box;
+  background-position-x: center;
+  background-position-y: center;
+}
+.root:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container {
+  width: 100%;
+  display: flex;
+  z-index: 4;
+  position: relative;
+  box-sizing: border-box;
+  text-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-left: 0px;
+  padding-right: 0px;
+  -ms-flex-align: center;
+  flex-direction: row-reverse;
+  padding-bottom: 40px;
+  background-size: cover;
+  -webkit-box-align: center;
+  -webkit-box-sizing: border-box;
+  background-position-x: center;
+  background-position-y: center;
+}
+.container:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container1 {
+  display: block;
+  flex-grow: 1;
+  box-sizing: border-box;
+  flex-basis: 0px;
+  padding-top: 20px;
+  padding-left: 20px;
+  -ms-flex-pack: center;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  -webkit-box-flex: 1;
+  -webkit-box-pack: center;
+  -ms-flex-positive: 1;
+  -webkit-box-sizing: border-box;
+  -ms-flex-preferred-size: 0;
+}
+.container1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.text {
+  color: rgb(118, 118, 121);
+  display: block;
+  font-size: 36px;
+  max-width: 440px;
+  box-sizing: border-box;
+  margin-top: auto;
+  font-family: amiriregular, serif;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  margin-block-end: 0.83em;
+  margin-inline-end: auto;
+  -webkit-box-sizing: border-box;
+  margin-block-start: 0.83em;
+  margin-inline-start: auto;
+}
+.text:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container2 {
+  display: block;
+  max-width: 440px;
+  box-sizing: border-box;
+  margin-top: auto;
+  line-height: 1.4;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  -webkit-box-sizing: border-box;
+}
+.container2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.sitecore-placeholder {
+  color: black;
+  height: max-content;
+  padding: 20px;
+  font-size: 18px;
+  max-width: 100%;
+  border-color: #0C0C0C;
+  border-style: dashed;
+  border-width: 1px;
+  background-size: 20px 20px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),linear-gradient(to right, black 50%, white 50%),linear-gradient(black 50%, white 50%);
+  background-blend-mode: normal, difference, normal;
+}
+.container3 {
+  display: block;
+  flex-grow: 1;
+  max-width: 80%;
+  box-sizing: border-box;
+  flex-basis: 0px;
+  padding-top: 20px;
+  padding-left: 20px;
+  -ms-flex-pack: center;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+  -webkit-box-flex: 1;
+  -webkit-box-pack: center;
+  -ms-flex-positive: 1;
+  -webkit-box-sizing: border-box;
+  -ms-flex-preferred-size: 0;
+}
+.container3:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.image {
+  width: 90%;
+  height: auto;
+  box-sizing: border-box;
+  overflow-x: clip;
+  overflow-y: clip;
+  aspect-ratio: auto 760 / 546;
+  vertical-align: middle;
+  border-top-style: none;
+  border-left-style: none;
+  -webkit-box-sizing: border-box;
+  border-right-style: none;
+  border-bottom-style: none;
+  overflow-clip-margin: content-box;
+}
+.image:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+
+
+
+@media(max-width: 576px) {
+  .root {
+    border: none;
+    min-height: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-image-source: initial;
+    background-position-x: left;
+    background-position-y: bottom;
+  }
+  .root,.container {
+    display: block;
+    z-index: 4;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    -webkit-box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    padding-top: 0px;
+    flex-direction: row-reverse;
+    padding-bottom: 0px;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .container1 {
+    display: block;
+    flex-grow: 1;
+    box-sizing: border-box;
+    flex-basis: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    -ms-flex-pack: center;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    -webkit-box-flex: 1;
+    -webkit-box-pack: center;
+    -ms-flex-positive: 1;
+    -webkit-box-sizing: border-box;
+    -ms-flex-preferred-size: 0;
+  }
+  .text {
+    color: rgb(118, 118, 121);
+    font-size: 36px;
+    margin-top: auto;
+    font-family: amiriregular, serif;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-block-end: 0.83em;
+    margin-inline-end: auto;
+    margin-block-start: 0.83em;
+    margin-inline-start: auto;
+  }
+  .text,.container2 {
+    display: block;
+    max-width: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  .container2 {
+    margin-top: auto;
+    line-height: 1.4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+  }
+  .container3 {
+    display: block;
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    -ms-flex-pack: center;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    -webkit-box-flex: 1;
+    -webkit-box-pack: center;
+    -ms-flex-positive: 1;
+    -ms-flex-preferred-size: 0;
+  }
+  .container3,.image {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+    overflow-x: clip;
+    overflow-y: clip;
+    aspect-ratio: auto 760 / 546;
+    vertical-align: middle;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    overflow-clip-margin: content-box;
+  }
+}

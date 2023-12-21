@@ -2,7 +2,6 @@
 // @ts-nocheck 
 import { KajooLayoutFactory } from 'lib/kajoo-layout-factory';
 
-
 import React from 'react'
 import { Container } from '@kajoo-ai/sitecore-nextjs'
 import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'

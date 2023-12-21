@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Button, Link } from '@kajoo-ai/sitecore-nextjs'
+import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -9,19 +9,18 @@ import styles from './DynamicComponent.module.css'
 
 const DynamicComponent = (props) => {
   return (
-    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Button link={props.fields.link} className={styles['button-default']} />
-      <Link href={props.fields.href} className={styles['link-default']} />
-    </Container>
+    <Container
+      className={` ${styles['root']} ${styles[props.rootClassName]} `}
+    />
   )
 }
 
 DynamicComponent.defaultProps = {
   fields: {
-    text: 'Button',
-    link: '#',
-    href: '#',
-    text1: 'Link',
+    src: 'https://app.kajoo.ai/icons/default-imag.svg',
+    alt: 'default-kajoo-imag',
+    src1: 'https://app.kajoo.ai/icons/default-imag.svg',
+    alt1: 'default-kajoo-imag',
   },
   rootClassName: '',
 }

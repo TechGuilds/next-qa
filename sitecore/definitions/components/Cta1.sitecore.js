@@ -6,8 +6,8 @@ import {
 
 export default function (manifest) {
   manifest.addComponent({
-    name: 'DynamicComponent',
-    displayName: 'DynamicComponent',
+    name: 'Cta1',
+    displayName: 'Cta1',
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '',
