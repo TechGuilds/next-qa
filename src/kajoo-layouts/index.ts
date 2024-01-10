@@ -1,2 +1,2 @@
 import './home';
-import './Page1';
+import './AmicaSeniorLifestyles-LuxurySeniorLivingResidences';
