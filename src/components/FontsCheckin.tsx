@@ -13,7 +13,7 @@ const FontsCheckin = (props) => {
       <Text
         text={props.fields.text}
         tag="span"
-        className={styles['paragraph-default']}
+        className={` ${styles['text']} ${styles['paragraph-default']} `}
       />
     </Container>
   )
