@@ -1,5 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=SF Pro Text);
 @import url(test);
-@import url('https://fonts.googleapis.com/css?family=SF+Pro+Text|Amiri|Open+Sans|SF+Pro+Text');
+@import url('https://fonts.googleapis.com/css?family=SF+Pro+Text|ADLaM+Display|Amiri|Open+Sans');
 :root {
   --size-wq: 550px;
   --color-jjkl: #6f6f75ff;
