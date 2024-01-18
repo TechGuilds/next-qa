@@ -1,75 +1,158 @@
-.root {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: row;
+.root,.container {
+  display: block;
 }
-
 .container {
-  width: 1316px;
-  height: 471px;
-  display: grid;
-  position: relative;
-  min-width: 500px;
-  min-height: 200px;
-  grid-template-columns: repeat(3,1fr);
-}
-
-.container2 {
-  display: flex;
-  parent-id: 7jPxI7_VRR89xOHXUj5av;
-  min-height: 100%;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.container3 {
-  display: flex;
-  flex-direction: column;
-}
-
-.text {
-  height: fit-content;
-  min-width: 100px;
+  box-sizing: border-box;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.container:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.container1 {
+  width: 90%;
+  display: block;
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: nodeInserted;
+  animation-duration: 0.01s;
+}
+.container1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.richtext {
+  color: rgb(46, 56, 65);
+  display: block;
+  font-size: 60px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  text-align: center;
+  font-family: Gilroy, sans-serif;
+  font-weight: bold;
+  line-height: 1em;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+  margin-block-end: 0.83em;
+  margin-inline-end: 0px;
+  margin-block-start: 0.83em;
+  margin-inline-start: 0px;
+}
+.richtext:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.richtext1 {
+  width: 80%;
+  display: block;
+  font-size: 1em;
+  max-width: 580px;
+  box-sizing: border-box;
+  font-style: normal;
+  margin-top: 0px;
+  font-family: Gilroy, sans-serif;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-block-end: 1em;
+  margin-inline-end: 0px;
+  margin-block-start: 1em;
+  margin-inline-start: 0px;
+}
+.richtext1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
 }
 
-.container4 {
-  background: rgba(0, 170, 153, 1);
-  flex: 0 0 auto;
-  width: 368px;
-  height: 345px;
-  display: flex;
-  align-items: center;
-  border-color: rgba(0, 136, 136, 1);
-  flex-direction: row;
-  justify-content: center;
+@media(max-width: 1200px) {
+  .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .container1 {
+    width: calc(100% - 120px);
+    padding-left: unset;
+    padding-right: unset;
+  }
+  .richtext {
+    font-size: 60px;
+  }
 }
-
-.container5 {
-  display: flex;
-  flex-direction: column;
-}
-
-.image {
-  background: rgb(217, 217, 217);
-  width: 100px;
-  height: 100px;
-}
-
-.text1 {
-  width: 100px;
-  height: fit-content;
-  margin: 0px;
-  padding: 0px;
-}
-
-.container6 {
-  flex: 0 0 auto;
-  width: 17px;
-  height: 100px;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: row;
+@media(max-width: 1024px) {
+  .container {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .container,.container1 {
+    display: block;
+    box-sizing: border-box;
+  }
+  .container1 {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    animation-name: nodeInserted;
+    animation-duration: 0.01s;
+  }
+  .richtext {
+    color: rgb(46, 56, 65);
+    font-size: 40px;
+    margin-top: 0px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1em;
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    margin-block-end: 0.83em;
+    margin-inline-end: 0px;
+    margin-block-start: 0.83em;
+    margin-inline-start: 0px;
+  }
+  .richtext,.richtext1 {
+    display: block;
+    box-sizing: border-box;
+    font-family: Gilroy, sans-serif;
+  }
+  .richtext1 {
+    width: 80%;
+    font-size: 1em;
+    max-width: 580px;
+    font-style: normal;
+    margin-top: 0px;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+  }
 }

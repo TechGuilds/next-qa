@@ -9,20 +9,14 @@ export default function (manifest) {
     name: 'HeroBanner',
     displayName: 'HeroBanner',
     icon: SitecoreIcon.DocumentTag,
-    allowedPlaceholders: ['jss-main', 'kajoo-main'],
+    allowedPlaceholders: ['jss-main'],
     contentResolver: '',
     fields: [
       {
-        name: 'src',
+        name: 'DesktopBgImage',
         type: CommonFieldTypes.Image,
         standardValue:
-          '{"image-do":"https://amica.kajoo.ca/-/media/5980ce8a38934b0fb03bd863311025b4.ashx?db=web&la=en&vs=1&ts=20230913t1600563576"}',
-      },
-      {
-        name: 'href',
-        type: CommonFieldTypes.GeneralLink,
-        standardValue:
-          "<link text='undefined' linktype='external' url='#' anchor='' target=''/>",
+          'https://www.biolage.ca/dist/img/biolage_header_desktop_en.jpg',
       },
     ],
   })

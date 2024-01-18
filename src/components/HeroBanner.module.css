@@ -1,96 +1,16 @@
 .root {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  color: rgb(255, 255, 255);
   display: block;
-  height: 40vw;
-  max-width: 100vw;
-  min-height: 680px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
-  text-align: center;
-}
-.root:focus-visible {
-  outline-color: -webkit-focus-ring-color;
-  outline-style: auto;
-  outline-width: 1px;
-}
-.html-element {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.html-element:focus-visible {
-  outline-color: -webkit-focus-ring-color;
-  outline-style: auto;
-  outline-width: 1px;
-}
-.html-element1 {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.html-element1:focus-visible {
-  outline-color: -webkit-focus-ring-color;
-  outline-style: auto;
-  outline-width: 1px;
-}
-.html-element2 {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.html-element2:focus-visible {
-  outline-color: -webkit-focus-ring-color;
-  outline-style: auto;
-  outline-width: 1px;
-}
-.html-element3 {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-.html-element3:focus-visible {
-  outline-color: -webkit-focus-ring-color;
-  outline-style: auto;
-  outline-width: 1px;
-}
-.image {
-  border-style: none;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  height: 40vw;
-  left: 0px;
-  min-height: 680px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: center;
-  object-position: center center;
-  overflow-clip-margin: content-box;
-  overflow-x: clip;
-  overflow-y: clip;
-  position: fixed;
-  top: 0px;
-  vertical-align: middle;
-  width: 100%;
-  z-index: -2;
-}
-.image:focus-visible {
-  outline-color: -webkit-focus-ring-color;
-  outline-style: auto;
-  outline-width: 1px;
 }
 .container {
-  -webkit-box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  height: 460px;
+  display: flex;
   box-sizing: border-box;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1410px;
-  padding-left: 15px;
-  padding-right: 15px;
-  position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: 100%;
+  align-items: center;
+  background-size: cover;
+  background-image: url("https://www.biolage.ca/dist/img/biolage_header_desktop_en.jpg");
+  background-position-x: center;
+  background-position-y: center;
 }
 .container:focus-visible {
   outline-color: -webkit-focus-ring-color;
@@ -98,208 +18,57 @@
   outline-width: 1px;
 }
 .container1 {
-  bottom: 100px;
-  -webkit-box-sizing: border-box;
+  width: 90%;
+  display: block;
+  max-width: 1200px;
   box-sizing: border-box;
-  display: flex;
-  -ms-flex-pack: distribute;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  font-size: 0px;
-  justify-content: space-around;
-  left: 50%;
-  max-width: 100%;
-  padding: 0px 50px;
-  position: absolute;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: nodeInserted;
+  animation-duration: 0.01s;
 }
 .container1:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 1px;
 }
-.sitecore-placeholder {
-  background-blend-mode: normal, difference, normal;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)), linear-gradient(to right, black 50%, white 50%), linear-gradient(black 50%, white 50%);
-  background-size: 20px 20px;
-  border: 1px dashed #0c0c0c;
-  color: black;
-  font-size: 18px;
-  height: max-content;
-  max-width: 100%;
-  padding: 20px;
-}
-.link {
-  background-color: transparent;
-  bottom: 40px;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  color: inherit;
-  cursor: pointer;
-  display: block;
-  left: 50%;
-  position: absolute;
-  text-decoration-color: initial;
-  text-decoration-line: none;
-  -webkit-text-decoration-skip: objects;
-  text-decoration-style: initial;
-  text-decoration-thickness: initial;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  width: 40px;
-}
-.link:hover {
-  opacity: 0.24;
-  text-decoration-line: underline;
-}
-.link:focus-visible {
-  outline-color: -webkit-focus-ring-color;
-  outline-offset: 1px;
-  outline-style: auto;
-  outline-width: 1px;
-}
-.richtext {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline-block;
-  fill: currentcolor;
-  height: 21;
-  overflow-clip-margin: content-box;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  width: 41;
-}
-.richtext:focus {
-  outline-color: -webkit-focus-ring-color;
-  outline-style: auto;
-  outline-width: 5px;
-}
 
-@media(max-width: 1599px) {
-  .root {
-    color: rgb(255, 255, 255);
-    display: block;
-    height: 40vw;
-    max-width: 100vw;
-    min-height: 680px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    text-align: center;
-  }
-  .root,.html-element,.html-element1,.html-element2,.html-element3 {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  .image {
-    border-style: none;
-    height: 40vw;
-    left: 0px;
-    min-height: 680px;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: center;
-    object-position: center center;
-    overflow-clip-margin: content-box;
-    overflow-x: clip;
-    overflow-y: clip;
-    position: fixed;
-    top: 0px;
-    vertical-align: middle;
-    z-index: -2;
-  }
-  .image,.container {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    width: 100%;
-  }
+@media(max-width: 1200px) {
   .container {
+    height: 460px;
+    align-items: center;
+    background-image: url("https://www.biolage.ca/dist/img/biolage_header_desktop_en.jpg");
+    background-position-x: center;
+    background-position-y: center;
+  }
+  .container1 {
+    width: calc(100% - 120px);
+    padding-left: unset;
+    padding-right: unset;
+  }
+}
+@media(max-width: 1024px) {
+  .container {
+    color: rgb(255, 255, 255);
+    height: 133vw;
+    display: flex;
+    box-sizing: border-box;
+    align-items: flex-start;
+    background-size: cover;
+    background-image: url("https://www.biolage.ca/dist/img/biolage_header_mobile_en.jpg");
+    background-position-x: right;
+    background-position-y: bottom;
+  }
+  .container1 {
+    width: 100%;
     display: block;
+    max-width: 1200px;
+    box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1140px;
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  .container1 {
-    bottom: 100px;
-    display: flex;
-    -ms-flex-pack: distribute;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    font-size: 0px;
-    justify-content: space-around;
-    max-width: 100%;
-    padding: 0px 50px;
-    width: 520px;
-  }
-  .container1,.link {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    left: 50%;
-    position: absolute;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
-  }
-  .link {
-    background-color: transparent;
-    bottom: 40px;
-    color: inherit;
-    cursor: pointer;
-    display: block;
-    text-decoration-color: initial;
-    text-decoration-line: none;
-    -webkit-text-decoration-skip: objects;
-    text-decoration-style: initial;
-    text-decoration-thickness: initial;
-    width: 40px;
-  }
-  .richtext {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: inline-block;
-    fill: currentcolor;
-    height: 21;
-    overflow-clip-margin: content-box;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    width: 41;
-  }
-}
-@media(max-width: 1199px) {
-  .root,.image {
-    height: 720px;
-    min-height: 0px;
-  }
-  .container {
-    max-width: 960px;
-  }
-}
-@media(max-width: 991px) {
-  .container {
-    max-width: unset;
-  }
-  .container1 {
-    bottom: 60px;
-    display: block;
-    -ms-flex-pack: unset;
-    -ms-flex-wrap: unset;
-    flex-wrap: unset;
-    font-size: unset;
-    justify-content: unset;
-  }
-  .link {
-    bottom: 20px;
-  }
-}
-@media(max-width: 575px) {
-  .root,.image {
-    height: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    animation-name: nodeInserted;
+    animation-duration: 0.01s;
   }
 }
