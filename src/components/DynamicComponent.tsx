@@ -18,7 +18,7 @@ const DynamicComponent = (props) => {
       <Image
         src={props.fields.src19}
         alt={props.fields.alt19}
-        className={'image-default'}
+        className={` ${'image-default'} ${styles['image1']} `}
       />
       <Image
         src={props.fields.src20}

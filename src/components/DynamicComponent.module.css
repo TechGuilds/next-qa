@@ -5,7 +5,7 @@
   flex-direction: row;
 }
 @media(max-width: 991px) {
-  .image,.image2 {
+  .image,.image1,.image2 {
     top: unset !important;
     left: unset !important;
     right: unset !important;
