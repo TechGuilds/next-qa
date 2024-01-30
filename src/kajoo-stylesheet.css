@@ -1,59 +1,25 @@
-.header-module-heading {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  font-size: 42px;
-  align-self: stretch;
-  font-style: normal;
-  text-align: left;
-  font-family: Tiempos Headline;
-  font-weight: 300px;
-  line-height: 120.00000476837158%;
-  font-stretch: normal;
-}
-.richtext-module-copy-rtf {
-  color: rgba(43, 43, 43, 1);
-  height: auto;
-  font-size: 18px;
-  align-self: stretch;
-  font-style: normal;
-  text-align: left;
-  font-family: Libre Franklin;
-  font-weight: 400px;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-}
-.paragraph-card-heading {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  font-size: 21px;
-  align-self: stretch;
-  font-style: normal;
-  text-align: left;
-  font-family: Tiempos Headline;
-  font-weight: 300px;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-}
-.paragraph-card-copy {
-  color: rgba(43, 43, 43, 1);
-  height: auto;
-  font-size: 16px;
-  align-self: stretch;
-  font-style: normal;
-  text-align: left;
-  font-family: Libre Franklin;
-  font-weight: 400px;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-}
-.link-link {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  font-size: 16px;
-  font-style: normal;
-  text-align: left;
-  font-family: Libre Franklin;
-  font-weight: 700px;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
+:root {
+  --size-large: 144px;
+  --size-small: 48px;
+  --radius-full: 9999px;
+  --radius-none: 0px;
+  --size-medium: 96px;
+  --size-large_1: 14px;
+  --size-small_1: 4px;
+  --size-x-large: 192px;
+  --size-x-small: 8px;
+  --spacing-unit: 16px;
+  --radius-medium: 6px;
+  --size-medium_1: 9px;
+  --size-xx-large: 288px;
+  --radius-x-large: 12px;
+  --size-max-width: 1440px;
+  --size-x-large_1: 19px;
+  --size-x-small_1: 5px;
+  --size-xx-large_1: 2px;
+  --size-max-width_1: 140px;
+  --spacing-two-units: 32px;
+  --spacing-five-units: 80px;
+  --spacing-four-units: 64px;
+  --spacing-one-and-half-units: 24px;
 }
