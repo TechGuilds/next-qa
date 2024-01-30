@@ -1,39 +1,59 @@
-:root {
-  --size-large: 144px;
-  --size-small: 48px;
-  --color-black: #000000ff;
-  --color-white: #ffffffff;
-  --radius-full: 9999px;
-  --radius-none: 0px;
-  --size-medium: 96px;
-  --color-333333: #333333ff;
-  --color-555555: #555555ff;
-  --color-565656: #565656ff;
-  --color-696969: #696969ff;
-  --color-888888: #888888ff;
-  --radius-large: 8px;
-  --radius-small: 4px;
-  --size-x-large: 192px;
-  --size-x-small: 8px;
-  --spacing-unit: 16px;
-  --color-00152-b: #00152bff;
-  --color-3860-be: #3860beff;
-  --color-cddcf-2: #cddcf2ff;
-  --radius-medium: 6px;
-  --size-xx-large: 288px;
-  --color-004-b-84: #004b84ff;
-  --color-d-9-ecff: #d9ecffff;
-  --color-f-9-fffa: #f9fffaff;
-  --radius-x-large: 12px;
-  --radius-x-small: 2px;
-  --size-max-width: 1440px;
-  --color-044-c-7-e: #044c7eff;
-  --color-f-4-f-4-f-4: #f4f4f4ff;
-  --spacing-half-unit: 8px;
-  --spacing-six-units: 96px;
-  --spacing-two-units: 32px;
-  --spacing-five-units: 80px;
-  --spacing-four-units: 64px;
-  --spacing-three-units: 48px;
-  --spacing-one-and-half-units: 24px;
+.header-module-heading {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 42px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  font-family: Tiempos Headline;
+  font-weight: 300px;
+  line-height: 120.00000476837158%;
+  font-stretch: normal;
+}
+.richtext-module-copy-rtf {
+  color: rgba(43, 43, 43, 1);
+  height: auto;
+  font-size: 18px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  font-family: Libre Franklin;
+  font-weight: 400px;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+}
+.paragraph-card-heading {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 21px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  font-family: Tiempos Headline;
+  font-weight: 300px;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+}
+.paragraph-card-copy {
+  color: rgba(43, 43, 43, 1);
+  height: auto;
+  font-size: 16px;
+  align-self: stretch;
+  font-style: normal;
+  text-align: left;
+  font-family: Libre Franklin;
+  font-weight: 400px;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
+}
+.link-link {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-family: Libre Franklin;
+  font-weight: 700px;
+  line-height: 139.9999976158142%;
+  font-stretch: normal;
 }
