@@ -6,8 +6,8 @@ import {
 
 export default function (manifest) {
   manifest.addComponent({
-    name: 'HeroBanner1',
-    displayName: 'HeroBanner1',
+    name: 'HeroBanner2',
+    displayName: 'HeroBanner2',
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '',

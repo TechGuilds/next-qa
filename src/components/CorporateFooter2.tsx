@@ -6,9 +6,9 @@ import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './CorporateFooter1.module.css'
+import styles from './CorporateFooter2.module.css'
 
-const CorporateFooter1 = (props) => {
+const CorporateFooter2 = (props) => {
   return (
     <Container
       tag="footer"
@@ -194,7 +194,7 @@ const CorporateFooter1 = (props) => {
   )
 }
 
-CorporateFooter1.defaultProps = {
+CorporateFooter2.defaultProps = {
   fields: {
     text: 'Contact Us',
     text1: '\n                        20 Queen St W #3200,',
@@ -245,9 +245,9 @@ CorporateFooter1.defaultProps = {
   rootClassName: '',
 }
 
-CorporateFooter1.propTypes = {
+CorporateFooter2.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 
-export default CorporateFooter1
+export default CorporateFooter2

@@ -22,7 +22,7 @@ const Page1 = (props) => {
         <meta name="title" content />
         <link rel="canonical" href />
       </Helmet>
-      <Container tag="div" className={styles['container']}>
+      <Container className={styles['container']}>
         <Placeholder
           name="kajoo-main"
           rendering={props.layoutData.sitecore.route}

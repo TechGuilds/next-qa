@@ -6,15 +6,15 @@ import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './ReverseDifferentiatorPanel1.module.css'
+import styles from './DifferentiatorPanel2.module.css'
 
-const ReverseDifferentiatorPanel1 = (props) => {
+const DifferentiatorPanel2 = (props) => {
   return (
     <Container
       tag="section"
       id
       role="complementary"
-      aria-label="Reverse Panel"
+      aria-label="Panel"
       className={` ${styles['root']} ${styles[props.rootClassName]} `}
     >
       <Container className={styles['container']}>
@@ -39,21 +39,21 @@ const ReverseDifferentiatorPanel1 = (props) => {
   )
 }
 
-ReverseDifferentiatorPanel1.defaultProps = {
+DifferentiatorPanel2.defaultProps = {
   fields: {
-    text: 'Giving back to the community',
+    text: 'It’s time for some straight answers.',
     value:
-      '<div data-kajoo-element-type="rich-text">\n<span>Through Amica Helping Hands, our registered Canadian charity, residents have the opportunity to volunteer with us in support of seniors in need.</span>\n</div>',
-    name: '/main/phCTA-{FE3BFA30-90A8-4083-B03E-A0997AC461F5}-0',
-    src: 'https://amica.kajoo.ca/-/media/amica/differentiator_panel_desktop-760x546_helphands_new.jpg?h=546&la=en&w=760&hash=A35A07140ACE7DD6339C32015308EF32390C19E0',
-    alt: '',
+      '<div data-kajoo-element-type="rich-text">\n<p>Will I be in charge of my day? Can I eat what, and when, I want? &nbsp;Will I have to move if I need extra care? Moving to senior living is a big decision. If you’re not asking questions like these, maybe you should be. Ask us. You’ll get the straightforward answers you’re looking for.</p>\n<p>You have questions. Here are others to consider.</p>\n</div>',
+    name: '/main/phCTA-{8DA5416A-32F2-40F3-A75A-CE95373CB8F8}-0',
+    src: 'https://amica.kajoo.ca/-/media/amica/differentiator_panel_desktop-occ_senwoman760x546.jpg?h=546&la=en&w=760&hash=1EF5C98BC24BB608E6ABAE3D233EF41D10F27F15',
+    alt: 'Women',
   },
   rootClassName: '',
 }
 
-ReverseDifferentiatorPanel1.propTypes = {
+DifferentiatorPanel2.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 
-export default ReverseDifferentiatorPanel1
+export default DifferentiatorPanel2

@@ -6,9 +6,9 @@ import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './BackgroundDifferentiatorPanel1.module.css'
+import styles from './BackgroundDifferentiatorPanel2.module.css'
 
-const BackgroundDifferentiatorPanel1 = (props) => {
+const BackgroundDifferentiatorPanel2 = (props) => {
   return (
     <Container
       tag="section"
@@ -36,7 +36,7 @@ const BackgroundDifferentiatorPanel1 = (props) => {
   )
 }
 
-BackgroundDifferentiatorPanel1.defaultProps = {
+BackgroundDifferentiatorPanel2.defaultProps = {
   fields: {
     text: 'Webinars for seniors',
     value:
@@ -48,9 +48,9 @@ BackgroundDifferentiatorPanel1.defaultProps = {
   rootClassName: '',
 }
 
-BackgroundDifferentiatorPanel1.propTypes = {
+BackgroundDifferentiatorPanel2.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 
-export default BackgroundDifferentiatorPanel1
+export default BackgroundDifferentiatorPanel2

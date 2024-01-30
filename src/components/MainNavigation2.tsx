@@ -6,9 +6,9 @@ import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './MainNavigation1.module.css'
+import styles from './MainNavigation2.module.css'
 
-const MainNavigation1 = (props) => {
+const MainNavigation2 = (props) => {
   return (
     <Container
       tag="nav"
@@ -60,7 +60,7 @@ const MainNavigation1 = (props) => {
   )
 }
 
-MainNavigation1.defaultProps = {
+MainNavigation2.defaultProps = {
   fields: {
     href: '/',
     text: '',
@@ -72,9 +72,9 @@ MainNavigation1.defaultProps = {
   rootClassName: '',
 }
 
-MainNavigation1.propTypes = {
+MainNavigation2.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 
-export default MainNavigation1
+export default MainNavigation2

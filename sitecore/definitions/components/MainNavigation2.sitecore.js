@@ -6,8 +6,8 @@ import {
 
 export default function (manifest) {
   manifest.addComponent({
-    name: 'MainNavigation1',
-    displayName: 'MainNavigation1',
+    name: 'MainNavigation2',
+    displayName: 'MainNavigation2',
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '',

@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
+import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -9,20 +9,14 @@ import styles from './DynamicComponent.module.css'
 
 const DynamicComponent = (props) => {
   return (
-    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Text
-        text={props.fields.text}
-        tag="span"
-        className={styles['paragraph-default']}
-      />
-    </Container>
+    <Container
+      className={` ${styles['root']} ${styles[props.rootClassName]} `}
+    />
   )
 }
 
 DynamicComponent.defaultProps = {
-  fields: {
-    text: 'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
-  },
+  fields: {},
   rootClassName: '',
 }
 

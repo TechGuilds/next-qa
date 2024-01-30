@@ -6,9 +6,9 @@ import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './HeroBanner1.module.css'
+import styles from './HeroBanner2.module.css'
 
-const HeroBanner1 = (props) => {
+const HeroBanner2 = (props) => {
   return (
     <Container
       tag="header"
@@ -54,7 +54,7 @@ const HeroBanner1 = (props) => {
   )
 }
 
-HeroBanner1.defaultProps = {
+HeroBanner2.defaultProps = {
   fields: {
     src: 'https://amica.kajoo.ca/-/media/5980ce8a38934b0fb03bd863311025b4.ashx?db=web&la=en&vs=1&ts=20230913t1600563576',
     name: '/main/herobanner-cta',
@@ -66,9 +66,9 @@ HeroBanner1.defaultProps = {
   rootClassName: '',
 }
 
-HeroBanner1.propTypes = {
+HeroBanner2.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 
-export default HeroBanner1
+export default HeroBanner2

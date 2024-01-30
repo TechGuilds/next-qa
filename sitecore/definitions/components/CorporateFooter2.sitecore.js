@@ -6,8 +6,8 @@ import {
 
 export default function (manifest) {
   manifest.addComponent({
-    name: 'CorporateFooter1',
-    displayName: 'CorporateFooter1',
+    name: 'CorporateFooter2',
+    displayName: 'CorporateFooter2',
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '',

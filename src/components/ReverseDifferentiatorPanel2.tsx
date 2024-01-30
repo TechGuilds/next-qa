@@ -6,9 +6,9 @@ import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './ReverseDifferentiatorPanel1.module.css'
+import styles from './ReverseDifferentiatorPanel2.module.css'
 
-const ReverseDifferentiatorPanel1 = (props) => {
+const ReverseDifferentiatorPanel2 = (props) => {
   return (
     <Container
       tag="section"
@@ -39,7 +39,7 @@ const ReverseDifferentiatorPanel1 = (props) => {
   )
 }
 
-ReverseDifferentiatorPanel1.defaultProps = {
+ReverseDifferentiatorPanel2.defaultProps = {
   fields: {
     text: 'Giving back to the community',
     value:
@@ -51,9 +51,9 @@ ReverseDifferentiatorPanel1.defaultProps = {
   rootClassName: '',
 }
 
-ReverseDifferentiatorPanel1.propTypes = {
+ReverseDifferentiatorPanel2.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 
-export default ReverseDifferentiatorPanel1
+export default ReverseDifferentiatorPanel2

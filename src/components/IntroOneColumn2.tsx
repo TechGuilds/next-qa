@@ -6,9 +6,9 @@ import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './IntroOneColumn1.module.css'
+import styles from './IntroOneColumn2.module.css'
 
-const IntroOneColumn1 = (props) => {
+const IntroOneColumn2 = (props) => {
   return (
     <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
       <Container className={styles['container']}>
@@ -42,7 +42,7 @@ const IntroOneColumn1 = (props) => {
   )
 }
 
-IntroOneColumn1.defaultProps = {
+IntroOneColumn2.defaultProps = {
   fields: {
     text: 'At Amica, every day is yours to spend exactly as you wish',
     text1: '',
@@ -54,9 +54,9 @@ IntroOneColumn1.defaultProps = {
   rootClassName: '',
 }
 
-IntroOneColumn1.propTypes = {
+IntroOneColumn2.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 
-export default IntroOneColumn1
+export default IntroOneColumn2

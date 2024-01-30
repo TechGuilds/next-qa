@@ -17,17 +17,16 @@ const DifferentiatorPanel1 = (props) => {
       aria-label="Panel"
       className={` ${styles['root']} ${styles[props.rootClassName]} `}
     >
-      <Container tag="div" className={styles['container']}>
-        <Container tag="div" className={styles['container1']}>
+      <Container className={styles['container']}>
+        <Container className={styles['container1']}>
           <Text tag="h2" text={props.fields.text} className={styles['text']} />
-          <Container tag="div" className={styles['container2']}>
+          <Container className={styles['container2']}>
             <RichText value={props.fields.value} />
           </Container>
           <Placeholder className={styles['sitecore-placeholder']} />
         </Container>
-        <Container tag="div" className={styles['container3']}>
+        <Container className={styles['container3']}>
           <Image
-            tag="img"
             src={props.fields.src}
             alt={props.fields.alt}
             width="760"

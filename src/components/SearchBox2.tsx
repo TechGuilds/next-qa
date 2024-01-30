@@ -5,9 +5,9 @@ import { Container, RichText, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './SearchBox1.module.css'
+import styles from './SearchBox2.module.css'
 
-const SearchBox1 = (props) => {
+const SearchBox2 = (props) => {
   return (
     <Container
       tag="form"
@@ -18,7 +18,7 @@ const SearchBox1 = (props) => {
       <input
         name="__RequestVerificationToken"
         type="hidden"
-        value="3s0PTsusCgcOqpxzJmJoxlC58H6CElnjnYrQBeXnz2KcVqDl5_iBj-HngqeE5nzWlPK4R0gJLdlsxzhxbz-ltvh2hXrWRMjApByrSrbAEgg1"
+        value="2ktF-yatYuqfwxpoqlIvbtK2qLo1gQyAtwWXZZdbhh49I1HuVZaiQAg5PXeodzoLuxXuDiYtSHJiWxT4yHkiAmfLgdb0m3O2UG3ME7zuclM1"
         className={styles['html-element']}
       />
       <input
@@ -92,7 +92,7 @@ const SearchBox1 = (props) => {
   )
 }
 
-SearchBox1.defaultProps = {
+SearchBox2.defaultProps = {
   fields: {
     value:
       '<svg width="25" height="25" xmlns="http://www.w3.org/2000/svg"><path d="M24 22.694l-6.63-6.632a9.759 9.759 0 0 0 2.242-6.256A9.804 9.804 0 0 0 9.806 0 9.804 9.804 0 0 0 0 9.806a9.804 9.804 0 0 0 9.806 9.806c2.382 0 4.529-.841 6.256-2.242l6.63 6.63L24 22.694zM9.857 17.762c-4.422 0-8-3.578-8-8 0-4.423 3.578-8 8-8 4.423 0 8 3.577 8 8 0 4.422-3.577 8-8 8z"></path></svg>',
@@ -108,9 +108,9 @@ SearchBox1.defaultProps = {
   rootClassName: '',
 }
 
-SearchBox1.propTypes = {
+SearchBox2.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 
-export default SearchBox1
+export default SearchBox2

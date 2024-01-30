@@ -5,9 +5,9 @@ import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import styles from './Cta1.module.css'
+import styles from './Cta2.module.css'
 
-const Cta1 = (props) => {
+const Cta2 = (props) => {
   return (
     <Container
       aria-label="Find A Residence"
@@ -17,14 +17,14 @@ const Cta1 = (props) => {
   )
 }
 
-Cta1.defaultProps = {
+Cta2.defaultProps = {
   fields: {},
   rootClassName: '',
 }
 
-Cta1.propTypes = {
+Cta2.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 
-export default Cta1
+export default Cta2

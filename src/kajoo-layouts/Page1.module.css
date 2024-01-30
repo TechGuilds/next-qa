@@ -15,27 +15,22 @@
   margin-right: 0px;
   margin-bottom: 0px;
   background-color: rgb(255, 255, 255);
-  -webkit-box-sizing: border-box;
 }
 .root:focus-visible {
-  outline-color: initial;
   outline-style: none;
-  outline-width: initial;
 }
 .container {
   display: block;
   box-sizing: border-box;
-  -webkit-box-sizing: border-box;
 }
 .container:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 1px;
 }
-@media(max-width: 576px) {
+@media(max-width: 810px) {
   .container {
     display: block;
     box-sizing: border-box;
-    -webkit-box-sizing: border-box;
   }
 }
