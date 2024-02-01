@@ -1,23 +1,19 @@
 :root {
   --size-large: 144px;
   --size-small: 48px;
+  --color-black: #1c1c1cff;
   --radius-full: 9999px;
   --radius-none: 0px;
   --size-medium: 96px;
-  --size-large_1: 14px;
-  --size-small_1: 4px;
+  --radius-small: 4px;
   --size-x-large: 192px;
   --size-x-small: 8px;
   --spacing-unit: 16px;
   --radius-medium: 6px;
-  --size-medium_1: 9px;
   --size-xx-large: 288px;
   --radius-x-large: 12px;
+  --radius-x-small: 2px;
   --size-max-width: 1440px;
-  --size-x-large_1: 19px;
-  --size-x-small_1: 5px;
-  --size-xx-large_1: 2px;
-  --size-max-width_1: 140px;
   --spacing-two-units: 32px;
   --spacing-five-units: 80px;
   --spacing-four-units: 64px;
