@@ -1,59 +1,24 @@
-.header-module-heading {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  font-size: 42px;
-  align-self: stretch;
-  font-style: normal;
-  text-align: left;
-  font-family: Tiempos Headline;
-  font-weight: 300px;
-  line-height: 120.00000476837158%;
-  font-stretch: normal;
+@import url('test');
+@import url('https://fonts.googleapis.com/css?family=SF+Pro+Text|ADLaM+Display');
+:root {
+  --size-wq: 550px;
+  --color-jjkl: #6f6f75ff;
+  --color-pppp: #566335ff;
+  --radius-qwsx: 11px;
+  --spacing-qqq: 14px;
+  --color-qwerew: #a84343ff;
+  --spacing-test: 33px;
+  --color-default-name: #464646;
+  --color-random-test-color: #3763b8ff;
 }
-.richtext-module-copy-rtf {
-  color: rgba(43, 43, 43, 1);
-  height: auto;
-  font-size: 18px;
-  align-self: stretch;
-  font-style: normal;
+.header-test-variant {
+  color: #0C0C0C;
+  width: 333px;
+  height: fit-content;
+  font-size: 30px;
+  min-width: 140px;
   text-align: left;
-  font-family: Libre Franklin;
-  font-weight: 400px;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-}
-.paragraph-card-heading {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  font-size: 21px;
-  align-self: stretch;
-  font-style: normal;
-  text-align: left;
-  font-family: Tiempos Headline;
-  font-weight: 300px;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-}
-.paragraph-card-copy {
-  color: rgba(43, 43, 43, 1);
-  height: auto;
-  font-size: 16px;
-  align-self: stretch;
-  font-style: normal;
-  text-align: left;
-  font-family: Libre Franklin;
-  font-weight: 400px;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
-}
-.link-link {
-  color: rgba(0, 0, 0, 1);
-  height: auto;
-  font-size: 16px;
-  font-style: normal;
-  text-align: left;
-  font-family: Libre Franklin;
-  font-weight: 700px;
-  line-height: 139.9999976158142%;
-  font-stretch: normal;
+  font-family: Arial;
+  font-weight: normal;
+  background-color: rgba(65, 117, 5, 1);
 }

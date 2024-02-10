@@ -3,5 +3,21 @@
   height: 400px;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+}
+.container {
+  width: 100%;
+  height: fit-content;
+  display: grid;
+  padding: 5px;
+  position: relative;
+  min-width: 500px;
+  min-height: 200px;
+  grid-template-columns: repeat(3,1fr) ;
+}
+.repeater-collection {
+  display: flex;
+  min-height: 100%;
+  align-items: center;
+  flex-direction: row;
 }
