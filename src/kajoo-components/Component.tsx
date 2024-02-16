@@ -10,7 +10,7 @@ import styles from './Component.module.css'
 const AppComponent = (props) => {
   return (
     <Container
-      className={` ${styles['root']} ${styles[props.rootClassName]} `}
+      className={` ${styles['container']} ${styles[props.rootClassName]} `}
     />
   )
 }

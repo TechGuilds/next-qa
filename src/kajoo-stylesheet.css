@@ -11,14 +11,3 @@
   --color-default-name: #464646;
   --color-random-test-color: #3763b8ff;
 }
-.header-test-variant {
-  color: #0C0C0C;
-  width: 333px;
-  height: fit-content;
-  font-size: 30px;
-  min-width: 140px;
-  text-align: left;
-  font-family: Arial;
-  font-weight: normal;
-  background-color: rgba(65, 117, 5, 1);
-}
