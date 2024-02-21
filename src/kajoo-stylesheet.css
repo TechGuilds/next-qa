@@ -1,25 +1,13 @@
+@import url('test');
+@import url('https://fonts.googleapis.com/css?family=SF+Pro+Text|ADLaM+Display');
 :root {
-  --size-large: 144px;
-  --size-small: 48px;
-  --radius-full: 9999px;
-  --radius-none: 0px;
-  --size-medium: 96px;
-  --size-large_1: 14px;
-  --size-small_1: 4px;
-  --size-x-large: 192px;
-  --size-x-small: 8px;
-  --spacing-unit: 16px;
-  --radius-medium: 6px;
-  --size-medium_1: 9px;
-  --size-xx-large: 288px;
-  --radius-x-large: 12px;
-  --size-max-width: 1440px;
-  --size-x-large_1: 19px;
-  --size-x-small_1: 5px;
-  --size-xx-large_1: 2px;
-  --size-max-width_1: 140px;
-  --spacing-two-units: 32px;
-  --spacing-five-units: 80px;
-  --spacing-four-units: 64px;
-  --spacing-one-and-half-units: 24px;
+  --size-wq: 550px;
+  --color-jjkl: #6f6f75ff;
+  --color-pppp: #566335ff;
+  --radius-qwsx: 11px;
+  --spacing-qqq: 14px;
+  --color-qwerew: #a84343ff;
+  --spacing-test: 33px;
+  --color-default-name: #464646;
+  --color-random-test-color: #3763b8ff;
 }
