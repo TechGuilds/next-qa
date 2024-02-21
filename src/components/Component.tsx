@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Link, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -9,11 +9,22 @@ import styles from './Component.module.css'
 
 const AppComponent = (props) => {
   return (
-    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Text
+    <Container
+      className={` ${styles['container']} ${styles[props.rootClassName]} `}
+    >
+      <Link
+        href={props.fields.href}
         text={props.fields.text}
-        tag="h1"
-        className={styles['header-default']}
+        className={` ${'link-default'} ${styles['link']} `}
+      />
+      <Text
+        text={props.fields.text1}
+        className={` ${'paragraph-default'} ${styles['text']} `}
+      />
+      <Link
+        href={props.fields.href1}
+        text={props.fields.text2}
+        className={` ${'link-default'} ${styles['link1']} `}
       />
     </Container>
   )
@@ -21,14 +32,20 @@ const AppComponent = (props) => {
 
 AppComponent.defaultProps = {
   fields: {
-    text: 'Heading',
+    text1: 'fffffdf',
+    href1: '#',
+    text2: 'sfdfdfdkfhdsg',
+    href: '#',
+    text: 'ddd',
   },
   rootClassName: '',
+  rendering: {},
 }
 
 AppComponent.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
+  rendering: PropTypes.object,
 }
 
 export default AppComponent

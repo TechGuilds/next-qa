@@ -13,9 +13,31 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'fields.text',
+        name: 'href',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='ddd' linktype='external' url='#' anchor='' target=''/>",
+      },
+      {
+        name: 'text',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Heading',
+        standardValue: 'ddd',
+      },
+      {
+        name: 'text1',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'fffffdf',
+      },
+      {
+        name: 'href1',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='sfdfdfdkfhdsg' linktype='external' url='#' anchor='' target=''/>",
+      },
+      {
+        name: 'text2',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'sfdfdfdkfhdsg',
       },
     ],
   })
