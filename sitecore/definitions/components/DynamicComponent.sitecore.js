@@ -13,26 +13,36 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'link',
+        name: 'href',
         type: CommonFieldTypes.GeneralLink,
         standardValue:
-          "<link text='Button' linktype='external' url='#' anchor='' target=''/>",
+          "<link text='45452' linktype='external' url='#' anchor='' target=''/>",
       },
       {
         name: 'text',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Button',
+        standardValue: '45452',
       },
       {
-        name: 'href',
+        name: 'href1',
         type: CommonFieldTypes.GeneralLink,
         standardValue:
-          "<link text='Link' linktype='external' url='#' anchor='' target=''/>",
+          "<link text='ddd' linktype='external' url='#' anchor='' target=''/>",
       },
       {
         name: 'text1',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Link',
+        standardValue: 'ddd',
+      },
+      {
+        name: 'src1',
+        type: CommonFieldTypes.Image,
+        standardValue: '{"image-do":"https://"}',
+      },
+      {
+        name: 'alt1',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'default-kajoo-image',
       },
     ],
   })
