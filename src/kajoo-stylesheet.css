@@ -11,3 +11,12 @@
   --color-default-name: #464646;
   --color-random-test-color: #3763b8ff;
 }
+.header-default {
+  font: normal 30px Arial;
+  color: #f8e71c;
+  border: 22px solid #50e3c2;
+  height: fit-content;
+  min-width: 140px;
+  text-align: left;
+  background-color: #8b572a;
+}

@@ -6,7 +6,6 @@ import { KajooLayoutFactory } from '@kajoo-ai/sitecore-nextjs';
 
 import React from 'react'
 import { Container } from '@kajoo-ai/sitecore-nextjs'
-import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import { Helmet } from 'react-helmet'
 
@@ -24,7 +23,6 @@ const Vvv = (props) => {
         <meta name="title" content />
         <link rel="canonical" href />
       </Helmet>
-      <Placeholder name rendering={props.layoutData.sitecore.route} />
     </Container>
   )
 }
