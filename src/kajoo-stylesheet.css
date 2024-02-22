@@ -11,12 +11,24 @@
   --color-default-name: #464646;
   --color-random-test-color: #3763b8ff;
 }
-.header-default {
-  font: normal 30px Arial;
-  color: #f8e71c;
-  border: 22px solid #50e3c2;
+.paragraph-default {
+  color: rgba(255, 255, 255, 1);
   height: fit-content;
-  min-width: 140px;
-  text-align: left;
-  background-color: #8b572a;
+  overflow: hidden;
+  font-size: 14px;
+  min-width: 30px;
+  font-family: Arial;
+  background-color: rgba(144, 29, 29, 1);
+  -webkit-user-drag: none;
+}
+.container-default {
+  flex: 0 0 auto;
+  color: #a0a0a0;
+  width: auto;
+  height: 200px;
+  display: flex;
+  padding: 10px;
+  min-width: 300px;
+  min-height: 200px;
+  background-color: #ffffff;
 }
