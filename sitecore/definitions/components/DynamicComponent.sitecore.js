@@ -13,10 +13,10 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'text',
-        type: CommonFieldTypes.SingleLineText,
+        name: 'value',
+        type: CommonFieldTypes.RichText,
         standardValue:
-          'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
+          '<p>Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.</p>',
       },
     ],
   })
