@@ -1,7 +1,9 @@
 .root {
   width: 100%;
   display: flex;
-  min-height: 100vh;
-  align-items: center;
+  flex-direction: row;
+}
+.container {
+  display: flex;
   flex-direction: column;
 }
