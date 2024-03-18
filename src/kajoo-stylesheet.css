@@ -1,50 +1,66 @@
-@import url('test');
-@import url('https://fonts.googleapis.com/css?family=SF+Pro+Text|ADLaM+Display');
+@import url('https://fonts.googleapis.com/css?family=Fahkwang');
 :root {
-  --size-wq: 550px;
-  --color-jjkl: #6f6f75ff;
-  --color-pppp: #566335ff;
-  --radius-qwsx: 11px;
-  --spacing-qqq: 14px;
-  --color-qwerew: #f8e71cff;
-  --spacing-test: 33px;
-  --color-default-name: #a04040ff;
-  --color-random-test-color: #3763b8ff;
+  --size-cvc: 123px;
+  --size-qwe: 45px;
+  --color-dss: #a34c4cff;
+  --color-red: #e53030ff;
+  --color-gree: #24bc51ff;
+  --color-hjyf: #bc1818ff;
+  --color-jhtc: #512020ff;
+  --size-large: 144px;
+  --size-nabil: 100px;
+  --size-small: 48px;
+  --color-blues: #263289ff;
+  --color-jgtcj: #f33737ff;
+  --radius-full: 999999px;
+  --radius-none: 0px;
+  --size-medium: 96px;
+  --spacing-rrt: 23px;
+  --spacing-vvv: 2px;
+  --color-red-12: #ff0000ff;
+  --radius-small: 4px;
+  --size-x-large: 192px;
+  --size-x-small: 8px;
+  --spacing-unit: 16px;
+  --radius-medium: 6px;
+  --size-new-size: 550px;
+  --size-xx-large: 288px;
+  --color-blues-22: #6f76a5ff;
+  --radius-x-large: 12px;
+  --radius-x-small: 99px;
+  --size-hukgvhkvg: 33333px;
+  --size-max-width: 1440px;
+  --size-newsize22: 200px;
+  --size-size-size: 333px;
+  --spacing-newtest: 546px;
+  --size-new-size6666: 30000px;
+  --spacing-dfgdfgfdg: 44444px;
+  --spacing-two-units: 32px;
+  --color-border-color: #a0a0a0ff;
+  --color-default-name: #464646;
+  --spacing-fdsgfdgdfg: 3434px;
+  --spacing-five-units: 80px;
+  --spacing-four-units: 64px;
+  --color-default-name-2: #0c0c0cff;
+  --spacing-one-and-half-units: 24px;
+}
+html {
+	display: block; 
+	view-transition-name: root; 
+	color: rgb(0, 0, 0); 
+	background-color: rgb(255, 255, 255); 
+	text-size-adjust: 100%; 
+	font-family: sans-serif; 
 }
 
-.header-defaultfsd {
-  font: normal 30px Arial;
-  color: #f8e71c;
-  border: 22px solid #50e3c2;
-  height: fit-content;
-  min-width: 140px;
-  text-align: left;
-  background-color: #8b572a;
-}
-.button-default {
-  height: fit-content;
-  display: flex;
-  padding: 10px 35px;
-  font-size: 0.8em;
-  min-width: 130px;
-  min-height: 24px;
-  align-items: center;
-  border-color: #a0a0a0;
-  border-width: 1px;
-  border-radius: 3px;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #eeeeee;
-}
-.image-default {
-  border: 1px solid #a0a0a0;
+.container-default {
+  flex: 0 0 auto;
+  color: #a0a0a0;
+  width: auto;
   height: 200px;
   display: flex;
-  overflow: hidden;
-  min-width: 200px;
-  align-items: center;
-  border-radius: 6px;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #d9d9d9;
+  padding: 10px;
+  min-width: 300px;
+  min-height: 200px;
+  background-color: #ffffff;
 }
