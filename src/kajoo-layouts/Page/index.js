@@ -11,11 +11,11 @@ import { Helmet } from 'react-helmet'
 
 import './style.css'
 
-const Home = (props) => {
+const Page = (props) => {
   return (
-    <Container className="home-container">
+    <Container className="page-container">
       <Helmet>
-        <title>home</title>
+        <title>Page</title>
         <meta property="og:description" content />
         <meta property="og:image" content />
         <meta property="og:title" content />
@@ -28,6 +28,6 @@ const Home = (props) => {
   )
 }
 
-export default Home
+export default Page
 
-KajooLayoutFactory.registerLayout("Home", Home)
+KajooLayoutFactory.registerLayout("Page", Page)

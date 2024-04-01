@@ -3,14 +3,12 @@
   --size-cvc: 123px;
   --size-qwe: 45px;
   --color-dss: #a34c4cff;
-  --color-red: #e53030ff;
   --color-gree: #24bc51ff;
   --color-hjyf: #bc1818ff;
   --color-jhtc: #512020ff;
   --size-large: 144px;
   --size-nabil: 100px;
   --size-small: 48px;
-  --color-blues: #263289ff;
   --color-jgtcj: #f33737ff;
   --radius-full: 999999px;
   --radius-none: 0px;
@@ -25,7 +23,6 @@
   --radius-medium: 6px;
   --size-new-size: 550px;
   --size-xx-large: 288px;
-  --color-blues-22: #6f76a5ff;
   --radius-x-large: 12px;
   --radius-x-small: 99px;
   --size-hukgvhkvg: 33333px;
@@ -47,20 +44,9 @@
 html {
 	display: block; 
 	view-transition-name: root; 
-	color: rgb(0, 0, 0); 
-	background-color: rgb(255, 255, 255); 
-	text-size-adjust: 100%; 
+	box-sizing: border-box; 
 	font-family: sans-serif; 
+	line-height: 1.15; 
+	text-size-adjust: 100%; 
 }
 
-.container-default {
-  flex: 0 0 auto;
-  color: #a0a0a0;
-  width: auto;
-  height: 200px;
-  display: flex;
-  padding: 10px;
-  min-width: 300px;
-  min-height: 200px;
-  background-color: #ffffff;
-}

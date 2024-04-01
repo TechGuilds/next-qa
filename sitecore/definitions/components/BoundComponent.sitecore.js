@@ -13,26 +13,10 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'src',
-        type: CommonFieldTypes.Image,
+        name: 'value',
+        type: CommonFieldTypes.RichText,
         standardValue:
-          '{"image-do":"https://app.kajoo.ai/icons/default-imag.svg"}',
-      },
-      {
-        name: 'alt',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'default-kajoo-image',
-      },
-      {
-        name: 'link',
-        type: CommonFieldTypes.GeneralLink,
-        standardValue:
-          "<link text='Button' linktype='external' url='#' anchor='' target=''/>",
-      },
-      {
-        name: 'text',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Button',
+          '<p>Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.</p>',
       },
     ],
   })
