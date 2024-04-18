@@ -1,8 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Image, Link, RichText } from '@kajoo-ai/sitecore-nextjs'
-import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
+import { Container, Image, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -13,61 +12,45 @@ const HeroBanner1 = (props) => {
     <Container
       tag="header"
       id="hero-banner"
-      className={` ${styles['root']} ${styles[props.rootClassName]} `}
+      className={` ${styles['container']} ${styles[props.rootClassName]} `}
     >
       <picture id="picture-aux" className={styles['html-element']}>
         <source
-          media="(max-width: 575.98px)"
-          srcSet="https://amica.kajoo.ca/-/media/5980ce8a38934b0fb03bd863311025b4.ashx?db=web&amp;la=en&amp;vs=1&amp;ts=20230913t1600563576"
-          className={styles['html-element1']}
-        />
-        <source
           media="(min-width: 1200)"
-          srcSet="https://amica.kajoo.ca/-/media/5980ce8a38934b0fb03bd863311025b4.ashx?db=web&amp;la=en&amp;vs=1&amp;ts=20230913t1600563576"
-          className={styles['html-element2']}
-        />
-        <source
-          media="(min-width: 576px) and (max-width: 1199.98px)"
-          srcSet="https://amica.kajoo.ca/-/media/5980ce8a38934b0fb03bd863311025b4.ashx?db=web&amp;la=en&amp;vs=1&amp;ts=20230913t1600563576"
-          className={styles['html-element3']}
+          srcSet="https://stage-xm-102cm.kajoo.ai/-/media/Amica/Differentiator_panel_with_background_desktop-ASL-NEW-HomepageHeroBanner-OptionB-Desktop-230413.ashx"
+          className={styles['html-element1']}
         />
         <Image
           src={props.fields.src}
           aria-hidden="true"
+          alt={props.fields.alt}
           className={styles['image']}
         />
       </picture>
-      <Container className={styles['container']} />
       <Container className={styles['container1']}>
-        <Placeholder className={styles['sitecore-placeholder']} />
+        <Text tag="p" text={props.fields.text} className={styles['text']} />
+        <Text tag="h1" text={props.fields.text1} className={styles['text1']} />
+        <Text tag="h2" text={props.fields.text2} className={styles['text2']} />
       </Container>
-      <Link
-        href={props.fields.href}
-        aria-hidden="true"
-        aria-label="Scroll down"
-        text={props.fields.text}
-        className={styles['link']}
-      >
-        <RichText value={props.fields.value} />
-      </Link>
     </Container>
   )
 }
 
 HeroBanner1.defaultProps = {
   fields: {
-    src: 'https://amica.kajoo.ca/-/media/5980ce8a38934b0fb03bd863311025b4.ashx?db=web&la=en&vs=1&ts=20230913t1600563576',
-    name: '/main/herobanner-cta',
-    href: '#',
-    text: '',
-    value:
-      '<svg width="41" height="21" xmlns="http://www.w3.org/2000/svg"><path d="M40.094 0L20.5 19.222.906 0 0 .889 20.5 21 41 .889z"></path></svg>',
+    src: 'https://stage-xm-102cm.kajoo.ai/-/media/Amica/Differentiator_panel_with_background_desktop-ASL-NEW-HomepageHeroBanner-OptionB-Desktop-230413.ashx',
+    alt: 'Hero Banner',
+    text: 'Hat Title',
+    text1: 'Headline',
+    text2: 'Subtitle',
   },
+  rendering: {},
   rootClassName: '',
 }
 
 HeroBanner1.propTypes = {
   fields: PropTypes.object,
+  rendering: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 

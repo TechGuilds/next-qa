@@ -10,7 +10,7 @@ import styles from './Component.module.css'
 const AppComponent = (props) => {
   return (
     <Container
-      className={` ${styles['root']} ${styles[props.rootClassName]} `}
+      className={` ${styles['container']} ${styles[props.rootClassName]} `}
     />
   )
 }
@@ -18,11 +18,13 @@ const AppComponent = (props) => {
 AppComponent.defaultProps = {
   fields: {},
   rootClassName: '',
+  rendering: {},
 }
 
 AppComponent.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
+  rendering: PropTypes.object,
 }
 
 export default AppComponent

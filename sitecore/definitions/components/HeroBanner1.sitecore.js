@@ -16,23 +16,27 @@ export default function (manifest) {
         name: 'src',
         type: CommonFieldTypes.Image,
         standardValue:
-          '{"image-do":"https://amica.kajoo.ca/-/media/5980ce8a38934b0fb03bd863311025b4.ashx?db=web&la=en&vs=1&ts=20230913t1600563576"}',
+          '{"image-do":"https://stage-xm-102cm.kajoo.ai/-/media/Amica/Differentiator_panel_with_background_desktop-ASL-NEW-HomepageHeroBanner-OptionB-Desktop-230413.ashx"}',
       },
       {
-        name: 'href',
-        type: CommonFieldTypes.GeneralLink,
-        standardValue:
-          "<link text='' linktype='external' url='#' anchor='' target=''/>",
+        name: 'alt',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Hero Banner',
       },
       {
         name: 'text',
         type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Hat Title',
       },
       {
-        name: 'value',
-        type: CommonFieldTypes.RichText,
-        standardValue:
-          '<svg width="41" height="21" xmlns="http://www.w3.org/2000/svg"><path d="M40.094 0L20.5 19.222.906 0 0 .889 20.5 21 41 .889z"></path></svg>',
+        name: 'text1',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Headline',
+      },
+      {
+        name: 'text2',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Subtitle',
       },
     ],
   })

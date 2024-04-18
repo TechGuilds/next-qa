@@ -1,0 +1,36 @@
+.container {
+  color: rgb(101, 101, 103);
+  width: 100%;
+  display: block;
+  z-index: 0;
+  position: relative;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin-top: 0px;
+  text-align: left;
+  font-family: "open sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  background-color: rgb(255, 255, 255);
+}
+.container:focus-visible {
+  outline-style: none;
+}
+.container1 {
+  display: block;
+  box-sizing: border-box;
+}
+.container1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+@media(max-width: 576px) {
+  .container1 {
+    display: block;
+    box-sizing: border-box;
+  }
+}

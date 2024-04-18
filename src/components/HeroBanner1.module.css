@@ -1,4 +1,4 @@
-.root {
+.container {
   color: rgb(255, 255, 255);
   height: 40vw;
   display: block;
@@ -10,7 +10,7 @@
   overflow-y: hidden;
   text-align: center;
 }
-.root:focus-visible {
+.container:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 1px;
@@ -27,22 +27,6 @@
   box-sizing: border-box;
 }
 .html-element1:focus-visible {
-  outline-color: -webkit-focus-ring-color;
-  outline-style: auto;
-  outline-width: 1px;
-}
-.html-element2 {
-  box-sizing: border-box;
-}
-.html-element2:focus-visible {
-  outline-color: -webkit-focus-ring-color;
-  outline-style: auto;
-  outline-width: 1px;
-}
-.html-element3 {
-  box-sizing: border-box;
-}
-.html-element3:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 1px;
@@ -72,7 +56,7 @@
   outline-style: auto;
   outline-width: 1px;
 }
-.container {
+.container1 {
   top: 50%;
   width: 100%;
   display: block;
@@ -85,72 +69,86 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-.container:focus-visible {
-  outline-color: -webkit-focus-ring-color;
-  outline-style: auto;
-  outline-width: 1px;
-}
-.container1 {
-  left: 50%;
-  width: 520px;
-  bottom: 100px;
-  display: flex;
-  position: absolute;
-  flex-wrap: wrap;
-  font-size: 0px;
-  max-width: 100%;
-  transform: translateX(-50%);
-  box-sizing: border-box;
-  padding-top: 0px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 0px;
-  justify-content: space-around;
-}
 .container1:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 1px;
 }
-.sitecore-placeholder {
-  color: black;
-  height: max-content;
-  padding: 20px;
-  font-size: 18px;
-  max-width: 100%;
-  border-color: #0C0C0C;
-  border-style: dashed;
-  border-width: 1px;
-  background-size: 20px 20px;
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.92), rgba(255, 255, 255, 0.92)),linear-gradient(to right, black 50%, white 50%),linear-gradient(black 50%, white 50%);
-  background-blend-mode: normal, difference, normal;
-}
-.link {
-  left: 50%;
-  color: inherit;
-  width: 40px;
-  bottom: 40px;
-  cursor: pointer;
+.text {
+  color: rgb(255, 255, 255);
   display: block;
-  position: absolute;
-  transform: translateX(-50%);
+  font-size: 38px;
   box-sizing: border-box;
-  background-color: transparent;
-  text-decoration-line: none;
+  margin-top: 28px;
+  font-family: Amiri, serif;
+  line-height: 1;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 8px;
+  margin-block-end: 1em;
+  margin-inline-end: 0px;
+  margin-block-start: 1em;
+  margin-inline-start: 0px;
 }
-.link:hover {
-  opacity: 0.24;
-  text-decoration-line: underline;
-}
-.link:focus-visible {
+.text:focus-visible {
   outline-color: -webkit-focus-ring-color;
   outline-style: auto;
   outline-width: 1px;
-  outline-offset: 1px;
+}
+.text1 {
+  color: inherit;
+  display: block;
+  position: relative;
+  font-size: 77px;
+  max-width: 850px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  font-family: Amiri, serif;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-left: auto;
+  padding-top: 0px;
+  margin-right: auto;
+  padding-left: 0px;
+  margin-bottom: 8px;
+  padding-right: 0px;
+  letter-spacing: 15.5px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  margin-block-end: 0.67em;
+  margin-inline-end: 0px;
+  margin-block-start: 0.67em;
+  margin-inline-start: 0px;
+}
+.text1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.text2 {
+  color: inherit;
+  display: block;
+  font-size: 2.5rem;
+  box-sizing: border-box;
+  margin-top: 0px;
+  font-family: inherit;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  margin-block-end: 0.83em;
+  margin-inline-end: auto;
+  margin-block-start: 0.83em;
+  margin-inline-start: auto;
+}
+.text2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
 }
 
-@media(max-width: 810px) {
-  .root {
+@media(max-width: 576px) {
+  .container {
     color: rgb(255, 255, 255);
     height: 720px;
     display: block;
@@ -161,7 +159,7 @@
     overflow-y: hidden;
     text-align: center;
   }
-  .root,.html-element,.html-element1,.html-element2,.html-element3 {
+  .container,.html-element,.html-element1 {
     box-sizing: border-box;
   }
   .image {
@@ -182,11 +180,11 @@
     border-bottom-style: none;
     overflow-clip-margin: content-box;
   }
-  .image,.container {
+  .image,.container1 {
     width: 100%;
     box-sizing: border-box;
   }
-  .container {
+  .container1 {
     top: 50%;
     display: block;
     position: relative;
@@ -196,28 +194,59 @@
     padding-left: 15px;
     padding-right: 15px;
   }
-  .container1 {
-    width: 520px;
-    bottom: 60px;
-    max-width: 100%;
-    padding-top: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 0px;
+  .text {
+    color: rgb(255, 255, 255);
+    margin-top: 28px;
+    line-height: 1;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 8px;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
   }
-  .container1,.link {
-    left: 50%;
+  .text,.text1 {
     display: block;
-    position: absolute;
-    transform: translateX(-50%);
+    font-size: 38px;
     box-sizing: border-box;
+    font-family: Amiri, serif;
   }
-  .link {
+  .text1 {
+    position: relative;
+    max-width: 850px;
+    margin-top: 4px;
+    font-weight: 500;
+    margin-left: auto;
+    padding-top: 0px;
+    margin-right: auto;
+    padding-left: 0px;
+    margin-bottom: 8px;
+    padding-right: 0px;
+    letter-spacing: 15.5px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    margin-block-end: 0.67em;
+    margin-inline-end: 0px;
+    margin-block-start: 0.67em;
+    margin-inline-start: 0px;
+  }
+  .text1,.text2 {
     color: inherit;
-    width: 40px;
-    bottom: 20px;
-    cursor: pointer;
-    background-color: transparent;
-    text-decoration-line: none;
+    line-height: 1.2;
+  }
+  .text2 {
+    display: block;
+    font-size: 2.5rem;
+    box-sizing: border-box;
+    margin-top: 0px;
+    font-family: inherit;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    margin-block-end: 0.83em;
+    margin-inline-end: auto;
+    margin-block-start: 0.83em;
+    margin-inline-start: auto;
   }
 }

@@ -16,7 +16,7 @@ export default function (manifest) {
         name: 'href',
         type: CommonFieldTypes.GeneralLink,
         standardValue:
-          "<link text='' linktype='external' url='/' anchor='' target=''/>",
+          "<link text='' linktype='external' url='/en/' anchor='' target=''/>",
       },
       {
         name: 'text',
@@ -26,12 +26,11 @@ export default function (manifest) {
         name: 'src',
         type: CommonFieldTypes.Image,
         standardValue:
-          '{"image-do":"https://amica.kajoo.ca/-/media/amica/logos/amica_sl_corplogo_pms_rev_boxed.svg?h=210&la=en&w=417&hash=6048F369EE2E2ACF346F4C59C3C226D01550AF9E"}',
+          '{"image-do":"https://stage-xm-102cm.kajoo.ai/-/media/Amica/Logos/webimage-9B1B98BC-10CA-4E19-B459EED98FAAE3FA.ashx?h=402&iar=0&w=800&hash=5B3678B2EF15F2345ED7327019ACB4BB"}',
       },
       {
         name: 'alt',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Amica',
       },
       {
         name: 'text1',

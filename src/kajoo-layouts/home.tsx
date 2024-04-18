@@ -12,7 +12,7 @@ import { Helmet } from 'react-helmet'
 import styles from './home.module.css'
 
 const Home = (props) => {
-  return <Container className={styles['root']} />
+  return <Container className={styles['container']} />
 }
 
 export default Home

@@ -2,7 +2,6 @@
 // @ts-nocheck
 import React from 'react'
 import { Container, Link, Image, Text } from '@kajoo-ai/sitecore-nextjs'
-import { Placeholder } from '@sitecore-jss/sitecore-jss-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -13,9 +12,9 @@ const MainNavigation1 = (props) => {
     <Container
       tag="nav"
       aria-label="Main Navigation"
-      className={` ${styles['root']} ${styles[props.rootClassName]} `}
+      className={` ${styles['container']} ${styles[props.rootClassName]} `}
     >
-      <Container className={styles['container']}>
+      <Container className={styles['container1']}>
         <Link
           href={props.fields.href}
           text={props.fields.text}
@@ -24,13 +23,13 @@ const MainNavigation1 = (props) => {
           <Image
             src={props.fields.src}
             alt={props.fields.alt}
-            width="417"
-            height="210"
+            width="800"
+            height="402"
             role="img"
             className={styles['image']}
           />
         </Link>
-        <Container className={styles['container1']}>
+        <Container className={styles['container2']}>
           <button
             type="button"
             data-toggle="collapse"
@@ -48,7 +47,6 @@ const MainNavigation1 = (props) => {
             <li className={styles['html-element3']} />
           </ul>
         </Container>
-        <Placeholder className={styles['sitecore-placeholder']} />
       </Container>
       <input
         id="IsExperienceEditor"
@@ -62,18 +60,19 @@ const MainNavigation1 = (props) => {
 
 MainNavigation1.defaultProps = {
   fields: {
-    href: '/',
+    href: '/en/',
     text: '',
-    src: 'https://amica.kajoo.ca/-/media/amica/logos/amica_sl_corplogo_pms_rev_boxed.svg?h=210&la=en&w=417&hash=6048F369EE2E2ACF346F4C59C3C226D01550AF9E',
-    alt: 'Amica',
+    src: 'https://stage-xm-102cm.kajoo.ai/-/media/Amica/Logos/webimage-9B1B98BC-10CA-4E19-B459EED98FAAE3FA.ashx?h=402&iar=0&w=800&hash=5B3678B2EF15F2345ED7327019ACB4BB',
+    alt: '',
     text1: '',
-    name: '/main/mvc.navsearchbox',
   },
+  rendering: {},
   rootClassName: '',
 }
 
 MainNavigation1.propTypes = {
   fields: PropTypes.object,
+  rendering: PropTypes.object,
   rootClassName: PropTypes.string,
 }
 

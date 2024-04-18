@@ -21,18 +21,23 @@ export default function (manifest) {
         name: 'value',
         type: CommonFieldTypes.RichText,
         standardValue:
-          '<div data-kajoo-element-type="rich-text">\nGet expert&nbsp;tips and ideas for better sleep, enhanced memory, managing stress, downsizing and more in our new online workshops.\n</div>',
+          '<div data-kajoo-element-type="rich-text">Get expert&nbsp;tips and ideas for better sleep, enhanced memory, managing stress, downsizing and more in our new online workshops.</div>',
       },
       {
-        name: 'src',
-        type: CommonFieldTypes.Image,
+        name: 'href',
+        type: CommonFieldTypes.GeneralLink,
         standardValue:
-          '{"image-do":"https://amica.kajoo.ca/-/media/310bbf8c62b247f49ee51e2d1f068582.ashx?db=master&la=en&vs=1&ts=20230913t1633522702"}',
+          "<link text='WATCH NOW' linktype='external' url='https://www.amica.ca/webinars' anchor='' target=''/>",
       },
       {
-        name: 'alt',
+        name: 'text1',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Webinars for seniors',
+        standardValue: 'WATCH NOW',
+      },
+      {
+        name: 'text2',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: ' ',
       },
     ],
   })

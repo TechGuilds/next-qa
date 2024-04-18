@@ -26,10 +26,21 @@ export default function (manifest) {
         name: 'value',
         type: CommonFieldTypes.RichText,
         standardValue:
-          '<div data-kajoo-element-type="rich-text">\nAmica offers an exceptional senior living experience unlike any other. Every residence offers elegant and purposeful designs, premium amenities, unparalleled care that evolves as you do and a lifestyle that leaves you in full control. At Amica, you’ll never have to move again. And you’ll never want to.\n</div>',
+          '<div data-kajoo-element-type="rich-text">Amica offers an exceptional senior living experience unlike any other. Every residence offers elegant and purposeful designs, premium amenities, unparalleled care that evolves as you do and a lifestyle that leaves you in full control. At Amica, you’ll never have to move again. And you’ll never want to.</div>',
+      },
+      {
+        name: 'href',
+        type: CommonFieldTypes.GeneralLink,
+        standardValue:
+          "<link text='BOOK A TOUR' linktype='external' url='https://www.amica.ca/book-a-visit' anchor='' target=''/>",
       },
       {
         name: 'text2',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'BOOK A TOUR',
+      },
+      {
+        name: 'text3',
         type: CommonFieldTypes.SingleLineText,
       },
     ],
