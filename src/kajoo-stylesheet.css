@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fahkwang');
+@import url('https://fonts.googleapis.com/css?family=Fahkwang|Amiri|open+sans');
 :root {
   --size-cvc: 123px;
   --size-qwe: 45px;
@@ -38,7 +38,6 @@
   --spacing-fdsgfdgdfg: 3434px;
   --spacing-five-units: 80px;
   --spacing-four-units: 64px;
-  --color-default-name-2: #0c0c0cff;
   --spacing-one-and-half-units: 24px;
 }
 html {
@@ -50,3 +49,17 @@ html {
 	text-size-adjust: 100%; 
 }
 
+.header-default {
+  color: #f31515;
+  height: fit-content;
+  font-size: 32px;
+  min-width: 140px;
+  text-align: left;
+  font-family: Verdana;
+  font-weight: normal;
+}
+@media(max-width: 3203px) {
+  .header-default {
+    color: #417505;
+  }
+}
