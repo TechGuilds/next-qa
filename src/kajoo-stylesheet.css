@@ -1,65 +1,32 @@
-@import url('https://fonts.googleapis.com/css?family=Fahkwang|Amiri|open+sans');
+@import url('test');
+@import url('https://fonts.googleapis.com/css?family=SF+Pro+Text|ADLaM+Display');
 :root {
-  --size-cvc: 123px;
-  --size-qwe: 45px;
-  --color-dss: #a34c4cff;
-  --color-gree: #24bc51ff;
-  --color-hjyf: #bc1818ff;
-  --color-jhtc: #512020ff;
-  --size-large: 144px;
-  --size-nabil: 100px;
-  --size-small: 48px;
-  --color-jgtcj: #f33737ff;
-  --radius-full: 999999px;
-  --radius-none: 0px;
-  --size-medium: 96px;
-  --spacing-rrt: 23px;
-  --spacing-vvv: 2px;
-  --color-red-12: #ff0000ff;
-  --radius-small: 4px;
-  --size-x-large: 192px;
-  --size-x-small: 8px;
-  --spacing-unit: 16px;
-  --radius-medium: 6px;
-  --size-new-size: 550px;
-  --size-xx-large: 288px;
-  --radius-x-large: 12px;
-  --radius-x-small: 99px;
-  --size-hukgvhkvg: 33333px;
-  --size-max-width: 1440px;
-  --size-newsize22: 200px;
-  --size-size-size: 333px;
-  --spacing-newtest: 546px;
-  --size-new-size6666: 30000px;
-  --spacing-dfgdfgfdg: 44444px;
-  --spacing-two-units: 32px;
-  --color-border-color: #a0a0a0ff;
-  --color-default-name: #464646;
-  --spacing-fdsgfdgdfg: 3434px;
-  --spacing-five-units: 80px;
-  --spacing-four-units: 64px;
-  --spacing-one-and-half-units: 24px;
+  --size-wq: 550px;
+  --color-jjkl: #6f6f75ff;
+  --radius-qwsx: 11px;
+  --spacing-qqq: 14px;
+  --color-pjpkpp: #566335ff;
+  --spacing-test: 33px;
+  --color-default-name: #a04040ff;
+  --color-random-test-color: #3763b8ff;
 }
 html {
-	display: block; 
-	view-transition-name: root; 
-	box-sizing: border-box; 
-	font-family: sans-serif; 
-	line-height: 1.15; 
-	text-size-adjust: 100%; 
+	display: block;
+	view-transition-name: root;
+	box-sizing: border-box;
+	line-height: 1.15;
+	text-size-adjust: 100%;
+	color: rgb(46, 56, 65);
+	overflow: -moz-scrollbars-none;
 }
 
-.header-default {
-  color: #f31515;
+
+.header-defaultnfngf {
+  font: normal 30px Arial;
+  color: #f8e71c;
+  border: 22px solid #50e3c2;
   height: fit-content;
-  font-size: 32px;
   min-width: 140px;
   text-align: left;
-  font-family: Verdana;
-  font-weight: normal;
-}
-@media(max-width: 3203px) {
-  .header-default {
-    color: #417505;
-  }
+  background-color: #8b572a;
 }
