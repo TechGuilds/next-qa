@@ -6,22 +6,22 @@ import PropTypes from 'prop-types'
 
 import './style.css'
 
-const AppComponent = (props) => {
+const Component2 = (props) => {
   return (
-    <Container className={`app-component-container ${props.rootClassName} `} />
+    <Container className={`component2-container ${props.rootClassName} `} />
   )
 }
 
-AppComponent.defaultProps = {
+Component2.defaultProps = {
   fields: {},
   rootClassName: '',
   rendering: {},
 }
 
-AppComponent.propTypes = {
+Component2.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
   rendering: PropTypes.object,
 }
 
-export default AppComponent
+export default Component2
