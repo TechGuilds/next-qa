@@ -1,4 +1,9 @@
 :root {
+  --color-shs: #b62525ff;
+  --color-sth: #aa1d1dff;
+  --color-syt: #913838ff;
+  --color-dcad: #5f5b65ff;
+  --color-sths: #7ed321ff;
   --size-large: 144px;
   --size-small: 48px;
   --radius-full: 9999px;
@@ -22,12 +27,41 @@
   --spacing-three-units: 48px;
   --spacing-one-and-half-units: 24px;
 }
+html {
+	display: block;
+	view-transition-name: root;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	text-size-adjust: 100%;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 106.25%;
+	quotes: "“" "”";
+	top: 0px;
+}
 
-.paragraph-default {
+
+.text-default {
   height: fit-content;
   overflow: hidden;
   font-size: 14px;
   min-width: 30px;
   font-family: Arial;
   -webkit-user-drag: none;
+}
+.container-default {
+  flex: 0 0 auto;
+  color: #a0a0a0;
+  width: auto;
+  height: 200px;
+  display: flex;
+  padding: 10px;
+  min-width: 300px;
+  min-height: 200px;
+  background-color: #ffffff;
 }

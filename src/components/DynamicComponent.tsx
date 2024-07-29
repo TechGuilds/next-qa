@@ -1,7 +1,9 @@
 /* eslint-disable */
-// @ts-nocheck
+// @ts-nocheck 
+import { withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+
 import React from 'react'
-import { Container } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -10,19 +12,46 @@ import styles from './DynamicComponent.module.css'
 const DynamicComponent = (props) => {
   return (
     <Container
-      className={` ${styles['root']} ${styles[props.rootClassName]} `}
-    />
+      className={` ${styles['container']} ${styles[props.rootClassName]} ${props.params?.Styles} `}
+    >
+      <Container
+        className={` ${styles['row-container']} ${'container-default'} `}
+      >
+        <Text
+          text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
+          className={'text-default'}
+        />
+      </Container>
+      <Container
+        className={` ${styles['row-container1']} ${'container-default'} `}
+      >
+        <Text
+          text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
+          className={'text-default'}
+        />
+      </Container>
+      <Container
+        className={` ${styles['row-container2']} ${'container-default'} `}
+      >
+        <Text
+          text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
+          className={'text-default'}
+        />
+      </Container>
+    </Container>
   )
 }
 
 DynamicComponent.defaultProps = {
   fields: {},
   rootClassName: '',
+  rendering: {},
 }
 
 DynamicComponent.propTypes = {
   fields: PropTypes.object,
   rootClassName: PropTypes.string,
+  rendering: PropTypes.object,
 }
 
-export default DynamicComponent
+export default withDatasourceCheck()(DynamicComponent)
