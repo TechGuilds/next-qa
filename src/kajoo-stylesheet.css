@@ -1,89 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Fahkwang');
 :root {
-  --size-cvc: 123px;
-  --size-qwe: 45px;
-  --color-dss: #a34c4cff;
-  --color-red: #b85c5cff;
-  --color-gree: #24bc51ff;
-  --color-hjyf: #bc1818ff;
-  --color-jhtc: #512020ff;
   --size-large: 144px;
-  --size-nabil: 100px;
   --size-small: 48px;
-  --color-jgtcj: #f33737ff;
-  --radius-full: 999999px;
+  --radius-full: 9999px;
   --radius-none: 0px;
   --size-medium: 96px;
-  --spacing-rrt: 23px;
-  --spacing-vvv: 2px;
-  --color-red-12: #ff0000ff;
-  --color-sfeaef: #a06969ff;
+  --radius-large: 8px;
   --radius-small: 4px;
   --size-x-large: 192px;
   --size-x-small: 8px;
   --spacing-unit: 16px;
-  --color-new-red: #7a73bdff;
   --radius-medium: 6px;
-  --size-new-size: 550px;
   --size-xx-large: 288px;
   --radius-x-large: 12px;
-  --radius-x-small: 99px;
-  --size-hukgvhkvg: 33333px;
+  --radius-x-small: 2px;
   --size-max-width: 1440px;
-  --size-newsize22: 200px;
-  --size-size-size: 333px;
-  --spacing-newtest: 546px;
-  --size-new-size6666: 30000px;
-  --spacing-dfgdfgfdg: 44444px;
+  --spacing-half-unit: 8px;
+  --spacing-six-units: 96px;
   --spacing-two-units: 32px;
-  --color-border-color: #a0a0a0ff;
-  --color-default-name: #464646;
-  --spacing-fdsgfdgdfg: 3434px;
   --spacing-five-units: 80px;
   --spacing-four-units: 64px;
+  --spacing-three-units: 48px;
   --spacing-one-and-half-units: 24px;
 }
-body, head, html {
-	display: block;
-	view-transition-name: root;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	border: 0 solid rgb(229, 231, 235);
-	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-	line-height: 1.5;
-	scroll-behavior: smooth;
-	text-size-adjust: 100%;
-	tab-size: 4;
-}
 
-html {
-	display: block;
-	view-transition-name: root;
-	box-sizing: border-box;
-	font-family: sans-serif;
-	line-height: 1.15;
-	text-size-adjust: 100%;
-}
-
-
-.container-default {
-  flex: 0 0 auto;
-  color: #a0a0a0;
-  width: auto;
-  height: 200px;
-  display: flex;
-  padding: 10px;
-  min-width: 300px;
-  min-height: 200px;
-  background-color: #ffffff;
-}
-.paragraph-default {
-  color: rgba(255, 255, 255, 1);
+.text-default {
   height: fit-content;
   overflow: hidden;
   font-size: 14px;
   min-width: 30px;
   font-family: Arial;
-  background-color: rgba(12, 12, 12, 1);
+  -webkit-user-drag: none;
 }

@@ -13,20 +13,10 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'src',
-        type: CommonFieldTypes.Image,
-        standardValue:
-          '{"image-do":"https://app.kajoo.ai/icons/default-imag.svg"}',
-      },
-      {
-        name: 'alt',
-        type: CommonFieldTypes.SingleLineText,
-        standardValue: 'default-kajoo-image',
-      },
-      {
         name: 'text',
         type: CommonFieldTypes.SingleLineText,
-        standardValue: 'Heading',
+        standardValue:
+          'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
       },
     ],
   })
