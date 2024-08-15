@@ -23,11 +23,25 @@
   --spacing-one-and-half-units: 24px;
 }
 
-.text-default {
+.link-default {
+  color: rgba(47, 0, 255, 1);
   height: fit-content;
+  display: flex;
   overflow: hidden;
   font-size: 14px;
   min-width: 30px;
+  text-align: left;
+  align-items: left;
   font-family: Arial;
+  font-weight: normal;
+  border-color: rgb(187, 187, 187);
+  border-style: none;
+  border-width: 0px;
+  padding-left: 5px;
+  border-radius: 3px;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: underline;
+  background-color: #FFFFFF00;
   -webkit-user-drag: none;
 }

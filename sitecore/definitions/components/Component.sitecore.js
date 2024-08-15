@@ -11,6 +11,12 @@ export default function (manifest) {
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '',
-    fields: [],
+    fields: [
+      {
+        name: 'text',
+        type: CommonFieldTypes.SingleLineText,
+        standardValue: 'Heading',
+      },
+    ],
   })
 }

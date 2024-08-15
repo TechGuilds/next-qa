@@ -2,6 +2,12 @@
   width: 100%;
   height: 400px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
+}
+.heading {
+  margin-top: var(--spacing-half-unit);
+  margin-left: var(--spacing-half-unit);
+  margin-right: var(--spacing-half-unit);
+  margin-bottom: var(--spacing-half-unit);
 }
