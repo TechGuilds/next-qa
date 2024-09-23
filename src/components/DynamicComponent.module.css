@@ -4,8 +4,13 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  justify-content: center;
 }
-.text {
-  width: var(--size-x-large);
+.heading {
+  background-color: #d84242;
+}
+
+@media(max-width: 1280px) {
+  .heading {
+    background-color: #5a33b9;
+  }
 }
