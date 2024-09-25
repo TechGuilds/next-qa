@@ -3,7 +3,7 @@
 import { withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
 
 import React from 'react'
-import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
+import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -14,15 +14,9 @@ const DynamicComponent = (props) => {
     <Container
       className={` ${styles['container']} ${styles[props.rootClassName]} ${props.params?.styles} `}
     >
-      <Container className={styles['container1']}>
-        {['Item 1', 'Item 2', 'Item 3'].map((item, index) => (
-          <Text
-            text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
-            key={index}
-          />
-        ))}
-      </Container>
-      <Text text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late." />
+      <Container
+        className={` ${styles['container1']} ${'container-default'} `}
+      />
     </Container>
   )
 }
