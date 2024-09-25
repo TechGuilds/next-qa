@@ -15,22 +15,22 @@ const DynamicComponent = (props) => {
       className={` ${styles['container']} ${styles[props.rootClassName]} ${props.params?.styles} `}
     >
       <Container
-        className={` ${styles['container1']} ${'container-default'} `}
+        className={` ${styles['row-container']} ${'container-default'} `}
       />
     </Container>
   )
 }
 
 DynamicComponent.defaultProps = {
-  fields: {},
   rendering: {},
   rootClassName: '',
+  fields: {},
 }
 
 DynamicComponent.propTypes = {
-  fields: PropTypes.object,
   rendering: PropTypes.object,
   rootClassName: PropTypes.string,
+  fields: PropTypes.object,
 }
 
 export default withDatasourceCheck()(DynamicComponent)

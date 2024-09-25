@@ -3,12 +3,12 @@
   flex-direction: column;
   justify-content: center;
 }
-.container,.container1 {
+.container,.row-container {
   width: 100%;
   display: flex;
   align-items: center;
 }
-.container1 {
+.row-container {
   flex: 0 0 auto;
   height: 100px;
   justify-content: flex-start;
