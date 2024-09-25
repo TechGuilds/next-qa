@@ -1,0 +1,15 @@
+.container {
+  height: 400px;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.container,.container1 {
+  width: 100%;
+  display: flex;
+}
+.container1 {
+  flex: 0 0 auto;
+  height: 100px;
+  align-items: center;
+  flex-direction: row;
+}
