@@ -36,14 +36,3 @@ html {
 }
 
 
-.container-default {
-  flex: 0 0 auto;
-  color: #a0a0a0;
-  width: auto;
-  height: 200px;
-  display: flex;
-  padding: 10px;
-  min-width: 300px;
-  min-height: 200px;
-  background-color: #ffffff;
-}
