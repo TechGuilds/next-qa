@@ -12,46 +12,31 @@ import styles from './DynamicComponent.module.css'
 const DynamicComponent = (props) => {
   return (
     <Container
-      className={` ${styles['container']} ${styles[props.rootClassName]} ${props.params?.Styles} `}
+      className={` ${styles['container']} ${styles[props.rootClassName]} ${props.params?.styles} `}
     >
-      <Container
-        className={` ${styles['row-container']} ${'container-default'} `}
-      >
-        <Text
-          text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
-          className={'text-default'}
-        />
+      <Container className={styles['container1']}>
+        {['Item 1', 'Item 2', 'Item 3'].map((item, index) => (
+          <Text
+            text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
+            key={index}
+          />
+        ))}
       </Container>
-      <Container
-        className={` ${styles['row-container1']} ${'container-default'} `}
-      >
-        <Text
-          text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
-          className={'text-default'}
-        />
-      </Container>
-      <Container
-        className={` ${styles['row-container2']} ${'container-default'} `}
-      >
-        <Text
-          text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late."
-          className={'text-default'}
-        />
-      </Container>
+      <Text text="Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late." />
     </Container>
   )
 }
 
 DynamicComponent.defaultProps = {
   fields: {},
-  rootClassName: '',
   rendering: {},
+  rootClassName: '',
 }
 
 DynamicComponent.propTypes = {
   fields: PropTypes.object,
-  rootClassName: PropTypes.string,
   rendering: PropTypes.object,
+  rootClassName: PropTypes.string,
 }
 
 export default withDatasourceCheck()(DynamicComponent)
