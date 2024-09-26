@@ -20,15 +20,15 @@ const DynamicComponent = (props) => {
 }
 
 DynamicComponent.defaultProps = {
-  fields: {},
   rendering: {},
   rootClassName: '',
+  fields: {},
 }
 
 DynamicComponent.propTypes = {
-  fields: PropTypes.object,
   rendering: PropTypes.object,
   rootClassName: PropTypes.string,
+  fields: PropTypes.object,
 }
 
 export default withDatasourceCheck()(DynamicComponent)
