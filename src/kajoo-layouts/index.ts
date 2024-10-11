@@ -1,2 +1,2 @@
-import './home';
-import './SitecoreExperiencePlatform';
+import './Page';
+import './Page1';
