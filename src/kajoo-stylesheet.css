@@ -1,6 +1,4 @@
 :root {
-  --color-hh: #281f75ff;
-  --color-var: #b43434ff;
   --size-large: 144px;
   --size-small: 48px;
   --radius-full: 9999px;
@@ -10,7 +8,6 @@
   --radius-small: 4px;
   --size-x-large: 192px;
   --size-x-small: 8px;
-  --spacing-test: 123px;
   --spacing-unit: 16px;
   --radius-medium: 6px;
   --size-xx-large: 288px;
@@ -20,6 +17,7 @@
   --spacing-half-unit: 8px;
   --spacing-six-units: 96px;
   --spacing-two-units: 32px;
+  --color-sdtrhsrhrath: #417505ff;
   --spacing-five-units: 80px;
   --spacing-four-units: 64px;
   --spacing-three-units: 48px;
@@ -34,4 +32,86 @@ html {
 	text-size-adjust: 100%;
 }
 
+h1 {
+	background-color: red;
+}
 
+
+.text-default {
+  height: fit-content;
+  overflow: hidden;
+  font-size: 14px;
+  min-width: 30px;
+  font-family: Arial;
+  -webkit-user-drag: none;
+}
+.button-default {
+  height: fit-content;
+  display: flex;
+  padding: 10px 35px;
+  font-size: 0.8em;
+  min-width: 130px;
+  min-height: 24px;
+  align-items: center;
+  border-color: #a0a0a0;
+  border-width: 1px;
+  border-radius: 3px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #eeeeee;
+}
+.container-default {
+  flex: 0 0 auto;
+  color: #a0a0a0;
+  width: auto;
+  height: 200px;
+  display: flex;
+  padding: 10px;
+  min-width: 300px;
+  min-height: 200px;
+  background-color: #ffffff;
+}
+.image-default {
+  height: 200px;
+  display: flex;
+  overflow: hidden;
+  min-width: 200px;
+  min-height: 200px;
+  align-items: center;
+  border-color: #a0a0a0;
+  border-width: 1px;
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d9d9d9;
+}
+.link-default {
+  color: rgba(47, 0, 255, 1);
+  height: fit-content;
+  display: flex;
+  overflow: hidden;
+  font-size: 14px;
+  min-width: 30px;
+  text-align: left;
+  align-items: left;
+  font-family: Arial;
+  font-weight: normal;
+  border-color: rgb(187, 187, 187);
+  border-style: none;
+  border-width: 0px;
+  padding-left: 5px;
+  border-radius: 3px;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: underline;
+  background-color: #FFFFFF00;
+  -webkit-user-drag: none;
+}
+.richtext-default {
+  height: fit-content;
+  overflow: hidden;
+  font-size: 14px;
+  min-width: 30px;
+  font-family: Arial;
+  -webkit-user-drag: none;
+}
