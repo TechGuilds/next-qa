@@ -3,7 +3,7 @@
 import { withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
 
 import React from 'react'
-import { Container, Image } from '@kajoo-ai/sitecore-nextjs'
+import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -14,11 +14,7 @@ const DynamicComponent = (props) => {
     <Container
       className={` ${styles['dynamic-component-container']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
     >
-      <Image
-        src="https://app.kajoo.ai/icons/default-imag.svg"
-        alt="default-kajoo-image"
-        className={'image-image'}
-      />
+      <Text text={props.fields.Text} className={'text-default'} />
     </Container>
   )
 }
@@ -26,7 +22,9 @@ const DynamicComponent = (props) => {
 DynamicComponent.defaultProps = {
   rendering: {},
   rootClassName: '',
-  fields: {},
+  fields: {
+    Text: 'Lorem Ipsumuyt',
+  },
 }
 
 DynamicComponent.propTypes = {

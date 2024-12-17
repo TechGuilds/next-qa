@@ -9,15 +9,9 @@ export default function (manifest) {
     contentResolver: '',
     fields: [
       {
-        name: 'List',
-        type: 'Treelist',
-        source:
-          'DataSource=/Sitecore/Content&IncludeTemplatesForSelection=DynamicComponentList',
-      },
-      {
-        name: 'Image',
-        type: 'Image',
-        standardValue: 'https://app.kajoo.ai/icons/default-imag.svg',
+        name: 'Text',
+        type: 'Single-Line Text',
+        standardValue: 'Lorem Ipsumuyt',
       },
     ],
   })
