@@ -12,7 +12,7 @@ import { Helmet } from 'react-helmet'
 import styles from './Page.module.css'
 
 const Page = (props) => {
-  return <Container className={styles['container']} />
+  return <Container className={styles['page-container']} />
 }
 
 export default Page

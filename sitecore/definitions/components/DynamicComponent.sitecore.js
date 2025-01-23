@@ -7,12 +7,6 @@ export default function (manifest) {
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '',
-    fields: [
-      {
-        name: 'Text',
-        type: 'Single-Line Text',
-        standardValue: 'Lorem Ipsumuyt',
-      },
-    ],
+    fields: [],
   })
 }

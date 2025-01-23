@@ -1,24 +1,18 @@
 :root {
-  --color-shs: #b62525ff;
-  --color-syt: #913838ff;
-  --color-blue: #4317efff;
-  --color-dcad: #5f5b65ff;
-  --color-sths: #7ed321ff;
+  --color-13: #3f3e3eff;
+  --color-14: #dc0b92ff;
+  --color-15: #b11df0ff;
   --size-large: 144px;
   --size-small: 48px;
   --radius-full: 9999px;
   --radius-none: 0px;
   --size-medium: 96px;
-  --color-sample: #bd10e0ff;
   --radius-large: 8px;
   --radius-small: 4px;
   --size-x-large: 192px;
   --size-x-small: 8px;
   --spacing-unit: 16px;
-  --color-red-200: #ef4040ff;
-  --color-red-400: #da1a1aff;
   --radius-medium: 6px;
-  --radius-sample: 24px;
   --size-xx-large: 288px;
   --radius-x-large: 12px;
   --radius-x-small: 2px;
@@ -31,26 +25,8 @@
   --spacing-three-units: 48px;
   --spacing-one-and-half-units: 24px;
 }
-html {
-	display: block;
-	view-transition-name: root;
-	box-sizing: border-box;
-	font-family: sans-serif;
-	line-height: 1.15;
-	text-size-adjust: 100%;
-}
 
-
-.text-default {
-  color: #0C0C0C;
-  height: fit-content;
-  font-size: 30px;
-  min-width: 100px;
-  text-align: left;
-  font-family: Arial;
-  font-weight: normal;
-}
-.container-default {
+.container-container {
   flex: 0 0 auto;
   color: #a0a0a0;
   width: auto;
@@ -60,48 +36,4 @@ html {
   min-width: 300px;
   min-height: 200px;
   background-color: #ffffff;
-}
-.link-default {
-  color: rgba(47, 0, 255, 1);
-  height: fit-content;
-  display: flex;
-  overflow: hidden;
-  font-size: 14px;
-  min-width: 30px;
-  text-align: left;
-  align-items: left;
-  font-family: Arial;
-  font-weight: normal;
-  border-color: rgb(187, 187, 187);
-  border-style: none;
-  border-width: 0px;
-  padding-left: 5px;
-  border-radius: 3px;
-  flex-direction: column;
-  justify-content: center;
-  text-decoration: underline;
-  background-color: #FFFFFF00;
-  -webkit-user-drag: none;
-}
-.richtext-default {
-  height: fit-content;
-  overflow: hidden;
-  font-size: 14px;
-  min-width: 30px;
-  font-family: Arial;
-  -webkit-user-drag: none;
-}
-.image-test {
-  height: 200px;
-  display: flex;
-  overflow: hidden;
-  min-width: 200px;
-  min-height: 200px;
-  align-items: center;
-  border-color: #a0a0a0;
-  border-width: 1px;
-  border-radius: 6px;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #d9d9d9;
 }

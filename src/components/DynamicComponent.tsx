@@ -3,7 +3,7 @@
 import { withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
 
 import React from 'react'
-import { Container, Text } from '@kajoo-ai/sitecore-nextjs'
+import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -12,25 +12,27 @@ import styles from './DynamicComponent.module.css'
 const DynamicComponent = (props) => {
   return (
     <Container
-      className={` ${styles['dynamic-component-container']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
+      className={` ${styles['dynamic-component-container1']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
     >
-      <Text text={props.fields.Text} className={'text-default'} />
+      <Container
+        className={` ${
+          styles['dynamic-component-container2']
+        } ${'container-container'} `}
+      />
     </Container>
   )
 }
 
 DynamicComponent.defaultProps = {
+  fields: {},
   rendering: {},
   rootClassName: '',
-  fields: {
-    Text: 'Lorem Ipsumuyt',
-  },
 }
 
 DynamicComponent.propTypes = {
+  fields: PropTypes.object,
   rendering: PropTypes.object,
   rootClassName: PropTypes.string,
-  fields: PropTypes.object,
 }
 
 export default withDatasourceCheck()(DynamicComponent)
