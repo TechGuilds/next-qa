@@ -1,48 +1,32 @@
 /* eslint-disable */
-// @ts-nocheck
+// @ts-nocheck 
+import { withDatasourceCheck } from '@sitecore-jss/sitecore-jss-nextjs';
+
 import React from 'react'
-import { Container, Text, Button } from '@kajoo-ai/sitecore-nextjs'
+import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
-import BannerAndTwoImage1 from '../kajoo-components/BannerAndTwoImage1'
 import styles from './Component1.module.css'
 
 const Component1 = (props) => {
   return (
-    <Container className={` ${styles['root']} ${styles[props.rootClassName]} `}>
-      <Text
-        text={props.fields.text}
-        tag="h1"
-        className={` ${styles['text']} ${styles['header-default']} `}
-      />
-      <Text text={props.fields.text1} tag="p" />
-      <Button
-        link={props.fields.link}
-        className={` ${styles['button']} ${styles['button-default']} `}
-      />
-      <Container
-        className={` ${styles['container']} ${styles['container-default']} `}
-      />
-      <BannerAndTwoImage1 rootClassName="root-class-name1" />
-    </Container>
+    <Container
+      className={` ${styles['component1-container']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
+    />
   )
 }
 
 Component1.defaultProps = {
-  fields: {
-    text: 'Heading',
-    text1:
-      'Skate ipsum dolor sit amet, carve shoveit steps Jordan Richter pressure flip late.',
-    text2: 'Button',
-    link: '#',
-  },
+  rendering: {},
   rootClassName: '',
+  fields: {},
 }
 
 Component1.propTypes = {
-  fields: PropTypes.object,
+  rendering: PropTypes.object,
   rootClassName: PropTypes.string,
+  fields: PropTypes.object,
 }
 
-export default Component1
+export default withDatasourceCheck()(Component1)
