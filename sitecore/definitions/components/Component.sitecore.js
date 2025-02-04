@@ -7,6 +7,28 @@ export default function (manifest) {
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '',
-    fields: [],
+    fields: [
+      {
+        name: 'Text',
+        type: 'Single-Line Text',
+        standardValue: 'Lorem Ipsum',
+      },
+      {
+        name: 'Image',
+        type: 'Image',
+        standardValue: 'https://app.kajoo.ai/icons/default-imag.svg',
+      },
+      {
+        name: 'Link',
+        type: 'General Link',
+        standardValue:
+          "<link text='Link' linktype='external' url='#' anchor='' target=''/>",
+      },
+      {
+        name: 'Rich Text',
+        type: 'Rich Text',
+        standardValue: '<p>Lorem Ipsum</p>',
+      },
+    ],
   })
 }

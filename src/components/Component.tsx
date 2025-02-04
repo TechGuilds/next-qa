@@ -19,6 +19,8 @@ const AppComponent = (props) => {
 }
 
 AppComponent.defaultProps = {
+  rendering: {},
+  rootClassName: '',
   fields: {
     Text: 'Lorem Ipsum',
     Image: {
@@ -31,14 +33,12 @@ AppComponent.defaultProps = {
     },
     'Rich Text': '<p>Lorem Ipsum</p>',
   },
-  rendering: {},
-  rootClassName: '',
 }
 
 AppComponent.propTypes = {
-  fields: PropTypes.object,
   rendering: PropTypes.object,
   rootClassName: PropTypes.string,
+  fields: PropTypes.object,
 }
 
 export default AppComponent
