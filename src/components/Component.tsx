@@ -1,7 +1,7 @@
 /* eslint-disable */
 // @ts-nocheck
 import React from 'react'
-import { Container, Text, RichText } from '@kajoo-ai/sitecore-nextjs'
+import { Container } from '@kajoo-ai/sitecore-nextjs'
 
 import PropTypes from 'prop-types'
 
@@ -10,10 +10,13 @@ import styles from './Component.module.css'
 const AppComponent = (props) => {
   return (
     <Container
-      className={` ${styles['component-container']} ${'container-test'} ${styles[props.rootClassName]} component ${props.params?.styles} `}
+      className={` ${styles['component-container']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
     >
-      <Text text={props.fields.Text} />
-      <RichText value={props.fields['Rich Text']} />
+      <Container
+        className={` ${
+          styles['component-row-container']
+        } ${'container-container'} `}
+      />
     </Container>
   )
 }
@@ -21,18 +24,7 @@ const AppComponent = (props) => {
 AppComponent.defaultProps = {
   rendering: {},
   rootClassName: '',
-  fields: {
-    Text: 'Lorem Ipsum',
-    Image: {
-      src: 'https://app.kajoo.ai/icons/default-imag.svg',
-      alt: '',
-    },
-    Link: {
-      href: '#',
-      text: 'Link',
-    },
-    'Rich Text': '<p>Lorem Ipsum</p>',
-  },
+  fields: {},
 }
 
 AppComponent.propTypes = {
