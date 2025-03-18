@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=ADLaM+Display');
 :root {
+  --color-red: #c52d2dff;
   --size-large: 144px;
   --size-small: 48px;
   --radius-full: 9999px;
@@ -22,46 +24,4 @@
   --spacing-three-units: 48px;
   --spacing-one-and-half-units: 24px;
 }
-html {
-	display: block;
-	view-transition-name: root;
-	box-sizing: border-box;
-	border-top-width: 0px;
-	border-right-width: 0px;
-	border-bottom-width: 0px;
-	border-left-width: 0px;
-	border-top-style: solid;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-left-style: solid;
-	border-top-color: rgb(229, 231, 235);
-	border-right-color: rgb(229, 231, 235);
-	border-bottom-color: rgb(229, 231, 235);
-	border-left-color: rgb(229, 231, 235);
-	line-height: 1.5;
-	scroll-behavior: smooth;
-	tab-size: 4;
-	font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-	font-feature-settings: normal;
-	font-variation-settings: normal;
-	text-size-adjust: 100%;
-}
 
-
-.button-button {
-  width: 350px;
-  height: fit-content;
-  display: flex;
-  padding: 10px 35px;
-  font-size: 0.8em;
-  min-width: 130px;
-  min-height: 24px;
-  align-items: center;
-  border-color: #a0a0a0;
-  border-width: 1px;
-  border-radius: 3px;
-  flex-direction: column;
-  text-transform: capitalize;
-  justify-content: center;
-  background-color: #eeeeee;
-}
