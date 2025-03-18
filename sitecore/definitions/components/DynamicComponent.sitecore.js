@@ -7,18 +7,6 @@ export default function (manifest) {
     icon: SitecoreIcon.DocumentTag,
     allowedPlaceholders: ['jss-main'],
     contentResolver: '',
-    fields: [
-      {
-        name: 'List',
-        type: 'Treelist',
-        source:
-          'DataSource=/Sitecore/Content&IncludeTemplatesForSelection=DynamicComponentList',
-      },
-      {
-        name: 'Image',
-        type: 'Image',
-        standardValue: 'https://app.kajoo.ai/icons/default-imag.svg',
-      },
-    ],
+    fields: [],
   })
 }
