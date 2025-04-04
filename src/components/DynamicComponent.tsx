@@ -11,13 +11,7 @@ const DynamicComponent = (props) => {
   return (
     <Container
       className={` ${styles['dynamic-component-container']} ${styles[props.rootClassName]} component ${props.params?.styles} `}
-    >
-      <Container
-        className={` ${
-          styles['dynamic-component-row-container']
-        } ${'container-container'} `}
-      />
-    </Container>
+    />
   )
 }
 
