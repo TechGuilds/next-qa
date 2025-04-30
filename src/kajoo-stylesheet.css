@@ -1,27 +1,72 @@
-@import url('https://fonts.googleapis.com/css?family=ADLaM+Display');
+@import url('https://fonts.googleapis.com/css?family=Fahkwang|Amiri|Open+Sans');
 :root {
-  --color-red: #c52d2dff;
+  --size-cvc: 123px;
+  --size-qwe: 45px;
+  --color-dss: #a34c4cff;
+  --color-red: #b85c5cff;
+  --color-gree: #24bc51ff;
+  --color-hjyf: #bc1818ff;
+  --color-jhtc: #512020ff;
   --size-large: 144px;
+  --size-nabil: 100px;
   --size-small: 48px;
-  --radius-full: 9999px;
+  --color-jgtcj: #f33737ff;
+  --radius-full: 999999px;
   --radius-none: 0px;
   --size-medium: 96px;
-  --radius-large: 8px;
+  --spacing-rrt: 23px;
+  --spacing-vvv: 2px;
+  --color-red-12: #ff0000ff;
+  --color-sfeaef: #a06969ff;
   --radius-small: 4px;
   --size-x-large: 192px;
   --size-x-small: 8px;
   --spacing-unit: 16px;
+  --color-new-red: #7a73bdff;
   --radius-medium: 6px;
+  --size-new-size: 550px;
   --size-xx-large: 288px;
   --radius-x-large: 12px;
-  --radius-x-small: 2px;
+  --radius-x-small: 99px;
+  --size-hukgvhkvg: 33333px;
   --size-max-width: 1440px;
-  --spacing-half-unit: 8px;
-  --spacing-six-units: 96px;
+  --size-newsize22: 200px;
+  --size-size-size: 333px;
+  --spacing-newtest: 546px;
+  --size-new-size6666: 30000px;
+  --spacing-dfgdfgfdg: 44444px;
   --spacing-two-units: 32px;
+  --color-border-color: #a0a0a0ff;
+  --color-default-name: #464646;
+  --spacing-fdsgfdgdfg: 3434px;
   --spacing-five-units: 80px;
   --spacing-four-units: 64px;
-  --spacing-three-units: 48px;
   --spacing-one-and-half-units: 24px;
 }
+body, head, html {
+}
 
+html {
+	display: block;
+	view-transition-name: root;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	line-height: 1.15;
+	text-size-adjust: 100%;
+}
+
+
+.text-default {
+  color: #f31515;
+  height: fit-content;
+  font-size: 32px;
+  min-width: 140px;
+  text-align: left;
+  font-family: Verdana;
+  font-weight: normal;
+}
+@media(max-width: 3203px) {
+  .text-default {
+    color: #417505;
+  }
+}
