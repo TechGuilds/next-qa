@@ -4,6 +4,19 @@
   "author": "Kajoo AI",
   "version": "0.1.0",
   "private": true,
+  "config": {
+    "appName": "nextjs-app-21",
+    "graphQLEndpointPath": "/sitecore/api/graph/edge",
+    "language": "en",
+    "rootPlaceholders": [
+      "jss-main"
+    ],
+    "sitecoreConfigPath": "/App_Config/Include/zzz",
+    "templates": [
+      "nextjs",
+      "nextjs-styleguide"
+    ]
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,15 +24,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@kajoo-ai/sitecore-nextjs": "latest",
+    "@kajoo-ai/sitecore-react": "latest",
     "next": "^12.1.0",
+    "prop-types": "15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "@kajoo-ai/sitecore-nextjs": "latest",
-    "prop-types": "15.7.2",
-    "react-helmet": "^6.1.0",
-    "@kajoo-ai/sitecore-react": "latest"
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
+    "@sitecore-jss/sitecore-jss-cli": "^22.7.0",
+    "ts-node": "^10.9.2",
     "@types/node": "18.7.18",
     "@types/react": "18.0.20",
     "@types/react-dom": "18.0.6",
