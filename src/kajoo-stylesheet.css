@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Color+Emoji|Montserrat|Roboto|Inter');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Noto+Color+Emoji|Montserrat|Roboto|Inter|Open+Sans|Lora|Merriweather');
 :root {
+  --radius-xxs: 1px;
   --size-large: 144px;
   --size-small: 48px;
   --radius-full: 9999px;
@@ -13,23 +14,40 @@
   --color-beige-1: #cfcfc8ff;
   --color-beige-2: #b7b7abff;
   --color-beige-3: #98988dff;
+  --radius-circle: 50%;
   --radius-medium: 6px;
   --size-xx-large: 288px;
+  --color-sky-blue: #87ceeb;
   --radius-x-large: 12px;
   --radius-x-small: 2px;
   --size-max-width: 1440px;
+  --color-warm-beige: #f5f5dc;
+  --size-extra-large: 32px;
   --spacing-half-unit: 8px;
   --spacing-six-units: 96px;
   --spacing-two-units: 32px;
+  --color-earthy-brown: #8b4513;
+  --color-forest-green: #228b22;
   --spacing-five-units: 80px;
   --spacing-four-units: 64px;
+  --color-sunset-orange: #ff4500;
   --spacing-three-units: 48px;
+  --spacing-tiny-spacing: 4px;
   --spacing-one-and-half-units: 24px;
 }
 html {
 	display: block;
 	view-transition-name: root;
 	box-sizing: border-box;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	border: 0 solid #e5e7eb;
 	border-top-width: 0px;
 	border-right-width: 0px;
 	border-bottom-width: 0px;
@@ -42,13 +60,36 @@ html {
 	border-right-color: rgb(229, 231, 235);
 	border-bottom-color: rgb(229, 231, 235);
 	border-left-color: rgb(229, 231, 235);
+	font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	line-height: 1.5;
 	scroll-behavior: smooth;
-	tab-size: 4;
-	font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-	font-feature-settings: normal;
-	font-variation-settings: normal;
 	text-size-adjust: 100%;
+	tab-size: 4;
 }
 
 
+.container-container {
+  flex: 0 0 auto;
+  color: #a0a0a0;
+  width: auto;
+  height: 200px;
+  display: flex;
+  padding: 10px;
+  min-width: 300px;
+  min-height: 200px;
+  background-color: #ffffff;
+}
+.image-image {
+  height: 200px;
+  display: flex;
+  overflow: hidden;
+  min-width: 200px;
+  min-height: 200px;
+  align-items: center;
+  border-color: #a0a0a0;
+  border-width: 1px;
+  border-radius: 6px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #d9d9d9;
+}

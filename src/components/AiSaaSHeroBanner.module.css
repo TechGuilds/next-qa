@@ -1,0 +1,36 @@
+.ai-saa-s-hero-banner-main {
+  width: 100%;
+}
+.ai-saa-s-hero-banner-main,.ai-saa-s-hero-banner-container1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.ai-saa-s-hero-banner-container1 {
+  padding: 96px;
+  text-align: center;
+  justify-content: center;
+  background-color: #f0f4f8;
+}
+.ai-saa-s-hero-banner-text1 {
+  color: #333333;
+  font-size: 48px;
+  font-family: Montserrat;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.ai-saa-s-hero-banner-text2 {
+  color: #555555;
+  font-size: 24px;
+  font-family: Roboto;
+  margin-bottom: 32px;
+}
+.ai-saa-s-hero-banner-container2 {
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 16px 32px;
+  font-family: Roboto;
+  border-radius: 8px;
+  background-color: #007bff;
+}

@@ -5,8 +5,9 @@ export default function (manifest) {
     name: 'DynamicComponent',
     displayName: 'DynamicComponent',
     icon: SitecoreIcon.DocumentTag,
-    allowedPlaceholders: ['jss-main'],
+    allowedPlaceholders: ['kajoo-main'],
     contentResolver: '',
+    placeholders: [],
     fields: [],
   })
 }
